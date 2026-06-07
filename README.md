@@ -39,6 +39,21 @@ User stories + acceptance criteria  ──►  paste into Jira/Linear
 1. Describe your idea to Claude. `feature-brainstorming` kicks in, asks questions, and produces a spec.
 2. Ask Claude to "write user stories from this." `user-stories` produces stories with acceptance criteria and a gap check.
 
+## Maintaining (for whoever edits the skills)
+
+After changing any `SKILL.md`, regenerate the upload zips with one command:
+
+```bash
+./scripts/build-zips.sh
+```
+
+It rebuilds `dist/*.zip` for every folder under `skills/` (so new skills are picked up automatically), with `SKILL.md` at each zip's root. Then commit and, optionally, cut a release:
+
+```bash
+git add -A && git commit -m "Update skills" && git push
+gh release create v1.1.0 dist/*.zip --title "v1.1.0" --notes "What changed..."
+```
+
 ## Customizing
 
 The skills are plain Markdown. Edit the `SKILL.md` files to adjust personas, the spec template, or the compliance checklist to match how BrioHR actually works. The `description:` line in each file's frontmatter controls when Claude auto-triggers the skill — keep it specific.

@@ -16,12 +16,13 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 Skills are installed individually in Claude.
 
 ### Claude Desktop / Claude.ai (web)
-1. Download this repo (green **Code → Download ZIP**, or `git clone`).
-2. Each skill is a folder under `skills/` containing a `SKILL.md`. **Zip each skill folder individually** (e.g. zip the `feature-brainstorming` folder so the zip contains `SKILL.md` at its root).
-3. In Claude, go to **Settings → Capabilities → Skills** (you need a plan that supports custom Skills) and **upload** each zip.
-4. The skills now trigger automatically based on what you ask — or invoke them by name.
+1. **Download the ready-to-upload zips** — grab them from the [latest Release](../../releases/latest), or from the `dist/` folder in this repo:
+   - `feature-brainstorming.zip`
+   - `user-stories.zip`
+2. In Claude, go to **Settings → Capabilities → Skills** (you need a plan that supports custom Skills) and **upload** each zip.
+3. The skills now trigger automatically based on what you ask — or invoke them by name.
 
-> Tip: re-zip and re-upload to update a skill after we change it.
+> The zips already have `SKILL.md` at their root, so no zipping needed. To update a skill after we change it, just download the new zip and re-upload.
 
 ## How a PM uses them
 

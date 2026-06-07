@@ -63,7 +63,7 @@ Only create or comment on Jira if the PM says yes; then share the resulting link
 4. **Present the design in sections** — get approval after each section.
 5. **Write the spec** — using the template below, only after the design is approved.
 6. **Self-review the spec** — scan for placeholders, contradictions, ambiguity, scope creep; fix inline.
-7. **Hand off** — tell the PM the spec is ready and suggest generating user stories next (the `user-stories` skill).
+7. **Hand off** — tell the PM the spec is ready and suggest writing the ticket/user story next (the `ticket-writing` skill).
 
 ## How to run the conversation
 
@@ -147,7 +147,7 @@ Look at the finished spec with fresh eyes:
 4. **Ambiguity:** could any requirement be read two ways? Pick one and state it.
 
 Fix inline. Then tell the PM:
-> "Spec is ready. Want me to generate user stories with acceptance criteria from it? (Use the `user-stories` skill.)"
+> "Spec is ready. Want me to write the ticket (user story + acceptance criteria) from it? (Use the `ticket-writing` skill.)"
 
 ## Key Principles
 - **One question at a time** — don't overwhelm.

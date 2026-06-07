@@ -9,7 +9,7 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 | Skill | What it does | When it triggers |
 |---|---|---|
 | **feature-brainstorming** | Socratic discovery — asks one question at a time, proposes 2–3 approaches, then writes a structured spec. Can pull a Jira epic/ticket for context and post the spec back. | "I want to build a feature…", "help me scope…", "write a spec/PRD" |
-| **user-stories** | Turns a feature/spec/Jira epic into INVEST user stories with Given/When/Then acceptance criteria. Can read the epic and post stories back as subtasks/comments. | "write user stories", "acceptance criteria", "break this into tickets" |
+| **ticket-writing** | Turns a feature/spec/Jira ticket into a single BrioHR-format story (Business Context, Behavior, User Flow, Other Considerations, Given/When/Then Acceptance Criteria), iterates with you, then offers to generate test cases. | "write a ticket", "write a user story", "acceptance criteria", "document this feature" |
 | **generate-jira-test-cases** | Pulls a Jira ticket + context, walks you through a six-section QA checklist, and produces a developer-ready test case list. | "generate test cases for B2-1234", "prepare QA scenarios", "what should we test for this" |
 
 > **Jira connector:** all three skills can use the Atlassian/Jira connector for ticket context. It's **required** for `generate-jira-test-cases` and **optional** for the other two (they work without it, just text-only). Connect Jira in Claude when prompted.
@@ -21,7 +21,7 @@ Skills are installed individually in Claude.
 ### Claude Desktop / Claude.ai (web)
 1. **Download the ready-to-upload zips** — grab them from the [latest Release](../../releases/latest), or from the `dist/` folder in this repo:
    - `feature-brainstorming.zip`
-   - `user-stories.zip`
+   - `ticket-writing.zip`
    - `generate-jira-test-cases.zip` *(connect your Atlassian/Jira account when prompted)*
 2. In Claude, go to **Settings → Capabilities → Skills** (you need a plan that supports custom Skills) and **upload** each zip.
 3. The skills now trigger automatically based on what you ask — or invoke them by name.
@@ -34,18 +34,18 @@ Skills are installed individually in Claude.
 Rough idea
    │  (feature-brainstorming)
    ▼
-Approved Spec  ──►  share with engineering
-   │  (user-stories)
+Approved Spec
+   │  (ticket-writing)
    ▼
-User stories + acceptance criteria  ──►  paste into Jira  ──►  ticket gets built
-                                                              │  (generate-jira-test-cases)
-                                                              ▼
-                                                  QA test cases for the developer to verify
+BrioHR-format ticket (story + acceptance criteria)  ──►  paste into Jira  ──►  ticket gets built
+   │  (ticket-writing offers this once finalized, or run it directly)
+   ▼  (generate-jira-test-cases)
+QA test cases for the developer to verify
 ```
 
 1. Describe your idea to Claude. `feature-brainstorming` kicks in, asks questions, and produces a spec.
-2. Ask Claude to "write user stories from this." `user-stories` produces stories with acceptance criteria and a gap check.
-3. Once a ticket exists in Jira, ask "generate test cases for B2-1234." `generate-jira-test-cases` gathers context, walks you through the QA checklist, and outputs a test case list you can post back to the ticket.
+2. Ask Claude to "write a ticket from this." `ticket-writing` produces a single BrioHR-format story, iterates with you, then offers to generate test cases.
+3. `generate-jira-test-cases` gathers context, walks you through the six-section QA checklist, and outputs a test case list you can post back to the ticket.
 
 ## Maintaining (for whoever edits the skills)
 

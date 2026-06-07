@@ -1,9 +1,9 @@
 ---
-name: user-stories
-description: "Use to turn a feature, spec, or Jira ticket into a single well-formed BrioHR user story, written in BrioHR's standard format: Business Context, Behavior, User Flow, Other Considerations, and Given/When/Then Acceptance Criteria. Triggers when a PM says 'write a user story', 'write the acceptance criteria', 'draft this ticket', 'document this feature', or pastes a feature/ticket and wants it written up for engineering. Tailored for BrioHR HR-software personas."
+name: ticket-writing
+description: "Use to turn a feature, spec, or Jira ticket into a single well-formed BrioHR ticket/user story, written in BrioHR's standard format: Business Context, Behavior, User Flow, Other Considerations, and Given/When/Then Acceptance Criteria. Triggers when a PM says 'write a ticket', 'write a user story', 'write the acceptance criteria', 'draft this ticket', 'document this feature', or pastes a feature/ticket and wants it written up for engineering. Tailored for BrioHR HR-software personas."
 ---
 
-# User Stories & Acceptance Criteria
+# Ticket Writing (User Story & Acceptance Criteria)
 
 Turn a feature, spec, or Jira ticket into **one** clear, complete user story written in BrioHR's standard story format. The story is documented with exactly five sections — **Business Context, Behavior, User Flow, Other Considerations, Acceptance Criteria** — matching how BrioHR Jira tickets (e.g. `B2-####` Stories) are written.
 

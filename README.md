@@ -47,6 +47,16 @@ QA test cases for the developer to verify
 2. Ask Claude to "write a ticket from this." `ticket-writing` produces a single BrioHR-format story, iterates with you, then offers to generate test cases.
 3. `generate-jira-test-cases` gathers context, walks you through the six-section QA checklist, and outputs a test case list you can post back to the ticket.
 
+### Use any skill on its own
+
+The three skills are **independent — you can use one, two, or all three, in any order.** Install only the ones you want, and even with all three installed, each only activates when your request matches it:
+
+- "Write a ticket for B2-1234" → only **ticket-writing** runs.
+- "Generate test cases for B2-1234" → only **generate-jira-test-cases** runs.
+- "Help me brainstorm a feature" → only **feature-brainstorming** runs.
+
+The chain is opt-in: `feature-brainstorming` *offers* to hand off to `ticket-writing`, which *offers* to hand off to `generate-jira-test-cases`. If you say no, it stops — and if a downstream skill isn't installed, the offer simply leads nowhere. Nothing breaks. So a PM who already knows the feature can just use skills 2 + 3 (or skill 3 alone).
+
 ## Maintaining (for whoever edits the skills)
 
 After changing any `SKILL.md`, regenerate the upload zips with one command:

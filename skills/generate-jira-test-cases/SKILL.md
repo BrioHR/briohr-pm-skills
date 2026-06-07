@@ -62,6 +62,7 @@ Check what the PM has provided in their message:
 - A Jira ticket key (e.g., `B2-1234`)
 - A Jira ticket URL
 - Pasted ticket content (title + description)
+- A finalized user story handed off from the `user-stories` skill (Business Context, Behavior, User Flow, Other Considerations, Acceptance Criteria). Treat this as the ticket content; if a Jira key came with it, also load that ticket for additional context.
 
 If none of the above is present, ask: "Which Jira ticket should I generate test cases for? Share the ticket key, URL, or paste the ticket details."
 

@@ -122,5 +122,18 @@ These belong inside **Behavior**, **User Flow**, **Other Considerations**, or **
 - Are edge cases and out-of-scope items captured in Other Considerations, not dropped?
 - Did you avoid adding a story map, multiple stories, or a separate gap-check section?
 
-Then offer:
-> "Want me to post this story as a comment on the ticket, update the ticket description, or tighten any section?"
+## After presenting the story — iterate, then hand off
+
+Run these two steps in order. Do not skip straight to test cases.
+
+**Step 1 — Ask if anything is missing.** After presenting the story, ask:
+> "Want to add or change anything — extra edge cases, another persona's flow, more acceptance criteria, or adjust any section?"
+
+If the PM gives input, fold it into the relevant section(s), re-present the updated story, and ask again. Repeat until the PM says it's finalized.
+
+**Step 2 — Offer test cases (hand off to skill 3).** Once the PM confirms the story is finalized, ask:
+> "Story's finalized. Want me to generate QA test cases from it? (And want me to post the story to Jira first?)"
+
+- If the PM wants test cases, invoke the **`generate-jira-test-cases`** skill, passing this finalized story (and the Jira ticket key, if there is one) as the input. That skill walks them through the six-section QA checklist and produces the developer-ready test case list.
+- If the PM also wants the story written to Jira, post it as a comment or update the ticket description first, then proceed to test cases.
+- If the PM declines test cases, stop here.

@@ -10,6 +10,7 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 |---|---|---|
 | **feature-brainstorming** | Socratic discovery — asks one question at a time, proposes 2–3 approaches, then writes a structured spec. | "I want to build a feature…", "help me scope…", "write a spec/PRD" |
 | **user-stories** | Turns a feature/spec into INVEST user stories with Given/When/Then acceptance criteria. | "write user stories", "acceptance criteria", "break this into tickets" |
+| **generate-jira-test-cases** | Pulls a Jira ticket + context, walks you through a six-section QA checklist, and produces a developer-ready test case list. Needs the Atlassian/Jira connector. | "generate test cases for B2-1234", "prepare QA scenarios", "what should we test for this" |
 
 ## Install (per PM, one-time)
 
@@ -19,6 +20,7 @@ Skills are installed individually in Claude.
 1. **Download the ready-to-upload zips** — grab them from the [latest Release](../../releases/latest), or from the `dist/` folder in this repo:
    - `feature-brainstorming.zip`
    - `user-stories.zip`
+   - `generate-jira-test-cases.zip` *(connect your Atlassian/Jira account when prompted)*
 2. In Claude, go to **Settings → Capabilities → Skills** (you need a plan that supports custom Skills) and **upload** each zip.
 3. The skills now trigger automatically based on what you ask — or invoke them by name.
 
@@ -33,11 +35,15 @@ Rough idea
 Approved Spec  ──►  share with engineering
    │  (user-stories)
    ▼
-User stories + acceptance criteria  ──►  paste into Jira/Linear
+User stories + acceptance criteria  ──►  paste into Jira  ──►  ticket gets built
+                                                              │  (generate-jira-test-cases)
+                                                              ▼
+                                                  QA test cases for the developer to verify
 ```
 
 1. Describe your idea to Claude. `feature-brainstorming` kicks in, asks questions, and produces a spec.
 2. Ask Claude to "write user stories from this." `user-stories` produces stories with acceptance criteria and a gap check.
+3. Once a ticket exists in Jira, ask "generate test cases for B2-1234." `generate-jira-test-cases` gathers context, walks you through the QA checklist, and outputs a test case list you can post back to the ticket.
 
 ## Maintaining (for whoever edits the skills)
 

@@ -7,6 +7,32 @@ description: "Use to turn a feature, spec, or requirement into well-formed user 
 
 Turn a feature or spec into a set of clear, independent user stories that an engineer with no product context could pick up and build. Each story gets testable acceptance criteria in Given/When/Then form.
 
+## BrioHR Product Context
+
+BrioHR is an HR SaaS platform serving ASEAN markets, primarily **Malaysia and Singapore**. Ground stories and acceptance criteria in this — not generic SaaS.
+
+**Modules:** Profile/Personal Info, Claims, Leaves, Payroll (Malaysia), Payroll (Singapore), Time Attendance, Document Management, Onboarding, Recruitment, Training.
+
+**Platforms (call out which a story applies to):** Web (primary — admin config, settings, reporting), Mobile (employee requests & approvals only; Android 5.1+, iOS 14.0+, Huawei HMS build), Superadmin (BrioHR-internal per-tenant feature toggles). Never put admin-only steps in a Mobile story.
+
+**Default personas → typical module rights:**
+- **Employee** — self-service: own profile, submit leave/claims, view payslip (mostly Mobile + Web).
+- **Line Manager** — approve/reject team requests, view team data.
+- **HR Admin** — configure modules, manage employees, run payroll, reporting (Web).
+- **Payroll Officer** — payroll cycles, statutory contributions, bank/IRAS files.
+- **Recruiter** — recruitment pipeline, offers, hand-off to Onboarding.
+- **Executive / Reporting viewer** — dashboards and exports.
+
+**Statutory edge cases to cover when payroll/leave/attendance is involved:**
+- Malaysia: EPF, SOCSO, EIS, PCB (MTD), Zakat, HRDF; mid-month joiners/leavers, proration, OT, unpaid leave effects.
+- Singapore: CPF (OW/AW caps), SHG funds, SDL, IRAS (IR8A/AIS); PR vs Citizen vs EP/DP differences.
+
+**Salary test data ranges (use in acceptance criteria for payroll stories):**
+- Malaysia: MYR 1,500 / 5,000 / 15,000 / 40,000 (low → very high).
+- Singapore: SGD 2,000 / 6,000 / 12,000 / 30,000 (low → very high).
+
+**Cross-module ripple patterns:** Profile/Leave/Onboarding → many modules; Attendance & Leave → Payroll; Claims → Payroll (reimbursement with salary); Recruitment → Onboarding → Profile.
+
 ## Before you write anything
 
 1. **Get the source.** Ask the PM for the feature/spec (or the brainstorming spec doc). If it's vague, ask 1–3 clarifying questions first — do NOT invent requirements.

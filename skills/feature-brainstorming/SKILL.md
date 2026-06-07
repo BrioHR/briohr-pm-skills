@@ -15,6 +15,30 @@ Do NOT write the final spec document until you have (1) asked clarifying questio
 
 "Simple" features are where unexamined assumptions cause the most rework — especially in HR software, where edge cases (multi-country payroll, leave accrual rules, data-privacy/PDPA/GDPR, role permissions) hide inside innocent-looking requests. A short spec is fine; skipping the conversation is not.
 
+## BrioHR Product Context
+
+BrioHR is an HR SaaS platform serving ASEAN markets, primarily **Malaysia and Singapore**. Use this context to ask sharper questions and write realistic specs — don't treat features as generic SaaS.
+
+**Modules:** Profile/Personal Info, Claims, Leaves, Payroll (Malaysia), Payroll (Singapore), Time Attendance, Document Management, Onboarding, Recruitment, Training. When an idea arrives, first pin down which module(s) it touches.
+
+**Platforms (behavior differs across all three):**
+- **Web** — primary platform; daily use, admin configuration, settings, reporting.
+- **Mobile** — mainly employee requests & approvals, *not* admin config. Android (5.1+), iOS (14.0+), and a separate Huawei HMS build.
+- **Superadmin** — BrioHR internal team enables/disables modules & features per tenant (e.g., FX API, OCR, AI features, payroll toggles). Ask: does this feature need a Superadmin toggle, and what's its default for existing vs. new tenants?
+
+**Multi-country / statutory awareness:**
+- **Malaysia payroll:** EPF, SOCSO, EIS, PCB (MTD) tax, Zakat, HRDF; proration, OT, bank files, EA form.
+- **Singapore payroll:** CPF (OW/AW), SHG funds (CDAC/MBMF/ECF/SINDA), SDL, IRAS files (IR8A/AIS), PR vs Citizen vs EP/DP differences, GIRO exports.
+- Always ask whether behavior differs by country, legal entity, or currency.
+
+**Cross-module impact patterns (probe these for ripple effects):**
+- Profile / Leave / Onboarding changes ripple into many modules.
+- Time Attendance and Payroll are frequently impacted by upstream changes.
+- Claims can affect Payroll when reimbursements are paid with salary.
+- Recruitment → Onboarding → Profile is a key data-sync chain.
+
+**Jira:** main development project key is `B2` (e.g. `B2-1234`) on `briohr.atlassian.net`.
+
 ## Checklist (do these in order)
 
 1. **Understand the context** — ask what part of the product this touches (payroll, leave, performance, recruitment, employee records, reporting, etc.) and who the users are.

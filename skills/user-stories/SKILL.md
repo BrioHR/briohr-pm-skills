@@ -33,9 +33,23 @@ BrioHR is an HR SaaS platform serving ASEAN markets, primarily **Malaysia and Si
 
 **Cross-module ripple patterns:** Profile/Leave/Onboarding → many modules; Attendance & Leave → Payroll; Claims → Payroll (reimbursement with salary); Recruitment → Onboarding → Profile.
 
+## Jira Context (optional — uses the Atlassian connector)
+
+The source for stories is often a Jira epic/ticket. If the PM gives a `B2-####` key, a `briohr.atlassian.net` URL, or asks to "write stories for this epic," use the Jira tools:
+- **Read the epic/ticket** — title, description, comments, linked items, and existing subtasks. Don't write a story that duplicates a subtask that already exists.
+- **Search sibling tickets** in the same module for prior decisions and edge cases:
+  `project = B2 AND summary ~ "<distinctive keyword>" ORDER BY updated DESC`.
+- Treat the ticket as the source of truth for scope; still ask 1–3 clarifying questions if it's ambiguous.
+
+If the connector isn't available, say so once and work from whatever the PM pasted.
+
+**After presenting the stories**, offer (don't force):
+> "Want me to add these as subtasks under the epic, or post them as a comment on the ticket?"
+Only write to Jira if the PM says yes; then share the link(s).
+
 ## Before you write anything
 
-1. **Get the source.** Ask the PM for the feature/spec (or the brainstorming spec doc). If it's vague, ask 1–3 clarifying questions first — do NOT invent requirements.
+1. **Get the source.** A Jira epic/ticket (see above), a feature/spec, or the brainstorming spec doc. If it's vague, ask 1–3 clarifying questions first — do NOT invent requirements.
 2. **Confirm the personas.** Default BrioHR personas: **Employee**, **Line Manager**, **HR Admin**, **Payroll Officer**, **Recruiter**, **Executive/Reporting viewer**. Confirm which apply.
 3. **Confirm scope.** What's in this version vs. later (YAGNI). Don't write stories for out-of-scope behavior.
 

@@ -39,6 +39,22 @@ BrioHR is an HR SaaS platform serving ASEAN markets, primarily **Malaysia and Si
 
 **Jira:** main development project key is `B2` (e.g. `B2-1234`) on `briohr.atlassian.net`.
 
+## Jira Context (optional — uses the Atlassian connector)
+
+If the PM mentions a Jira ticket/epic (a `B2-####` key, a `briohr.atlassian.net` URL, or "there's an epic for this"), use the Jira tools to ground the conversation in what already exists. This is optional — if the connector isn't available, say so once and continue text-only.
+
+**At the start (context-gathering), if a ticket/epic is referenced:**
+- Fetch its title, description, comments, linked items, and subtasks — comments often hold scope decisions and constraints you'd otherwise ask about.
+- Search sibling tickets in the same area for prior work, known bugs, and edge cases the team already hit:
+  `project = B2 AND summary ~ "<distinctive keyword>" ORDER BY updated DESC` (fetch up to ~10).
+- Use what you learn to ask *better* clarifying questions and avoid re-litigating decided points. Don't let the ticket replace the conversation — it's input, not the spec.
+
+**If no ticket is referenced:** just ask the PM whether there's a related epic/ticket to pull in. If not, proceed normally.
+
+**After the spec is approved**, offer (don't force):
+> "Want me to post this spec as a comment on a Jira ticket, or create a new B2 ticket/epic for it?"
+Only create or comment on Jira if the PM says yes; then share the resulting link.
+
 ## Checklist (do these in order)
 
 1. **Understand the context** — ask what part of the product this touches (payroll, leave, performance, recruitment, employee records, reporting, etc.) and who the users are.

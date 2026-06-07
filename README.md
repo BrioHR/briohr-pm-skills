@@ -8,9 +8,11 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 
 | Skill | What it does | When it triggers |
 |---|---|---|
-| **feature-brainstorming** | Socratic discovery — asks one question at a time, proposes 2–3 approaches, then writes a structured spec. | "I want to build a feature…", "help me scope…", "write a spec/PRD" |
-| **user-stories** | Turns a feature/spec into INVEST user stories with Given/When/Then acceptance criteria. | "write user stories", "acceptance criteria", "break this into tickets" |
-| **generate-jira-test-cases** | Pulls a Jira ticket + context, walks you through a six-section QA checklist, and produces a developer-ready test case list. Needs the Atlassian/Jira connector. | "generate test cases for B2-1234", "prepare QA scenarios", "what should we test for this" |
+| **feature-brainstorming** | Socratic discovery — asks one question at a time, proposes 2–3 approaches, then writes a structured spec. Can pull a Jira epic/ticket for context and post the spec back. | "I want to build a feature…", "help me scope…", "write a spec/PRD" |
+| **user-stories** | Turns a feature/spec/Jira epic into INVEST user stories with Given/When/Then acceptance criteria. Can read the epic and post stories back as subtasks/comments. | "write user stories", "acceptance criteria", "break this into tickets" |
+| **generate-jira-test-cases** | Pulls a Jira ticket + context, walks you through a six-section QA checklist, and produces a developer-ready test case list. | "generate test cases for B2-1234", "prepare QA scenarios", "what should we test for this" |
+
+> **Jira connector:** all three skills can use the Atlassian/Jira connector for ticket context. It's **required** for `generate-jira-test-cases` and **optional** for the other two (they work without it, just text-only). Connect Jira in Claude when prompted.
 
 ## Install (per PM, one-time)
 

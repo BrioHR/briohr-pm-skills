@@ -37,8 +37,9 @@ jobs:
             minor=${num#*.}
             next="v${major}.$((minor + 1))"
           fi
+          echo "prev=$latest" >> "$GITHUB_OUTPUT"
           echo "next=$next" >> "$GITHUB_OUTPUT"
-          echo "Next version: $next"
+          echo "Next version: $next (prev: ${latest:-none})"
 
       - name: Build skill zips
         run: ./scripts/build-zips.sh
@@ -51,3 +52,21 @@ jobs:
             --title "${{ steps.ver.outputs.next }}" \
             --latest \
             --generate-notes
+
+      - name: Notify Slack (#product-hotline)
+        if: success()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          prev="${{ steps.ver.outputs.prev }}"
+          next="${{ steps.ver.outputs.next }}"
+          # Short changelog = commit subjects since the previous release.
+          if [ -n "$prev" ]; then range="${prev}..HEAD"; else range="HEAD~10..HEAD"; fi
+          changelog=$(git log "$range" --no-merges --pretty=format:'• %s' \
+                       | grep -viE 'co-authored-by' | head -8)
+          [ -z "$changelog" ] && changelog="• See release notes"
+          repo_url="https://github.com/${{ github.repository }}"
+          text=$(printf ':rocket: *BrioHR PM Skills %s released* by %s\n%s\n\n:inbox_tray: Download → %s/releases/latest' \
+                  "$next" "${{ github.actor }}" "$changelog" "$repo_url")
+          payload=$(jq -n --arg t "$text" '{text:$t}')
+          curl -sS -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"

@@ -19,7 +19,7 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 Skills are installed individually in Claude.
 
 ### Claude Desktop / Claude.ai (web)
-1. **Download the ready-to-upload zips** — grab them from the [latest Release](../../releases/latest), or from the `dist/` folder in this repo:
+1. **Download the ready-to-upload zips** — grab them from the [latest Release](../../releases/latest):
    - `feature-brainstorming.zip`
    - `ticket-writing.zip`
    - `generate-jira-test-cases.zip` *(connect your Atlassian/Jira account when prompted)*
@@ -59,18 +59,26 @@ The chain is opt-in: `feature-brainstorming` *offers* to hand off to `ticket-wri
 
 ## Maintaining (for whoever edits the skills)
 
-After changing any `SKILL.md`, regenerate the upload zips with one command:
+**Releases are automatic.** Every push to `main` triggers a GitHub Action
+(`.github/workflows/release.yml`) that rebuilds the zips and publishes a new
+release, bumping the minor version: `v1.0 → v1.1 → v1.2 → …`. So the only
+maintenance step is:
 
 ```bash
-./scripts/build-zips.sh
+git add -A && git commit -m "What changed" && git push
 ```
 
-It rebuilds `dist/*.zip` for every folder under `skills/` (so new skills are picked up automatically), with `SKILL.md` at each zip's root. Then commit and, optionally, cut a release:
+Within a minute, a new release with fresh zips appears at
+[`/releases/latest`](../../releases/latest). PMs just re-download.
+
+**To preview the zips locally before pushing** (the same ones the Action will build):
 
 ```bash
-git add -A && git commit -m "Update skills" && git push
-gh release create v1.1.0 dist/*.zip --title "v1.1.0" --notes "What changed..."
+./scripts/build-zips.sh   # writes dist/*.zip (git-ignored)
 ```
+
+The build script auto-discovers every folder under `skills/`, so new skills are
+picked up automatically with no config.
 
 ## Customizing
 

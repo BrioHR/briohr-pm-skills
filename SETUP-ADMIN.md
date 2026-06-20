@@ -9,10 +9,8 @@ This connects the BrioHR PM Skills plugin to your Claude org and gives it to the
 ### 1. Connect this repo as a plugin source
 1. Go to **Organization settings → Plugins**.
 2. Choose **Connect a GitHub repository**.
-3. Sign in with the GitHub account Amir gives you, and select **`product-briohr/briohr-pm-skills`**.
+3. When prompted to sign in to GitHub, use the **`product-briohr`** account (Amir will share the login). Select **`product-briohr/briohr-pm-skills`** and approve access.
 4. Turn on **Sync automatically**.
-
-> If you hit an "owner needs to approve" prompt, just tell Amir — he approves it once and you continue.
 
 ### 2. Assign the plugin to the PM group
 1. Still under **Organization settings → Plugins**, find **`briohr-pm-skills`**.

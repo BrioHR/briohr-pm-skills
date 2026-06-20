@@ -14,19 +14,20 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 
 > **Jira connector:** all three skills can use the Atlassian/Jira connector for ticket context. It's **required** for `generate-jira-test-cases` and **optional** for the other two (they work without it, just text-only). Connect Jira in Claude when prompted.
 
-## Install (per PM, one-time)
+## Install
 
-Skills are installed individually in Claude.
+This repo is a **Claude plugin** (Cowork marketplace) — the three skills are bundled and delivered to the BrioHR PM team via Claude's org plugin sync. PMs don't download or upload anything.
 
-### Claude Desktop / Claude.ai (web)
-1. **Download the ready-to-upload zips** — grab them from the [latest Release](../../releases/latest):
-   - `feature-brainstorming.zip`
-   - `ticket-writing.zip`
-   - `generate-jira-test-cases.zip` *(connect your Atlassian/Jira account when prompted)*
-2. In Claude, go to **Settings → Capabilities → Skills** (you need a plan that supports custom Skills) and **upload** each zip.
-3. The skills now trigger automatically based on what you ask — or invoke them by name.
+### For PMs (the team)
+Nothing to do. Once the plugin is provisioned to your group (see admin setup below), the three skills appear automatically in Claude (chat, web, Desktop, Cowork) and **auto-update** whenever a new version is published. Just use them — e.g. "write a ticket for B2-1234".
 
-> The zips already have `SKILL.md` at their root, so no zipping needed. To update a skill after we change it, just download the new zip and re-upload.
+> Jira: `generate-jira-test-cases` needs the Atlassian/Jira connector; the other two use it optionally. Connect Jira in Claude when prompted.
+
+### For the admin (one-time setup)
+An org **owner** connects this private repo and assigns the plugin to the PM group. Full steps are in **[SETUP-ADMIN.md](SETUP-ADMIN.md)**. After that, every push to `main` auto-syncs to the team with no further admin action.
+
+### Fallback: manual zip install
+If you ever need a skill outside the plugin, each release also attaches ready-to-upload zips under [Releases](../../releases/latest). Upload a zip in **Settings → Capabilities → Skills** (no extraction needed). Note: the repo is private, so only collaborators can download these.
 
 ## How a PM uses them
 

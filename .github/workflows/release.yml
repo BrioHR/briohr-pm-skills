@@ -30,16 +30,32 @@ jobs:
           # Only consider two-part tags from this scheme: vMAJOR.MINOR
           latest=$(git tag -l 'v*' | grep -E '^v[0-9]+\.[0-9]+$' | sort -V | tail -1)
           if [ -z "$latest" ]; then
-            next="v1.0"
+            major=1; minor=0
           else
             num=${latest#v}
             major=${num%.*}
-            minor=${num#*.}
-            next="v${major}.$((minor + 1))"
+            minor=$(( ${num#*.} + 1 ))
           fi
-          echo "prev=$latest" >> "$GITHUB_OUTPUT"
-          echo "next=$next" >> "$GITHUB_OUTPUT"
-          echo "Next version: $next (prev: ${latest:-none})"
+          next="v${major}.${minor}"
+          semver="${major}.${minor}.0"
+          echo "prev=$latest"   >> "$GITHUB_OUTPUT"
+          echo "next=$next"     >> "$GITHUB_OUTPUT"
+          echo "semver=$semver" >> "$GITHUB_OUTPUT"
+          echo "Next version: $next (semver $semver, prev: ${latest:-none})"
+
+      - name: Bump plugin version on main
+        env:
+          SEMVER: ${{ steps.ver.outputs.semver }}
+        run: |
+          tmp=$(mktemp)
+          jq --arg v "$SEMVER" '.version = $v' .claude-plugin/plugin.json > "$tmp" && mv "$tmp" .claude-plugin/plugin.json
+          jq --arg v "$SEMVER" '.plugins[0].version = $v' .claude-plugin/marketplace.json > "$tmp" && mv "$tmp" .claude-plugin/marketplace.json
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .claude-plugin/plugin.json .claude-plugin/marketplace.json
+          # [skip ci] stops this commit from triggering another release run.
+          git commit -m "chore: release ${SEMVER} [skip ci]" || echo "version unchanged"
+          git push origin HEAD:main
 
       - name: Build skill zips
         run: ./scripts/build-zips.sh
@@ -50,6 +66,7 @@ jobs:
         run: |
           gh release create "${{ steps.ver.outputs.next }}" dist/*.zip \
             --title "${{ steps.ver.outputs.next }}" \
+            --target main \
             --latest \
             --generate-notes
 
@@ -65,9 +82,7 @@ jobs:
           changelog=$(git log "$range" --no-merges --pretty=format:'• %s' \
                        | grep -viE 'co-authored-by' | head -8)
           [ -z "$changelog" ] && changelog="• See release notes"
-          repo_url="https://github.com/${{ github.repository }}"
-          dl="$repo_url/releases/latest/download"
-          text=$(printf ':rocket: *BrioHR PM Skills %s released* by %s\n%s\n\n:inbox_tray: *Install/update* — download each .zip, then in Claude go to *Settings → Capabilities → Skills* and upload it (no need to extract):\n• <%s/feature-brainstorming.zip|feature-brainstorming.zip>\n• <%s/ticket-writing.zip|ticket-writing.zip>\n• <%s/generate-jira-test-cases.zip|generate-jira-test-cases.zip>' \
-                  "$next" "${{ github.actor }}" "$changelog" "$dl" "$dl" "$dl")
+          text=$(printf ':rocket: *BrioHR PM Skills %s released* by %s\n%s\n\n:sparkles: Auto-syncing to everyone’s Claude via the plugin — no download or upload needed.' \
+                  "$next" "${{ github.actor }}" "$changelog")
           payload=$(jq -n --arg t "$text" '{text:$t}')
           curl -sS -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"

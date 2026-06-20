@@ -32,12 +32,15 @@ This repo holds the BrioHR PM skills for Claude (Desktop / Claude.ai). Anyone on
    ```
 
 That's it. Within seconds, automatically:
-- the version bumps (`v1.0 → v1.1 → v1.2 …`),
-- fresh zips are attached to a new [release](../../releases/latest),
+- the version bumps (`v1.0 → v1.1 → v1.2 …`) in both the release and the plugin manifest,
+- the plugin **auto-syncs to the whole PM team** — everyone's Claude gets your change with no download or upload,
 - **#product-hotline** gets a Slack ping with the version, your name, and your commit message as the changelog.
+
+> Because the plugin auto-syncs, **write good commit messages** — they're the only thing the team sees explaining what changed.
 
 ## Tips
 
+- **`git pull` before you start.** After each push, the release bot commits a small version bump to `main`, so pull first to stay in sync and avoid a rejected push.
 - **Write a clear commit message** — it becomes the changelog line in the Slack notification. "Add timezone edge case to test cases" is good; "update" is not.
 - **One change per push** when you can — keeps each version's changelog meaningful.
 - **Don't commit secrets.** The repo is public. The Slack webhook lives in a GitHub Actions secret, not in the code.

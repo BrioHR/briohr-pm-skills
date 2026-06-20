@@ -7,10 +7,16 @@ This connects the BrioHR PM Skills plugin to your Claude org and gives it to the
 ## Steps
 
 ### 1. Connect this repo as a plugin source
+
+> **Which GitHub account?** You connect with **your own personal GitHub account — not the `product-briohr` login.** Claude verifies your personal token only to confirm you have access, then Cowork's GitHub App does the actual syncing. Two prerequisites:
+> - Your GitHub account must be a **collaborator** on `product-briohr/briohr-pm-skills` (read access is enough). Ask the repo owner to add you.
+> - Because the repo is owned by a personal account, the **repo owner (`product-briohr`) approves the Cowork GitHub App** the first time. If you see an "owner must approve" prompt, that's expected — it routes to them for a one-time click.
+
 1. Go to **Organization settings → Plugins**.
 2. Choose **Connect a GitHub repository** (Cowork syncs plugins from it).
-3. Select the private repo **`product-briohr/briohr-pm-skills`** and authorize access.
-4. Turn on **Sync automatically** — the marketplace then re-syncs whenever changes land on `main`.
+3. Sign in with **your own GitHub account** and select the private repo **`product-briohr/briohr-pm-skills`**.
+4. If prompted, have the repo owner approve the Cowork GitHub App's access (one-time).
+5. Turn on **Sync automatically** — the marketplace then re-syncs whenever changes land on `main`.
 
 ### 2. Assign the plugin to the PM group
 1. Still under **Organization settings → Plugins**, find **`briohr-pm-skills`**.

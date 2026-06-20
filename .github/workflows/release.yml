@@ -80,7 +80,7 @@ jobs:
           # Short changelog = commit subjects since the previous release.
           if [ -n "$prev" ]; then range="${prev}..HEAD"; else range="HEAD~10..HEAD"; fi
           changelog=$(git log "$range" --no-merges --pretty=format:'• %s' \
-                       | grep -viE 'co-authored-by' | head -8)
+                       | grep -viE 'co-authored-by|\[skip ci\]|chore: release' | head -8)
           [ -z "$changelog" ] && changelog="• See release notes"
           text=$(printf ':rocket: *BrioHR PM Skills %s released* by %s\n%s\n\n:sparkles: Auto-syncing to everyone’s Claude via the plugin — no download or upload needed.' \
                   "$next" "${{ github.actor }}" "$changelog")

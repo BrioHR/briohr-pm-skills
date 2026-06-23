@@ -8,7 +8,7 @@ This repo holds the BrioHR PM skills for Claude (Desktop / Claude.ai). Anyone on
 2. Have **Claude Code** installed and signed in to your own GitHub account.
 3. Clone the repo:
    ```bash
-   git clone https://github.com/product-briohr/briohr-pm-skills.git
+   git clone https://github.com/BrioHR/briohr-pm-skills.git
    cd briohr-pm-skills
    ```
 

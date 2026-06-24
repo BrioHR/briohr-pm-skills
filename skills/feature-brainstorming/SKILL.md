@@ -11,6 +11,17 @@ Help a BrioHR product manager turn a rough idea into a clear, written specificat
 Do NOT write the final spec document until you have (1) asked clarifying questions, (2) proposed approaches, and (3) walked through the design section-by-section with the PM approving each part. This applies to EVERY idea, no matter how simple it seems.
 </HARD-GATE>
 
+## Stay at the PM altitude — no technical implementation
+
+This skill produces a **product spec**, not a technical design. Keep everything at the level of *user value, behavior, and requirements*. Do NOT include — and do NOT ask the PM about — technical implementation:
+
+- ❌ Architecture, system/component design, services, data-flow diagrams
+- ❌ Database schemas, tables/columns, data types, indexes
+- ❌ API/endpoint design, request/response shapes, libraries, frameworks, tech stack
+- ❌ Code, pseudocode, algorithms, infrastructure, deployment
+
+Those are engineering's job and come later (spec → `ticket-writing` → engineering). If the PM asks "how should we build it?", gently redirect: *"That's an implementation detail for engineering — let's keep this focused on what it does and why."* Always describe **what the user can do and what the system does in response**, never **how it's coded**.
+
 ## Why this exists
 
 "Simple" features are where unexamined assumptions cause the most rework — especially in HR software, where edge cases (multi-country payroll, leave accrual rules, data-privacy/PDPA/GDPR, role permissions) hide inside innocent-looking requests. A short spec is fine; skipping the conversation is not.
@@ -59,7 +70,7 @@ Only create or comment on Jira if the PM says yes; then share the resulting link
 
 1. **Understand the context** — ask what part of the product this touches (payroll, leave, performance, recruitment, employee records, reporting, etc.) and who the users are.
 2. **Ask clarifying questions** — ONE at a time. Understand purpose, users, constraints, success criteria.
-3. **Propose 2–3 approaches** — with trade-offs and your recommendation.
+3. **Propose 2–3 product approaches** — scope/workflow/UX options with trade-offs and your recommendation (not technical architectures).
 4. **Present the design in sections** — get approval after each section.
 5. **Write the spec** — using the template below, only after the design is approved.
 6. **Self-review the spec** — scan for placeholders, contradictions, ambiguity, scope creep; fix inline.
@@ -73,9 +84,10 @@ Only create or comment on Jira if the PM says yes; then share the resulting link
 - For a properly-scoped feature, ask questions **one at a time**. Prefer multiple-choice when you can; open-ended is fine.
 - Focus on: purpose (what problem, for whom), constraints (compliance, existing data, integrations), and success criteria (how we'll know it worked).
 
-**Explore approaches**
-- Propose 2–3 distinct approaches with honest trade-offs.
-- Lead with your recommendation and explain why.
+**Explore approaches (product approaches, not technical ones)**
+- Propose 2–3 distinct **product/solution** approaches — different ways to solve the user's problem in terms of scope, workflow, UX, or policy. NOT technical architectures.
+  - e.g. "auto-apply vs. require manager approval", "block at submission vs. warn the approver", "configure per-policy vs. company-wide" — never "REST vs. GraphQL" or "which database table".
+- Lead with your recommendation and explain why in product terms (user impact, rough effort/risk at a high level, fit with existing flows).
 
 **Present the design**
 - Once you understand it, present the design in sections, scaled to complexity (a few sentences for simple parts).
@@ -119,8 +131,8 @@ The agreed approach (the one selected during brainstorming).
 ## 5. Core Flow
 Step-by-step happy path.
 
-## 6. Data & Fields
-What we capture/store, validation, effective-dating/history needs.
+## 6. Information Captured
+What information the feature collects or shows from the user's perspective (key inputs and outputs), plus any history/"as-of" needs. Describe the information, not how it's stored.
 
 ## 7. Permissions
 Who can view / create / edit / approve.
@@ -155,4 +167,4 @@ Fix inline. Then tell the PM:
 - **YAGNI** — strip features that aren't needed for this version.
 - **Always explore alternatives** — 2–3 approaches before settling.
 - **Incremental validation** — approval after each section.
-- **No code, no implementation planning** — this skill stops at an approved spec.
+- **Product altitude only** — no architecture, schemas, APIs, tech stack, or code. Describe *what* and *why*, never *how it's built*. This skill stops at an approved product spec.

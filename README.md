@@ -1,6 +1,6 @@
 # BrioHR PM Skills
 
-> **Status:** Live — distributed to the PM team via the BrioHR org plugin, auto-syncing on every push.
+> **Status:** Live — 3 skills distributed to the PM team via the BrioHR org plugin, auto-syncing on every push.
 
 A small set of [Agent Skills](https://support.anthropic.com/en/articles/skills) for **product managers at BrioHR**, designed to run in **Claude Desktop** and **Claude.ai (web)**. They turn rough product ideas into validated specs and engineering-ready user stories — tailored for HR-software work (multi-country, compliance, roles & permissions, approvals).
 

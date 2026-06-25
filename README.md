@@ -27,6 +27,20 @@ Nothing to do. Once the plugin is provisioned to your group (see admin setup bel
 
 > Jira: `generate-jira-test-cases` needs the Atlassian/Jira connector; the other two use it optionally. Connect Jira in Claude when prompted.
 
+### Set up a Project (optional, recommended)
+A Claude **Project is not created automatically** — you make one yourself in the Claude UI, and it's worth doing if you want the cleaner chat-per-phase workflow.
+
+You can use the skills in any normal chat with no project at all. A project adds two things:
+- **Shared project knowledge** across all its chats — drop in BrioHR context, conventions, or a saved spec/ticket once and every chat in the project can use it.
+- **Organization** — keep a feature's brainstorm → ticket → test-case chats together.
+
+To set one up (once):
+1. In Claude, create a new **Project** (e.g. "PM Work" or one per feature).
+2. *(Optional)* Add anything reusable to its **knowledge/files** — e.g. team conventions, or a spec you want the next chat to pick up.
+3. Run the skills in chats **inside** that project.
+
+> Heads-up: separate chats in a project don't share each other's *messages* — only the project's knowledge/instructions. So to carry an artifact between chats, export it as a file (or save it to project knowledge / the Jira ticket). See **[One chat vs. chat-per-phase](#one-chat-vs-chat-per-phase)** below.
+
 ### For the admin (one-time setup)
 An org **owner** connects this private repo and assigns the plugin to the PM group. Full steps are in **[SETUP-ADMIN.md](SETUP-ADMIN.md)**. After that, every push to `main` auto-syncs to the team with no further admin action.
 

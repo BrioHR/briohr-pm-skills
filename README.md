@@ -10,7 +10,7 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 
 | Skill | What it does | When it triggers |
 |---|---|---|
-| **feature-brainstorming** | Socratic discovery — asks one question at a time, proposes 2–3 approaches, then writes a structured spec. Can pull a Jira epic/ticket for context and post the spec back. | "I want to build a feature…", "help me scope…", "write a spec/PRD" |
+| **feature-brainstorming** | Product strategy & feature discovery. Scales from a quick feature spec up to a full **strategy session** — positioning → problem discovery & validation → solution exploration → roadmap — then can drill into one feature and produce a spec. One question at a time; validates before committing. | "product strategy", "what should we build", "problem discovery", "prioritize", "roadmap", "help me scope", "write a spec/PRD" |
 | **ticket-writing** | Turns a feature/spec/Jira ticket into a single BrioHR-format story (Business Context, Behavior, User Flow, Other Considerations, Given/When/Then Acceptance Criteria), iterates with you, then offers to generate test cases. | "write a ticket", "write a user story", "acceptance criteria", "document this feature" |
 | **generate-jira-test-cases** | Pulls a Jira ticket + context, walks you through a six-section QA checklist, and produces a developer-ready test case list. | "generate test cases for B2-1234", "prepare QA scenarios", "what should we test for this" |
 

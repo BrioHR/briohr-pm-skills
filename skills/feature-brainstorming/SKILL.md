@@ -46,8 +46,11 @@ If the PM references a `B2-####` ticket/epic, pull it for context (description, 
 
 Write to a Markdown document. Use this exact structure:
 
+The top metadata line is **standardized** so the next skill (and any reader) can pick up the key facts at a glance — fill every field. The PM can edit or add to any section; this is a living draft.
+
 ```markdown
 # [Feature Name] — Spec
+**Module:** [Leaves / Payroll / Claims / …]   **Platform(s):** [Web / Mobile / Superadmin]   **Country:** [MY / SG / both]   **Primary persona:** [Employee / Manager / HR Admin / Payroll Officer / Recruiter / Executive]
 **Author:** [PM]   **Date:** [YYYY-MM-DD]   **Status:** Draft for review
 
 ## Why
@@ -77,6 +80,19 @@ Step-by-step: how the user accomplishes the goal (the happy-path flow).
 **Open Questions:** anything still undecided.
 ```
 
+## Feeds `ticket-writing` (handoff contract)
+
+The 7W1H spec maps cleanly onto the ticket's five sections — so the next skill picks it up with no guesswork:
+
+| Spec (7W1H) | → ticket-writing |
+|---|---|
+| Metadata header (Module · Platform(s) · Persona) | → ticket header (copied straight over) |
+| Why (+ success metric) | → Business Context (success metric seeds Acceptance Criteria) |
+| What | → Behavior; out-of-scope → Other Considerations |
+| How | → User Flow |
+| When + Which | → Acceptance Criteria (Given/When/Then) + Other Considerations |
+| Whom | → permissions in Behavior / Other Considerations |
+
 ## Handoff — export as a Markdown file & continue
 
 The spec is the handoff artifact for `ticket-writing`.
@@ -87,7 +103,6 @@ The spec is the handoff artifact for `ticket-writing`.
 - **Same chat:** invoke `ticket-writing` with this spec now.
 
 ## Key Principles
-- **One question at a time** — don't overwhelm; multiple-choice when possible.
-- **Don't jump to the spec** — clarify and confirm first.
+- **One question at a time** — multiple-choice when possible.
 - **YAGNI** — strip what isn't needed this version.
-- **Product altitude only** — what & why, never how it's built.
+- (Plus the HARD-GATE and PM-altitude rules above.)

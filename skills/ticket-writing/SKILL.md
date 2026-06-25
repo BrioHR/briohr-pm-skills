@@ -61,7 +61,7 @@ Only write to Jira if the PM says yes; then share the link.
 
 ## Before you write anything
 
-1. **Get the source.** A Jira ticket (see above), a feature/spec, or the brainstorming spec doc. If it's vague, ask 1–3 clarifying questions first — do NOT invent requirements.
+1. **Get the source.** A Jira ticket (see above), a feature/spec, or a **7W1H spec from `feature-brainstorming`**. If you receive a 7W1H spec, map it: **Why → Business Context** · **What → Behavior** (out-of-scope → Other Considerations) · **How → User Flow** · **When + Which → Acceptance Criteria & Other Considerations** · **Whom → permissions** · copy the spec's **Module / Platform(s) / Primary persona** header straight into the ticket header. If it's vague, ask 1–3 clarifying questions first — do NOT invent requirements.
 2. **Identify the personas involved.** Default BrioHR personas: **Employee**, **Line Manager**, **HR Admin**, **Payroll Officer**, **Recruiter**, **Executive/Reporting viewer**. A single story usually centers on one primary persona but may describe how others (e.g. a reviewing manager) interact — capture that in Behavior and User Flow.
 3. **Confirm scope.** What's in this version vs. later. State anything deferred inside **Other Considerations** (out of scope), don't silently drop it.
 

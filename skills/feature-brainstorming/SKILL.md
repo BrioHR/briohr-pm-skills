@@ -171,18 +171,17 @@ Look at the finished spec with fresh eyes:
 
 Fix inline.
 
-## Handoff — export the artifact & continue
+## Handoff — export the spec as a Markdown file & continue
 
-The spec is the **handoff artifact** for the next phase (`ticket-writing`). After it's ready, offer the PM a clean way to continue:
+The spec is the **handoff artifact** for the next phase (`ticket-writing`). After it's ready, offer the PM:
 
-> "Spec is ready. Want me to **export it as a file** (Markdown or PDF) so you can continue in a fresh chat — or should I just write the ticket here in this chat?"
+> "Spec is ready. Want me to **export it as a Markdown file** so you can continue in a fresh chat — or should I just write the ticket here in this chat?"
 
 **Why a fresh chat:** carrying only the spec keeps the next phase's context lean and focused — it doesn't drag this whole brainstorming conversation along, so the ticket comes out sharper. Same chat is simplest, but context keeps growing.
 
 **If exporting (recommended for non-trivial features):**
-1. Generate the spec as a **downloadable file** — **Markdown** by default (most faithful for the next skill to read); **PDF** if the PM wants something to share or print. Make sure the file contains the *complete* spec (every section) — anything discussed but not written down is lost on handoff.
-2. Tell the PM to open a **new chat in the same project**, **upload the file**, and say: *"Write the ticket from this spec."*
-3. If file export isn't available in their environment, fall back to: add the spec to the project's **knowledge/files** (a quick manual step — a skill can't write project knowledge itself), or, if Jira is connected, save it onto the B2 ticket and reference the key.
+1. Generate the spec as a downloadable **Markdown (`.md`) file** — Markdown because the next skill re-reads it most faithfully (headings/sections preserved exactly). Make sure the file contains the *complete* spec (every section) — anything discussed but not written down is lost on handoff.
+2. Tell the PM to open a **new chat in the same project**, **upload the `.md` file**, and say: *"Write the ticket from this spec."*
 
 **If same chat:** invoke `ticket-writing` with this spec right away.
 

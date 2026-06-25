@@ -39,7 +39,7 @@ To set one up (once):
 2. *(Optional)* Add anything reusable to its **knowledge/files** — e.g. team conventions, or a spec you want the next chat to pick up.
 3. Run the skills in chats **inside** that project.
 
-> Heads-up: separate chats in a project don't share each other's *messages* — only the project's knowledge/instructions. So to carry an artifact between chats, export it as a file (or save it to project knowledge / the Jira ticket). See **[One chat vs. chat-per-phase](#one-chat-vs-chat-per-phase)** below.
+> Heads-up: separate chats in a project don't share each other's *messages* — only the project's knowledge/instructions. So to carry an artifact between chats, **export it as a Markdown file** and upload it to the next chat. See **[One chat vs. chat-per-phase](#one-chat-vs-chat-per-phase)** below.
 
 ### For the admin (one-time setup)
 An org **owner** connects this private repo and assigns the plugin to the PM group. Full steps are in **[SETUP-ADMIN.md](SETUP-ADMIN.md)**. After that, every push to `main` auto-syncs to the team with no further admin action.
@@ -81,9 +81,9 @@ The chain is opt-in: `feature-brainstorming` *offers* to hand off to `ticket-wri
 You can run the whole chain two ways:
 
 - **One chat (simplest):** brainstorm → ticket → test cases all in the same conversation. Zero handoff. Best for small features. Trade-off: the chat's context grows, so on long sessions later phases get noisier.
-- **A fresh chat per phase (recommended for substantial work):** keeps each phase's context lean and focused, so output stays sharp. At the end of each skill, ask it to **export the artifact as a file** (Markdown or PDF). Open a **new chat in the same project**, **upload that file**, and run the next skill. Each artifact (spec → ticket → test cases) is a clean, reviewable checkpoint.
+- **A fresh chat per phase (recommended for substantial work):** keeps each phase's context lean and focused, so output stays sharp. At the end of each skill, ask it to **export the artifact as a Markdown file**. Open a **new chat in the same project**, **upload that `.md` file**, and run the next skill. Each artifact (spec → ticket → test cases) is a clean, reviewable checkpoint.
 
-> Why a file? In Claude, separate chats don't share each other's history — a *project* shares uploaded knowledge and instructions, not chat messages. Exporting the artifact (or saving it to project knowledge / the Jira ticket) is how context travels between chats. Carry the **artifact**, not the whole transcript.
+> Why Markdown? In Claude, separate chats don't share each other's history — a *project* shares uploaded knowledge and instructions, not chat messages. Exporting the artifact as a **Markdown file** and uploading it to the next chat is how context travels — and Markdown is re-read most faithfully by the next skill. Carry the **artifact**, not the whole transcript.
 
 ## Maintaining (for whoever edits the skills)
 

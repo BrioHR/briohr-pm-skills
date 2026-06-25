@@ -171,20 +171,18 @@ Look at the finished spec with fresh eyes:
 
 Fix inline.
 
-## Handoff — export the artifact & continue
+## Handoff — the spec travels on the B2 ticket
 
-The spec is the **handoff artifact** for the next phase (`ticket-writing`). After it's ready, offer the PM a clean way to continue:
+The spec is passed to the next phase **through a Jira B2 ticket** — that ticket is the single carrier of the artifact across chats. This handoff **depends on the Atlassian/Jira connector**.
 
-> "Spec is ready. Want me to **export it as a file** (Markdown or PDF) so you can continue in a fresh chat — or should I just write the ticket here in this chat?"
+1. **Put the spec on a B2 ticket (this is the handoff — do it before moving on):**
+   - If the PM referenced an existing `B2-####` epic/ticket, write the spec into its **description** (or add it as a comment). Confirm with the PM before writing.
+   - If there's no ticket yet, offer to **create a new B2 ticket** for this feature — confirm the issue type (usually Story or Epic) and title — then put the spec in its description. Share the new key + URL.
+2. **Continue (the next phase reads the spec from the ticket):**
+   - **Fresh chat (recommended — lean context):** open a new chat in the same project and say *"Write the ticket for B2-####."* `ticket-writing` reads the spec straight from the ticket; you only pass the key.
+   - **Same chat:** invoke `ticket-writing` with this B2 key now.
 
-**Why a fresh chat:** carrying only the spec keeps the next phase's context lean and focused — it doesn't drag this whole brainstorming conversation along, so the ticket comes out sharper. Same chat is simplest, but context keeps growing.
-
-**If exporting (recommended for non-trivial features):**
-1. Generate the spec as a **downloadable file** — **Markdown** by default (most faithful for the next skill to read); **PDF** if the PM wants something to share or print. Make sure the file contains the *complete* spec (every section) — anything discussed but not written down is lost on handoff.
-2. Tell the PM to open a **new chat in the same project**, **upload the file**, and say: *"Write the ticket from this spec."*
-3. If file export isn't available in their environment, fall back to: add the spec to the project's **knowledge/files** (a quick manual step — a skill can't write project knowledge itself), or, if Jira is connected, save it onto the B2 ticket and reference the key.
-
-**If same chat:** invoke `ticket-writing` with this spec right away.
+> The spec must be on the B2 ticket before handoff — that dependency is what lets the next phase pick it up with just the key. **If the Jira connector isn't available**, fall back to exporting the spec as a file (Markdown/PDF) to upload to the next chat, or saving it to project knowledge.
 
 ## Key Principles
 - **One question at a time** — don't overwhelm.

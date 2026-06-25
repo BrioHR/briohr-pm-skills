@@ -15,7 +15,7 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 | **generate-jira-test-cases** | Pulls a Jira ticket + context, walks you through a six-section QA checklist, and produces a developer-ready test case list. | "generate test cases for B2-1234", "prepare QA scenarios", "what should we test for this" |
 
 > **Connectors:**
-> - **Atlassian/Jira** — for ticket context. Required for `generate-jira-test-cases`, optional for the other two.
+> - **Atlassian/Jira** — **required for the chained workflow.** The artifact is passed between phases *through the B2 ticket*: brainstorming writes the spec onto a B2 ticket → ticket-writing reads it and writes the ticket back → test-case generation reads it and posts the cases. The ticket is the single carrier across chats. (A single skill used standalone can fall back to a file export, but the chain depends on Jira.)
 > - **GitHub** — all three skills read BrioHR's product knowledge from the private **[`BrioHR/knowledge-base`](https://github.com/BrioHR/knowledge-base)** repo (daily auto-scraped source of truth). Connect GitHub in Claude (with access to the BrioHR org) so the skills can ground their output in current documented behavior. They still work without it, just without KB grounding.
 
 ## Install
@@ -67,9 +67,9 @@ The chain is opt-in: `feature-brainstorming` *offers* to hand off to `ticket-wri
 You can run the whole chain two ways:
 
 - **One chat (simplest):** brainstorm → ticket → test cases all in the same conversation. Zero handoff. Best for small features. Trade-off: the chat's context grows, so on long sessions later phases get noisier.
-- **A fresh chat per phase (recommended for substantial work):** keeps each phase's context lean and focused, so output stays sharp. At the end of each skill, ask it to **export the artifact as a file** (Markdown or PDF). Open a **new chat in the same project**, **upload that file**, and run the next skill. Each artifact (spec → ticket → test cases) is a clean, reviewable checkpoint.
+- **A fresh chat per phase (recommended for substantial work):** keeps each phase's context lean and focused, so output stays sharp. The artifact rides on the **B2 ticket** — each skill writes its output to the ticket, and the next phase reads it back. Just open a **new chat in the same project** and name the ticket (e.g. *"write the ticket for B2-1234"*, then *"generate test cases for B2-1234"*). Each artifact (spec → ticket → test cases) is a clean, reviewable checkpoint living on the ticket.
 
-> Why a file? In Claude, separate chats don't share each other's history — a *project* shares uploaded knowledge and instructions, not chat messages. Exporting the artifact (or saving it to project knowledge / the Jira ticket) is how context travels between chats. Carry the **artifact**, not the whole transcript.
+> Why the ticket? In Claude, separate chats don't share each other's history — a *project* shares uploaded knowledge and instructions, not chat messages. Routing the artifact through the **B2 ticket** is how context travels between chats with just a key. (No Jira connector? Fall back to exporting the artifact as a Markdown/PDF file and uploading it to the next chat.) Carry the **artifact**, not the whole transcript.
 
 ## Maintaining (for whoever edits the skills)
 

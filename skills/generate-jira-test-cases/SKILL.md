@@ -175,13 +175,13 @@ Use the exact output structure from `references/output-format.md`.
 
 ### Step 6 — Present and Iterate
 
-Output the full test case list in chat. After presenting, ask:
+Output the full test case list in chat. The test cases are the terminal artifact — by **default they belong on the B2 ticket**. After presenting, ask:
 
-> "Want me to adjust any section, add more scenarios, post these as a comment on the Jira ticket, or export them as a file (Markdown or PDF)?"
+> "I'll add these to B2-#### so they live on the ticket with the rest of the work. Want me to adjust any section or add scenarios first? (I can also export them as a file.)"
 
-- If the PM asks for adjustments, apply them and re-present the affected sections.
-- If the PM asks to post to Jira, use the Jira add-comment tool to attach them to the original ticket, then confirm with the comment URL.
-- If the PM asks to export, generate the test cases as a **downloadable file** (Markdown by default; PDF if preferred) they can share or attach.
+- **Post to the B2 ticket (default):** once the PM is happy, use the Jira add-comment tool to attach the test cases to the ticket (or a designated field), then confirm with the comment URL. Confirm before writing.
+- If the PM asks for adjustments, apply them and re-present the affected sections first.
+- If the PM asks to export, generate the test cases as a **downloadable file** (Markdown by default; PDF if preferred) they can share or attach. Use this as the fallback if the Jira connector isn't available.
 
 ## Writing Rules
 

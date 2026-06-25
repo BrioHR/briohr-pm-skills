@@ -141,9 +141,13 @@ Run these two steps in order. Do not skip straight to test cases.
 
 If the PM gives input, fold it into the relevant section(s), re-present the updated story, and ask again. Repeat until the PM says it's finalized.
 
-**Step 2 — Offer test cases (hand off to skill 3).** Once the PM confirms the story is finalized, ask:
-> "Story's finalized. Want me to generate QA test cases from it? (And want me to post the story to Jira first?)"
+**Step 2 — Finalize & hand off (to skill 3).** Once the PM confirms the story is finalized, offer how to continue:
+> "Story's finalized. Want me to:
+> • generate the QA test cases now (here in this chat),
+> • **export the ticket as a file** (Markdown or PDF) so you can continue in a fresh chat, and/or
+> • save the story to the B2 ticket in Jira?"
 
-- If the PM wants test cases, invoke the **`generate-jira-test-cases`** skill, passing this finalized story (and the Jira ticket key, if there is one) as the input. That skill walks them through the six-section QA checklist and produces the developer-ready test case list.
-- If the PM also wants the story written to Jira, post it as a comment or update the ticket description first, then proceed to test cases.
+- **Export for a fresh chat (leaner context):** generate the ticket as a **downloadable file** — Markdown by default (most faithful for the next skill); PDF if preferred. Make sure it contains the complete 5-section ticket. Tell the PM to open a **new chat in the same project**, upload the file, and say *"Generate test cases from this ticket."* If file export isn't available, fall back to project knowledge or the Jira ticket.
+- **Same chat:** invoke the **`generate-jira-test-cases`** skill, passing this finalized ticket (and the Jira key, if there is one). That skill walks them through the six-section QA checklist and produces the developer-ready test case list.
+- **Save to Jira:** if requested, post the story to the B2 ticket (comment or description) first.
 - If the PM declines test cases, stop here.

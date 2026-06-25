@@ -62,6 +62,15 @@ The three skills are **independent — you can use one, two, or all three, in an
 
 The chain is opt-in: `feature-brainstorming` *offers* to hand off to `ticket-writing`, which *offers* to hand off to `generate-jira-test-cases`. If you say no, it stops — and if a downstream skill isn't installed, the offer simply leads nowhere. Nothing breaks. So a PM who already knows the feature can just use skills 2 + 3 (or skill 3 alone).
 
+### One chat vs. chat-per-phase
+
+You can run the whole chain two ways:
+
+- **One chat (simplest):** brainstorm → ticket → test cases all in the same conversation. Zero handoff. Best for small features. Trade-off: the chat's context grows, so on long sessions later phases get noisier.
+- **A fresh chat per phase (recommended for substantial work):** keeps each phase's context lean and focused, so output stays sharp. At the end of each skill, ask it to **export the artifact as a file** (Markdown or PDF). Open a **new chat in the same project**, **upload that file**, and run the next skill. Each artifact (spec → ticket → test cases) is a clean, reviewable checkpoint.
+
+> Why a file? In Claude, separate chats don't share each other's history — a *project* shares uploaded knowledge and instructions, not chat messages. Exporting the artifact (or saving it to project knowledge / the Jira ticket) is how context travels between chats. Carry the **artifact**, not the whole transcript.
+
 ## Maintaining (for whoever edits the skills)
 
 **Releases are automatic.** Every push to `main` triggers a GitHub Action

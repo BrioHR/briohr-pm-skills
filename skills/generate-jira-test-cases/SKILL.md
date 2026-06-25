@@ -177,9 +177,11 @@ Use the exact output structure from `references/output-format.md`.
 
 Output the full test case list in chat. After presenting, ask:
 
-> "Want me to adjust any section, add more scenarios, or post these as a comment on the Jira ticket?"
+> "Want me to adjust any section, add more scenarios, post these as a comment on the Jira ticket, or export them as a file (Markdown or PDF)?"
 
-If the PM asks for adjustments, apply them and re-present the affected sections. If the PM asks to post the test cases to Jira, use the Jira add-comment tool to attach them to the original ticket, then confirm with the comment URL.
+- If the PM asks for adjustments, apply them and re-present the affected sections.
+- If the PM asks to post to Jira, use the Jira add-comment tool to attach them to the original ticket, then confirm with the comment URL.
+- If the PM asks to export, generate the test cases as a **downloadable file** (Markdown by default; PDF if preferred) they can share or attach.
 
 ## Writing Rules
 

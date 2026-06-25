@@ -50,6 +50,17 @@ BrioHR is an HR SaaS platform serving ASEAN markets, primarily **Malaysia and Si
 
 **Jira:** main development project key is `B2` (e.g. `B2-1234`) on `briohr.atlassian.net`.
 
+## BrioHR Knowledge Base (single source of truth)
+
+To ground questions and the spec in how the product *actually works today*, consult the **`BrioHR/knowledge-base`** GitHub repo — the daily-updated source of truth (auto-scraped from the Help Center). **Do NOT fetch the support website (`support.briohr.com`) anymore.**
+
+Access it via the **GitHub connector** (connect GitHub in Claude if prompted):
+- Start with **`INDEX.md`** or **`sitemap.json`** at the repo root to find the relevant **category → subcategory** for the module.
+- Open the matching article `.md` file(s) under `<category>/<subcategory>/` for documented behavior, settings, and permissions.
+- Use this to ask sharper questions and avoid proposing things that already exist or conflict with current behavior.
+
+If the GitHub connector isn't available, say so once and continue from the PM's input — don't scrape the website.
+
 ## Jira Context (optional — uses the Atlassian connector)
 
 If the PM mentions a Jira ticket/epic (a `B2-####` key, a `briohr.atlassian.net` URL, or "there's an epic for this"), use the Jira tools to ground the conversation in what already exists. This is optional — if the connector isn't available, say so once and continue text-only.

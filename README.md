@@ -14,7 +14,9 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 | **ticket-writing** | Turns a feature/spec/Jira ticket into a single BrioHR-format story (Business Context, Behavior, User Flow, Other Considerations, Given/When/Then Acceptance Criteria), iterates with you, then offers to generate test cases. | "write a ticket", "write a user story", "acceptance criteria", "document this feature" |
 | **generate-jira-test-cases** | Pulls a Jira ticket + context, walks you through a six-section QA checklist, and produces a developer-ready test case list. | "generate test cases for B2-1234", "prepare QA scenarios", "what should we test for this" |
 
-> **Jira connector:** all three skills can use the Atlassian/Jira connector for ticket context. It's **required** for `generate-jira-test-cases` and **optional** for the other two (they work without it, just text-only). Connect Jira in Claude when prompted.
+> **Connectors:**
+> - **Atlassian/Jira** — for ticket context. Required for `generate-jira-test-cases`, optional for the other two.
+> - **GitHub** — all three skills read BrioHR's product knowledge from the private **[`BrioHR/knowledge-base`](https://github.com/BrioHR/knowledge-base)** repo (daily auto-scraped source of truth). Connect GitHub in Claude (with access to the BrioHR org) so the skills can ground their output in current documented behavior. They still work without it, just without KB grounding.
 
 ## Install
 

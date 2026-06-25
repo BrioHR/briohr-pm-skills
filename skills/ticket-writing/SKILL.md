@@ -35,6 +35,16 @@ BrioHR is an HR SaaS platform serving ASEAN markets, primarily **Malaysia and Si
 
 **Cross-module ripple patterns:** Profile/Leave/Onboarding → many modules; Attendance & Leave → Payroll; Claims → Payroll (reimbursement with salary); Recruitment → Onboarding → Profile.
 
+## BrioHR Knowledge Base (single source of truth)
+
+To ground the ticket in current documented behavior, consult the **`BrioHR/knowledge-base`** GitHub repo — the daily-updated source of truth (auto-scraped from the Help Center). **Do NOT fetch the support website (`support.briohr.com`) anymore.**
+
+Access it via the **GitHub connector** (connect GitHub in Claude if prompted):
+- Start with **`INDEX.md`** or **`sitemap.json`** to find the relevant **category → subcategory** for the module.
+- Open the matching article `.md` file(s) under `<category>/<subcategory>/` for documented behavior, settings, and permissions — so the Behavior, User Flow, and Acceptance Criteria match reality.
+
+If the GitHub connector isn't available, say so once and continue from the PM's input — don't scrape the website.
+
 ## Jira Context (optional — uses the Atlassian connector)
 
 The source for stories is often a Jira epic/ticket. If the PM gives a `B2-####` key, a `briohr.atlassian.net` URL, or asks to "write stories for this epic," use the Jira tools:

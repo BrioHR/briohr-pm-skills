@@ -52,6 +52,17 @@ Read `references/checklist.md` for the full six-section checklist details. Read 
 
 **Jira:** Main development project key is `B2` (e.g., `B2-1234`). Atlassian URL: `briohr.atlassian.net`.
 
+## BrioHR Knowledge Base (single source of truth)
+
+For current documented product behavior, use the **`BrioHR/knowledge-base`** GitHub repo — the daily-updated source of truth (auto-scraped from the Help Center). **Do NOT fetch the support website (`support.briohr.com`) anymore.**
+
+Access it via the **GitHub connector** (connect GitHub in Claude if prompted):
+- Start with **`INDEX.md`** or **`sitemap.json`** at the repo root to find the relevant **category → subcategory** for the module in question.
+- Open the matching article `.md` file(s) under `<category>/<subcategory>/`. Each article has YAML frontmatter (`title`, `category`, `subcategory`, `source_url`, `date`) followed by the content.
+- Use it for documented behavior, user-visible settings, permissions, and mobile notes.
+
+If the GitHub connector isn't available, say so once and proceed with the PM's input — do not fall back to scraping the website.
+
 ## Workflow
 
 Follow these steps in order every time the skill is invoked. Do not skip the sequential confirmation step (Step 4) — it is the core interaction the PM expects.
@@ -102,14 +113,14 @@ From the results, extract:
 
 If no results are found, broaden: `project = B2 AND summary ~ "[ModuleName]" ORDER BY updated DESC`.
 
-**3b. BrioHR knowledge base.** Fetch `https://support.briohr.com/knowledge` and follow the link most relevant to the module. Extract:
-- Current documented behavior of the feature
-- User-visible options, settings, and permissions
-- Mobile-specific notes if any
+**3b. BrioHR knowledge base.** Read documented behavior from the **`BrioHR/knowledge-base`** GitHub repo (the single source of truth — see the Knowledge Base section above). **Do not fetch the support website.** Via the GitHub connector:
+- Open `INDEX.md` (or `sitemap.json`) and locate the category/subcategory matching this ticket's module.
+- Read the most relevant article `.md` file(s) under `<category>/<subcategory>/` and extract:
+  - Current documented behavior of the feature
+  - User-visible options, settings, and permissions
+  - Mobile-specific notes if any
 
-If a specific KB article URL is more relevant (mentioned in the ticket or discoverable from the module landing page), fetch that directly.
-
-If KB content is unavailable or irrelevant, note this and proceed without it. Do not block on KB.
+If the GitHub connector or KB content is unavailable, note this and proceed without it. Do not block on KB, and do not fall back to scraping the website.
 
 ### Step 4 — Walk the PM Through the Checklist (Sequential Confirmation)
 

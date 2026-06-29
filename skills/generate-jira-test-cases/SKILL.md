@@ -54,14 +54,12 @@ Read `references/checklist.md` for the full six-section checklist details. Read 
 
 ## BrioHR Knowledge Base (single source of truth)
 
-For current documented product behavior, use the **`BrioHR/knowledge-base`** GitHub repo — the daily-updated source of truth (auto-scraped from the Help Center). **Do NOT fetch the support website (`support.briohr.com`) anymore.**
+Current documented product behavior lives in the private **`BrioHR/knowledge-base`** GitHub repo (daily auto-scraped). **Do NOT scrape the support website (`support.briohr.com`).**
 
-Access it via the **GitHub connector** (connect GitHub in Claude if prompted):
-- Start with **`INDEX.md`** or **`sitemap.json`** at the repo root to find the relevant **category → subcategory** for the module in question.
-- Open the matching article `.md` file(s) under `<category>/<subcategory>/`. Each article has YAML frontmatter (`title`, `category`, `subcategory`, `source_url`, `date`) followed by the content.
-- Use it for documented behavior, user-visible settings, permissions, and mobile notes.
+You can't browse that repo on your own in Claude Desktop — KB content is only usable if the PM has brought it into context, either by **syncing the repo into the Project** (GitHub connector → Projects) or **attaching a file** via **+ → Add from GitHub** (e.g. `INDEX.md` or a specific `<category>/<subcategory>/` article; each article has YAML frontmatter then the content).
 
-If the GitHub connector isn't available, say so once and proceed with the PM's input — do not fall back to scraping the website.
+- **If KB content is in context:** use it for documented behavior, user-visible settings, permissions, and mobile notes.
+- **If it isn't:** ask once — *"For accurate test cases, attach the relevant `BrioHR/knowledge-base` article via + → Add from GitHub, or sync the repo into this Project."* Then proceed with the ticket + PM input. Don't claim to fetch it yourself, and don't scrape the website.
 
 ## Workflow
 
@@ -113,14 +111,9 @@ From the results, extract:
 
 If no results are found, broaden: `project = B2 AND summary ~ "[ModuleName]" ORDER BY updated DESC`.
 
-**3b. BrioHR knowledge base.** Read documented behavior from the **`BrioHR/knowledge-base`** GitHub repo (the single source of truth — see the Knowledge Base section above). **Do not fetch the support website.** Via the GitHub connector:
-- Open `INDEX.md` (or `sitemap.json`) and locate the category/subcategory matching this ticket's module.
-- Read the most relevant article `.md` file(s) under `<category>/<subcategory>/` and extract:
-  - Current documented behavior of the feature
-  - User-visible options, settings, and permissions
-  - Mobile-specific notes if any
-
-If the GitHub connector or KB content is unavailable, note this and proceed without it. Do not block on KB, and do not fall back to scraping the website.
+**3b. BrioHR knowledge base.** Use documented behavior from the **`BrioHR/knowledge-base`** repo *if it's in context* (synced into the Project or attached via **+ → Add from GitHub** — see the Knowledge Base section above). **Do not scrape the support website.**
+- If the relevant article is in context, extract: current documented behavior, user-visible options/settings/permissions, and any mobile notes.
+- If no KB content is in context, ask the PM once to attach the relevant article (or sync the repo into the Project), then proceed without blocking. Do not claim to fetch it yourself.
 
 ### Step 4 — Walk the PM Through the Checklist (Sequential Confirmation)
 

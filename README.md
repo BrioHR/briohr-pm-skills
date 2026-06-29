@@ -16,7 +16,7 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 
 > **Connectors:**
 > - **Atlassian/Jira** — for ticket context. Required for `generate-jira-test-cases`, optional for the other two.
-> - **GitHub** — all three skills read BrioHR's product knowledge from the private **[`BrioHR/knowledge-base`](https://github.com/BrioHR/knowledge-base)** repo (daily auto-scraped source of truth). Connect GitHub in Claude (with access to the BrioHR org) so the skills can ground their output in current documented behavior. They still work without it, just without KB grounding.
+> - **GitHub** — the skills ground their output in BrioHR's product knowledge from the private **[`BrioHR/knowledge-base`](https://github.com/BrioHR/knowledge-base)** repo (daily auto-scraped source of truth). Connect GitHub (with BrioHR-org access), **then bring the KB into context** — the skills can't browse the repo on their own in chat. Either **sync the repo into your Project** (GitHub connector → Projects, always-on) or **attach an article per chat** via **+ → Add from GitHub**. Without it, the skills still work, just without KB grounding.
 
 ## Install
 

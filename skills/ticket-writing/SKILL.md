@@ -37,13 +37,12 @@ BrioHR is an HR SaaS platform serving ASEAN markets, primarily **Malaysia and Si
 
 ## BrioHR Knowledge Base (single source of truth)
 
-To ground the ticket in current documented behavior, consult the **`BrioHR/knowledge-base`** GitHub repo — the daily-updated source of truth (auto-scraped from the Help Center). **Do NOT fetch the support website (`support.briohr.com`) anymore.**
+Current documented behavior lives in the private **`BrioHR/knowledge-base`** GitHub repo (daily auto-scraped). **Do NOT scrape the support website.**
 
-Access it via the **GitHub connector** (connect GitHub in Claude if prompted):
-- Start with **`INDEX.md`** or **`sitemap.json`** to find the relevant **category → subcategory** for the module.
-- Open the matching article `.md` file(s) under `<category>/<subcategory>/` for documented behavior, settings, and permissions — so the Behavior, User Flow, and Acceptance Criteria match reality.
+You can't browse that repo on your own in Claude Desktop — KB content is only usable if the PM has brought it into context, either by **syncing the repo into the Project** (GitHub connector → Projects) or **attaching a file** via **+ → Add from GitHub** (e.g. `INDEX.md` or a specific `<category>/<subcategory>/` article).
 
-If the GitHub connector isn't available, say so once and continue from the PM's input — don't scrape the website.
+- **If KB content is in context:** ground the ticket's Behavior, User Flow, and Acceptance Criteria in it (documented behavior, settings, permissions).
+- **If it isn't:** ask once — *"For accurate grounding, attach the relevant `BrioHR/knowledge-base` article via + → Add from GitHub, or sync the repo into this Project."* Then continue from the source/PM input. Don't claim to fetch it yourself, and don't scrape the website.
 
 ## Jira Context (optional — uses the Atlassian connector)
 

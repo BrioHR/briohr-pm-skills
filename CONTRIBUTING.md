@@ -14,10 +14,10 @@ This repo holds the BrioHR PM skills for Claude (Desktop / Claude.ai). Anyone on
 
 ## The edit → test → ship loop
 
-1. **Edit a skill.** Each skill is a folder under `skills/` with a `SKILL.md`. Open it in Claude Code and describe what you want to change (e.g. "add a permissions check to the ticket-writing skill").
+1. **Edit a skill.** Each skill is a folder under `skills/` with a `SKILL.md`. Open it in Claude Code and describe what you want to change (e.g. "add a permissions check to the feature-brainstorming skill").
 
 2. **Test before you push** — two easy ways:
-   - **Fastest:** ask Claude in the same session to *run* the skill on a real example (e.g. "run ticket-writing on B2-6726") and read the output.
+   - **Fastest:** ask Claude in the same session to *run* the skill on a real example (e.g. "run feature-brainstorming on this idea" or "generate test cases for B2-6726") and read the output.
    - **Real install:** build the upload zips locally and try one in your own Claude Desktop:
      ```bash
      ./scripts/build-zips.sh   # writes dist/*.zip (git-ignored)

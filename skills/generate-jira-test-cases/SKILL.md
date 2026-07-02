@@ -54,14 +54,10 @@ Read `references/checklist.md` for the full six-section checklist details. Read 
 
 ## BrioHR Knowledge Base (single source of truth)
 
-For current documented product behavior, use the **`BrioHR/knowledge-base`** GitHub repo — the daily-updated source of truth (auto-scraped from the Help Center). **Do NOT fetch the support website (`support.briohr.com`) anymore.**
+Current documented behavior lives in the private **`BrioHR/knowledge-base`** GitHub repo (daily auto-scraped). **Do NOT scrape the support website (`support.briohr.com`).**
 
-Access it via the **GitHub connector** (connect GitHub in Claude if prompted):
-- Start with **`INDEX.md`** or **`sitemap.json`** at the repo root to find the relevant **category → subcategory** for the module in question.
-- Open the matching article `.md` file(s) under `<category>/<subcategory>/`. Each article has YAML frontmatter (`title`, `category`, `subcategory`, `source_url`, `date`) followed by the content.
-- Use it for documented behavior, user-visible settings, permissions, and mobile notes.
-
-If the GitHub connector isn't available, say so once and proceed with the PM's input — do not fall back to scraping the website.
+- **In Cowork:** the KB is readable when the repo is **synced into the Project** — start at `INDEX.md`/`sitemap.json`, open the relevant `<category>/<subcategory>/` article (YAML frontmatter then content). Use it for documented behavior, settings, permissions, and mobile notes.
+- **In plain chat:** the model can't browse the repo. Use the article if it was **attached** via **+ → Add from GitHub**; otherwise ask once to attach it (or run in Cowork with the repo synced), then proceed. Don't claim to fetch it yourself.
 
 ## Workflow
 
@@ -73,7 +69,7 @@ Check what the PM has provided in their message:
 - A Jira ticket key (e.g., `B2-1234`)
 - A Jira ticket URL
 - Pasted ticket content (title + description)
-- A finalized ticket/user story handed off from the `ticket-writing` skill (Business Context, Behavior, User Flow, Other Considerations, Acceptance Criteria). Treat this as the ticket content; if a Jira key came with it, also load that ticket for additional context.
+- A finalized ticket handed off from the `feature-brainstorming` skill (Business Context, Behavior, User Flow, Other Considerations, Acceptance Criteria). Treat this as the ticket content; if a Jira key came with it, also load that ticket for additional context.
 
 If none of the above is present, ask: "Which Jira ticket should I generate test cases for? Share the ticket key, URL, or paste the ticket details."
 
@@ -113,14 +109,9 @@ From the results, extract:
 
 If no results are found, broaden: `project = B2 AND summary ~ "[ModuleName]" ORDER BY updated DESC`.
 
-**3b. BrioHR knowledge base.** Read documented behavior from the **`BrioHR/knowledge-base`** GitHub repo (the single source of truth — see the Knowledge Base section above). **Do not fetch the support website.** Via the GitHub connector:
-- Open `INDEX.md` (or `sitemap.json`) and locate the category/subcategory matching this ticket's module.
-- Read the most relevant article `.md` file(s) under `<category>/<subcategory>/` and extract:
-  - Current documented behavior of the feature
-  - User-visible options, settings, and permissions
-  - Mobile-specific notes if any
-
-If the GitHub connector or KB content is unavailable, note this and proceed without it. Do not block on KB, and do not fall back to scraping the website.
+**3b. BrioHR knowledge base.** Use documented behavior from **`BrioHR/knowledge-base`** *if it's available* (see the Knowledge Base section above — synced into the Project in Cowork, or attached via **+ → Add from GitHub** in chat). **Do not scrape the support website.**
+- If available, locate the category/subcategory for this ticket's module (`INDEX.md`/`sitemap.json`) and read the relevant article for: current documented behavior, user-visible options/settings/permissions, and mobile notes.
+- If no KB content is available, note it and proceed without blocking. Don't claim to fetch it yourself.
 
 ### Step 4 — Walk the PM Through the Checklist (Sequential Confirmation)
 

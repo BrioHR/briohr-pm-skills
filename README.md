@@ -10,20 +10,19 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 
 | Skill | What it does | When it triggers |
 |---|---|---|
-| **feature-brainstorming** | Socratic discovery — asks one question at a time, proposes 2–3 approaches, then writes a structured spec. Can pull a Jira epic/ticket for context and post the spec back. | "I want to build a feature…", "help me scope…", "write a spec/PRD" |
-| **ticket-writing** | Turns a feature/spec/Jira ticket into a single BrioHR-format story (Business Context, Behavior, User Flow, Other Considerations, Given/When/Then Acceptance Criteria), iterates with you, then offers to generate test cases. | "write a ticket", "write a user story", "acceptance criteria", "document this feature" |
+| **feature-brainstorming** | Brainstorms a rough idea (Socratic — one question at a time, 2–3 approaches, confirm), then writes it as **one** BrioHR-format ticket (Business Context, Behavior, User Flow, Other Considerations, Given/When/Then Acceptance Criteria). Iterates, then offers to generate test cases. | "brainstorm a feature", "help me scope", "write a ticket", "acceptance criteria", "document this feature" |
 | **generate-jira-test-cases** | Pulls a Jira ticket + context, walks you through a six-section QA checklist, and produces a developer-ready test case list. | "generate test cases for B2-1234", "prepare QA scenarios", "what should we test for this" |
 
 > **Connectors:**
-> - **Atlassian/Jira** — for ticket context. Required for `generate-jira-test-cases`, optional for the other two.
-> - **GitHub** — all three skills read BrioHR's product knowledge from the private **[`BrioHR/knowledge-base`](https://github.com/BrioHR/knowledge-base)** repo (daily auto-scraped source of truth). Connect GitHub in Claude (with access to the BrioHR org) so the skills can ground their output in current documented behavior. They still work without it, just without KB grounding.
+> - **Atlassian/Jira** — for ticket context and posting back. Required for `generate-jira-test-cases`, optional for `feature-brainstorming`.
+> - **GitHub** — grounds output in the private **[`BrioHR/knowledge-base`](https://github.com/BrioHR/knowledge-base)** repo (daily auto-scraped source of truth). **In Cowork**, sync the repo into your Project so the skills can read it; **in plain chat**, attach an article via **+ → Add from GitHub**. Without it, the skills still work, just without KB grounding.
 
 ## Install
 
-This repo is a **Claude plugin** (Cowork marketplace) — the three skills are bundled and delivered to the BrioHR PM team via Claude's org plugin sync. PMs don't download or upload anything.
+This repo is a **Claude plugin** (Cowork marketplace) — the two skills are bundled and delivered to the BrioHR PM team via Claude's org plugin sync. PMs don't download or upload anything.
 
 ### For PMs (the team)
-Nothing to do. Once the plugin is provisioned to your group (see admin setup below), the three skills appear automatically in Claude (chat, web, Desktop, Cowork) and **auto-update** whenever a new version is published. Just use them — e.g. "write a ticket for B2-1234".
+Nothing to do. Once the plugin is provisioned to your group (see admin setup below), the two skills appear automatically in Claude (chat, web, Desktop, Cowork) and **auto-update** whenever a new version is published. Just use them — e.g. "brainstorm a feature" or "generate test cases for B2-1234".
 
 > Jira: `generate-jira-test-cases` needs the Atlassian/Jira connector; the other two use it optionally. Connect Jira in Claude when prompted.
 
@@ -50,40 +49,35 @@ If you ever need a skill outside the plugin, each release also attaches ready-to
 ## How a PM uses them
 
 ```
-Rough idea
-   │  (feature-brainstorming)
+Rough idea / feature / Jira ticket
+   │  (feature-brainstorming: brainstorm → ticket)
    ▼
-Approved Spec
-   │  (ticket-writing)
-   ▼
-BrioHR-format ticket (story + acceptance criteria)  ──►  paste into Jira  ──►  ticket gets built
-   │  (ticket-writing offers this once finalized, or run it directly)
+BrioHR-format ticket (5 sections)  ──►  paste into Jira  ──►  ticket gets built
+   │  (feature-brainstorming offers this once finalized)
    ▼  (generate-jira-test-cases)
 QA test cases for the developer to verify
 ```
 
-1. Describe your idea to Claude. `feature-brainstorming` kicks in, asks questions, and produces a spec.
-2. Ask Claude to "write a ticket from this." `ticket-writing` produces a single BrioHR-format story, iterates with you, then offers to generate test cases.
-3. `generate-jira-test-cases` gathers context, walks you through the six-section QA checklist, and outputs a test case list you can post back to the ticket.
+1. Describe your idea to Claude. `feature-brainstorming` asks questions, proposes 2–3 approaches, then writes it up as one BrioHR-format ticket and iterates with you.
+2. Once the ticket's finalized, `generate-jira-test-cases` gathers context, walks you through the six-section QA checklist, and outputs a test case list you can post back to the ticket.
 
-### Use any skill on its own
+### Use either skill on its own
 
-The three skills are **independent — you can use one, two, or all three, in any order.** Install only the ones you want, and even with all three installed, each only activates when your request matches it:
+The two skills are **independent — use one or both, in any order.** Each only activates when your request matches it:
 
-- "Write a ticket for B2-1234" → only **ticket-writing** runs.
-- "Generate test cases for B2-1234" → only **generate-jira-test-cases** runs.
-- "Help me brainstorm a feature" → only **feature-brainstorming** runs.
+- "Brainstorm a feature" / "write a ticket for this idea" → **feature-brainstorming**
+- "Generate test cases for B2-1234" → **generate-jira-test-cases**
 
-The chain is opt-in: `feature-brainstorming` *offers* to hand off to `ticket-writing`, which *offers* to hand off to `generate-jira-test-cases`. If you say no, it stops — and if a downstream skill isn't installed, the offer simply leads nowhere. Nothing breaks. So a PM who already knows the feature can just use skills 2 + 3 (or skill 3 alone).
+The chain is opt-in: `feature-brainstorming` *offers* to hand off to `generate-jira-test-cases`. Say no and it stops. A PM who already has a ticket can jump straight to `generate-jira-test-cases`.
 
 ### One chat vs. chat-per-phase
 
-You can run the whole chain two ways:
+You can run the chain two ways:
 
-- **One chat (simplest):** brainstorm → ticket → test cases all in the same conversation. Zero handoff. Best for small features. Trade-off: the chat's context grows, so on long sessions later phases get noisier.
-- **A fresh chat per phase (recommended for substantial work):** keeps each phase's context lean and focused, so output stays sharp. At the end of each skill, ask it to **export the artifact as a file** (Markdown or PDF). Open a **new chat in the same project**, **upload that file**, and run the next skill. Each artifact (spec → ticket → test cases) is a clean, reviewable checkpoint.
+- **One chat (simplest):** brainstorm → ticket → test cases all in the same conversation. Zero handoff. Best for small features. Trade-off: the chat's context grows.
+- **A fresh chat per phase (leaner context):** at the end of `feature-brainstorming`, ask it to **export the ticket as a Markdown file**. Open a **new chat in the same project**, **upload the `.md`**, and run `generate-jira-test-cases`.
 
-> Why a file? In Claude, separate chats don't share each other's history — a *project* shares uploaded knowledge and instructions, not chat messages. Exporting the artifact (or saving it to project knowledge / the Jira ticket) is how context travels between chats. Carry the **artifact**, not the whole transcript.
+> Why a file? In Claude, separate chats don't share each other's history — a *project* shares uploaded knowledge and instructions, not chat messages. Exporting the ticket as a Markdown file (or posting it to the Jira ticket) is how it travels between chats. Carry the **artifact**, not the transcript.
 
 ## Maintaining (for whoever edits the skills)
 

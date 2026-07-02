@@ -19,7 +19,7 @@ This connects the BrioHR PM Skills plugin to your Claude org and gives it to the
 4. Set the install preference to **Required** (the team gets it automatically and can't turn it off — it stays on for everyone in the group).
 
 ### 3. Done
-The 4 PMs now see the three skills in Claude (chat, web, Desktop, and Cowork) automatically. Group targeting set up for Cowork carries over to chat with no extra steps.
+The 4 PMs now see the two skills in Claude (chat, web, Desktop, and Cowork) automatically. Group targeting set up for Cowork carries over to chat with no extra steps.
 
 ## How updates work after setup
 - A PM (or whoever maintains the skills) pushes a change to `main`.

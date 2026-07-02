@@ -10,13 +10,13 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 
 | Skill | What it does | When it triggers |
 |---|---|---|
-| **feature-brainstorming** | Socratic discovery — one question at a time, proposes 2–3 approaches, then writes a simple spec structured as **7W1H** (Why, Who, What, Where, When, Which, Whom, How). | "I want to build a feature…", "help me scope…", "write a spec/PRD" |
+| **feature-brainstorming** | Socratic discovery — asks one question at a time, proposes 2–3 approaches, then writes a structured spec. Can pull a Jira epic/ticket for context and post the spec back. | "I want to build a feature…", "help me scope…", "write a spec/PRD" |
 | **ticket-writing** | Turns a feature/spec/Jira ticket into a single BrioHR-format story (Business Context, Behavior, User Flow, Other Considerations, Given/When/Then Acceptance Criteria), iterates with you, then offers to generate test cases. | "write a ticket", "write a user story", "acceptance criteria", "document this feature" |
 | **generate-jira-test-cases** | Pulls a Jira ticket + context, walks you through a six-section QA checklist, and produces a developer-ready test case list. | "generate test cases for B2-1234", "prepare QA scenarios", "what should we test for this" |
 
 > **Connectors:**
 > - **Atlassian/Jira** — for ticket context. Required for `generate-jira-test-cases`, optional for the other two.
-> - **GitHub** — the skills ground their output in BrioHR's product knowledge from the private **[`BrioHR/knowledge-base`](https://github.com/BrioHR/knowledge-base)** repo (daily auto-scraped source of truth). Connect GitHub (with BrioHR-org access), **then bring the KB into context** — the skills can't browse the repo on their own in chat. Either **sync the repo into your Project** (GitHub connector → Projects, always-on) or **attach an article per chat** via **+ → Add from GitHub**. Without it, the skills still work, just without KB grounding.
+> - **GitHub** — all three skills read BrioHR's product knowledge from the private **[`BrioHR/knowledge-base`](https://github.com/BrioHR/knowledge-base)** repo (daily auto-scraped source of truth). Connect GitHub in Claude (with access to the BrioHR org) so the skills can ground their output in current documented behavior. They still work without it, just without KB grounding.
 
 ## Install
 
@@ -39,7 +39,7 @@ To set one up (once):
 2. *(Optional)* Add anything reusable to its **knowledge/files** — e.g. team conventions, or a spec you want the next chat to pick up.
 3. Run the skills in chats **inside** that project.
 
-> Heads-up: separate chats in a project don't share each other's *messages* — only the project's knowledge/instructions. So to carry an artifact between chats, **export it as a Markdown file** and upload it to the next chat. See **[One chat vs. chat-per-phase](#one-chat-vs-chat-per-phase)** below.
+> Heads-up: separate chats in a project don't share each other's *messages* — only the project's knowledge/instructions. So to carry an artifact between chats, export it as a file (or save it to project knowledge / the Jira ticket). See **[One chat vs. chat-per-phase](#one-chat-vs-chat-per-phase)** below.
 
 ### For the admin (one-time setup)
 An org **owner** connects this private repo and assigns the plugin to the PM group. Full steps are in **[SETUP-ADMIN.md](SETUP-ADMIN.md)**. After that, every push to `main` auto-syncs to the team with no further admin action.
@@ -81,9 +81,9 @@ The chain is opt-in: `feature-brainstorming` *offers* to hand off to `ticket-wri
 You can run the whole chain two ways:
 
 - **One chat (simplest):** brainstorm → ticket → test cases all in the same conversation. Zero handoff. Best for small features. Trade-off: the chat's context grows, so on long sessions later phases get noisier.
-- **A fresh chat per phase (recommended for substantial work):** keeps each phase's context lean and focused, so output stays sharp. At the end of each skill, ask it to **export the artifact as a Markdown file**. Open a **new chat in the same project**, **upload that `.md` file**, and run the next skill. Each artifact (spec → ticket → test cases) is a clean, reviewable checkpoint.
+- **A fresh chat per phase (recommended for substantial work):** keeps each phase's context lean and focused, so output stays sharp. At the end of each skill, ask it to **export the artifact as a file** (Markdown or PDF). Open a **new chat in the same project**, **upload that file**, and run the next skill. Each artifact (spec → ticket → test cases) is a clean, reviewable checkpoint.
 
-> Why Markdown? In Claude, separate chats don't share each other's history — a *project* shares uploaded knowledge and instructions, not chat messages. Exporting the artifact as a **Markdown file** and uploading it to the next chat is how context travels — and Markdown is re-read most faithfully by the next skill. Carry the **artifact**, not the whole transcript.
+> Why a file? In Claude, separate chats don't share each other's history — a *project* shares uploaded knowledge and instructions, not chat messages. Exporting the artifact (or saving it to project knowledge / the Jira ticket) is how context travels between chats. Carry the **artifact**, not the whole transcript.
 
 ## Maintaining (for whoever edits the skills)
 

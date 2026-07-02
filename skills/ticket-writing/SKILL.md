@@ -37,12 +37,13 @@ BrioHR is an HR SaaS platform serving ASEAN markets, primarily **Malaysia and Si
 
 ## BrioHR Knowledge Base (single source of truth)
 
-Current documented behavior lives in the private **`BrioHR/knowledge-base`** GitHub repo (daily auto-scraped). **Do NOT scrape the support website.**
+To ground the ticket in current documented behavior, consult the **`BrioHR/knowledge-base`** GitHub repo — the daily-updated source of truth (auto-scraped from the Help Center). **Do NOT fetch the support website (`support.briohr.com`) anymore.**
 
-You can't browse that repo on your own in Claude Desktop — KB content is only usable if the PM has brought it into context, either by **syncing the repo into the Project** (GitHub connector → Projects) or **attaching a file** via **+ → Add from GitHub** (e.g. `INDEX.md` or a specific `<category>/<subcategory>/` article).
+Access it via the **GitHub connector** (connect GitHub in Claude if prompted):
+- Start with **`INDEX.md`** or **`sitemap.json`** to find the relevant **category → subcategory** for the module.
+- Open the matching article `.md` file(s) under `<category>/<subcategory>/` for documented behavior, settings, and permissions — so the Behavior, User Flow, and Acceptance Criteria match reality.
 
-- **If KB content is in context:** ground the ticket's Behavior, User Flow, and Acceptance Criteria in it (documented behavior, settings, permissions).
-- **If it isn't:** ask once — *"For accurate grounding, attach the relevant `BrioHR/knowledge-base` article via + → Add from GitHub, or sync the repo into this Project."* Then continue from the source/PM input. Don't claim to fetch it yourself, and don't scrape the website.
+If the GitHub connector isn't available, say so once and continue from the PM's input — don't scrape the website.
 
 ## Jira Context (optional — uses the Atlassian connector)
 
@@ -60,7 +61,7 @@ Only write to Jira if the PM says yes; then share the link.
 
 ## Before you write anything
 
-1. **Get the source.** A Jira ticket (see above), a feature/spec, or a **7W1H spec from `feature-brainstorming`**. If you receive a 7W1H spec, map it: **Why → Business Context** · **What → Behavior** (out-of-scope → Other Considerations) · **How → User Flow** · **When + Which → Acceptance Criteria & Other Considerations** · **Whom → permissions** · copy the spec's **Module / Platform(s) / Primary persona** header straight into the ticket header. If it's vague, ask 1–3 clarifying questions first — do NOT invent requirements.
+1. **Get the source.** A Jira ticket (see above), a feature/spec, or the brainstorming spec doc. If it's vague, ask 1–3 clarifying questions first — do NOT invent requirements.
 2. **Identify the personas involved.** Default BrioHR personas: **Employee**, **Line Manager**, **HR Admin**, **Payroll Officer**, **Recruiter**, **Executive/Reporting viewer**. A single story usually centers on one primary persona but may describe how others (e.g. a reviewing manager) interact — capture that in Behavior and User Flow.
 3. **Confirm scope.** What's in this version vs. later. State anything deferred inside **Other Considerations** (out of scope), don't silently drop it.
 
@@ -141,8 +142,12 @@ Run these two steps in order. Do not skip straight to test cases.
 If the PM gives input, fold it into the relevant section(s), re-present the updated story, and ask again. Repeat until the PM says it's finalized.
 
 **Step 2 — Finalize & hand off (to skill 3).** Once the PM confirms the story is finalized, offer how to continue:
-> "Story's finalized. Want me to generate the QA test cases now (here in this chat), or **export the ticket as a Markdown file** so you can continue in a fresh chat?"
+> "Story's finalized. Want me to:
+> • generate the QA test cases now (here in this chat),
+> • **export the ticket as a file** (Markdown or PDF) so you can continue in a fresh chat, and/or
+> • save the story to the B2 ticket in Jira?"
 
-- **Export for a fresh chat (leaner context):** generate the ticket as a downloadable **Markdown (`.md`) file** — Markdown because the next skill re-reads it most faithfully. Make sure it contains the complete 5-section ticket. Tell the PM to open a **new chat in the same project**, upload the `.md` file, and say *"Generate test cases from this ticket."*
-- **Same chat:** invoke the **`generate-jira-test-cases`** skill, passing this finalized ticket. That skill walks them through the six-section QA checklist and produces the developer-ready test case list.
+- **Export for a fresh chat (leaner context):** generate the ticket as a **downloadable file** — Markdown by default (most faithful for the next skill); PDF if preferred. Make sure it contains the complete 5-section ticket. Tell the PM to open a **new chat in the same project**, upload the file, and say *"Generate test cases from this ticket."* If file export isn't available, fall back to project knowledge or the Jira ticket.
+- **Same chat:** invoke the **`generate-jira-test-cases`** skill, passing this finalized ticket (and the Jira key, if there is one). That skill walks them through the six-section QA checklist and produces the developer-ready test case list.
+- **Save to Jira:** if requested, post the story to the B2 ticket (comment or description) first.
 - If the PM declines test cases, stop here.

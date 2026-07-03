@@ -21,6 +21,14 @@ This connects the BrioHR PM Skills plugin to your Claude org and gives it to the
 ### 3. Done
 The 4 PMs now see the two skills in Claude (chat, web, Desktop, and Cowork) automatically. Group targeting set up for Cowork carries over to chat with no extra steps.
 
+### 4. Enable knowledge-base grounding (separate from the plugin install)
+The skills ground their output in the private **`BrioHR/knowledge-base`** repo. This needs the **Claude GitHub App installed on the `BrioHR` organization** — a separate installation from any personal-account one, since "All repositories" only covers repos owned by *that installation's* account.
+
+1. Go to **github.com/organizations/BrioHR/settings/installations**.
+2. Find the **Claude** GitHub App. If it isn't listed, install/authorize it for the org.
+3. Open it → **Repository access** → make sure it includes `BrioHR/knowledge-base` (either "All repositories" or explicitly selected).
+4. PMs then get KB grounding by **syncing the repo into their Cowork Project** (or attaching an article via **+ → Add from GitHub** in plain chat). Without this, the skills still work — just without KB grounding.
+
 ## How updates work after setup
 - A PM (or whoever maintains the skills) pushes a change to `main`.
 - The repo's GitHub Action bumps the plugin version and the marketplace auto-syncs.

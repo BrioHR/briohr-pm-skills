@@ -52,12 +52,12 @@ Read `references/checklist.md` for the full six-section checklist details. Read 
 
 **Jira:** Main development project key is `B2` (e.g., `B2-1234`). Atlassian URL: `briohr.atlassian.net`.
 
-## BrioHR Knowledge Base (single source of truth)
+## BrioHR Knowledge Base (bundled — single source of truth)
 
-Current documented behavior lives in the private **`BrioHR/knowledge-base`** GitHub repo (daily auto-scraped). **Do NOT scrape the support website (`support.briohr.com`).**
+Documented product behavior is **bundled with this skill** under `knowledge-base/` — a daily-synced snapshot of the BrioHR Help Center, available offline (no Project sync, GitHub attachment, or connector needed). **Do NOT scrape the support website (`support.briohr.com`).**
 
-- **In Cowork:** the KB is readable when the repo is **synced into the Project** — start at `INDEX.md`/`sitemap.json`, open the relevant `<category>/<subcategory>/` article (YAML frontmatter then content). Use it for documented behavior, settings, permissions, and mobile notes.
-- **In plain chat:** the model can't browse the repo. Use the article if it was **attached** via **+ → Add from GitHub**; otherwise ask once to attach it (or run in Cowork with the repo synced), then proceed. Don't claim to fetch it yourself.
+- Start at `knowledge-base/INDEX.md` or `knowledge-base/sitemap.json`, find the category/subcategory for the ticket's module, and open the matching article at `knowledge-base/<category>/<subcategory>/<slug>.md` (YAML frontmatter then Markdown body). Use it for documented behavior, settings, permissions, and mobile notes.
+- Prefer reading the one relevant article over loading the whole index. If nothing matches, note it and proceed — don't invent behavior.
 
 ## Workflow
 
@@ -109,9 +109,9 @@ From the results, extract:
 
 If no results are found, broaden: `project = B2 AND summary ~ "[ModuleName]" ORDER BY updated DESC`.
 
-**3b. BrioHR knowledge base.** Use documented behavior from **`BrioHR/knowledge-base`** *if it's available* (see the Knowledge Base section above — synced into the Project in Cowork, or attached via **+ → Add from GitHub** in chat). **Do not scrape the support website.**
-- If available, locate the category/subcategory for this ticket's module (`INDEX.md`/`sitemap.json`) and read the relevant article for: current documented behavior, user-visible options/settings/permissions, and mobile notes.
-- If no KB content is available, note it and proceed without blocking. Don't claim to fetch it yourself.
+**3b. BrioHR knowledge base.** Ground the test cases in documented behavior from the **bundled** `knowledge-base/` (see the Knowledge Base section above). **Do not scrape the support website.**
+- Locate the category/subcategory for this ticket's module (`knowledge-base/INDEX.md` / `knowledge-base/sitemap.json`) and read the relevant article for: current documented behavior, user-visible options/settings/permissions, and mobile notes.
+- If no article matches the ticket's area, note it and proceed without blocking — don't invent behavior.
 
 ### Step 4 — Walk the PM Through the Checklist (Sequential Confirmation)
 

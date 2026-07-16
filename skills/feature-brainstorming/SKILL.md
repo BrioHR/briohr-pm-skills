@@ -36,12 +36,14 @@ BrioHR is an HR SaaS platform serving ASEAN markets, primarily **Malaysia & Sing
 
 **Jira:** project key `B2` on `briohr.atlassian.net`.
 
-## BrioHR Knowledge Base (single source of truth)
+## BrioHR Knowledge Base (bundled — single source of truth)
 
-Current documented behavior lives in the private **`BrioHR/knowledge-base`** GitHub repo (daily auto-scraped). **Do NOT scrape the support website.**
+Documented product behavior is **bundled with this skill** under `knowledge-base/` — a daily-synced snapshot of the BrioHR Help Center. It's available offline: no Cowork Project sync, no GitHub attachment, no connector needed. **Do NOT scrape the support website.**
 
-- **In Cowork:** the KB is readable when the repo is **synced into the Project** (Cowork can read synced project files) — use it to ground Behavior, User Flow, and Acceptance Criteria in reality.
-- **In plain chat:** the model can't browse the repo. If the relevant article was **attached** via **+ → Add from GitHub**, use it; otherwise ask once — *"For accurate grounding, attach the relevant `BrioHR/knowledge-base` article (Add from GitHub) or run this in Cowork with the repo synced to the Project."* — then continue. Don't claim to fetch it yourself.
+Use it to ground Behavior, User Flow, and Acceptance Criteria in reality:
+1. Open `knowledge-base/INDEX.md` (or `knowledge-base/sitemap.json`) and find the category/subcategory for the module in play.
+2. Open the matching article at `knowledge-base/<category>/<subcategory>/<slug>.md` and read its documented behavior, settings, permissions, and mobile notes (each file is YAML frontmatter followed by a Markdown body).
+3. Prefer reading the one relevant article over loading the whole index. If nothing matches, say so and proceed — don't invent behavior.
 
 ## Jira Context (optional — uses the Atlassian connector)
 

@@ -1,0 +1,3185 @@
+[
+  {
+    "category": "General",
+    "slug": "general",
+    "subcategories": [
+      {
+        "subcategory": "User Settings & Login",
+        "articles": [
+          {
+            "title": "Thai Language is Now Available in brioHR",
+            "url": "https://support.briohr.com/knowledge/thai-language-available-in-briohr"
+          },
+          {
+            "title": "BrioHR First-Time Login Guide: Activation Email & Password Setup",
+            "url": "https://support.briohr.com/knowledge/first-time-login-via-activation-email-and-downloading-the-briohr-app"
+          },
+          {
+            "title": "Enhanced MFA :\u00a0Remember Trusted Devices for 30 Days",
+            "url": "https://support.briohr.com/knowledge/enhanced-mfa-remember-trusted-devices-for-30-days"
+          },
+          {
+            "title": "BrioHR Single Sign-On (SSO): Streamline Your Login with Google, Microsoft, and Okta",
+            "url": "https://support.briohr.com/knowledge/briohr-single-sign-on-sso-streamline-your-login-with-google-microsoft-and-okta"
+          },
+          {
+            "title": "Complete Guide to BrioHR Web & Mobile App for Employees and Managers [Video Recording]",
+            "url": "https://support.briohr.com/knowledge/complete-guide-to-briohr-web-mobile-app-for-employees-and-managers-video-recording"
+          },
+          {
+            "title": "Multi-Factor Authentication (MFA): Enhanced Security for BrioHR Accounts",
+            "url": "https://support.briohr.com/knowledge/multi-factor-authentication-mfa-enhanced-security-for-briohr-accounts"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Admin",
+    "slug": "admin",
+    "subcategories": [
+      {
+        "subcategory": "Company Settings",
+        "articles": [
+          {
+            "title": "How to Add or Edit Your Company Logo in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-add-or-edit-your-company-logo-in-briohr"
+          },
+          {
+            "title": "How to Enable and Manage Personal Data Retention in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-and-manage-personal-data-retention-in-briohr"
+          },
+          {
+            "title": "How to Add or Edit Your Company Name in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-add-or-edit-your-company-name-in-briohr"
+          },
+          {
+            "title": "How to Add or Edit Your Company Address in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-add-or-edit-your-company-address-in-briohr"
+          },
+          {
+            "title": "How to Add or Edit Company Contact Details (Email/Phone) on BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-add-or-edit-company-contact-details-email/phone-on-briohr"
+          },
+          {
+            "title": "How to Add or Edit Company Information",
+            "url": "https://support.briohr.com/knowledge/how-to-add-or-edit-company-information"
+          },
+          {
+            "title": "How to Add or Edit Your Company's 'About Us' Information on BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-add-or-edit-your-companys-about-us-information-on-briohr"
+          },
+          {
+            "title": "How to Add or Edit the Company Gallery in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-add-or-edit-the-company-gallery-in-briohr"
+          },
+          {
+            "title": "How to Enable Email Notifications in the BrioHR System",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-email-notifications-in-the-briohr-system"
+          },
+          {
+            "title": "How to Display Employees' Birthdays and Welcome Newcomers on Your Feed",
+            "url": "https://support.briohr.com/knowledge/how-to-display-employees-birthdays-and-welcome-newcomers-on-your-feed"
+          },
+          {
+            "title": "How to Restrict Employee Login Methods with 'Allow Login With' in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-restrict-employee-login-methods-with-allow-login-with-in-briohr"
+          }
+        ]
+      },
+      {
+        "subcategory": "Schedules & Shifts Settings",
+        "articles": [
+          {
+            "title": "Create Schedules with Day Off",
+            "url": "https://support.briohr.com/knowledge/create-schedules-with-day-off"
+          },
+          {
+            "title": "How to Create a Work Schedule with Flexible Hours",
+            "url": "https://support.briohr.com/knowledge/create-work-schedule-flexible-hours-guide"
+          },
+          {
+            "title": "How to Configure Half-Day Leave Handling for Shift-Based Employees in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-configure-half-day-leave-handling-for-shift-based-employees-in-briohr"
+          },
+          {
+            "title": "How to Create a Work Schedule with Shifts",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-work-schedule-with-shifts"
+          },
+          {
+            "title": "How to Create Tags, Locations, Activities, and Workstations for Efficient Work Shift Management",
+            "url": "https://support.briohr.com/knowledge/how-to-create-tag-location-activity-and-workstation-for-work-shift"
+          },
+          {
+            "title": "How to Create New Work Shifts for Efficient Employee Scheduling",
+            "url": "https://support.briohr.com/knowledge/how-to-create-new-work-shifts"
+          },
+          {
+            "title": "How to Create Work Schedules with Work Pattern Variations (Flexible Hours)",
+            "url": "https://support.briohr.com/knowledge/how-to-create-work-pattern-variation"
+          },
+          {
+            "title": "How to Create Work Schedules with Work Pattern Variations (Shifts)",
+            "url": "https://support.briohr.com/knowledge/how-to-create-work-schedules-with-work-pattern-variations-shifts"
+          },
+          {
+            "title": "How to Assign Custom Work Schedule for Employees",
+            "url": "https://support.briohr.com/knowledge/how-to-assign-work-schedule-by-employee"
+          },
+          {
+            "title": "How to Assign Work Schedules by Office",
+            "url": "https://support.briohr.com/knowledge/assign-work-schedules-by-office-briohr"
+          },
+          {
+            "title": "How to Set Maximum Clock-In Time for Flexible Hours Work Schedules",
+            "url": "https://support.briohr.com/knowledge/set-maximum-clock-in-time-for-flexible-work-schedules"
+          }
+        ]
+      },
+      {
+        "subcategory": "Users Settings",
+        "articles": [
+          {
+            "title": "How to Edit an Employee's Email Address in BrioHR: A Guide for HR and Admin",
+            "url": "https://support.briohr.com/knowledge/how-to-edit-an-employees-email-address-in-briohr-a-guide-for-hr-and-admin"
+          },
+          {
+            "title": "How to Reset an Employee's Password in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-reset-an-employees-password"
+          },
+          {
+            "title": "How to Send or Re-Send Activation Email to Employees: A Guide for HR/Admin",
+            "url": "https://support.briohr.com/knowledge/how-to-send-or-re-send-activation-email-to-employees-a-guide-for-hr/admin"
+          },
+          {
+            "title": "How to Disconnect a User Session in BrioHR User Settings for Improved Security",
+            "url": "https://support.briohr.com/knowledge/how-to-disconnect-a-user-session-in-briohr-user-settings-for-improved-security"
+          },
+          {
+            "title": "How to View Profiles of Inactive or Resigned Employees",
+            "url": "https://support.briohr.com/knowledge/how-to-view-profiles-of-inactive-or-resigned-employees"
+          },
+          {
+            "title": "How to Use the Subsidiaries Feature in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-and-manage-subsidiary-accounts-in-briohr"
+          },
+          {
+            "title": "How to Revoke and Restore Site Access in BrioHR User Settings",
+            "url": "https://support.briohr.com/knowledge/how-to-revoke-and-restore-site-access-in-briohr-user-settings"
+          }
+        ]
+      },
+      {
+        "subcategory": "User Groups Settings",
+        "articles": [
+          {
+            "title": "Switch Between Subsidiary Accounts on the Mobile App",
+            "url": "https://support.briohr.com/knowledge/switch-between-subsidiary-accounts-on-the-mobile-app"
+          },
+          {
+            "title": "How to Create a User Group",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-user-group"
+          },
+          {
+            "title": "How to Assign Employees to User Groups",
+            "url": "https://support.briohr.com/knowledge/how-to-assign-employees-to-user-groups"
+          },
+          {
+            "title": "How to Duplicate User Groups and Assign Employees",
+            "url": "https://support.briohr.com/knowledge/how-to-duplicate-user-groups-and-assign-employees"
+          },
+          {
+            "title": "How to Enable Managers and HR to Perform Expense Claim Actions on Behalf of Others",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-managers-and-hr-to-perform-expense-claim-actions-on-behalf-of-others"
+          },
+          {
+            "title": "How to Enable Finance Department to Approve Claims",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-finance-department-to-approve-claims"
+          },
+          {
+            "title": "How to Enable Reports Module Access in BrioHR User Group Settings",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-reports-module-access-in-briohr-user-group-settings"
+          },
+          {
+            "title": "Tracking User Access Modification History",
+            "url": "https://support.briohr.com/knowledge/tracking-user-access-modification-history"
+          },
+          {
+            "title": "How to Restrict or Allow Employee Access to Employment Type, End Date & Job Grade",
+            "url": "https://support.briohr.com/knowledge/how-to-restrict-or-allow-employee-access-to-employment-type-end-date-job-grade"
+          },
+          {
+            "title": "How Admins Can Allow Employees to Edit Their Own Objectives Weightage",
+            "url": "https://support.briohr.com/knowledge/how-admins-can-allow-employees-to-edit-their-own-objectives-weightage"
+          },
+          {
+            "title": "How to Enable Employees to Edit Objectives After Manager Confirmation",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-employees-to-edit-objectives-after-manager-confirmation"
+          },
+          {
+            "title": "How to Enable HR/Admin User Group Permission Settings for Compensation Management",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-hr/admin-user-group-permission-settings-for-compensation-management"
+          },
+          {
+            "title": "How to Enable Employees to Cancel Their Future Leave Applications",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-employees-to-cancel-their-future-leave-applications"
+          },
+          {
+            "title": "How to Enable Manager Access to View Team Performance in BrioHR",
+            "url": "https://support.briohr.com/knowledge/enable-manager-view-team-performance"
+          },
+          {
+            "title": "How to Enable Employee Permissions for MyGoals Page in BrioHR",
+            "url": "https://support.briohr.com/knowledge/enable-mygoals-access-briohr"
+          },
+          {
+            "title": "How to Enable the Training Module for HR Admin, Managers, and Employees in BrioHR",
+            "url": "https://support.briohr.com/knowledge/enable-training-module-hr-managers-employees-briohr"
+          },
+          {
+            "title": "How to Configure and Use the Who's Away Calendar for Employee Leave Management",
+            "url": "https://support.briohr.com/knowledge/how-to-configure-and-use-the-who-s-away-calendar-for-employee-leave-management"
+          },
+          {
+            "title": "How to Enable User Group Access for HR/Admin: Claim Module & Reports",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-user-group-access-for-hr/admin-claim-report-report"
+          },
+          {
+            "title": "How to enable the Time Attendance Module in HR Lounge (HR/Admin)",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-the-time-attendance-module-in-hr-lounge-hr/admin"
+          },
+          {
+            "title": "How to enable the Time Attendance Module in Team (Manager)",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-the-time-attendance-module-in-team-manager"
+          },
+          {
+            "title": "How to enable the Time Attendance Module in Home (Employee)",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-the-time-attendance-module-in-home-employee"
+          },
+          {
+            "title": "How to Enable User Group Access for HR/Admin (Payroll & Reports)",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-user-group-access-for-hr/admin-payroll-reports"
+          },
+          {
+            "title": "How to Allow Office HR Managers to Access Selected Payroll Center\u2019s Employees\u2019 Compensation and Payroll Information",
+            "url": "https://support.briohr.com/knowledge/how-to-allow-office-hr-managers-to-access-selected-payroll-centers-employees-compensation-and-payroll-information"
+          },
+          {
+            "title": "How to enable user group access for HR/Admin (Onboarding Module)",
+            "url": "https://support.briohr.com/knowledge/how-to-edit-delete-and-disable-claim-type-by-hr/admin"
+          },
+          {
+            "title": "How to Enable Module Access & Reports for HR/Admin, Manager & Employee (SG) in HR Lounge",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-module-access-reports-for-hr/admin-manager-employee-sg-in-hr-lounge"
+          }
+        ]
+      },
+      {
+        "subcategory": "Personal Data Settings",
+        "articles": [
+          {
+            "title": "How to Add Custom Fields to Personal Details in BrioHR for Employee Profiles",
+            "url": "https://support.briohr.com/knowledge/how-to-add-custom-fields-to-personal-details-in-briohr-for-employee-profiles"
+          },
+          {
+            "title": "How to Manage Emergency Contact Relationships Types in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-emergency-contact-relationships-types-in-briohr"
+          },
+          {
+            "title": "How to Create Custom Document Folders for BrioHR Employee Profiles",
+            "url": "https://support.briohr.com/knowledge/how-to-create-custom-folders-for-briohr-profile-documents"
+          },
+          {
+            "title": "How to Manage Emergency Contact Relationships in BrioHR: Add, Edit, or Delete Contacts",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-emergency-contact-relationships-in-briohr-add-edit-or-delete-contacts"
+          },
+          {
+            "title": "Custom Fields for Personal Data: Alphabetical Personal Details Display",
+            "url": "https://support.briohr.com/knowledge/custom-fields-for-personal-data-alphabetical-personal-details-display"
+          },
+          {
+            "title": "How to Add Custom Fields to Identity Documents in BrioHR for Employee Profiles",
+            "url": "https://support.briohr.com/knowledge/how-to-add-custom-fields-to-identity-documents-in-briohr-for-employee-profiles"
+          }
+        ]
+      },
+      {
+        "subcategory": "Offices Settings",
+        "articles": [
+          {
+            "title": "Additional Public Holiday in Selangor : 25th October 2026 (Silver Jubilee Celebration of the Reign of DYMM Sultan Selangor)",
+            "url": "https://support.briohr.com/knowledge/additional-public-holiday-in-selangor-25th-october-2025-silver-jubilee-celebration-of-the-reign-of-dymm-sultan-selangor"
+          },
+          {
+            "title": "How to Assign an Office HR Manager in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-assign-an-office-hr-manager-to-an-office"
+          },
+          {
+            "title": "How to Enable Leave Applications for Employees on Friday/Saturday in Kedah, Kelantan & Terengganu Offices",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-leave-applications-for-employees-on-friday/saturday-in-kedah-kelantan-terengganu-offices"
+          },
+          {
+            "title": "How to Add or Customize Public Holidays in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-add-or-customize-public-holidays-in-briohr"
+          },
+          {
+            "title": "How to Allow Employees Working on Weekends to Apply for Weekend Leave",
+            "url": "https://support.briohr.com/knowledge/how-to-allow-employees-working-on-weekends-to-apply-for-weekend-leave"
+          },
+          {
+            "title": "How to Disable a Public Holiday in BrioHR",
+            "url": "https://support.briohr.com/knowledge/disable-public-holidays-briohr-guide"
+          },
+          {
+            "title": "How to Add, Edit, and Delete Offices in BrioHR",
+            "url": "https://support.briohr.com/knowledge/add-edit-delete-offices-briohr"
+          },
+          {
+            "title": "How to Access Public Holiday Lists for All Offices in BrioHR",
+            "url": "https://support.briohr.com/knowledge/view-public-holidays-for-all-offices-in-briohr"
+          },
+          {
+            "title": "Additional Public Holiday in Malaysia : 15th September 2025 (Malaysia Day)",
+            "url": "https://support.briohr.com/knowledge/additional-public-holiday-in-malaysia-1"
+          }
+        ]
+      },
+      {
+        "subcategory": "Departments Settings",
+        "articles": [
+          {
+            "title": "How to Assign a Head of Department for the Training Module Approval Process",
+            "url": "https://support.briohr.com/knowledge/assign-head-of-department-training-module"
+          },
+          {
+            "title": "How to Manage Departments in BrioHR: Add, Edit, and Delete Departments",
+            "url": "https://support.briohr.com/knowledge/add-edit-delete-departments-briohr"
+          }
+        ]
+      },
+      {
+        "subcategory": "Cost Centers Settings",
+        "articles": [
+          {
+            "title": "Create and Assign Cost Centers as an Admin",
+            "url": "https://support.briohr.com/knowledge/create-and-assign-cost-centers-as-an-admin"
+          }
+        ]
+      },
+      {
+        "subcategory": "Job Titles Settings",
+        "articles": [
+          {
+            "title": "How to Manage Job Titles in BrioHR: Add, Edit, or Delete Job Titles",
+            "url": "https://support.briohr.com/knowledge/how-to-add-edit-or-delete-job-titles"
+          }
+        ]
+      },
+      {
+        "subcategory": "Currencies Settings",
+        "articles": [
+          {
+            "title": "How to Automate Currency Exchange Rate Conversion for Claims",
+            "url": "https://support.briohr.com/knowledge/how-to-automate-currency-exchange-rate-conversion-for-claims"
+          }
+        ]
+      },
+      {
+        "subcategory": "Personal Assistant Settings",
+        "articles": [
+          {
+            "title": "Streamline Claims with the New 'Claims on Behalf' Personal Assistant Feature",
+            "url": "https://support.briohr.com/knowledge/streamline-claims-with-the-new-claims-on-behalf-personal-assistant-feature"
+          }
+        ]
+      },
+      {
+        "subcategory": "Payroll Centers Settings",
+        "articles": [
+          {
+            "title": "How to Assign a Payroll Manager to Your Payroll Center",
+            "url": "https://support.briohr.com/knowledge/how-to-assign-a-payroll-manager-to-your-payroll-center"
+          },
+          {
+            "title": "How to Create Payroll Center (Malaysia)",
+            "url": "https://support.briohr.com/knowledge/how-to-create-payroll-center-malaysia"
+          },
+          {
+            "title": "How to Create Payroll Center (Singapore)",
+            "url": "https://support.briohr.com/knowledge/how-to-create-payroll-center-singapore"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Manager",
+    "slug": "manager",
+    "subcategories": [
+      {
+        "subcategory": "Team Leave",
+        "articles": [
+          {
+            "title": "How to View Your Team Member's Leave Balance",
+            "url": "https://support.briohr.com/knowledge/how-to-view-your-team-members-leave-balance"
+          },
+          {
+            "title": "How to Manage and Approve Team Member Leave Requests",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-and-approve-team-member-leave-requests"
+          },
+          {
+            "title": "How to Apply Leave and Request Credit Leave on Behalf of Your Direct Reports",
+            "url": "https://support.briohr.com/knowledge/how-to-apply-leave-and-request-credit-leave-on-behalf-of-your-direct-reports"
+          },
+          {
+            "title": "How to Generate Your Team's Leave Balance Report",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-your-teams-leave-balance-report"
+          },
+          {
+            "title": "How to Generate a Leave Utilization Report for Managers from the Team Dashboard",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-a-leave-utilization-report-for-managers-from-the-team-dashboard"
+          }
+        ]
+      },
+      {
+        "subcategory": "Timesheets",
+        "articles": [
+          {
+            "title": "How to Approve, Reject, and Export Direct Report's Timesheets",
+            "url": "https://support.briohr.com/knowledge/how-to-approve-reject-and-export-direct-reports-timesheets"
+          }
+        ]
+      },
+      {
+        "subcategory": "Team Performance",
+        "articles": [
+          {
+            "title": "How Managers Can Use the Performance Module in BrioHR: Step-by-Step Guide",
+            "url": "https://support.briohr.com/knowledge/how-managers-can-use-the-performance-module-in-briohr-step-by-step-guide"
+          },
+          {
+            "title": "How Managers Can Manage Direct Report\u2019s Performance Page in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-access-direct-reports-performance-page"
+          },
+          {
+            "title": "How to Add Individual Objectives for Direct Reports as a Manager",
+            "url": "https://support.briohr.com/knowledge/how-to-add-individual-objectives-for-direct-reports-as-a-manager"
+          },
+          {
+            "title": "How Managers Can Assign 360 Feedback Givers in BrioHR",
+            "url": "https://support.briohr.com/knowledge/managers-assign-360-feedback-givers-for-direct-report-in-briohr"
+          },
+          {
+            "title": "How Managers Can Reopen or Send Back 360 Feedback for Revisions",
+            "url": "https://support.briohr.com/knowledge/how-managers-can-reopen-or-send-back-360-feedback-for-revisions"
+          },
+          {
+            "title": "Manager: How to Release Appraisal Ratings for Direct Reports",
+            "url": "https://support.briohr.com/knowledge/manager-how-to-release-appraisal-ratings-for-direct-reports"
+          },
+          {
+            "title": "How Managers Confirm Direct Reports' Objectives: A Step-by-Step Guide",
+            "url": "https://support.briohr.com/knowledge/how-manager/appraiser-confirm-the-objective-of-subordinates"
+          },
+          {
+            "title": "How to Complete an Appraiser Appraisal Form (Including Second Appraiser)",
+            "url": "https://support.briohr.com/knowledge/completing-appraiser-appraisal-form-including-second-appraiser"
+          }
+        ]
+      },
+      {
+        "subcategory": "Onboarding",
+        "articles": [
+          {
+            "title": "How Managers Can Complete Onboarding Tasks in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-managers-can-complete-onboarding-tasks-in-briohr"
+          }
+        ]
+      },
+      {
+        "subcategory": "Expense Claims",
+        "articles": [
+          {
+            "title": "How to Approve or Reject Team Members' Expense Claims",
+            "url": "https://support.briohr.com/knowledge/how-to-approve-or-reject-team-members-expense-claims"
+          },
+          {
+            "title": "How to Cancel Manager-Approved Claims",
+            "url": "https://support.briohr.com/knowledge/how-to-cancel-manager-approved-claims"
+          },
+          {
+            "title": "How Approvers and HR Can View Claim Attachments",
+            "url": "https://support.briohr.com/knowledge/how-approvers-and-hr-can-view-claim-attachments"
+          }
+        ]
+      },
+      {
+        "subcategory": "Training",
+        "articles": [
+          {
+            "title": "How Managers Approve Training Event Enrollment and Creation Requests",
+            "url": "https://support.briohr.com/knowledge/how-managers-approve-training-event-enrollment-and-creation-requests-a-step-by-step-guide"
+          }
+        ]
+      },
+      {
+        "subcategory": "Time Attendance",
+        "articles": [
+          {
+            "title": "Assigning Pre-Approved Overtime as an Manager",
+            "url": "https://support.briohr.com/knowledge/assigning-pre-approved-overtime-as-an-manager"
+          },
+          {
+            "title": "How Managers Can Manually Assign and Replace Employee Shifts in BrioHR Rostering",
+            "url": "https://support.briohr.com/knowledge/how-managers-can-assign-and-replace-shift-manually-in-direct-reports-rostering-in-briohr"
+          },
+          {
+            "title": "How Managers Can Assign Shifts on Public Holiday in BrioHR Rostering",
+            "url": "https://support.briohr.com/knowledge/how-managers-can-assign-shifts-on-public-holiday-in-briohr-time-attendance-rostering"
+          },
+          {
+            "title": "How Managers Can Assign Shifts on Rest Day in BrioHR Rostering",
+            "url": "https://support.briohr.com/knowledge/managers-assign-shifts-on-rest-day-in-rostering"
+          },
+          {
+            "title": "How Manager Manage Rostering for Team Members",
+            "url": "https://support.briohr.com/knowledge/how-manager-manage-rostering-for-team-members"
+          },
+          {
+            "title": "How to Perform Manual Daily Attendance Entry for Direct Reports in BrioHR",
+            "url": "https://support.briohr.com/knowledge/manual-daily-attendance-entry-for-direct-reports"
+          },
+          {
+            "title": "How Managers Can Mark a Direct Report as Absent in BrioHR",
+            "url": "https://support.briohr.com/knowledge/mark-direct-report-as-absent-for-managers"
+          },
+          {
+            "title": "How Managers Approve Direct Report's Overtime in BrioHR (Browser Guide)",
+            "url": "https://support.briohr.com/knowledge/direct-report-overtime-approval-for-managers-browser-guide"
+          },
+          {
+            "title": "Employee Attendance Timesheet Overview for Managers in BrioHR",
+            "url": "https://support.briohr.com/knowledge/employees-attendance-timesheet-overview-for-managers"
+          },
+          {
+            "title": "How to Approve Direct Reports\u2019 Timesheets in BrioHR (Manager\u2019s Guide)",
+            "url": "https://support.briohr.com/knowledge/manager-approve-direct-reports-timesheet-time-attendance"
+          },
+          {
+            "title": "How to Send Approved Direct Reports\u2019 Timesheets to Payroll in BrioHR",
+            "url": "https://support.briohr.com/knowledge/send-approved-direct-reports-timesheets-to-payroll-briohr-managers-guide"
+          },
+          {
+            "title": "How Managers Approve Direct Report's Overtime via BrioHR Mobile App",
+            "url": "https://support.briohr.com/knowledge/manager-approve-overtime-briohr-mobile-app"
+          },
+          {
+            "title": "How Managers Can Change Work Day to Rest Day (and Vice Versa) in BrioHR Rostering",
+            "url": "https://support.briohr.com/knowledge/managers-change-employees-work-day-to-rest-day-vice-versa-briohr-rostering"
+          },
+          {
+            "title": "Assigning Pre-Approved Overtime as a Manager",
+            "url": "https://support.briohr.com/knowledge/assigning-pre-approved-overtime-as-a-manager"
+          },
+          {
+            "title": "Monitoring Employee Break Time and Missing Clock Out Records",
+            "url": "https://support.briohr.com/knowledge/monitoring-employee-break-time-and-missing-clock-out-records"
+          },
+          {
+            "title": "Managing Pre-Approval Overtime Submission Requests as a Manager",
+            "url": "https://support.briohr.com/knowledge/managing-pre-approval-overtime-submission-requests-as-a-manager"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Employee",
+    "slug": "employee",
+    "subcategories": [
+      {
+        "subcategory": "Account",
+        "articles": [
+          {
+            "title": "How to Reset Your BrioHR Password and Fix Login Issues",
+            "url": "https://support.briohr.com/knowledge/how-to-reset-password-and-fix-login-issue"
+          },
+          {
+            "title": "How to Change Your Password in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-change-your-password-in-briohr"
+          },
+          {
+            "title": "How to Download and Log in to BrioHR Mobile App (iOS & Android Guide)",
+            "url": "https://support.briohr.com/knowledge/download-and-login-to-briohr-mobile-app-ios-android-guide"
+          },
+          {
+            "title": "Years of Service Now Available in Employee Profile & Reports",
+            "url": "https://support.briohr.com/knowledge/years-of-service-now-available-in-employee-profile-and-reports"
+          }
+        ]
+      },
+      {
+        "subcategory": "Profile",
+        "articles": [
+          {
+            "title": "How to Edit Your Profile in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-edit-your-profile-on-briohr"
+          },
+          {
+            "title": "How to Add, Edit, or Delete Professional Experience in BrioHR Profile",
+            "url": "https://support.briohr.com/knowledge/add-modify-delete-professional-experience-in-briohr-profile"
+          },
+          {
+            "title": "How to Add, Edit and Delete Education Details in BrioHR Profile",
+            "url": "https://support.briohr.com/knowledge/add-edit-delete-academic-details-in-briohr-profile"
+          },
+          {
+            "title": "How to Manage Training & Certification Records in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-records-and-certifications-records-in-briohr"
+          },
+          {
+            "title": "How to Upload or Change Your Profile Picture in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-upload-or-change-profile-picture-in-briohr"
+          },
+          {
+            "title": "How to Upload, Download and Delete the Documents in Profile BrioHR?",
+            "url": "https://support.briohr.com/knowledge/add-download-delete-documents-in-profile-in-briohr"
+          },
+          {
+            "title": "How to update Development Plan",
+            "url": "https://support.briohr.com/knowledge/how-to-update-development-plan"
+          }
+        ]
+      },
+      {
+        "subcategory": "Directory",
+        "articles": [
+          {
+            "title": "How to Use the Directory Feature in BrioHR Mobile App",
+            "url": "https://support.briohr.com/knowledge/find-employees-with-briohr-mobile-apps-directory-search-bar"
+          }
+        ]
+      },
+      {
+        "subcategory": "My Leave",
+        "articles": [
+          {
+            "title": "How to Request Credit Leave in BrioHR (Browser Guide)",
+            "url": "https://support.briohr.com/knowledge/how-to-request-credit-leave-in-briohr-browser-guide"
+          },
+          {
+            "title": "How to View Leave Request Status and History in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-check-leave-status-history"
+          },
+          {
+            "title": "How to Check Leave Application Status in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-check-leave-application-status"
+          },
+          {
+            "title": "How to Apply Past Year Leave in the New Year",
+            "url": "https://support.briohr.com/knowledge/how-to-apply-for-past-leave-in-the-current-year"
+          },
+          {
+            "title": "How to Apply for Next Year's Leave in BrioHR (Web & Mobile Guide)",
+            "url": "https://support.briohr.com/knowledge/how-to-apply-for-next-year-leave-in-advance"
+          },
+          {
+            "title": "How to Apply Leave via BrioHR Web Browser (Desktop & Laptop)",
+            "url": "https://support.briohr.com/knowledge/how-to-apply-for-leave-using-a-desktop-or-laptop"
+          },
+          {
+            "title": "How to Apply for Leave in BrioHR Mobile App",
+            "url": "https://support.briohr.com/knowledge/apply-for-leave-in-briohr-mobile-app"
+          },
+          {
+            "title": "How to Cancel Leave Applications & Credit Requests",
+            "url": "https://support.briohr.com/knowledge/how-to-cancel-leave-applications-credit-requests"
+          },
+          {
+            "title": "How to Modify Your Leave Application",
+            "url": "https://support.briohr.com/knowledge/how-to-modify-your-leave-application"
+          }
+        ]
+      },
+      {
+        "subcategory": "Timesheets",
+        "articles": [
+          {
+            "title": "How to Update and Submit Your Timesheet",
+            "url": "https://support.briohr.com/knowledge/how-to-update-and-submit-your-timesheet"
+          }
+        ]
+      },
+      {
+        "subcategory": "My Goals",
+        "articles": [
+          {
+            "title": "How Employees Can Use the Performance Module in BrioHR: Step-by-Step Guide",
+            "url": "https://support.briohr.com/knowledge/how-employees-can-use-the-performance-module-in-briohr-step-by-step-guide"
+          },
+          {
+            "title": "How to Navigate Your Personal Performance Page & Complete Self-Appraisal",
+            "url": "https://support.briohr.com/knowledge/how-to-navigate-your-personal-performance-page-complete-self-appraisal"
+          },
+          {
+            "title": "How to Add and Update Objective Progress in BrioHR",
+            "url": "https://support.briohr.com/knowledge/add-and-update-objective-progress-in-briohr"
+          },
+          {
+            "title": "How to Complete 360 Feedback in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-provide-360-feedback"
+          },
+          {
+            "title": "How to Acknowledge Your Final Appraisal Form in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-acknowledge-your-final-appraisal-form-in-briohr"
+          }
+        ]
+      },
+      {
+        "subcategory": "Payroll Documents",
+        "articles": [
+          {
+            "title": "How to View and Download Your Payslip from BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-view-and-download-your-payslip-from-briohr"
+          },
+          {
+            "title": "How to View and Download Your EA Form?",
+            "url": "https://support.briohr.com/knowledge/how-to-view-and-download-your-ea-form"
+          },
+          {
+            "title": "How to View and Download Payslips from BrioHR Mobile App",
+            "url": "https://support.briohr.com/knowledge/how-to-view-and-download-payslips-from-briohr-mobile-app"
+          },
+          {
+            "title": "How to Download Your Personal IR8A Form from BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-download-your-personal-ir8a-form-from-briohr"
+          },
+          {
+            "title": "How to View and Download Your PCB II Form",
+            "url": "https://support.briohr.com/knowledge/how-to-view-and-download-your-pcb-ii-form"
+          }
+        ]
+      },
+      {
+        "subcategory": "My Claims",
+        "articles": [
+          {
+            "title": "What is Transaction ID (Claim Unique ID)?",
+            "url": "https://support.briohr.com/knowledge/what-is-transaction-id-claim-unique-id"
+          },
+          {
+            "title": "How to Submit Claims on Behalf (Personal Assistant)",
+            "url": "https://support.briohr.com/knowledge/how-to-submit-claims-on-behalf-personal-assistant"
+          },
+          {
+            "title": "How to Create and Submit Claims",
+            "url": "https://support.briohr.com/knowledge/how-to-create-and-submit-claims"
+          },
+          {
+            "title": "How to Create and Submit Claims from the BrioHR Mobile App",
+            "url": "https://support.briohr.com/knowledge/how-to-create-and-submit-claims-from-the-briohr-mobile-app"
+          },
+          {
+            "title": "How to Request and Submit Cash Advance Claims",
+            "url": "https://support.briohr.com/knowledge/how-to-request-and-submit-cash-advance-claims"
+          },
+          {
+            "title": "How to Update and Submit a Cash Advance Settlement Claim Report",
+            "url": "https://support.briohr.com/knowledge/how-to-update-and-submit-a-cash-advance-settlement-claim-report"
+          },
+          {
+            "title": "How to Upload and Preview Multiple Attachments in Your Claims",
+            "url": "https://support.briohr.com/knowledge/how-to-upload-and-preview-multiple-attachments-in-your-claims"
+          },
+          {
+            "title": "New Feature: Save and Edit Draft Claims in the Expense Module",
+            "url": "https://support.briohr.com/knowledge/new-feature-save-and-edit-draft-claims-in-the-expense-module"
+          },
+          {
+            "title": "Deleting Wrongly Created Expense Claims",
+            "url": "https://support.briohr.com/knowledge/how-to-cancel/delete-open-claim-if-wrongly-created-the-claim-and-unable-to-cancel"
+          }
+        ]
+      },
+      {
+        "subcategory": "My Training",
+        "articles": [
+          {
+            "title": "How to Enroll or Unenroll from a Training Event in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-enroll-or-unenroll-from-a-training-event-in-briohr"
+          },
+          {
+            "title": "How to Create a Training Event Request",
+            "url": "https://support.briohr.com/knowledge/how-to-request-training-event-creation-in-briohr"
+          }
+        ]
+      },
+      {
+        "subcategory": "Onboarding",
+        "articles": [
+          {
+            "title": "How to Get Started on Your Onboarding Journey as a New Joiner",
+            "url": "https://support.briohr.com/knowledge/how-to-get-started-on-your-onboarding-journey-as-a-new-joiner"
+          }
+        ]
+      },
+      {
+        "subcategory": "Time Attendance",
+        "articles": [
+          {
+            "title": "How to Clock In Before Starting Work Using the BrioHR Mobile App",
+            "url": "https://support.briohr.com/knowledge/how-to-clock-in-using-briohr-mobile-app"
+          },
+          {
+            "title": "How to Clock In and Clock Out Using BrioHR (Browser Guide)",
+            "url": "https://support.briohr.com/knowledge/how-to-clock-in-and-out-using-briohr-browser"
+          },
+          {
+            "title": "How to Clock Out and Clock In for Breaks in BrioHR (Browser Guide)",
+            "url": "https://support.briohr.com/knowledge/clock-out-and-clock-in-for-breaks-browser-guide"
+          },
+          {
+            "title": "How to Clock Out Before Ending Work Using BrioHR (Mobile App Guide)",
+            "url": "https://support.briohr.com/knowledge/how-to-clock-out-before-ending-work-using-the-briohr-mobile-app"
+          },
+          {
+            "title": "How to Easily Clock In & Out for Breaks Using the BrioHR Mobile App",
+            "url": "https://support.briohr.com/knowledge/clock-out-clock-in-for-break-time-using-the-briohr-mobile-app"
+          },
+          {
+            "title": "BrioHR Mobile App: Enable Location Detection for Accurate Clock-Ins",
+            "url": "https://support.briohr.com/knowledge/enable-location-detection-for-accurate-clock-ins-briohr-mobile-app"
+          },
+          {
+            "title": "BrioHR Mobile App Clock-In: Facial Recognition Setup Instructions",
+            "url": "https://support.briohr.com/knowledge/setting-up-facial-recognition-clock-in-clock-out-for-the-first-time"
+          },
+          {
+            "title": "Requesting Overtime Approval (Post OT) as an Employee",
+            "url": "https://support.briohr.com/knowledge/requesting-overtime-approval-post-ot-as-an-employee"
+          },
+          {
+            "title": "Requesting Pre-Approved Overtime as an Employee",
+            "url": "https://support.briohr.com/knowledge/requesting-pre-approved-overtime-as-an-employee"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Time Attendance",
+    "slug": "time-attendance",
+    "subcategories": [
+      {
+        "subcategory": "Time Attendance Configuration",
+        "articles": [
+          {
+            "title": "Enabling Hybrid Attendance as a HR Admin",
+            "url": "https://support.briohr.com/knowledge/enable-hybrid-attendance-as-a-hr-admin"
+          },
+          {
+            "title": "How to Create and Setup a New Time Attendance Policy",
+            "url": "https://support.briohr.com/knowledge/create-and-setup-new-time-attendance-policy"
+          },
+          {
+            "title": "How to Enable Clock In/Out Location Tracking Without Location Restriction",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-clock-in/out-location-tracking-without-location-restriction"
+          },
+          {
+            "title": "How to Setup Multi-Geolocation and Geolocation Clock-in in BrioHR Time & Attendance",
+            "url": "https://support.briohr.com/knowledge/multi-geolocation-for-briohr-time-attendance"
+          },
+          {
+            "title": "How to Set Up Shift Premiums and Deductions in BrioHR Time Attendance",
+            "url": "https://support.briohr.com/knowledge/setup-shift-premiums-and-deductions-in-briohr"
+          },
+          {
+            "title": "How to Assign Employees to a Time Attendance Policy in BrioHR",
+            "url": "https://support.briohr.com/knowledge/assign-employee-to-a-time-attendance-policy"
+          },
+          {
+            "title": "Enable Employee to Submit Overtime for Approval as HR Admin",
+            "url": "https://support.briohr.com/knowledge/enable-employee-to-submit-overtime-for-approval-as-hr-admin"
+          }
+        ]
+      },
+      {
+        "subcategory": "Time Attendance Management",
+        "articles": [
+          {
+            "title": "Employee Pre-Approval Overtime on BrioHR Mobile App",
+            "url": "https://support.briohr.com/knowledge/employee-overtime-pre-approval-on-mobile-app"
+          },
+          {
+            "title": "How HR/Admin Manage Rostering of All Employees",
+            "url": "https://support.briohr.com/knowledge/how-hr/admin-manage-rostering-of-all-employees"
+          },
+          {
+            "title": "How to Assign Shifts on Public Holidays in BrioHR Time Attendance Rostering",
+            "url": "https://support.briohr.com/knowledge/assign-shifts-on-public-holiday-in-briohr-time-attendance-rostering-for-hr"
+          },
+          {
+            "title": "How to Assign Shifts on Rest Day in BrioHR Time Attendance Rostering",
+            "url": "https://support.briohr.com/knowledge/how-to-assign-shifts-on-rest-days-in-briohr-time-attendance-rostering"
+          },
+          {
+            "title": "How HR Admin Can Change Work Day to Rest Day (and Vice Versa) in BrioHR Rostering",
+            "url": "https://support.briohr.com/knowledge/hr-admin-change-work-day-to-rest-day-and-vice-versa-in-briohr-rostering"
+          },
+          {
+            "title": "How HR Admin Can Perform Manual Attendance Entry for Employees in BrioHR",
+            "url": "https://support.briohr.com/knowledge/manual-daily-attendance-entry-for-employees-as-hr-admin"
+          },
+          {
+            "title": "How HR Admin Can Mark an Employee as Absent in BrioHR",
+            "url": "https://support.briohr.com/knowledge/mark-employees-as-absent-for-hr-admin"
+          },
+          {
+            "title": "How to Download Time Log, Timesheet, and Roster Reports in BrioHR Time & Attendance",
+            "url": "https://support.briohr.com/knowledge/time-attendance-reports"
+          },
+          {
+            "title": "How to Approve Employee Overtime in BrioHR Time Attendance Module",
+            "url": "https://support.briohr.com/knowledge/hr-admin-approve-overtime-in-briohr-browser-guide"
+          },
+          {
+            "title": "How HR Admin Approves Employees' Attendance Timesheets in BrioHR",
+            "url": "https://support.briohr.com/knowledge/hr-approve-employees-timesheets-time-attendance"
+          },
+          {
+            "title": "How HR Admin Can Send Approved Employees' Attendance Timesheets to Payroll in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-send-approved-employees-timesheets-to-payroll-in-briohr"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Time and Attendance Integration",
+    "slug": "time-and-attendance-integration",
+    "subcategories": [
+      {
+        "subcategory": "SFTP",
+        "articles": [
+          {
+            "title": "Import Employee Time Attendance Data (SFTP Integration) for Clock-In and Clock-Out",
+            "url": "https://support.briohr.com/knowledge/import-employee-time-attendance-data-sftp-integration-for-clock-in-clock-out"
+          }
+        ]
+      },
+      {
+        "subcategory": "Devices",
+        "articles": [
+          {
+            "title": "BrioHR Time And Attendance Device Integration Guide (TC10 Model)",
+            "url": "https://support.briohr.com/knowledge/tc10-briohr-time-and-attendance-device-integration-first-time-user-guide"
+          },
+          {
+            "title": "How to Link Timetec Device in BrioHR Time and Attendance Module",
+            "url": "https://support.briohr.com/knowledge/link-timetec-device-in-briohr-time-attendance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Payroll",
+    "slug": "payroll",
+    "subcategories": [
+      {
+        "subcategory": "Payroll Configuration",
+        "articles": [
+          {
+            "title": "Enhanced Payslip Security with Password-Protected Payslips",
+            "url": "https://support.briohr.com/knowledge/enhance-payslip-security-with-password-protected-payslips"
+          },
+          {
+            "title": "How to Schedule Payslip Release in BrioHR (Payroll Admin Guide)",
+            "url": "https://support.briohr.com/knowledge/how-to-schedule-payslip-release-in-briohr-payroll-admin-guide"
+          },
+          {
+            "title": "How to Create a Custom Pay Item in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-custom-pay-item-in-briohr"
+          },
+          {
+            "title": "How to Configure Custom Pay Items to Display in Fixed Remunerations Table",
+            "url": "https://support.briohr.com/knowledge/setup-custom-pay-items-fixed-remuneration"
+          },
+          {
+            "title": "How to Set Up and Bulk Download Files/Reports for Main & Affiliate Payroll Centers",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-and-bulk-download-files/reports-for-main-affiliate-payroll-centers"
+          },
+          {
+            "title": "How to Configure and Download the GL Report",
+            "url": "https://support.briohr.com/knowledge/how-to-configure-and-download-the-gl-report"
+          },
+          {
+            "title": "How to Set Up Xero Integration in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-xero-integration-in-briohr"
+          },
+          {
+            "title": "How to Calculate Unpaid Leave",
+            "url": "https://support.briohr.com/knowledge/how-to-calculate-unpaid-leave"
+          },
+          {
+            "title": "How to set the salary allocation percentage in bulk?",
+            "url": "https://support.briohr.com/knowledge/how-to-set-the-salary-allocation-percentage-in-bulk"
+          },
+          {
+            "title": "How to Add or Update Employee Payroll Details in Bulk Efficiently",
+            "url": "https://support.briohr.com/knowledge/how-to-add-employee-payroll-data-in-bulk"
+          },
+          {
+            "title": "How to Use the New Payroll Items Table in Malaysia and Singapore Payroll",
+            "url": "https://support.briohr.com/knowledge/new-payroll-items-table-for-malaysia-and-singapore-payroll"
+          },
+          {
+            "title": "Daily Rate Calculation Explained: Payroll Settings in BrioHR",
+            "url": "https://support.briohr.com/knowledge/basis-for-daily-rate-calculation-for-days-unit-type-pay-item"
+          },
+          {
+            "title": "Payslip Updates Made Easy: How to Edit Company Name in Payroll (SG & MY)",
+            "url": "https://support.briohr.com/knowledge/how-to-change-company-name-on-payslip-sg-my-payroll"
+          }
+        ]
+      },
+      {
+        "subcategory": "Payroll Management",
+        "articles": [
+          {
+            "title": "Arrears of Salary Calculation",
+            "url": "https://support.briohr.com/knowledge/arrears-of-salary-calculation"
+          },
+          {
+            "title": "Delete Latest Payroll Cycle in Current Payroll Month",
+            "url": "https://support.briohr.com/knowledge/delete-latest-payroll-cycle-in-current-payroll-month"
+          },
+          {
+            "title": "Find Cost Center Details in Payroll Reports",
+            "url": "https://support.briohr.com/knowledge/find-cost-center-details-in-payroll-reports"
+          },
+          {
+            "title": "How to Update Overtime Files in Payroll Using TimeTec Integration",
+            "url": "https://support.briohr.com/knowledge/how-to-update-overtime-files-in-payroll-using-timetec-integration"
+          },
+          {
+            "title": "How to Process Salaries for Terminated Employees in a Separate Payroll Cycle",
+            "url": "https://support.briohr.com/knowledge/how-to-process-salaries-for-terminated-employees-in-a-separate-payroll-cycle"
+          },
+          {
+            "title": "How to Import Overtime Data into BrioHR from StaffAny",
+            "url": "https://support.briohr.com/knowledge/how-to-import-overtime-data-into-briohr-from-staffany"
+          },
+          {
+            "title": "How to Bulk Import Pay Items in Payroll",
+            "url": "https://support.briohr.com/knowledge/how-to-bulk-import-pay-items-in-payroll"
+          },
+          {
+            "title": "How to Add and Import Unpaid Leave to Payroll",
+            "url": "https://support.briohr.com/knowledge/how-to-add-and-import-unpaid-leave-to-payroll"
+          },
+          {
+            "title": "How to Manage BrioHR Multicycle Payroll: Guide + Video",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-briohr-multicycle-payroll-guide-video"
+          },
+          {
+            "title": "How to Edit Payday for an Ongoing Payroll Cycle",
+            "url": "https://support.briohr.com/knowledge/how-to-edit-payday-for-an-ongoing-payroll-cycle"
+          },
+          {
+            "title": "How to Process Payroll in the Correct Order with BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-process-payroll-in-the-correct-order-with-briohr"
+          },
+          {
+            "title": "What is an Ad-hoc Payroll Cycle? Definition and Use Case Example",
+            "url": "https://support.briohr.com/knowledge/ad-hoc-payroll-cycle-use-case"
+          },
+          {
+            "title": "Managing Approved Claims in the Payroll Module",
+            "url": "https://support.briohr.com/knowledge/managing-approved-claims-in-the-payroll-module"
+          },
+          {
+            "title": "How to Manage Salary History in an Employee's Profile",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-salary-history-in-an-employees-profile"
+          },
+          {
+            "title": "How to Edit or Delete an Employee's Past Compensation",
+            "url": "https://support.briohr.com/knowledge/how-to-edit-or-delete-an-employees-past-compensation"
+          },
+          {
+            "title": "How to Email Payslips to All Employees at Once",
+            "url": "https://support.briohr.com/knowledge/how-to-email-payslips-to-all-employees-at-once"
+          },
+          {
+            "title": "How to Exclude Employees from Payroll",
+            "url": "https://support.briohr.com/knowledge/how-to-exclude-employees-from-payroll"
+          },
+          {
+            "title": "How to Add Overtime Hours in Bulk to Payroll",
+            "url": "https://support.briohr.com/knowledge/how-to-add-overtime-hours-in-bulk-to-payroll"
+          },
+          {
+            "title": "How to Download and Send Payslips to Resigned Employees",
+            "url": "https://support.briohr.com/knowledge/how-to-download-and-send-payslips-to-resigned-employees"
+          },
+          {
+            "title": "Adding Overtime Hours for an Individual Employee",
+            "url": "https://support.briohr.com/knowledge/adding-overtime-hours-for-an-individual-employee"
+          },
+          {
+            "title": "How to Select or Deselect Employees Before Generating the Payroll Bank File",
+            "url": "https://support.briohr.com/knowledge/how-to-select-or-deselect-employees-before-generating-the-payroll-bank-file"
+          },
+          {
+            "title": "How to Update Employee Payroll Details",
+            "url": "https://support.briohr.com/knowledge/how-to-update-employee-payroll-details"
+          },
+          {
+            "title": "How to View and Modify the Fixed Remunerations Table in an Employee's Profile",
+            "url": "https://support.briohr.com/knowledge/how-to-view-and-modify-the-fixed-remunerations-table-in-an-employees-profile"
+          },
+          {
+            "title": "How to Reopen and Edit a Completed Payroll Cycle or Payroll Month",
+            "url": "https://support.briohr.com/knowledge/how-to-edit-a-completed-payroll-cycle"
+          },
+          {
+            "title": "How To Process Leave Encashment When An Employee Resigns",
+            "url": "https://support.briohr.com/knowledge/how-to-process-leave-encashment-when-an-employee-resigns"
+          },
+          {
+            "title": "How to Add or Modify Deductions in an Employee's Profile",
+            "url": "https://support.briohr.com/knowledge/how-to-add-or-modify-deductions-in-an-employees-profile"
+          },
+          {
+            "title": "How to Set an Hourly Rate Salary for Employees",
+            "url": "https://support.briohr.com/knowledge/how-to-set-an-hourly-rate-salary-for-employees"
+          },
+          {
+            "title": "Default Pay Items: Definition and Use",
+            "url": "https://support.briohr.com/knowledge/default-pay-items-definition-and-use"
+          },
+          {
+            "title": "How to Add Employees After Payroll Cycle is Closed",
+            "url": "https://support.briohr.com/knowledge/how-to-add-employees-after-payroll-cycle-is-closed"
+          },
+          {
+            "title": "How to Add Pay Items for an Individual (Additions, Deductions & Tax Reliefs)",
+            "url": "https://support.briohr.com/knowledge/add-pay-items-by-individual-addition-deduction-tax-reliefs"
+          },
+          {
+            "title": "Which file to download for bank portal upload and payment?",
+            "url": "https://support.briohr.com/knowledge/which-file-to-download-for-bank-portal-upload-and-payment"
+          },
+          {
+            "title": "How to Exclude & Include Employees in an Ongoing Payroll Cycle",
+            "url": "https://support.briohr.com/knowledge/how-to-exclude-include-employees-in-an-ongoing-payroll-cycle"
+          },
+          {
+            "title": "How to send payslip and download payslip in bulk for a specific payroll month?",
+            "url": "https://support.briohr.com/knowledge/how-to-send-payslip-and-download-payslip-in-bulk-for-a-specific-payroll-month"
+          },
+          {
+            "title": "How to Download a Specific Payroll Cycle Report",
+            "url": "https://support.briohr.com/knowledge/how-to-download-a-specific-payroll-cycle-report-for-month-with-multi-cycles"
+          },
+          {
+            "title": "How to Download EA Form for Employees with Multiple Payroll Centers",
+            "url": "https://support.briohr.com/knowledge/how-to-download-ea-form-for-employees-with-2-payroll-centers"
+          },
+          {
+            "title": "How to change payroll center for employee (by HR/Admin)",
+            "url": "https://support.briohr.com/knowledge/how-to-change-payroll-center-for-employee-by-hr/admin"
+          },
+          {
+            "title": "How to Download & Customize Monthly Payroll Reports Using Fields & Filters",
+            "url": "https://support.briohr.com/knowledge/download-monthly-payroll-reports-customize-format-using-fields-filters"
+          },
+          {
+            "title": "How to Download & Customize Payroll Reports for a Specific Date Range",
+            "url": "https://support.briohr.com/knowledge/download-range-period-payroll-reports-customize-format-using-fields-filters"
+          },
+          {
+            "title": "How Overtime & Leave Pay is Calculated: 9 Decimal Place Precision Explained",
+            "url": "https://support.briohr.com/knowledge/overtime-unpaid-leave-calculation-9-decimal-place-precision-explained"
+          },
+          {
+            "title": "How to Generate Employee Payroll Report in BrioHR",
+            "url": "https://support.briohr.com/knowledge/generate-employee-payroll-report-in-briohr"
+          }
+        ]
+      },
+      {
+        "subcategory": "Payroll - Malaysia",
+        "articles": [
+          {
+            "title": "Malaysia Payroll Centre: Supported Banks for Payroll, Statutory and Zakat Bank Files in BrioHR",
+            "url": "https://support.briohr.com/knowledge/malaysia-payroll-centre-supported-banks-for-payroll-statutory-and-zakat-bank-files-in-briohr"
+          },
+          {
+            "title": "Changing PERKESO SKBBK Contribution Option",
+            "url": "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
+          },
+          {
+            "title": "New PERKESO SKBBK Contribution Requirement Effective 1 June 2026",
+            "url": "https://support.briohr.com/knowledge/new-perkeso-skbbk-contribution-requirement-effective-1-june-2026"
+          },
+          {
+            "title": "Find Default Overtime Payroll Items and Add to OT Multi-rates Table",
+            "url": "https://support.briohr.com/knowledge/find-default-overtime-payroll-items-and-add-to-ot-multi-rates-table"
+          },
+          {
+            "title": "Create an Overtime Custom Payroll Item and Add It to the Overtime Multi-rates Table",
+            "url": "https://support.briohr.com/knowledge/create-an-overtime-custom-payroll-item-and-add-it-to-the-overtime-multi-rates-table"
+          },
+          {
+            "title": "Generating Payroll & Statutory Payment Files for United Overseas Bank (Malaysia) Berhad",
+            "url": "https://support.briohr.com/knowledge/generating-payroll-statutory-payment-files-for-united-overseas-bank-malaysia-berhad"
+          },
+          {
+            "title": "Payroll Malaysia: How to Configure Statutory Contributions for Custom Pay Items",
+            "url": "https://support.briohr.com/knowledge/payroll-malaysia-how-to-configure-statutory-contributions-for-custom-pay-items"
+          },
+          {
+            "title": "Payroll Malaysia: How Pay Items Map to EA Form Fields in BrioHR Payroll Module",
+            "url": "https://support.briohr.com/knowledge/payroll-malaysia-how-pay-items-map-to-ea-form-fields-in-briohr-payroll-module"
+          },
+          {
+            "title": "Enhanced Reporting for Better Accuracy in Form E",
+            "url": "https://support.briohr.com/knowledge/enhanced-reporting-for-better-accuracy-in-form-e"
+          },
+          {
+            "title": "Public Bank Berhad (MY): How to Generate Bank Files for Payroll, PCB, EPF, SOCSO, and EIS Payments",
+            "url": "https://support.briohr.com/knowledge/public-bank-berhad-generate-bank-files-for-payroll-pcb-epf-socso-eis"
+          },
+          {
+            "title": "Bank Muamalat Malaysia Berhad (MY): How to Generate Bank File for Payroll Payment",
+            "url": "https://support.briohr.com/knowledge/bank-muamalat-malaysia-berhad-how-to-generate-bank-file-for-payroll-payment"
+          },
+          {
+            "title": "MUFG Bank Malaysia Berhad (MY): How to Generate Bank File for Payroll Payment",
+            "url": "https://support.briohr.com/knowledge/mufg-bank-malaysia-berhad-how-to-generate-bank-file-for-payroll-payment"
+          },
+          {
+            "title": "HRD Corp Levy Exemption for Education Industry Employers (2026)",
+            "url": "https://support.briohr.com/knowledge/hrd-corp-levy-exemption-for-education-industry-employers-2026"
+          },
+          {
+            "title": "How to Send EA Form to Resigned Employee via Email in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-send-ea-form-to-resigned-employee-via-email"
+          },
+          {
+            "title": "EPF Contribution for Non-Malaysian Citizen Employees in Malaysia (2025 Update)",
+            "url": "https://support.briohr.com/knowledge/epf-contribution-for-non-malaysian-citizen-employees-in-malaysia-2025-update"
+          },
+          {
+            "title": "How to Set Up Zakat Deduction in Payroll BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-add-zakat-pay-item-in-payroll-briohr"
+          },
+          {
+            "title": "Payroll Malaysia: Step-by-Step Guide to Download Statutory Contribution Text Files (EPF, SOCSO, EIS, PCB)",
+            "url": "https://support.briohr.com/knowledge/payroll-malaysia-how-to-download-statutory-contributions-text-files"
+          },
+          {
+            "title": "Hong Leong Bank Malaysia (ConnectFirst): How to Generate Payroll, PCB, EPF, SOCSO, EIS & Zakat Payment Files",
+            "url": "https://support.briohr.com/knowledge/hongleong-bank-berhad-generating-bank-files-for-payment-of-payroll-pcb-epf-socso-eis-zakat"
+          },
+          {
+            "title": "OCBC Bank Berhad: How to Generate Bank Files for Payroll, PCB, EPF, SOCSO, and EIS Payments",
+            "url": "https://support.briohr.com/knowledge/ocbc-bank-berhad-how-to-generate-bank-files-for-payroll-pcb-epf-socso-and-eis-payments"
+          },
+          {
+            "title": "How to Manually Edit the Date of Commencement in the EA Form",
+            "url": "https://support.briohr.com/knowledge/how-to-manually-edit-the-date-of-commencement-in-the-ea-form"
+          },
+          {
+            "title": "How to Generate Bank Files for Payroll, PCB, EPF, SOCSO & EIS with RHB Bank Berhad",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-bank-files-for-payroll-pcb-epf-socso-eis-with-rhb-bank-berhad"
+          },
+          {
+            "title": "Hiding Benefits in Kind on BrioHR Payslips",
+            "url": "https://support.briohr.com/knowledge/hiding-benefits-in-kind-on-briohr-payslips"
+          },
+          {
+            "title": "Bank Islam Malaysia Berhad: How to Generate Bank Files for Payroll, PCB, EPF, SOCSO, and EIS Payments",
+            "url": "https://support.briohr.com/knowledge/bank-islam-malaysia-berhad-how-to-generate-bank-files-for-payroll-pcb-epf-socso-and-eis-payments"
+          },
+          {
+            "title": "How to Set Tax Resident and Non-Tax Resident Status in Malaysia",
+            "url": "https://support.briohr.com/knowledge/how-to-set-tax-resident-and-non-tax-resident-status-in-malaysia"
+          },
+          {
+            "title": "Tax Resident Marital Status Categories",
+            "url": "https://support.briohr.com/knowledge/tax-resident-marital-status-categories"
+          },
+          {
+            "title": "How to Update Officer Details (Maklumat Pegawai) in EA Form and E Form in Malaysia Payroll",
+            "url": "https://support.briohr.com/knowledge/how-to-update-officer-details-maklumat-pegawai-in-ea-form-and-e-form-in-malaysia-payroll"
+          },
+          {
+            "title": "How to Select the Bank Crediting Date for EPF File Generation with Affin Bank Berhad & Affin Islamic Bank Berhad",
+            "url": "https://support.briohr.com/knowledge/how-to-select-the-bank-crediting-date-for-epf-file-generation-with-affin-bank-berhad-affin-islamic-bank-berhad"
+          },
+          {
+            "title": "Increased Wage Ceiling Limit for SOCSO & EIS Monthly Contributions",
+            "url": "https://support.briohr.com/knowledge/increased-wage-ceiling-for-socso-eis-contributions"
+          },
+          {
+            "title": "How to Complete the PERKESO Employee Registration Form (Borang 2)",
+            "url": "https://support.briohr.com/knowledge/how-to-complete-the-perkeso-employee-registration-form-borang-2"
+          },
+          {
+            "title": "How to Generate and Download CP39 Form in PDF or Text File",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-and-download-cp39-form-in-pdf-or-text-file"
+          },
+          {
+            "title": "How to Select the 'Bank Crediting Date' for EPF Payments with CIMB Bank Berhad",
+            "url": "https://support.briohr.com/knowledge/how-to-select-the-bank-crediting-date-for-epf-payments-with-cimb-bank-berhad"
+          },
+          {
+            "title": "How to Upload SOCSO + EIS Combined Text Files to PERKESO Assist Portal",
+            "url": "https://support.briohr.com/knowledge/how-to-upload-socso-eis-combined-text-files-to-perkeso-assist-portal"
+          },
+          {
+            "title": "How to Download Payroll Bank Files for Affin Bank Berhad & Affin Islamic Bank Berhad",
+            "url": "https://support.briohr.com/knowledge/how-to-download-payroll-bank-files-for-affin-bank-berhad-affin-islamic-bank-berhad"
+          },
+          {
+            "title": "How to Generate the CP22A Form in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-the-cp22a-form-in-briohr"
+          },
+          {
+            "title": "How to Generate the CP22 Form for Payroll in Malaysia",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-the-cp22-form-for-payroll-in-malaysia"
+          },
+          {
+            "title": "How to Generate the CP21 Form in Malaysia for Payroll Compliance",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-the-cp21-form-in-malaysia-for-payroll-compliance"
+          },
+          {
+            "title": "Access and Manage Employee Malaysia Payroll Documents as HR Admin",
+            "url": "https://support.briohr.com/knowledge/how-to-access-and-manage-employee-payroll-documents-payslips-ea-forms-and-pcb-ii-forms"
+          },
+          {
+            "title": "How to Enable Private Retirement Scheme (PRS) Contributions in Payroll Malaysia",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-private-retirement-scheme-prs-contributions-in-payroll-malaysia"
+          },
+          {
+            "title": "How to Generate EPF Form A",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-epf-form-a"
+          },
+          {
+            "title": "Types of EPF Category",
+            "url": "https://support.briohr.com/knowledge/types-of-epf-category"
+          },
+          {
+            "title": "How to Assign the New \"Overseas Networks & Expertise Pass\" Tax Resident Category in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-assign-the-new-overseas-networks-expertise-pass-tax-resident-category-in-briohr"
+          },
+          {
+            "title": "Understanding the 'Retirement Date & Employment Status' Fields in CP8D TXT and PDF Files",
+            "url": "https://support.briohr.com/knowledge/understanding-the-retirement-date-employment-status-fields-in-cp8d-txt-and-pdf-files"
+          },
+          {
+            "title": "What is the Payment Set Number in HSBC Bank Malaysia Berhad?",
+            "url": "https://support.briohr.com/knowledge/what-is-the-payment-set-number-in-hsbc-bank-malaysia-berhad"
+          },
+          {
+            "title": "How to Prepare for Tax Filing in Malaysia",
+            "url": "https://support.briohr.com/knowledge/how-to-prepare-for-tax-filing-in-malaysia"
+          },
+          {
+            "title": "How to Access & Manage EA Forms in Payroll Malaysia",
+            "url": "https://support.briohr.com/knowledge/how-to-access-manage-ea-forms-in-payroll-malaysia"
+          },
+          {
+            "title": "How to Generate Bank Files for PCB, EPF, SOCSO & EIS Payments with Affin Islamic Bank Berhad",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-bank-files-for-pcb-epf-socso-eis-payments-with-affin-islamic-bank-berhad"
+          },
+          {
+            "title": "Affin Bank Berhad: Generating Bank Files for Payment of PCB, EPF, SOCSO & EIS",
+            "url": "https://support.briohr.com/knowledge/affin-bank-berhad-generating-bank-files-for-payment-of-pcb-epf-socso-eis"
+          },
+          {
+            "title": "How to Generate Payroll, PCB, EPF, SOCSO, EIS & Zakat Payment Files for CIMB Islamic Bank Berhad",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-payroll-pcb-epf-socso-eis-zakat-payment-files-for-cimb-islamic-bank-berhad"
+          },
+          {
+            "title": "How to Set Up and Download Bank Files Using CIMB Bank Berhad Platform",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-and-download-bank-files-using-hong-leong-bank-berhads-connectfirst-platform"
+          },
+          {
+            "title": "Payroll Malaysia: Complete Guide to Setting Up Company Payroll Information",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-company-payroll-general-settings-in-malaysia"
+          },
+          {
+            "title": "Employee Payroll: How to Access Tax Information, Payslips, PCB II, EA, CP22A, CP22, and CP21 Forms",
+            "url": "https://support.briohr.com/knowledge/employee-payroll-how-to-access-tax-information-payslips-pcb-ii-ea-cp22a-cp22-and-cp21-forms"
+          },
+          {
+            "title": "How to Generate Payroll, PCB, EPF, SOCSO, EIS & Zakat Bank File for AMBank (M) Berhad (AmAccess Biz)",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-salary-statutory-txt-file-lhdn-epf-socso-eis-for-ambank-m-berhad-amaccess-biz"
+          },
+          {
+            "title": "How to Generate AMBank (M) Berhad Payroll Bank File in E-AmPayDay (Excel) Format",
+            "url": "https://support.briohr.com/knowledge/am-bank-berhad-generating-bank-files-for-payment-of-payroll"
+          },
+          {
+            "title": "How to Manage and Edit SSFW Numbers for Foreign Employees",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-and-edit-ssfw-numbers-for-foreign-employees"
+          },
+          {
+            "title": "What is TP3 Form in Malaysia Payroll",
+            "url": "https://support.briohr.com/knowledge/what-is-tp3-form-in-malaysia-payroll"
+          },
+          {
+            "title": "How to Update SOCSO Contributions for Expatriates and Foreign Workers",
+            "url": "https://support.briohr.com/knowledge/how-to-update-socso-contributions-for-expatriates-and-foreign-workers"
+          },
+          {
+            "title": "Understanding E Number, C Number, EPF Number, and SOCSO Number in Malaysia: A Complete Guide",
+            "url": "https://support.briohr.com/knowledge/understanding-e-number-c-number-epf-number-and-socso-number-in-malaysia"
+          },
+          {
+            "title": "How to Use the LHDN Calculator to Accurately Calculate PCB",
+            "url": "https://support.briohr.com/knowledge/how-to-calculate-pcb-using-lhdn-calculator"
+          },
+          {
+            "title": "What is CP38, difference between CP38 & CP39, where to upload on the statutory portal? (MY)",
+            "url": "https://support.briohr.com/knowledge/what-is-cp38-difference-between-cp38-cp39-where-to-upload-on-the-statutory-portal-my"
+          },
+          {
+            "title": "Pay Items Categorized Under 'Tax Reliefs'",
+            "url": "https://support.briohr.com/knowledge/pay-items-categorized-under-tax-reliefs"
+          },
+          {
+            "title": "New Bank Account Options: GX Bank Berhad, Merchantrade, and Touch n Go Added for Employees",
+            "url": "https://support.briohr.com/knowledge/new-bank-account-options-gx-bank-berhad-merchantrade-and-touch-n-go-added-for-employees"
+          },
+          {
+            "title": "How to calculate EPF contribution using KWSP Calculator",
+            "url": "https://support.briohr.com/knowledge/how-to-calculate-epf-contribution-using-kwsp-calculator"
+          },
+          {
+            "title": "Payroll Malaysia: Key Tax Relief Updates for the Year 2026 (TP1 & TP3)",
+            "url": "https://support.briohr.com/knowledge/payroll-malaysia-key-tax-relief-updates-for-the-year-2026"
+          },
+          {
+            "title": "Prorated Salary Calculation: Understanding the Basics in BrioHR",
+            "url": "https://support.briohr.com/knowledge/prorated-salary-calculation-understanding-the-basics-in-briohr"
+          },
+          {
+            "title": "Malaysia Payroll Update: Tax Identification Number (TIN) Explained",
+            "url": "https://support.briohr.com/knowledge/malaysia-payroll-update-tax-identification-number-tin-explained"
+          },
+          {
+            "title": "Malaysia Payroll Update: Final Submission Date for e-Data PCB/e-PCB/e-CP39",
+            "url": "https://support.briohr.com/knowledge/malaysia-payroll-update"
+          },
+          {
+            "title": "Malaysia Payroll Update: Program Latihan MADANI (PLM) and 15% Deduction of Unused HRD Levy Balance (2025)",
+            "url": "https://support.briohr.com/knowledge/malaysia-payroll-update-program-latihan-madani-and-15-deduction-of-unused-hrd-levy-balance-2025"
+          },
+          {
+            "title": "How to Generate Payroll, PCB, EPF, SOCSO & EIS Bank File for AMBank (M) Berhad (AmAccess Corporate)",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-salary-statutory-txt-file-lhdn-epf-socso-eis-for-ambank-m-berhad-amaccess-corporate"
+          },
+          {
+            "title": "How to Upload TXT File and Make Payment on e-PCB Plus System",
+            "url": "https://support.briohr.com/knowledge/e-pcb-plus-for-mtd-submissions-and-payments"
+          },
+          {
+            "title": "Understanding SOCSO Contributions: Coverage Options and Customization in BrioHR",
+            "url": "https://support.briohr.com/knowledge/socso-in-malaysia-definition-use-cases"
+          },
+          {
+            "title": "Setting Statutory Contributions for Employees Aged 60 and Above (Malaysia Payroll)",
+            "url": "https://support.briohr.com/knowledge/setting-statutory-contributions-for-employees-aged-60-and-above-malaysia-payroll"
+          },
+          {
+            "title": "How to Make HRDF payment",
+            "url": "https://support.briohr.com/knowledge/making-hrdf-payment"
+          },
+          {
+            "title": "Understanding CP8D Employee Status Field and Setting Status 1 (Management of Organizations) in BrioHR",
+            "url": "https://support.briohr.com/knowledge/understanding-cp8d-employee-status-and-set-as-status-1"
+          },
+          {
+            "title": "How to Enter Receipt Number and Date in Malaysia\u2019s PCB II Tax Form (BrioHR Guide)",
+            "url": "https://support.briohr.com/knowledge/enter-receipt-number-receipt-date-in-pcb-ii-form-briohr"
+          },
+          {
+            "title": "How to Calculate Overtime Pay",
+            "url": "https://support.briohr.com/knowledge/how-to-calculate-overtime-pay"
+          },
+          {
+            "title": "Guide to PCB Calculation in Malaysia: Monthly Tax Deduction Explained",
+            "url": "https://support.briohr.com/knowledge/guide-to-pcb-calculation-in-malaysia-monthly-tax-deduction-explained"
+          },
+          {
+            "title": "KWSP i-Akaun Payment Guide: How to Upload TXT/CSV Files and Submit EPF Contributions",
+            "url": "https://support.briohr.com/knowledge/kwsp-guide-how-to-upload-txt-file-and-make-payment-on-kwsp-portal"
+          },
+          {
+            "title": "EPF Contribution for Foreign Workers in Malaysia: What Employers Need to Know (Effective October 2025)",
+            "url": "https://support.briohr.com/knowledge/epf-contribution-for-foreign-workers-in-malaysia-what-employers-need-to-know-effective-october-2025"
+          }
+        ]
+      },
+      {
+        "subcategory": "Payroll - Singapore",
+        "articles": [
+          {
+            "title": "Payroll Singapore - Add Overtime for Day Off with Customizable Multiplier",
+            "url": "https://support.briohr.com/knowledge/payroll-singapore-add-overtime-for-day-off-with-customizable-multiplier"
+          },
+          {
+            "title": "Singapore Payroll Centre: Supported Banks for Payroll Bank Files in BrioHR",
+            "url": "https://support.briohr.com/knowledge/singapore-payroll-centre-supported-banks-for-payroll-bank-files-in-briohr"
+          },
+          {
+            "title": "How to Perform IRAS AIS Submission in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-perform-iras-ais-submission-in-briohr"
+          },
+          {
+            "title": "CPF Contribution Changes from 1st January 2026",
+            "url": "https://support.briohr.com/knowledge/cpf-contribution-changes-from-1st-january-2026"
+          },
+          {
+            "title": "Payroll Singapore: How to Release the IR8A Form",
+            "url": "https://support.briohr.com/knowledge/payroll-singapore-how-to-release-the-ir8a-form"
+          },
+          {
+            "title": "Who Should Be Included in the IR8A Form?",
+            "url": "https://support.briohr.com/knowledge/who-should-be-included-in-the-ir8a-form"
+          },
+          {
+            "title": "CPF Text File Spec Update for Singapore Payroll",
+            "url": "https://support.briohr.com/knowledge/cpf-text-file-spec-update-for-singapore-payroll"
+          },
+          {
+            "title": "CIMB Bank Singapore: How to Generate Payroll Bank File",
+            "url": "https://support.briohr.com/knowledge/cimb-bank-singapore-how-to-generate-payroll-bank-file"
+          },
+          {
+            "title": "CitiBank (SG): How to Generate Payroll Bank File",
+            "url": "https://support.briohr.com/knowledge/citybank-singapore-how-to-generate-payroll-bank-file"
+          },
+          {
+            "title": "Payroll Singapore: How to Set Up Company Payroll General Settings",
+            "url": "https://support.briohr.com/knowledge/payroll-singapore-how-to-setup-company-payroll-general-settings"
+          },
+          {
+            "title": "Salary Proration for Singapore Payroll: A Complete Guide",
+            "url": "https://support.briohr.com/knowledge/salary-proration-for-singapore-payroll"
+          },
+          {
+            "title": "Payroll Singapore: How to Access the Statutory Report (CPF) After Completing Payroll?",
+            "url": "https://support.briohr.com/knowledge/payroll-singapore-how-to-access-the-statutory-report-cpf-after-completing-payroll"
+          },
+          {
+            "title": "Payroll Singapore: How to Generate Bank File",
+            "url": "https://support.briohr.com/knowledge/payroll-singapore-how-to-generate-bank-file"
+          },
+          {
+            "title": "Payroll Singapore: How to Download Draft Payroll Report",
+            "url": "https://support.briohr.com/knowledge/payroll-singapore-how-to-download-draft-payroll-report"
+          },
+          {
+            "title": "How to Enable Employer Contributions (Singapore)",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-employer-contributions-singapore"
+          },
+          {
+            "title": "How to Set Recurring Pay Items (Singapore)",
+            "url": "https://support.briohr.com/knowledge/how-to-set-recurring-pay-items-singapore"
+          },
+          {
+            "title": "How to Generate Payroll Documents for Inactive Employees (SG)",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-payroll-documents-for-inactive-employees-sg"
+          },
+          {
+            "title": "Payroll Singapore: CPF Ordinary Wage Ceiling Increase (2025)",
+            "url": "https://support.briohr.com/knowledge/payroll-in-singapore-cpf-ordinary-wage-ceiling-increase"
+          },
+          {
+            "title": "Payroll Singapore: Increase in CPF Contribution Rates for Employees (2025)",
+            "url": "https://support.briohr.com/knowledge/payroll-singapore-increase-in-cpf-contribution-rates-for-employees-2025"
+          },
+          {
+            "title": "How to Run a New Cycle in Ongoing Payroll (Singapore/ SG)",
+            "url": "https://support.briohr.com/knowledge/what-is-the-purpose-of-these-options-back-to-step-1-continue-stage-2-of-payroll-processing-sg"
+          },
+          {
+            "title": "How to Generate Employee Payroll Report (Singapore Payroll)",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-employee-payroll-report-sg"
+          },
+          {
+            "title": "How to Bulk Download Payslips (Singapore/ SG)",
+            "url": "https://support.briohr.com/knowledge/how-to-bulk-download-payslip-sg"
+          },
+          {
+            "title": "How to Complete the Payroll Month (Singapore/ SG)",
+            "url": "https://support.briohr.com/knowledge/how-to-complete-the-payroll-month-sg"
+          },
+          {
+            "title": "Central Provident Fund (CPF) Proration in brioHR",
+            "url": "https://support.briohr.com/knowledge/cpf-proration-in-briohr"
+          },
+          {
+            "title": "Understanding Tax Categories for Foreign Employees in Singapore",
+            "url": "https://support.briohr.com/knowledge/which-tax-resident-category-to-choose-for-foreign-employees-payroll-singapore"
+          },
+          {
+            "title": "Payroll Singapore: Understanding the Skill Development Levy (SDL)",
+            "url": "https://support.briohr.com/knowledge/payroll-singapore-understanding-the-skill-development-levy"
+          }
+        ]
+      },
+      {
+        "subcategory": "Payroll - Indonesia",
+        "articles": [
+          {
+            "title": "Indonesia Payroll Update: NIK to Serve as Tax Number (NPWP) Starting July 1, 2024",
+            "url": "https://support.briohr.com/knowledge/indonesia-payroll-update-nik-to-serve-as-tax-number-npwp-starting-july-1-2024"
+          },
+          {
+            "title": "Indonesia Payroll Update: Mandatory Public Housing Savings Contribution (TAPERA) Details and Implications",
+            "url": "https://support.briohr.com/knowledge/indonesia-payroll-update-mandatory-public-housing-savings-contribution-tapera-details-and-implications"
+          },
+          {
+            "title": "Indonesia Payroll Update: New Tax Administration System by DJP (Coretax)",
+            "url": "https://support.briohr.com/knowledge/indonesia-payroll-update"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Leave",
+    "slug": "leave",
+    "subcategories": [
+      {
+        "subcategory": "Leave Configuration",
+        "articles": [
+          {
+            "title": "How to Manage Leave Policies by Year in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-leave-policies-by-year-in-briohr"
+          },
+          {
+            "title": "How to Enable Carry Forward Leave in BrioHR Leave Policies",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-carry-forward-leave-in-briohr-leave-policies"
+          },
+          {
+            "title": "How to Manage Half-Day Leave for Employees",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-half-day-leave-for-employees"
+          },
+          {
+            "title": "Prorate Leave on a Monthly Basis",
+            "url": "https://support.briohr.com/knowledge/prorate-leave-on-a-monthly-basis"
+          },
+          {
+            "title": "How the Enable Tolerance Amount Works in the Leave Module",
+            "url": "https://support.briohr.com/knowledge/enable-tolerance-amount-leave-module"
+          },
+          {
+            "title": "Understanding Seniority Leave and Anniversary Dates",
+            "url": "https://support.briohr.com/knowledge/understanding-seniority-leave-and-anniversary-dates"
+          },
+          {
+            "title": "How to Customize Leave Approvers for Employees",
+            "url": "https://support.briohr.com/knowledge/how-to-customize-leave-approvers-for-employees"
+          },
+          {
+            "title": "How to Set or Edit the General Leave Approver in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-set-or-edit-the-general-leave-approver-in-briohr"
+          },
+          {
+            "title": "Modifying Leave Policy Settings: A Video Guide",
+            "url": "https://support.briohr.com/knowledge/modifying-leave-policy-settings-a-video-guide"
+          },
+          {
+            "title": "How to Create and Configure Leave Policies in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-leave-policies"
+          },
+          {
+            "title": "How to Set a \"Client\" as the Approver in BrioHR Leave Approval Workflow",
+            "url": "https://support.briohr.com/knowledge/how-to-set-a-client-as-the-approver-in-briohr-leave-approval-workflow"
+          },
+          {
+            "title": "How to Enable Employee Leave Modifications for Past Approved Leaves in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-employee-leave-modifications-for-past-approved-leaves-in-briohr"
+          },
+          {
+            "title": "Leave Applications: Enable Same-Day Booking for Credit Leave",
+            "url": "https://support.briohr.com/knowledge/leave-applications-enable-same-day-booking-for-credit-leave"
+          },
+          {
+            "title": "How to Calculate Entitlement with the \"Rounding\" Option Enabled",
+            "url": "https://support.briohr.com/knowledge/how-to-calculate-entitlement-with-the-rounding-option-enabled"
+          },
+          {
+            "title": "How to Configure Minimum or Maximum Consecutive Leave Days for Employees",
+            "url": "https://support.briohr.com/knowledge/how-to-configure-minimum-or-maximum-consecutive-leave-days-for-employees"
+          },
+          {
+            "title": "How to Enable Mandatory Attachments for Leave Applications in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-mandatory-attachments-for-leave-applications-in-briohr"
+          },
+          {
+            "title": "How to Create and Set Up a Replacement Leave (Credit) Type",
+            "url": "https://support.briohr.com/knowledge/how-to-create-and-set-up-a-replacement-leave-credit-type"
+          },
+          {
+            "title": "How to Link Emergency Leave with Annual Leave Balance in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-link-emergency-leave-with-annual-leave-balance-in-briohr"
+          },
+          {
+            "title": "How to Set a Time Limit for Leave Booking in Advance",
+            "url": "https://support.briohr.com/knowledge/how-to-set-a-time-limit-for-leave-booking-in-advance"
+          },
+          {
+            "title": "How to Set Up Custom Leave Configuration in HR Lounge",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-custom-leave-configuration-in-hr-lounge"
+          },
+          {
+            "title": "How to Adjust Leave Balance or Carry Forward in HR Lounge",
+            "url": "https://support.briohr.com/knowledge/how-to-adjust-leave-balance-or-carry-forward-in-hr-lounge"
+          },
+          {
+            "title": "Streamline Your HR Process: Assigning Leave Policies to Employees",
+            "url": "https://support.briohr.com/knowledge/streamline-your-hr-process-assigning-leave-policies-to-employees"
+          },
+          {
+            "title": "How to Create and Manage Your Employee Leave Types",
+            "url": "https://support.briohr.com/knowledge/how-to-create-and-manage-your-employee-leave-types"
+          },
+          {
+            "title": "How to Enable Backdated Leave Requests in BrioHR",
+            "url": "https://support.briohr.com/knowledge/allow-employees-to-apply-for-leave-in-the-past"
+          },
+          {
+            "title": "How to Enable User Group Access for Manager Modules Permission (Leave)",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-user-group-access-for-manager-modules-permission-leave"
+          },
+          {
+            "title": "How to Enable User Group Access for Employee Modules Permission (Leave)",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-user-group-access-for-employee-modules-permission-leave"
+          },
+          {
+            "title": "What Is Policy Availability in the Leave Module?",
+            "url": "https://support.briohr.com/knowledge/what-is-policy-availability-in-the-leave-module"
+          },
+          {
+            "title": "What is Earned Leave?",
+            "url": "https://support.briohr.com/knowledge/what-is-earned-leave"
+          },
+          {
+            "title": "How to Enable/Disable Prorate Leave",
+            "url": "https://support.briohr.com/knowledge/how-to-enable/disable-prorate-leave"
+          },
+          {
+            "title": "How to Set Leave Following Working Days or Calendar Days",
+            "url": "https://support.briohr.com/knowledge/how-to-set-leave-following-working-days-or-calendar-days"
+          },
+          {
+            "title": "How Does 'Set Expiry for the Credit' Work?",
+            "url": "https://support.briohr.com/knowledge/how-does-set-expiry-for-the-credit-work"
+          },
+          {
+            "title": "How to view the leave type/policies that assign to the specific employee",
+            "url": "https://support.briohr.com/knowledge/view-the-leave-type/policis-that-assign-to-the-specific-employee"
+          }
+        ]
+      },
+      {
+        "subcategory": "Leave Management",
+        "articles": [
+          {
+            "title": "How to Enable Next Year's Employee Leave Applications\u00a0 (Web & Mobile App)",
+            "url": "https://support.briohr.com/knowledge/enable-employees-leave-applications-for-2025-web-mobile-app"
+          },
+          {
+            "title": "How to Recompute Initial Balance and Carry Forward in BrioHR Leave",
+            "url": "https://support.briohr.com/knowledge/how-to-recompute-initial-balance-and-carry-forward-in-briohr-leave"
+          },
+          {
+            "title": "How to Cancel an Approved Past Date Leave Application",
+            "url": "https://support.briohr.com/knowledge/how-to-cancel-an-approved-past-date-leave-application"
+          },
+          {
+            "title": "How to Add or Request Replacement Leave Credits in Bulk (Video)",
+            "url": "https://support.briohr.com/knowledge/how-to-add-or-request-replacement-leave-credits-in-bulk-video"
+          },
+          {
+            "title": "How to Nudge Approvers with Reminders",
+            "url": "https://support.briohr.com/knowledge/how-to-nudge-approvers-with-reminders"
+          },
+          {
+            "title": "Childcare Leave Policies and Entitlements in Singapore Explained",
+            "url": "https://support.briohr.com/knowledge/childcare-leave-policies-and-entitlements-in-singapore-explained"
+          },
+          {
+            "title": "Employee Leave Entitlement: Using the 'Display Exact Values' Feature for Precise Leave Balances",
+            "url": "https://support.briohr.com/knowledge/employee-leave-entitlement-using-the-display-exact-values-feature-for-precise-leave-balances"
+          },
+          {
+            "title": "How to View Employee Leave Details and Timelines",
+            "url": "https://support.briohr.com/knowledge/how-to-view-employee-leave-details-and-timelines"
+          },
+          {
+            "title": "How to Permanently Delete a Leave Record in the HR System",
+            "url": "https://support.briohr.com/knowledge/how-to-permanently-delete-a-leave-record-in-the-hr-system"
+          },
+          {
+            "title": "Understanding Leave Approvers in the Leave Balance Report: Key Updates and Examples",
+            "url": "https://support.briohr.com/knowledge/understanding-leave-approvers-in-the-leave-balance-report-key-updates-and-examples"
+          },
+          {
+            "title": "Efficient Employee Leave Management: View and Manage Bulk Leave Applications",
+            "url": "https://support.briohr.com/knowledge/efficient-employee-leave-management-view-and-manage-bulk-leave-applications"
+          },
+          {
+            "title": "Streamlining Employee Leave Management: Bulk Leave and Credit Requests",
+            "url": "https://support.briohr.com/knowledge/streamlining-employee-leave-management-bulk-leave-and-credit-requests"
+          },
+          {
+            "title": "How to Download the Leave Utilization (History) Report for All Employees in Your Company",
+            "url": "https://support.briohr.com/knowledge/download-the-leave-utilization-history-report"
+          },
+          {
+            "title": "How to Enable User Group Access for HR/Admin (Leave + Report)",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-user-group-access-for-hr/admin-leave-report"
+          },
+          {
+            "title": "Leave Proration Formula (Yearly Basis)",
+            "url": "https://support.briohr.com/knowledge/leave-proration-formula-yearly-basis"
+          },
+          {
+            "title": "Download Leave Utilizations Report & Leave Balance Report from Leave Dashboard",
+            "url": "https://support.briohr.com/knowledge/download-leave-utilizations-report-leave-balance-report-from-leave-dashboard"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Expense Claims",
+    "slug": "expense-claims",
+    "subcategories": [
+      {
+        "subcategory": "Claims Configuration",
+        "articles": [
+          {
+            "title": "Custom Payroll Integration for Cash Advance Requests & Settlements",
+            "url": "https://support.briohr.com/knowledge/custom-payroll-integration-for-cash-advance-requests-settlements"
+          },
+          {
+            "title": "Assign Head of Department as Approver for Expense Claims",
+            "url": "https://support.briohr.com/knowledge/assign-head-of-department-as-approver-for-expense-claims"
+          },
+          {
+            "title": "How to Enable ScanReceipt (OCR) for Expense Claims in BrioHR (Web & Mobile)",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-scanreceipt-ocr-for-expense-claims-in-briohr-web-mobile"
+          },
+          {
+            "title": "How to Manage Per Day Allowance Claims",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-per-day-allowance-claims"
+          },
+          {
+            "title": "How to Create and Manage Claim Policies",
+            "url": "https://support.briohr.com/knowledge/how-to-create-and-manage-claim-policies"
+          },
+          {
+            "title": "How to Manage Cash Advance Claims with General Payroll Connections",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-cash-advance-claims-with-general-payroll-connections"
+          },
+          {
+            "title": "How to Use BrioHR\u2019s New Cash Advance Claim Feature",
+            "url": "https://support.briohr.com/knowledge/how-to-use-briohrs-new-cash-advance-claim-feature"
+          },
+          {
+            "title": "How to Apply FX Rates Based on Claim Transaction/Start Date",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-currency-exchange-rate-based-on-claim-transaction/start-date"
+          },
+          {
+            "title": "How to Set \"Client\" as the Approver for Expense Claims",
+            "url": "https://support.briohr.com/knowledge/how-to-set-client-as-the-approver-for-expense-claims"
+          },
+          {
+            "title": "Understanding the Mileage Expense Type",
+            "url": "https://support.briohr.com/knowledge/understanding-the-mileage-expense-type"
+          },
+          {
+            "title": "How to Add a New Claim Group",
+            "url": "https://support.briohr.com/knowledge/how-to-add-a-new-claim-group"
+          },
+          {
+            "title": "How to Set and Manage Claim Threshold Amounts for Approval Workflows",
+            "url": "https://support.briohr.com/knowledge/how-to-set-and-manage-claim-threshold-amounts-for-approval-workflows"
+          },
+          {
+            "title": "How to Make Attachments Mandatory for Claim Requests in HR Systems",
+            "url": "https://support.briohr.com/knowledge/how-to-make-attachments-mandatory-for-claim-requests-in-hr-systems"
+          },
+          {
+            "title": "How to Add New Claim Types",
+            "url": "https://support.briohr.com/knowledge/how-to-add-new-claim-types"
+          },
+          {
+            "title": "Updated Claims Module: Fresh Additions and Functionality",
+            "url": "https://support.briohr.com/knowledge/updated-claims-module-fresh-additions-and-functionality"
+          },
+          {
+            "title": "How to Configure Expense Claims Settings",
+            "url": "https://support.briohr.com/knowledge/how-to-configure-expense-claims-settings"
+          },
+          {
+            "title": "How To Enable Automatic Claim Reports",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-automatic-claim-reports"
+          },
+          {
+            "title": "How to enable user group access for Employee (Claim Module)",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-user-group-access-for-employee-claim-module"
+          },
+          {
+            "title": "How to Grant Manager Access to the Claim Module in BrioHR",
+            "url": "https://support.briohr.com/knowledge/grant-manager-access-to-claim-module"
+          },
+          {
+            "title": "Claim Module - How to edit and delete claim group (by HR/Admin)",
+            "url": "https://support.briohr.com/knowledge/how-to-edit-and-delete-claim-group"
+          },
+          {
+            "title": "Edit, Delete, or Disable Claim Types in BrioHR Expense Claims Module",
+            "url": "https://support.briohr.com/knowledge/how-to-edit-delete-and-disable-claim-type"
+          }
+        ]
+      },
+      {
+        "subcategory": "Claims Management",
+        "articles": [
+          {
+            "title": "How to Navigate 'Submission Date' and 'Period' Filters in Claim Management",
+            "url": "https://support.briohr.com/knowledge/how-to-navigate-submission-date-and-period-filters-in-claim-management"
+          },
+          {
+            "title": "Differences between Advance Salary and Cash Advance Claims",
+            "url": "https://support.briohr.com/knowledge/differences-between-advance-salary-and-cash-advance-claims"
+          },
+          {
+            "title": "How to View Settlement Reports on the Claims Dashboard",
+            "url": "https://support.briohr.com/knowledge/how-to-view-settlement-reports-on-the-claims-dashboard"
+          },
+          {
+            "title": "How to Review and Process Underutilized Cash Advance Settlement Claims for Payroll Cycle Integration",
+            "url": "https://support.briohr.com/knowledge/how-to-review-and-process-underutilized-cash-advance-settlement-claims-for-payroll-cycle-integration"
+          },
+          {
+            "title": "How to Review and Forward Overutilized Cash Advance Claims to Payroll",
+            "url": "https://support.briohr.com/knowledge/how-to-review-and-forward-overutilized-cash-advance-claims-to-payroll"
+          },
+          {
+            "title": "How to Approve Cash Advance Requests and Generate Settlement Reports",
+            "url": "https://support.briohr.com/knowledge/how-to-approve-cash-advance-requests-and-generate-settlement-reports"
+          },
+          {
+            "title": "How to Connect the Expense Claims Module to the Payroll Module",
+            "url": "https://support.briohr.com/knowledge/how-to-connect-the-expense-claims-module-to-the-payroll-module"
+          },
+          {
+            "title": "How to Utilize Available Claim Limits",
+            "url": "https://support.briohr.com/knowledge/how-to-utilize-available-claim-limits"
+          },
+          {
+            "title": "How to Edit Claims After Submission",
+            "url": "https://support.briohr.com/knowledge/how-to-edit-claims-after-submission"
+          },
+          {
+            "title": "What Are the Benefits of the Final Approval Date Feature in Claim Processing",
+            "url": "https://support.briohr.com/knowledge/what-are-the-benefits-of-the-final-approval-date-feature-in-claim-processing"
+          },
+          {
+            "title": "How to View Claim History for Submitted and Approved Requests",
+            "url": "https://support.briohr.com/knowledge/how-to-view-claim-history-for-submitted-and-approved-requests"
+          },
+          {
+            "title": "How to View Cancelled and Reimbursed Claims in the Expense Claims Module",
+            "url": "https://support.briohr.com/knowledge/how-to-view-cancelled-and-reimbursed-claims-in-the-expense-claims-module"
+          },
+          {
+            "title": "How to Mark Employee Claims as Reimbursed",
+            "url": "https://support.briohr.com/knowledge/how-to-mark-employee-claims-as-reimbursed"
+          },
+          {
+            "title": "How to Cancel Approved Claims in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-cancel-approved-claims-in-briohr"
+          },
+          {
+            "title": "How to Approve or Reject Expense Claims on Behalf of Others",
+            "url": "https://support.briohr.com/knowledge/how-to-approve-or-reject-expense-claims-on-behalf-of-others"
+          },
+          {
+            "title": "How to Create Expense Claims on Behalf of Other Employees",
+            "url": "https://support.briohr.com/knowledge/how-to-create-expense-claims-on-behalf-of-other-employees"
+          },
+          {
+            "title": "How to Approve or Reject Claims",
+            "url": "https://support.briohr.com/knowledge/how-to-approve-or-reject-claims"
+          },
+          {
+            "title": "How Monthly Claims Limits Are Determined by Transaction Dates",
+            "url": "https://support.briohr.com/knowledge/how-monthly-claims-limits-are-determined-by-transaction-dates"
+          },
+          {
+            "title": "How to Transfer Approved Expense Claims to Payroll",
+            "url": "https://support.briohr.com/knowledge/how-to-transfer-approved-expense-claims-to-payroll"
+          },
+          {
+            "title": "How to re-open claim (by HR/Admin)",
+            "url": "https://support.briohr.com/knowledge/how-to-re-open-claim"
+          },
+          {
+            "title": "How to approve, reject, reopen, cancel claims in bulk as HR",
+            "url": "https://support.briohr.com/knowledge/how-to-approve-reject-reopen-claims-in-bulk-as-hr"
+          },
+          {
+            "title": "How to Delete a Claim Policy in BrioHR: Step-by-Step Guide",
+            "url": "https://support.briohr.com/knowledge/how-to-delete-claim-policy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Onboarding",
+    "slug": "onboarding",
+    "subcategories": [
+      {
+        "subcategory": "Onboarding Configuration",
+        "articles": [
+          {
+            "title": "Part 1: How to Create and Customize Your Employee Onboarding Process",
+            "url": "https://support.briohr.com/knowledge/part-1-how-to-create-and-customize-your-employee-onboarding-process"
+          },
+          {
+            "title": "How to Set Up Probation End Reminders in BrioHR Onboarding Module",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-probation-end-reminders-in-briohr-onboarding-module"
+          },
+          {
+            "title": "How to create a new onboarding process and setup period & roles (Onboarding Module)",
+            "url": "https://support.briohr.com/knowledge/setup-onboarding-process-period-roles-in-briohr"
+          },
+          {
+            "title": "How to setup a Files & Links (Onboarding Module)",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-new-onboarding-process-and-setup-period-roles-onboarding-module-1"
+          },
+          {
+            "title": "How to see details, duplicate & delete onboarding process (Onboarding Module)",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-new-onboarding-process-and-setup-period-roles-onboarding-module"
+          },
+          {
+            "title": "How to enable user group access for Manager (Onboarding Module)",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-user-group-access-for-manager-claim-module"
+          },
+          {
+            "title": "Understanding BrioHR Onboarding Process (Sections)",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-the-onboarding-section-in-briohr"
+          },
+          {
+            "title": "How to Initiate Onboarding and Set Roles for a New Joiner in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-initiate-onboarding-and-set-roles-for-a-new-joiner-in-briohr"
+          },
+          {
+            "title": "How to Enable Onboarding Sections and Include Necessary Information",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-onboarding-sections-and-include-necessary-information"
+          }
+        ]
+      },
+      {
+        "subcategory": "Onboarding Management",
+        "articles": [
+          {
+            "title": "How to Reset Onboarding for a New Employee",
+            "url": "https://support.briohr.com/knowledge/how-to-reset-onboarding-for-a-new-employee"
+          },
+          {
+            "title": "How to Add a New Employee to the Onboarding Process",
+            "url": "https://support.briohr.com/knowledge/how-to-add-a-new-employee-to-the-onboarding-process"
+          },
+          {
+            "title": "How to Transition to BrioHR\u2019s New Onboarding Module",
+            "url": "https://support.briohr.com/knowledge/how-to-transition-to-briohrs-new-onboarding-module"
+          },
+          {
+            "title": "How to View Onboarding Tasks, Documents Shared, Chat, and Roles",
+            "url": "https://support.briohr.com/knowledge/how-to-view-onboarding-tasks-documents-shared-chat-and-roles"
+          },
+          {
+            "title": "How HR Can Complete Onboarding Tasks in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-hr-can-complete-onboarding-tasks-in-briohr"
+          },
+          {
+            "title": "How HR Can Complete the Onboarding Process in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-hr-can-complete-the-onboarding-process-in-briohr"
+          },
+          {
+            "title": "How to View Stakeholders, Activity, Schedule, and Chat in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-view-stakeholders-activity-schedule-and-chat-in-briohr"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Performance",
+    "slug": "performance",
+    "subcategories": [
+      {
+        "subcategory": "Performance Configuration",
+        "articles": [
+          {
+            "title": "How to Create an Ad-Hoc Performance Appraisal Cycle in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-create-an-ad-hoc-performance-appraisal-cycle-in-briohr"
+          },
+          {
+            "title": "How to Set Up a Performance Cycle in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-a-performance-cycle-in-briohr"
+          },
+          {
+            "title": "How to Set Up Competency Framework in BrioHR Performance Cycle",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-core-department-and-job-title-competencies"
+          },
+          {
+            "title": "How to Add Company and Department Objectives",
+            "url": "https://support.briohr.com/knowledge/how-to-add-company/department-objective"
+          },
+          {
+            "title": "How to Set Up and Manage Employees for a Performance Cycle in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-include/setup-manage-employees-for-a-performance-cycle-in-briohr"
+          },
+          {
+            "title": "Performance Module: Determining the Appraisal's Key Milestones in BrioHR",
+            "url": "https://support.briohr.com/knowledge/performance-module-determining-the-appraisals-key-milestones-in-briohr"
+          },
+          {
+            "title": "How to Configure Appraisal Ratings & Labels",
+            "url": "https://support.briohr.com/knowledge/how-to-configure-appraisal-ratings-and-labels"
+          },
+          {
+            "title": "Performance Module: Select Your Add-Ons: 1-on-1 and 360 Feedback",
+            "url": "https://support.briohr.com/knowledge/performance-module-select-your-add-ons-1-on-1-and-360-feedback"
+          },
+          {
+            "title": "How to Create a Training List for a Performance Cycle in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-training-list-for-a-performance-cycle-in-briohr"
+          },
+          {
+            "title": "Performance Objectives: Cascading Goals Feature for Improved Alignment",
+            "url": "https://support.briohr.com/knowledge/performance-objectives-cascading-goals-feature-for-improved-alignment"
+          },
+          {
+            "title": "Performance Objectives: Discover the Latest Enhancements for Superior Goal Management",
+            "url": "https://support.briohr.com/knowledge/performance-objectives-discover-the-latest-enhancements-for-superior-goal-management"
+          },
+          {
+            "title": "Enhance Employee Appraisals with Performance Rating Rounding",
+            "url": "https://support.briohr.com/knowledge/enhance-employee-appraisals-with-performance-rating-rounding"
+          },
+          {
+            "title": "How to Refresh Competencies and Appraisal Form in BrioHR Performance Cycle",
+            "url": "https://support.briohr.com/knowledge/how-to-update-competencies-when-employees-change-departments-during-an-active-performance-cycle"
+          },
+          {
+            "title": "How to Enable 360 Feedback During an Ongoing Performance Cycle",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-360-feedback-during-an-ongoing-performance-cycle"
+          },
+          {
+            "title": "Latest 360 Feedback Feature",
+            "url": "https://support.briohr.com/knowledge/latest-360-feedback-feature"
+          },
+          {
+            "title": "Understanding 360 Feedback Categories in the BrioHR Performance Cycle",
+            "url": "https://support.briohr.com/knowledge/understanding-360-feedback-upwards-downwards-and-peer-reviews-explained"
+          },
+          {
+            "title": "How to Change an Employee\u2019s Performance Appraiser in BrioHR Performance Cycle",
+            "url": "https://support.briohr.com/knowledge/how-to-change-employees-performance-appraiser"
+          },
+          {
+            "title": "How to Assign Competency Levels to Employees in BrioHR Performance Cycle",
+            "url": "https://support.briohr.com/knowledge/assigning-competency-level-to-employees"
+          },
+          {
+            "title": "Performance Appraisal - Rating Type Options",
+            "url": "https://support.briohr.com/knowledge/appraisal-rating-type-options"
+          }
+        ]
+      },
+      {
+        "subcategory": "Performance Management",
+        "articles": [
+          {
+            "title": "Understanding the BrioHR Performance Module",
+            "url": "https://support.briohr.com/knowledge/understanding-the-briohr-performance-module"
+          },
+          {
+            "title": "Understanding the Performance Review Process in BrioHR",
+            "url": "https://support.briohr.com/knowledge/understanding-the-performance-review-process-in-briohr"
+          },
+          {
+            "title": "How to Calculate Performance Overall Rating",
+            "url": "https://support.briohr.com/knowledge/how-to-calculate-performance-overall-rating"
+          },
+          {
+            "title": "How to Edit Objectives During an Ongoing Performance Cycle",
+            "url": "https://support.briohr.com/knowledge/how-to-edit-objectives-during-an-ongoing-performance-cycle"
+          },
+          {
+            "title": "How to Edit and Manage Competencies During an Ongoing Performance Cycle",
+            "url": "https://support.briohr.com/knowledge/how-to-edit-and-manage-competencies-during-an-ongoing-performance-cycle"
+          },
+          {
+            "title": "How to Remind Employees to Complete Self Appraisal Forms: A Guide for HR Teams",
+            "url": "https://support.briohr.com/knowledge/remind-employee"
+          },
+          {
+            "title": "How to Close the Current Performance Cycle in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-close-the-current-performance-cycle-in-briohr"
+          },
+          {
+            "title": "How HR Can Reopen an Employee's Submitted Appraisal for Edits",
+            "url": "https://support.briohr.com/knowledge/how-to-reopen-employees-submitted-self-appraisal-form"
+          },
+          {
+            "title": "How to Provide \"Other Feedback\"",
+            "url": "https://support.briohr.com/knowledge/how-to-provide-other-feedback"
+          },
+          {
+            "title": "Managing Development Plan Configuration in BrioHR",
+            "url": "https://support.briohr.com/knowledge/managing-development-plan-configuration-in-briohr"
+          },
+          {
+            "title": "How to Manually Adjust an Employee's Appraisal Rating Before Calibration",
+            "url": "https://support.briohr.com/knowledge/how-to-manually-adjust-an-employees-appraisal-rating-before-calibration"
+          },
+          {
+            "title": "How to Send Reminders to Feedback Givers to Share Their Feedback",
+            "url": "https://support.briohr.com/knowledge/nudging-feedback-giver-to-share-feedback"
+          },
+          {
+            "title": "How to Nudge an Appraiser to Complete the Appraisal Form",
+            "url": "https://support.briohr.com/knowledge/nudge-appraiser-to-complete-appraisal-form"
+          },
+          {
+            "title": "Sending Reminders to Appraisers for Appraisal Form Release",
+            "url": "https://support.briohr.com/knowledge/nudging-appraiser-to-release-appraisal-form"
+          },
+          {
+            "title": "Fill in and submit appraisal form on behalf of employee and manager/appraiser",
+            "url": "https://support.briohr.com/knowledge/fill-in-and-submit-appraisal-form-on-behalf-of-employee-and-manager/appraiser"
+          },
+          {
+            "title": "Releasing an Appraisal Form on Behalf of an Appraiser",
+            "url": "https://support.briohr.com/knowledge/releasing-appraisal-form-on-behalf-of-appraiser"
+          },
+          {
+            "title": "How to Send Reminders to Employees to Acknowledge Their Appraisal Form",
+            "url": "https://support.briohr.com/knowledge/nudging-employee-to-acknowledge-appraisal-form"
+          },
+          {
+            "title": "How to Remove Employees from an Ongoing Performance Cycle in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-remove-employees-from-an-ongoing-performance-cycle-in-briohr"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Pulse Survey",
+    "slug": "pulse-survey",
+    "subcategories": [
+      {
+        "subcategory": "General",
+        "articles": [
+          {
+            "title": "How to Create a New Survey in the Pulse Survey Module",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-new-survey-in-the-pulse-survey-module-1"
+          },
+          {
+            "title": "How to View and Analyze Your Pulse Survey Results",
+            "url": "https://support.briohr.com/knowledge/how-to-view-and-analyze-your-pulse-survey-results"
+          },
+          {
+            "title": "How to Answer the Pulse Survey as a Respondent on BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-answer-the-pulse-survey-as-a-respondent-on-briohr"
+          },
+          {
+            "title": "How to Stop, Launch, Delete, and Archive a Survey in Pulse Survey Module",
+            "url": "https://support.briohr.com/knowledge/how-to-stop-launch-delete-and-archive-a-survey-in-pulse-survey-module"
+          },
+          {
+            "title": "How to Enable the Pulse Survey Module in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-the-pulse-survey-module-in-briohr"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Recruitment",
+    "slug": "recruitment",
+    "subcategories": [
+      {
+        "subcategory": "Recruitment Configuration",
+        "articles": [
+          {
+            "title": "How to Enable Recruitment Module Access & Reports for HR Admin & Manager",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-recruitment-module-access-reports-for-hr-admin-manager"
+          },
+          {
+            "title": "How to Enable Reject Candidate & Candidate Application Notifications",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-reject-candidate-candidate-application-notifications"
+          },
+          {
+            "title": "Orion AI Job Description Setup: How to Enable, Configure, and Utilize AI",
+            "url": "https://support.briohr.com/knowledge/briogpt-job-description-setup-how-to-enable-configure-and-utilize-ai"
+          },
+          {
+            "title": "Processing the Offer Stage as an Admin",
+            "url": "https://support.briohr.com/knowledge/processing-the-offer-stage-as-as-admin"
+          },
+          {
+            "title": "E-mail Notifications for Candidates",
+            "url": "https://support.briohr.com/knowledge/e-mail-notifications-for-candidates"
+          },
+          {
+            "title": "How to Make Pre-Assessment Questions Optional in Recruitment Settings",
+            "url": "https://support.briohr.com/knowledge/how-to-make-pre-assessment-questions-optional-in-recruitment-settings"
+          },
+          {
+            "title": "How to Set Up and Customize Your Interview Process",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-and-customize-your-interview-process"
+          },
+          {
+            "title": "How to Create a Pre-Assessment Question and Interview Scorecard",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-pre-assessment-question-and-interview-scorecard"
+          },
+          {
+            "title": "How to Customize Your Job Board in the Recruitment Module",
+            "url": "https://support.briohr.com/knowledge/how-to-customize-your-job-board-in-the-recruitment-module"
+          },
+          {
+            "title": "How to View and Utilize the Candidate Profile in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-view-and-utilize-the-candidate-profile-in-briohr"
+          },
+          {
+            "title": "How to View and Edit Job Details",
+            "url": "https://support.briohr.com/knowledge/how-to-view-and-edit-job-details"
+          },
+          {
+            "title": "How to add a new job",
+            "url": "https://support.briohr.com/knowledge/how-to-add-a-new-job"
+          }
+        ]
+      },
+      {
+        "subcategory": "Recruitment Management",
+        "articles": [
+          {
+            "title": "Improving Candidate Management: Latest Changes to the All Candidates Dashboard",
+            "url": "https://support.briohr.com/knowledge/improving-candidate-management-latest-changes-to-the-all-candidates-dashboard"
+          },
+          {
+            "title": "How to Set a Job Status as Inactive in HR Recruitment Software",
+            "url": "https://support.briohr.com/knowledge/how-to-set-a-job-status-as-inactive-in-hr-recruitment-software"
+          },
+          {
+            "title": "How to View Job Application Dates",
+            "url": "https://support.briohr.com/knowledge/how-to-view-job-application-dates"
+          },
+          {
+            "title": "How to Add a Candidate as 'Favorite' or 'Mark as Viewed'",
+            "url": "https://support.briohr.com/knowledge/how-to-add-a-candidate-as-favorite-or-mark-as-viewed"
+          },
+          {
+            "title": "How to Share a Candidate's Profile in HR Lounge",
+            "url": "https://support.briohr.com/knowledge/how-to-share-a-candidates-profile-in-hr-lounge"
+          },
+          {
+            "title": "E-mail Alerts for Recruiters, Interviewers, and Offer Approvers in Recruitment",
+            "url": "https://support.briohr.com/knowledge/e-mail-alerts-for-recruiters-interviewers-and-offer-approvers-in-recruitment"
+          },
+          {
+            "title": "How to Access and View Assessment Information for Recruited Candidates",
+            "url": "https://support.briohr.com/knowledge/how-to-access-and-view-assessment-information-for-recruited-candidates"
+          },
+          {
+            "title": "How to Share a Specific Job Posting on Other Websites",
+            "url": "https://support.briohr.com/knowledge/how-to-share-a-specific-job-posting-on-other-websites"
+          },
+          {
+            "title": "How to Choose the Right Interview Scorecard During the Interview Process",
+            "url": "https://support.briohr.com/knowledge/how-to-choose-the-right-interview-scorecard-during-the-interview-process"
+          },
+          {
+            "title": "How to Assign a Pre-screening Assessment to an Existing Job",
+            "url": "https://support.briohr.com/knowledge/how-to-assign-a-pre-screening-assessment-to-an-existing-job"
+          },
+          {
+            "title": "How to Manually Add Candidates in BrioHR\u2019s Recruitment Module",
+            "url": "https://support.briohr.com/knowledge/how-to-manually-add-candidates-in-briohrs-recruitment-module"
+          },
+          {
+            "title": "How to Post a New Vacancy in the Recruitment Module",
+            "url": "https://support.briohr.com/knowledge/how-to-post-a-new-vacancy-in-the-recruitment-module"
+          },
+          {
+            "title": "Efficient Recruiting with BrioHR: An Overview",
+            "url": "https://support.briohr.com/knowledge/efficient-recruiting-with-briohr-an-overview"
+          },
+          {
+            "title": "How to Assign a Pre-Assessment Form When Creating a New Job Posting",
+            "url": "https://support.briohr.com/knowledge/how-to-assign-a-pre-assessment-form-when-creating-a-new-job-posting"
+          },
+          {
+            "title": "How to View the Job Portal and Copy the Job Portal Link in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-view-the-job-portal-and-copy-the-job-portal-link-in-briohr"
+          },
+          {
+            "title": "How to Add a Candidate to a Specific Job",
+            "url": "https://support.briohr.com/knowledge/how-to-add-a-candidate-to-a-specific-job"
+          },
+          {
+            "title": "How to Utilize the Filter Option & Change the Status of a Job in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-utilize-the-filter-option-change-the-status-of-a-job-in-briohr"
+          },
+          {
+            "title": "How to generate Recruitment Report?",
+            "url": "https://support.briohr.com/knowledge/how-to-generate-recruitment-report"
+          },
+          {
+            "title": "How to View Candidate Profile",
+            "url": "https://support.briohr.com/knowledge/how-to-view-candidate-profile"
+          },
+          {
+            "title": "How to View and Download a Resume",
+            "url": "https://support.briohr.com/knowledge/how-to-view-and-download-a-resume"
+          },
+          {
+            "title": "Manage Candidate Profiles: Options in the BrioHR Three-Dot Menu",
+            "url": "https://support.briohr.com/knowledge/what-are-the-options-in-the-three-dots-at-the-end-of-the-candidates-name"
+          },
+          {
+            "title": "How to View Job Details in BrioHR Recruitment Module",
+            "url": "https://support.briohr.com/knowledge/how-to-view-job-details"
+          },
+          {
+            "title": "How to Utilize Filter Options for Recruitment Module",
+            "url": "https://support.briohr.com/knowledge/how-to-utilize-filter-options"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Timesheets",
+    "slug": "timesheets",
+    "subcategories": [
+      {
+        "subcategory": "Timesheets Configuration",
+        "articles": [
+          {
+            "title": "How to Add Client Contact Information for Project Setup",
+            "url": "https://support.briohr.com/knowledge/how-to-add-client-contact-information-for-project-setup"
+          },
+          {
+            "title": "How to Configure Employee Timesheet Settings",
+            "url": "https://support.briohr.com/knowledge/how-to-configure-employee-timesheet-settings"
+          },
+          {
+            "title": "How to Configure Timesheet Company Settings",
+            "url": "https://support.briohr.com/knowledge/how-to-configure-timesheet-company-settings"
+          },
+          {
+            "title": "How to Customize Employee Working Hours in the Timesheets Module",
+            "url": "https://support.briohr.com/knowledge/how-to-customize-employee-working-hours-in-the-timesheets-module"
+          }
+        ]
+      },
+      {
+        "subcategory": "Timesheets Management",
+        "articles": [
+          {
+            "title": "How to Approve Submitted Timesheets as a Client",
+            "url": "https://support.briohr.com/knowledge/how-to-approve-submitted-timesheets-as-a-client"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Training",
+    "slug": "training",
+    "subcategories": [
+      {
+        "subcategory": "Training Configuration",
+        "articles": [
+          {
+            "title": "How to Setup Training Managers & Approval Workflow",
+            "url": "https://support.briohr.com/knowledge/set-training-managers-approval-workflow"
+          },
+          {
+            "title": "How to Create Training Categories",
+            "url": "https://support.briohr.com/knowledge/create-training-categories-guide"
+          },
+          {
+            "title": "How to Create and Manage a Budget Center in the Training Module",
+            "url": "https://support.briohr.com/knowledge/create-budget-center-in-training-module"
+          },
+          {
+            "title": "How to Setup Training Creation Request Settings",
+            "url": "https://support.briohr.com/knowledge/setup-training-creation-request"
+          },
+          {
+            "title": "How to Create a Training Event: Step-by-Step Guide to Training Details (Part 1)",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-training-part-1-setup-details"
+          },
+          {
+            "title": "How to Create a Training Event: Step-by-Step Guide to Training Eligibility (Part 2)",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-training-part-2-setup-eligibility"
+          },
+          {
+            "title": "How to Create a Training Event: Step-by-Step Guide to Training Budget (Part 3)",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-training-part-3-setup-budget"
+          },
+          {
+            "title": "How to Create a Training Event: Step-by-Step Guide to Training Approval (Part 4)",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-training-part-4-approval"
+          },
+          {
+            "title": "How to Create a Training Event: Step-by-Step Guide to Training Trainees (Part 5)",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-training-part-5-setup-trainees"
+          },
+          {
+            "title": "Manage Company Training Catalog",
+            "url": "https://support.briohr.com/knowledge/manage-company-training-catalog"
+          }
+        ]
+      },
+      {
+        "subcategory": "Training Management",
+        "articles": [
+          {
+            "title": "How to Manage Training Trainees: : A Step-by-Step Guide",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-training-trainees"
+          },
+          {
+            "title": "How to View Training Creation Requests: A Step-by-Step Guide",
+            "url": "https://support.briohr.com/knowledge/how-to-view-training-creation-request"
+          },
+          {
+            "title": "How to Unpublish a Training Event: A Step-by-Step Guide",
+            "url": "https://support.briohr.com/knowledge/how-to-unpublish-a-training-event"
+          },
+          {
+            "title": "How to Publish a Training Event: A Step-by-Step Guide",
+            "url": "https://support.briohr.com/knowledge/how-to-publish-a-training-event"
+          },
+          {
+            "title": "How to Mark a Training Event as Completed in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-mark-a-training-event-as-completed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Document Management",
+    "slug": "document-management",
+    "subcategories": [
+      {
+        "subcategory": "General",
+        "articles": [
+          {
+            "title": "Document Management Configuration for User Permissions",
+            "url": "https://support.briohr.com/knowledge/document-management-configuration-for-user-permissions"
+          },
+          {
+            "title": "Setting up the Document Management module as the HR Admin",
+            "url": "https://support.briohr.com/knowledge/setting-up-the-document-management-module-as-the-hr-admin"
+          },
+          {
+            "title": "Frequently Asked Questions for Document Management",
+            "url": "https://support.briohr.com/knowledge/frequently-asked-questions-for-document-management"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Feed",
+    "slug": "feed",
+    "subcategories": [
+      {
+        "subcategory": "General",
+        "articles": [
+          {
+            "title": "How Birthday Announcements Work on BrioHR Feed",
+            "url": "https://support.briohr.com/knowledge/enhance-workplace-culture-with-briohrs-birthday-announcement-feature"
+          },
+          {
+            "title": "How to Create, Edit and Manage Posts in BrioHR Feed",
+            "url": "https://support.briohr.com/knowledge/how-to-create-edit-delete-pin-a-new-post-in-briohr-feed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "HR Lounge",
+    "slug": "hr-lounge",
+    "subcategories": [
+      {
+        "subcategory": "HR Lounge Dashboard",
+        "articles": [
+          {
+            "title": "How to Restore a Resigned Employee's Account Status",
+            "url": "https://support.briohr.com/knowledge/how-to-restore-a-resigned-employees-account-status"
+          },
+          {
+            "title": "Import Employee Fixed Remunerations and Deductions in Bulk for Payroll",
+            "url": "https://support.briohr.com/knowledge/import-employee-fixed-remunerations-and-deductions-in-bulk-for-payroll"
+          },
+          {
+            "title": "How to Bulk Import Salary by Bulk",
+            "url": "https://support.briohr.com/knowledge/how-to-bulk-import-salary-by-bulk"
+          },
+          {
+            "title": "HR Lounge Navigation Made Simple",
+            "url": "https://support.briohr.com/knowledge/hr-lounge-navigation-made-simple"
+          }
+        ]
+      },
+      {
+        "subcategory": "Profile Change Request",
+        "articles": [
+          {
+            "title": "How to Approve or Reject Profile Change Requests in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-approve-or-reject-profile-change-requests-in-briohr"
+          },
+          {
+            "title": "How to Enable and Manage the Profile Change Requests Feature in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-and-manage-profile-change-requests-in-briohr"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "People",
+    "slug": "people",
+    "subcategories": [
+      {
+        "subcategory": "Profile Creation",
+        "articles": [
+          {
+            "title": "How to Register or Add a New Employee in BrioHR (Create New Profile)",
+            "url": "https://support.briohr.com/knowledge/how-to-register-or-add-a-new-employee-in-briohr"
+          },
+          {
+            "title": "How to Bulk Register Multiple New Employees in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-bulk-register-multiple-new-employees-in-briohr"
+          }
+        ]
+      },
+      {
+        "subcategory": "Profile Management",
+        "articles": [
+          {
+            "title": "Editing Past Job Dates and Managing Job History in BrioHR",
+            "url": "https://support.briohr.com/knowledge/editing-dates-for-past-jobs"
+          },
+          {
+            "title": "How to Change or Remove an Employee's Employment End or Resign Date",
+            "url": "https://support.briohr.com/knowledge/how-to-change-or-remove-an-employees-employment-end-date"
+          },
+          {
+            "title": "How to Update Employee Employment Details",
+            "url": "https://support.briohr.com/knowledge/how-to-update-employee-employment-details"
+          },
+          {
+            "title": "How to Manage Job History: Selecting the Correct Date",
+            "url": "https://support.briohr.com/knowledge/how-to-manage-job-history-selecting-the-correct-date"
+          },
+          {
+            "title": "How to Set Up Children's Information in Family Details",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-childrens-information-in-family-details"
+          },
+          {
+            "title": "How to Set an Employee\u2019s Employment End or Resign Date",
+            "url": "https://support.briohr.com/knowledge/how-to-set-an-employees-resign-date"
+          },
+          {
+            "title": "How to Deactivate or Remove a Resigned Employee's Account in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-deactivate-or-remove-a-resigned-employees-account-in-briohr"
+          },
+          {
+            "title": "How to add/edit/delete children information?",
+            "url": "https://support.briohr.com/knowledge/how-to-add/edit/delete-children-information"
+          },
+          {
+            "title": "How to add/edit/delete spouse information?",
+            "url": "https://support.briohr.com/knowledge/how-to-edit"
+          },
+          {
+            "title": "How to add/edit/delete identity document?",
+            "url": "https://support.briohr.com/knowledge/how-to-add/edit/delete-identity-document"
+          },
+          {
+            "title": "How to add/edit/delete Job Grades?",
+            "url": "https://support.briohr.com/knowledge/how-to-add/edit/manage-job-grades"
+          },
+          {
+            "title": "How to add/edit/delete/mark as returned equipment",
+            "url": "https://support.briohr.com/knowledge/https/app.hubspot.com/knowledge/5983410/edit/176877126742"
+          }
+        ]
+      },
+      {
+        "subcategory": "Document Management",
+        "articles": [
+          {
+            "title": "Employee Personal Files in BrioHR: How to Upload, Manage and Access Documents",
+            "url": "https://support.briohr.com/knowledge/employee-personal-files-in-briohr-how-to-upload-manage-and-access-documents"
+          }
+        ]
+      },
+      {
+        "subcategory": "Organization Chart",
+        "articles": [
+          {
+            "title": "How to Access and View the Organization Chart",
+            "url": "https://support.briohr.com/knowledge/how-to-access-and-view-the-organization-chart"
+          },
+          {
+            "title": "How to View Vacant Positions in Your Organization Chart",
+            "url": "https://support.briohr.com/knowledge/how-to-view-vacant-positions-in-your-organization-chart"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Reports",
+    "slug": "reports",
+    "subcategories": [
+      {
+        "subcategory": "General Reports",
+        "articles": [
+          {
+            "title": "Understanding Employee Turnover Statistics: How to Measure and Improve Workforce Stability",
+            "url": "https://support.briohr.com/knowledge/understanding-employee-turnover-statistics-how-to-measure-and-improve-workforce-stability"
+          },
+          {
+            "title": "Enhanced HR Statistics: New Filters, Graphs, and Insights",
+            "url": "https://support.briohr.com/knowledge/enhanced-hr-statistics-new-filters-graphs-and-insights"
+          },
+          {
+            "title": "How to Create and Customize Employee Information Report?",
+            "url": "https://support.briohr.com/knowledge/how-to-download-employee-information-report"
+          }
+        ]
+      },
+      {
+        "subcategory": "Payroll Reports",
+        "articles": [
+          {
+            "title": "How to Create HRDF Amount Per Employee Payroll Report",
+            "url": "https://support.briohr.com/knowledge/create-hrdf-payroll-report-guide"
+          },
+          {
+            "title": "Understanding Payroll Variance: Amount and Percentage Differences Explained",
+            "url": "https://support.briohr.com/knowledge/understanding-payroll-variance-amount-and-percentage-differences-explained"
+          },
+          {
+            "title": "How to Filter the Company Payroll Report and Payroll Variance Report by Country and Payroll Centers",
+            "url": "https://support.briohr.com/knowledge/how-to-filter-the-company-payroll-report-and-payroll-variance-report-by-country-and-payroll-centers"
+          },
+          {
+            "title": "Company Payroll Report & Payroll Variance Report: How to View the Total Amount",
+            "url": "https://support.briohr.com/knowledge/company-payroll-report-payroll-variance-report-how-to-view-the-total-amount"
+          },
+          {
+            "title": "How to Download and Customize the Company Payroll Report in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-download-and-customize-the-company-payroll-report-in-briohr"
+          },
+          {
+            "title": "How to Include Identity Documents and General Payroll Information in Your Company Payroll Report",
+            "url": "https://support.briohr.com/knowledge/how-to-include-identity-documents-and-general-payroll-information-in-your-company-payroll-report"
+          },
+          {
+            "title": "How to Create a Zakat Deduction List Report in Payroll",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-zakat-deduction-list-report-in-payroll"
+          },
+          {
+            "title": "How to Create and Customize Employee Payroll Details Reports",
+            "url": "https://support.briohr.com/knowledge/create-and-custom-employee-payroll-details-report"
+          }
+        ]
+      },
+      {
+        "subcategory": "Leave Reports",
+        "articles": [
+          {
+            "title": "How to Generate and Customize a Leave Balance Report in BrioHR",
+            "url": "https://support.briohr.com/knowledge/generate-and-cutomize-a-leave-balance-report-in-briohr"
+          },
+          {
+            "title": "Leave Balances Report: How to Include Employees' Salary Information",
+            "url": "https://support.briohr.com/knowledge/leave-balances-report-how-to-include-employees-salary-information"
+          },
+          {
+            "title": "How to Create a Custom Report Format in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-create-a-custom-report-format-in-briohr"
+          }
+        ]
+      },
+      {
+        "subcategory": "Expense Claim Reports",
+        "articles": [
+          {
+            "title": "How to Include Claim Type Custom Fields in the Expense Claims Report",
+            "url": "https://support.briohr.com/knowledge/how-to-include-claim-type-custom-fields-in-the-expense-claims-report"
+          },
+          {
+            "title": "Accessing Expense Claims Limit & Balance Report in brioHR",
+            "url": "https://support.briohr.com/knowledge/accessing-claim-limit-and-balance-report-in-briohr"
+          },
+          {
+            "title": "How to Download an Approved Expense Claim Report",
+            "url": "https://support.briohr.com/knowledge/how-to-download-an-approved-expense-claim-report"
+          },
+          {
+            "title": "How to Download an Expense Claims Report",
+            "url": "https://support.briohr.com/knowledge/how-to-download-an-expense-claims-report"
+          }
+        ]
+      },
+      {
+        "subcategory": "Performance Reports",
+        "articles": [
+          {
+            "title": "How to Customize Your Performance Management Report to Include Information on the Performance Cycle(s)",
+            "url": "https://support.briohr.com/knowledge/how-to-customize-your-performance-management-report-to-include-information-on-the-performance-cycles"
+          },
+          {
+            "title": "Create and Download Ad-Hoc Performance Cycle Reports for Better Performance Management",
+            "url": "https://support.briohr.com/knowledge/create-and-download-ad-hoc-performance-cycle-reports-for-better-performance-management"
+          },
+          {
+            "title": "How to View and Download Your Performance Appraisal Report",
+            "url": "https://support.briohr.com/knowledge/how-to-view-and-download-your-performance-appraisal-report"
+          },
+          {
+            "title": "How to View and Download the Performance 360 Feedback Report",
+            "url": "https://support.briohr.com/knowledge/how-to-view-and-download-the-performance-360-feedback-report"
+          },
+          {
+            "title": "How to Enable and Download the Performance 1-on-1 Feedback Report",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-and-download-the-performance-1-on-1-feedback-report"
+          },
+          {
+            "title": "How to View and Download the Performance Objective Report",
+            "url": "https://support.briohr.com/knowledge/how-to-view-and-download-the-performance-objective-report"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "FAQs",
+    "slug": "faqs",
+    "subcategories": [
+      {
+        "subcategory": "Leave",
+        "articles": [
+          {
+            "title": "Understanding and Resolving Insufficient Leave Balance at Year-End",
+            "url": "https://support.briohr.com/knowledge/understanding-and-resolving-insufficient-leave-balance-at-year-end"
+          },
+          {
+            "title": "How to Allow Credit Balance to Be Used in the Following Year (Credit Expires in 2025)",
+            "url": "https://support.briohr.com/knowledge/enable-credit-balance-expires-next-year-as-carry-forward"
+          },
+          {
+            "title": "How to Enable and Configure Carry Forward of Previous Year Leave Balance in the New Year",
+            "url": "https://support.briohr.com/knowledge/how-to-enable-and-configure-carry-forward-of-previous-year-leave-balance-in-new-year"
+          }
+        ]
+      },
+      {
+        "subcategory": "Payroll - Malaysia",
+        "articles": [
+          {
+            "title": "Unable to Generate File: Missing MyKad or Passport - How to Fix It",
+            "url": "https://support.briohr.com/knowledge/unable-to-generate-file-missing-mykad-or-passport-how-to-fix-it"
+          },
+          {
+            "title": "How to Resolve \"Unable to Compute Payslip\" Warning",
+            "url": "https://support.briohr.com/knowledge/how-to-resolve-unable-to-compute-payslip-warning"
+          },
+          {
+            "title": "How to Customize EPF Contribution Rates: Add to Default & Overwrite Explained",
+            "url": "https://support.briohr.com/knowledge/how-to-customize-epf-contribution-rates-add-to-default-overwrite-explained"
+          },
+          {
+            "title": "How to Add Salary for Interns, Freelancers, and Consultants Without PCB Deduction",
+            "url": "https://support.briohr.com/knowledge/how-to-add-salary-for-interns-freelancers-and-consultants-without-pcb-deduction"
+          },
+          {
+            "title": "How to Modify and Delete Fixed Remunerations in Payroll: FAQs",
+            "url": "https://support.briohr.com/knowledge/how-to-modify-and-delete-fixed-remunerations-in-payroll-faqs"
+          }
+        ]
+      },
+      {
+        "subcategory": "Payroll - Singapore",
+        "articles": [
+          {
+            "title": "IRAS Submission Failed: How to Resolve 'Organisation Type, Organisation ID, and Basis Year Must Be Valid and Not Blank' Errors",
+            "url": "https://support.briohr.com/knowledge/iras-submission-failed-how-to-resolve-organisation-type-organisation-id-and-basis-year-must-be-valid-and-not-blank-errors"
+          }
+        ]
+      },
+      {
+        "subcategory": "Expense Claims",
+        "articles": [
+          {
+            "title": "How to Fix Missing Claim Types in the Claim Drop-Down Menu",
+            "url": "https://support.briohr.com/knowledge/how-to-fix-missing-claim-types-in-the-claim-drop-down-menu"
+          }
+        ]
+      },
+      {
+        "subcategory": "Account",
+        "articles": [
+          {
+            "title": "BrioHR Data Backup and Recovery Policy: Ensuring HR Data Security",
+            "url": "https://support.briohr.com/knowledge/briohr-data-backup-and-recovery-policy-ensuring-hr-data-security"
+          }
+        ]
+      },
+      {
+        "subcategory": "Profile",
+        "articles": [
+          {
+            "title": "Troubleshooting Profile Picture Upload Issues in BrioHR",
+            "url": "https://support.briohr.com/knowledge/troubleshooting-profile-picture-upload-issues-in-briohr"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Product Updates",
+    "slug": "product-updates",
+    "subcategories": [
+      {
+        "subcategory": "Product Updates - July 2026",
+        "articles": [
+          {
+            "title": "BrioHR Product Updates - July 2026, Week 2 |\u00a0 Bulk compensation imports, New Claim Balance Report, Change Subsidiaries on Mobile App",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-july-2026-week-2-bulk-compensation-imports-new-claim-balance-report-change-subsidiaries-on-mobile-app"
+          },
+          {
+            "title": "BrioHR Product Updates - July 2026, Week 1 |\u00a0 Years of Service Tracking & Payroll YTD Summary Settings",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-july-2026-week-1-years-of-service-tracking-employee-ytd-summary-visibility"
+          }
+        ]
+      },
+      {
+        "subcategory": "Product Updates - June 2026",
+        "articles": [
+          {
+            "title": "brioHR Product Updates - June 2026, Week 4 | New Thai Language & Day Off option in schedules, + Enhancements to Payroll and Time Attendance modules.",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-june-2026-week-4-new-thai-language-day-off-option-payroll-and-time-attendance-updates"
+          },
+          {
+            "title": "brioHR Product Updates - June 2026, Week 2 | Upgrades to Payroll, Claims, & Time Attendance + Indonesia PH Update!",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-june-2026-week-2-upgrades-to-payroll-claims-time-attendance-indonesia-ph"
+          },
+          {
+            "title": "brioHR Product Updates - June 2026, Week 1 | API Salary Data Privacy Control & Payslip Password Protection Update for SG",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-june-2026-week-1-api-salary-data-privacy-control-payslip-password-protection-update-for-sg"
+          }
+        ]
+      },
+      {
+        "subcategory": "Product Updates - May 2026",
+        "articles": [
+          {
+            "title": "brioHR Product Updates - May 2026, Week 4 | Document Management & New Overtime (Off Day) Pay Item for Payroll Malaysia!",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-may-2026-week-4-new-overtime-off-day-pay-item-for-payroll-malaysia"
+          },
+          {
+            "title": "BrioHR Product Updates - May 2026, Week 3 | Enhanced MFA, New SKBBK Contribution & New Company Payroll Report API!",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-may-2026-week-3-enhanced-mfa-new-skbbk-contribution-new-company-payroll-report-api"
+          },
+          {
+            "title": "BrioHR Product Updates - May 2026, Week 2 | Payslip Updates - Leave Summary Visibility & Identity Number Standardization",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-may-2026-week-2-payslip-updates-leave-summary-visibility-identity-number-standardization"
+          },
+          {
+            "title": "BrioHR Product Updates - May 2026, Week 1 | Hybrid Attendance, Improved CP8D & Payroll Reports",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-may-2026-week-1-hybrid-attendance-improved-cp8d-payroll-reports"
+          }
+        ]
+      },
+      {
+        "subcategory": "Product Updates - April 2026",
+        "articles": [
+          {
+            "title": "BrioHR Product Updates - April 2026, Week 5 | Leave Summary Visibility",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-april-2026-week-5-leave-summary-visibility"
+          },
+          {
+            "title": "BrioHR Product Updates - April 2026, Week 4 | Shift & Schedule Updates for Time Attendance",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-april-2026-week-4-shift-schedule-updates-for-time-attendance"
+          },
+          {
+            "title": "BrioHR Product Updates - April 2026, Week 3 |  Break Time & Clock Out Monitoring for Time Attendance",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-april-2026-week-3-break-time-clock-out-monitoring-for-time-attendance"
+          },
+          {
+            "title": "BrioHR Product Updates - April 2026, Week 2 | New Features and Enhancements",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-april-2026-week-2-new-features-and-enhancements"
+          },
+          {
+            "title": "BrioHR Product Updates - April 2026, Week 1 | New Features and Enhancements",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-april-2026-week-1-new-features-and-enhancements"
+          }
+        ]
+      },
+      {
+        "subcategory": "Product Updates - March 2026",
+        "articles": [
+          {
+            "title": "BrioHR Product Updates - Mar 2026, Week 4 | New Features and Enhancements",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-mar-2026-week-4-new-features-and-enhancements"
+          },
+          {
+            "title": "BrioHR Product Updates - Mar 2026, Week 3 | Updates and Enhancements",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-mar-2026-week-2-updates-0"
+          },
+          {
+            "title": "BrioHR Product Updates - Mar 2026, Week 2 | Updates",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-mar-2026-week-2-updates"
+          },
+          {
+            "title": "BrioHR Product Updates - Mar 2026, Week 1 | New Features and Enhancements",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-mar-2026-week-1-new-features-and-enhancements"
+          }
+        ]
+      },
+      {
+        "subcategory": "Product Updates - February 2026",
+        "articles": [
+          {
+            "title": "BrioHR Product Updates - Feb 2026, Week 4 | New Features and Enhancements",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-feb-2026-week-4-new-features-and-enhancements"
+          },
+          {
+            "title": "BrioHR Product Updates - Feb 2026, Week 2 | New Features and Enhancements",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-feb-2026-week-2-new-features-and-enhancements"
+          },
+          {
+            "title": "BrioHR Product Updates - Feb 2026, Week 1 | New Features and Enhancements",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-feb-2026-week-1-new-features-and-enhancements"
+          }
+        ]
+      },
+      {
+        "subcategory": "Product Updates - January 2026",
+        "articles": [
+          {
+            "title": "BrioHR Product Updates - Jan 2026, Week 4 | New Features and Enhancements",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-jan-2026-week-4-new-features-and-enhancements"
+          },
+          {
+            "title": "BrioHR Product Updates - Jan 2026, Week 3 | Updates",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-jan-2026-week-3-updates"
+          },
+          {
+            "title": "BrioHR Product Updates - Jan 2026, Week 1 | New Features and Enhancements",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-jan-2026-week-1-new-features-and-enhancements"
+          }
+        ]
+      },
+      {
+        "subcategory": "Product Updates - 2025",
+        "articles": [
+          {
+            "title": "BrioHR Product Updates 2025 | New Features and Enhancements",
+            "url": "https://support.briohr.com/knowledge/product-updates-for-2025"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "API Integrations",
+    "slug": "api-integrations",
+    "subcategories": [
+      {
+        "subcategory": "API",
+        "articles": [
+          {
+            "title": "BRIOHR API INTEGRATION FLOW",
+            "url": "https://support.briohr.com/knowledge/briohr-api"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Billing & Subscription",
+    "slug": "billing-subscription",
+    "subcategories": [
+      {
+        "subcategory": "General",
+        "articles": [
+          {
+            "title": "Understanding Your BrioHR Billing",
+            "url": "https://support.briohr.com/knowledge/understanding-your-briohr-billing"
+          },
+          {
+            "title": "Request a Statement of Account (SOA) from BrioHR",
+            "url": "https://support.briohr.com/knowledge/request-a-statement-of-account-from-briohr"
+          },
+          {
+            "title": "How to Add or Change Your Invoice Recipient Email Address",
+            "url": "https://support.briohr.com/knowledge/add-change-invoice-recipient-email-address"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Implementation with BrioHR",
+    "slug": "implementation-with-briohr",
+    "subcategories": [
+      {
+        "subcategory": "General",
+        "articles": [
+          {
+            "title": "How to Use the Data Templates for Your BrioHR Implementation",
+            "url": "https://support.briohr.com/knowledge/how-to-use-the-data-templates-for-your-briohr-implementation"
+          },
+          {
+            "title": "How to Process a Payroll Parallel Run in BrioHR (Malaysia Payroll Guide)",
+            "url": "https://support.briohr.com/knowledge/how-to-process-a-payroll-parallel-run-in-briohr-malaysia-payroll-guide"
+          }
+        ]
+      }
+    ]
+  }
+]

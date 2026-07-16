@@ -1,7 +1,10 @@
 name: Auto release
 
-# Every push to main rebuilds the skill zips and publishes a new release,
-# bumping the minor version: v1.0 -> v1.1 -> v1.2 -> ...
+# Every human push to main publishes a new MINOR release (skill / tooling work):
+#   1.26.0 -> 1.27.0 -> 1.28.0 ...
+# Daily knowledge-base refreshes are PATCH releases, cut by kb-sync.yml instead.
+# The version source of truth is plugin.json (not tag parsing), so the two
+# workflows never fight over the number.
 on:
   push:
     branches: [main]
@@ -10,9 +13,9 @@ on:
 permissions:
   contents: write
 
-# Never run two releases at once (avoids version races on rapid pushes).
+# Shared with kb-sync so a release and a scrape never touch main at once.
 concurrency:
-  group: auto-release
+  group: main-release
   cancel-in-progress: false
 
 jobs:
@@ -24,24 +27,21 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Compute next version
+      - name: Compute next minor version
         id: ver
         run: |
-          # Only consider two-part tags from this scheme: vMAJOR.MINOR
-          latest=$(git tag -l 'v*' | grep -E '^v[0-9]+\.[0-9]+$' | sort -V | tail -1)
-          if [ -z "$latest" ]; then
-            major=1; minor=0
-          else
-            num=${latest#v}
-            major=${num%.*}
-            minor=$(( ${num#*.} + 1 ))
-          fi
-          next="v${major}.${minor}"
-          semver="${major}.${minor}.0"
-          echo "prev=$latest"   >> "$GITHUB_OUTPUT"
-          echo "next=$next"     >> "$GITHUB_OUTPUT"
+          current=$(jq -r '.version' .claude-plugin/plugin.json)
+          IFS='.' read -r major minor patch <<< "$current"
+          minor=$(( minor + 1 )); patch=0
+          semver="${major}.${minor}.${patch}"
+          # Guard against an existing tag (e.g. re-run): keep bumping minor.
+          while git rev-parse "v${semver}" >/dev/null 2>&1; do
+            minor=$(( minor + 1 )); semver="${major}.${minor}.0"
+          done
+          echo "prev=$current"  >> "$GITHUB_OUTPUT"
           echo "semver=$semver" >> "$GITHUB_OUTPUT"
-          echo "Next version: $next (semver $semver, prev: ${latest:-none})"
+          echo "next=v$semver"  >> "$GITHUB_OUTPUT"
+          echo "Next version: v$semver (from $current)"
 
       - name: Bump plugin version on main
         env:
@@ -75,12 +75,13 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
-          prev="${{ steps.ver.outputs.prev }}"
+          prev="v${{ steps.ver.outputs.prev }}"
           next="${{ steps.ver.outputs.next }}"
-          # Short changelog = commit subjects since the previous release.
-          if [ -n "$prev" ]; then range="${prev}..HEAD"; else range="HEAD~10..HEAD"; fi
+          # Short changelog = commit subjects since the previous release tag.
+          range="${prev}..HEAD"
+          git rev-parse "$prev" >/dev/null 2>&1 || range="HEAD~10..HEAD"
           changelog=$(git log "$range" --no-merges --pretty=format:'• %s' \
-                       | grep -viE 'co-authored-by|\[skip ci\]|chore: release' | head -8)
+                       | grep -viE 'co-authored-by|\[skip ci\]|chore: release|chore\(kb\)' | head -8)
           [ -z "$changelog" ] && changelog="• See release notes"
           text=$(printf ':rocket: *BrioHR PM Skills %s released* by %s\n%s\n\n:sparkles: Auto-syncing to everyone’s Claude via the plugin — no download or upload needed.' \
                   "$next" "${{ github.actor }}" "$changelog")

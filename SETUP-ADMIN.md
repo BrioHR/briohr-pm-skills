@@ -21,19 +21,19 @@ This connects the BrioHR PM Skills plugin to your Claude org and gives it to the
 ### 3. Done
 The 4 PMs now see the two skills in Claude (chat, web, Desktop, and Cowork) automatically. Group targeting set up for Cowork carries over to chat with no extra steps.
 
-### 4. Enable knowledge-base grounding (separate from the plugin install)
-The skills ground their output in the private **`BrioHR/knowledge-base`** repo. This needs the **Claude GitHub App installed on the `BrioHR` organization** — a separate installation from any personal-account one, since "All repositories" only covers repos owned by *that installation's* account.
+### 4. Knowledge-base grounding — nothing to set up
+The skills ground their output in a snapshot of the BrioHR Help Center that is **bundled inside each skill** (`knowledge-base/`), so PMs get grounding automatically — no Cowork Project sync, no GitHub attachment, no connector, and **no token or secret**.
 
-1. Go to **github.com/organizations/BrioHR/settings/installations**.
-2. Find the **Claude** GitHub App. If it isn't listed, install/authorize it for the org.
-3. Open it → **Repository access** → make sure it includes `BrioHR/knowledge-base` (either "All repositories" or explicitly selected).
-4. PMs then get KB grounding by **syncing the repo into their Cowork Project** (or attaching an article via **+ → Add from GitHub** in plain chat). Without this, the skills still work — just without KB grounding.
+A GitHub Action (`.github/workflows/kb-sync.yml`) re-scrapes the public Help Center daily and auto-publishes a **patch** release whenever an article or the catalog changed. It runs entirely on the built-in `GITHUB_TOKEN` — the Help Center is public, so no credentials are involved.
+
+> Optional: release notifications post to **#product-hotline** via a `SLACK_WEBHOOK_URL` repo secret. If it's unset, releases still happen — just without the Slack ping.
 
 ## How updates work after setup
 - A PM (or whoever maintains the skills) pushes a change to `main`.
-- The repo's GitHub Action bumps the plugin version and the marketplace auto-syncs.
+- The repo's GitHub Action bumps the plugin version (minor) and the marketplace auto-syncs.
 - The PM group **automatically gets the new version** — no reinstall, no admin action.
 - A summary is posted to **#product-hotline** for visibility.
+- Separately, the knowledge base re-syncs daily; any change ships as a **patch** release the same way, with no human action.
 
 ## Notes
 - The repo is **private** (required for GitHub plugin sync). Keep it private.

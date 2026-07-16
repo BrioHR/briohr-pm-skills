@@ -1,11 +1,10 @@
 name: Auto release
 
-# Every push to main rebuilds the skill zips and publishes a new release.
-# The bump type is inferred from what changed since the last release:
-#   - only bundled knowledge-base/ changed -> PATCH (a daily KB sync) 1.26.0 -> 1.26.1
-#   - anything else (or mixed)             -> MINOR (skill/tooling)   1.26.1 -> 1.27.0
-# The current version is read from plugin.json (the source of truth), so the two
-# schemes never fight over tag parsing.
+# Every human push to main publishes a new MINOR release (skill / tooling work):
+#   1.26.0 -> 1.27.0 -> 1.28.0 ...
+# Daily knowledge-base refreshes are PATCH releases, cut by kb-sync.yml instead.
+# The version source of truth is plugin.json (not tag parsing), so the two
+# workflows never fight over the number.
 on:
   push:
     branches: [main]
@@ -14,7 +13,7 @@ on:
 permissions:
   contents: write
 
-# Shared with kb-sync so a sync push and a release never touch main at once.
+# Shared with kb-sync so a release and a scrape never touch main at once.
 concurrency:
   group: main-release
   cancel-in-progress: false
@@ -28,39 +27,21 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Compute next version
+      - name: Compute next minor version
         id: ver
         run: |
           current=$(jq -r '.version' .claude-plugin/plugin.json)
           IFS='.' read -r major minor patch <<< "$current"
-
-          # Last release tag (accepts old two-part vX.Y and new three-part vX.Y.Z).
-          last=$(git tag -l 'v*' | grep -E '^v[0-9]+\.[0-9]+(\.[0-9]+)?$' | sort -V | tail -1)
-
-          # Decide bump type from the diff since the last release.
-          bump="minor"
-          if [ -n "$last" ]; then
-            changed=$(git diff --name-only "$last"..HEAD)
-            # KB lives at skills/<skill>/knowledge-base/ — match it at any depth.
-            non_kb=$(echo "$changed" | grep -vE '(^|/)knowledge-base/' | grep -v '^$' || true)
-            if [ -n "$changed" ] && [ -z "$non_kb" ]; then
-              bump="patch"
-            fi
-          fi
-
-          if [ "$bump" = "patch" ]; then
-            patch=$(( patch + 1 ))
-          else
-            minor=$(( minor + 1 )); patch=0
-          fi
-
+          minor=$(( minor + 1 )); patch=0
           semver="${major}.${minor}.${patch}"
-          next="v${semver}"
-          echo "prev=$last"     >> "$GITHUB_OUTPUT"
-          echo "bump=$bump"     >> "$GITHUB_OUTPUT"
-          echo "next=$next"     >> "$GITHUB_OUTPUT"
+          # Guard against an existing tag (e.g. re-run): keep bumping minor.
+          while git rev-parse "v${semver}" >/dev/null 2>&1; do
+            minor=$(( minor + 1 )); semver="${major}.${minor}.0"
+          done
+          echo "prev=$current"  >> "$GITHUB_OUTPUT"
           echo "semver=$semver" >> "$GITHUB_OUTPUT"
-          echo "Bump: $bump -> $next (from ${current}, prev tag: ${last:-none})"
+          echo "next=v$semver"  >> "$GITHUB_OUTPUT"
+          echo "Next version: v$semver (from $current)"
 
       - name: Bump plugin version on main
         env:
@@ -94,21 +75,15 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
-          prev="${{ steps.ver.outputs.prev }}"
+          prev="v${{ steps.ver.outputs.prev }}"
           next="${{ steps.ver.outputs.next }}"
-          bump="${{ steps.ver.outputs.bump }}"
-          # Short changelog = commit subjects since the previous release.
-          if [ -n "$prev" ]; then range="${prev}..HEAD"; else range="HEAD~10..HEAD"; fi
+          # Short changelog = commit subjects since the previous release tag.
+          range="${prev}..HEAD"
+          git rev-parse "$prev" >/dev/null 2>&1 || range="HEAD~10..HEAD"
           changelog=$(git log "$range" --no-merges --pretty=format:'• %s' \
-                       | grep -viE 'co-authored-by|\[skip ci\]|chore: release' | head -8)
+                       | grep -viE 'co-authored-by|\[skip ci\]|chore: release|chore\(kb\)' | head -8)
           [ -z "$changelog" ] && changelog="• See release notes"
-          # A patch release is a KB content refresh; label it so readers know.
-          if [ "$bump" = "patch" ]; then
-            headline=":books: *BrioHR PM Skills %s — knowledge base updated* by %s\n%s"
-          else
-            headline=":rocket: *BrioHR PM Skills %s released* by %s\n%s"
-          fi
-          text=$(printf "${headline}\n\n:sparkles: Auto-syncing to everyone’s Claude via the plugin — no download or upload needed." \
+          text=$(printf ':rocket: *BrioHR PM Skills %s released* by %s\n%s\n\n:sparkles: Auto-syncing to everyone’s Claude via the plugin — no download or upload needed.' \
                   "$next" "${{ github.actor }}" "$changelog")
           payload=$(jq -n --arg t "$text" '{text:$t}')
           curl -sS -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"

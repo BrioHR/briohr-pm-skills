@@ -108,18 +108,21 @@ The build script auto-discovers every folder under `skills/`, so new skills are
 picked up automatically with no config. Each zip includes that skill's bundled
 `knowledge-base/`, so it's a few MB and self-contained.
 
-### Knowledge base (bundled & auto-synced)
+### Knowledge base (bundled & auto-scraped)
 
-Each skill carries a vendored copy of the BrioHR Help Center under
-`skills/<skill>/knowledge-base/`, so grounding works offline with no connector.
-It's a read-only mirror of **[`BrioHR/knowledge-base`](https://github.com/BrioHR/knowledge-base)**
-(the scraped single source of truth) — **don't edit it by hand.**
+Each skill carries a snapshot of the BrioHR Help Center under
+`skills/<skill>/knowledge-base/`, so grounding works offline with no connector —
+**don't edit it by hand.**
 
-`.github/workflows/kb-sync.yml` runs daily: it pulls the latest Markdown from that
-repo into every skill's `knowledge-base/` and, if anything changed, pushes to
-`main` — which cuts a patch release, so PMs auto-update. It needs a repo secret
-**`KB_SYNC_TOKEN`** with read access to the private `BrioHR/knowledge-base` repo
-(the org GitHub App token, or a fine-grained PAT).
+`.github/workflows/kb-sync.yml` runs daily: it re-scrapes the Help Center with
+`scripts/kb/scraper.py`, vendors the result into every skill's `knowledge-base/`,
+and — if any article or the catalog changed — commits, bumps the **patch**
+version, and cuts a release, so PMs auto-update. **No token or secret needed:**
+the Help Center is public and the job pushes with the built-in `GITHUB_TOKEN`.
+
+> The scraper is a pristine copy of the one in
+> [`BrioHR/knowledge-base`](https://github.com/BrioHR/knowledge-base) — keep the two
+> in step so both mirror the same source.
 
 ## Customizing
 

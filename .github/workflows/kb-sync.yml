@@ -1,81 +1,149 @@
-name: KB sync
+name: KB scrape & release
 
-# Pulls the latest built Markdown from BrioHR/knowledge-base into each skill's
-# bundled knowledge-base/ and pushes it straight to main. That push triggers
-# "Auto release", which sees a KB-only diff and cuts a PATCH release — so every
-# PM's plugin auto-updates.
+# Daily: scrape the public BrioHR Help Center into each skill's bundled
+# knowledge-base/. If real article/catalog content changed, cut a PATCH release so
+# every PM's plugin auto-updates. No cross-repo token needed — the help center is
+# public, and we push + release with the built-in GITHUB_TOKEN.
 #
-# This job does NOT bump the version or build zips itself; release.yml owns that.
+# This job is self-contained: it does NOT rely on triggering release.yml, because a
+# push made with GITHUB_TOKEN does not start other workflows.
+#
+# scripts/kb/scraper.py is a pristine copy of the one in BrioHR/knowledge-base —
+# keep it in step with that repo so both mirror the same source.
 on:
   schedule:
-    - cron: '30 18 * * *' # 18:30 UTC — 30 min after the KB repo's own 18:00 daily scrape
+    - cron: '30 18 * * *' # 18:30 UTC ≈ 02:30 Asia/Kuala_Lumpur (after the KB repo's own scrape)
   workflow_dispatch: {} # allow manual runs from the Actions tab
 
-# Push the vendored content to main.
 permissions:
   contents: write
 
-# Never overlap with a release or another sync (both touch main).
+# Shared with release.yml so a scrape and a push-release never touch main at once.
 concurrency:
   group: main-release
   cancel-in-progress: false
 
 jobs:
-  sync:
+  scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
-      - name: Checkout this repo
-        uses: actions/checkout@v5
-
-      - name: Checkout knowledge-base source
+      - name: Checkout (full history + tags)
         uses: actions/checkout@v5
         with:
-          repository: BrioHR/knowledge-base
-          # Cross-repo read of a private repo — needs a token with read access to
-          # BrioHR/knowledge-base (org GitHub App token or a fine-grained PAT).
-          token: ${{ secrets.KB_SYNC_TOKEN }}
-          path: .kb-src
-          fetch-depth: 1
+          fetch-depth: 0
 
-      - name: Vendor KB content into each skill's knowledge-base/
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
         run: |
-          # Mirror the source content (articles + INDEX.md + sitemap.json + VERSION)
-          # into every skill that bundles the KB, excluding the scraper/CI machinery.
-          # --delete drops articles removed upstream; each skill's own
-          # knowledge-base/README.md is preserved via --exclude.
+          pip install -r scripts/kb/requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Scrape the help center into a staging dir
+        run: |
+          # Run the scraper from a temp dir so its BASE_DIR (script/../) is the
+          # staging dir, keeping the scrape output out of the tracked tree.
+          rm -rf .kb-stage
+          mkdir -p .kb-stage/scripts
+          cp scripts/kb/scraper.py .kb-stage/scripts/scraper.py
+          ( cd .kb-stage && python scripts/scraper.py refresh )
+
+      - name: Vendor the scrape into each skill's knowledge-base/
+        run: |
           for dest in skills/*/knowledge-base/; do
             [ -d "$dest" ] || continue
+            # --delete drops articles removed upstream. Preserve our own README.md
+            # and VERSION (VERSION is stamped only on a real change, below).
             rsync -a --delete \
-              --exclude '.git' \
-              --exclude '.github' \
               --exclude 'scripts' \
-              --exclude '__pycache__' \
-              --exclude 'requirements.txt' \
-              --exclude '.gitignore' \
               --exclude 'scrape_progress.json' \
               --exclude 'README.md' \
-              --exclude 'CHANGELOG.md' \
-              .kb-src/ "$dest"
-            echo "vendored into $dest"
+              --exclude 'VERSION' \
+              .kb-stage/ "$dest"
           done
-          rm -rf .kb-src
+          rm -rf .kb-stage
 
-      - name: Push to main if the KB changed
+      - name: Detect real content changes
+        id: diff
         run: |
           git add skills/*/knowledge-base
-          if git diff --cached --quiet; then
-            echo "No KB changes — nothing to sync."
-            exit 0
+          # INDEX.md restamps "Last updated: <today>" every run — ignore it.
+          # Real changes are article .md files and sitemap.json.
+          real=$(git diff --cached --name-only -- skills/*/knowledge-base | grep -v '/INDEX.md$' || true)
+          if [ -z "$real" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No article/catalog changes — discarding the INDEX.md restamp."
+            git reset -q
+            git checkout -- skills/*/knowledge-base 2>/dev/null || true
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            # All skills carry identical content — count against the first for per-article
+            # numbers, and exclude the generated INDEX.md / sitemap.json from the article counts.
+            ref=$(ls -d skills/*/knowledge-base/ | head -1)
+            stat=$(git diff --cached --name-status -- "$ref" | grep -vE '/(INDEX\.md|sitemap\.json)$' || true)
+            echo "added=$(echo "$stat" | grep -c '^A' || true)"    >> "$GITHUB_OUTPUT"
+            echo "modified=$(echo "$stat" | grep -c '^M' || true)" >> "$GITHUB_OUTPUT"
+            echo "removed=$(echo "$stat" | grep -c '^D' || true)"  >> "$GITHUB_OUTPUT"
           fi
-          # Change summary for the commit body. All skills get identical content,
-          # so count against just the first skill's subtree for per-article numbers.
-          ref=$(ls -d skills/*/knowledge-base/ | head -1)
-          added=$(git diff --cached --name-status -- "$ref" | grep -c '^A' || true)
-          modified=$(git diff --cached --name-status -- "$ref" | grep -c '^M' || true)
-          deleted=$(git diff --cached --name-status -- "$ref" | grep -c '^D' || true)
-          version=$(cat "${ref}VERSION")
+
+      - name: Compute next patch version
+        if: steps.diff.outputs.changed == 'true'
+        id: ver
+        run: |
+          current=$(jq -r '.version' .claude-plugin/plugin.json)
+          IFS='.' read -r major minor patch <<< "$current"
+          patch=$(( patch + 1 )); semver="${major}.${minor}.${patch}"
+          # Guard against an existing tag (manual re-runs): keep bumping patch.
+          while git rev-parse "v${semver}" >/dev/null 2>&1; do
+            patch=$(( patch + 1 )); semver="${major}.${minor}.${patch}"
+          done
+          echo "semver=$semver" >> "$GITHUB_OUTPUT"
+          echo "next=v$semver"  >> "$GITHUB_OUTPUT"
+          echo "Next: v$semver (from $current)"
+
+      - name: Commit, bump, tag, and release
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          semver="${{ steps.ver.outputs.semver }}"
+          next="${{ steps.ver.outputs.next }}"
+          a="${{ steps.diff.outputs.added }}"; m="${{ steps.diff.outputs.modified }}"; d="${{ steps.diff.outputs.removed }}"
+          today=$(date -u +%Y.%m.%d)
+
+          # Stamp VERSION in every skill's KB (the scraper doesn't write it), then
+          # bump the plugin version (patch).
+          for v in skills/*/knowledge-base/VERSION; do echo "$today" > "$v"; done
+          tmp=$(mktemp)
+          jq --arg v "$semver" '.version = $v' .claude-plugin/plugin.json > "$tmp" && mv "$tmp" .claude-plugin/plugin.json
+          jq --arg v "$semver" '.plugins[0].version = $v' .claude-plugin/marketplace.json > "$tmp" && mv "$tmp" .claude-plugin/marketplace.json
+
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore(kb): sync ${version} (+${added} ~${modified} -${deleted})"
+          git add skills/*/knowledge-base .claude-plugin/plugin.json .claude-plugin/marketplace.json
+          # [skip ci] is belt-and-suspenders; a GITHUB_TOKEN push wouldn't start CI anyway.
+          git commit -m "chore(kb): scrape ${today} (+${a} ~${m} -${d}) → release ${semver} [skip ci]"
+
+          ./scripts/build-zips.sh
           git push origin HEAD:main
-          echo "Synced KB ${version} (+${added} ~${modified} -${deleted}) — release.yml will cut a patch."
+          gh release create "$next" dist/*.zip \
+            --title "$next" \
+            --target main \
+            --latest \
+            --notes "Knowledge base refresh (${today}): +${a} new, ~${m} updated, -${d} removed articles."
+
+      - name: Notify Slack (#product-hotline)
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          next="${{ steps.ver.outputs.next }}"
+          a="${{ steps.diff.outputs.added }}"; m="${{ steps.diff.outputs.modified }}"; d="${{ steps.diff.outputs.removed }}"
+          text=$(printf ':books: *BrioHR PM Skills %s — knowledge base updated*\n• +%s new · ~%s updated · -%s removed articles\n\n:sparkles: Auto-syncing to everyone’s Claude via the plugin.' \
+                  "$next" "$a" "$m" "$d")
+          payload=$(jq -n --arg t "$text" '{text:$t}')
+          curl -sS -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"

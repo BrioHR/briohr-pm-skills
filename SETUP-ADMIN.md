@@ -21,14 +21,12 @@ This connects the BrioHR PM Skills plugin to your Claude org and gives it to the
 ### 3. Done
 The 4 PMs now see the two skills in Claude (chat, web, Desktop, and Cowork) automatically. Group targeting set up for Cowork carries over to chat with no extra steps.
 
-### 4. Enable the daily knowledge-base sync (one-time repo secret)
-The skills ground their output in a snapshot of the **`BrioHR/knowledge-base`** repo that is **bundled inside each skill**, so PMs get grounding automatically — no Cowork Project sync, no GitHub attachment, no connector. A GitHub Action keeps that bundled snapshot fresh daily; it just needs read access to the private KB repo via one repo secret.
+### 4. Knowledge-base grounding — nothing to set up
+The skills ground their output in a snapshot of the BrioHR Help Center that is **bundled inside each skill** (`knowledge-base/`), so PMs get grounding automatically — no Cowork Project sync, no GitHub attachment, no connector, and **no token or secret**.
 
-1. Get a token with **read access to `BrioHR/knowledge-base`** — either the org **Claude GitHub App** installation token, or a **fine-grained PAT** (Repository access: `BrioHR/knowledge-base`, Contents: Read-only).
-2. In **`BrioHR/briohr-pm-skills` → Settings → Secrets and variables → Actions**, add a repository secret named **`KB_SYNC_TOKEN`** set to that token.
-3. Done. `.github/workflows/kb-sync.yml` then runs daily (and on manual dispatch), pulls any KB changes into the skills, and pushes to `main` — which auto-publishes a **patch** release to the team.
+A GitHub Action (`.github/workflows/kb-sync.yml`) re-scrapes the public Help Center daily and auto-publishes a **patch** release whenever an article or the catalog changed. It runs entirely on the built-in `GITHUB_TOKEN` — the Help Center is public, so no credentials are involved.
 
-Without `KB_SYNC_TOKEN` the skills still work with the KB snapshot committed at build time; it just won't refresh automatically.
+> Optional: release notifications post to **#product-hotline** via a `SLACK_WEBHOOK_URL` repo secret. If it's unset, releases still happen — just without the Slack ping.
 
 ## How updates work after setup
 - A PM (or whoever maintains the skills) pushes a change to `main`.

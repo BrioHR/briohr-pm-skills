@@ -1,7 +1,11 @@
 name: Auto release
 
-# Every push to main rebuilds the skill zips and publishes a new release,
-# bumping the minor version: v1.0 -> v1.1 -> v1.2 -> ...
+# Every push to main rebuilds the skill zips and publishes a new release.
+# The bump type is inferred from what changed since the last release:
+#   - only bundled knowledge-base/ changed -> PATCH (a daily KB sync) 1.26.0 -> 1.26.1
+#   - anything else (or mixed)             -> MINOR (skill/tooling)   1.26.1 -> 1.27.0
+# The current version is read from plugin.json (the source of truth), so the two
+# schemes never fight over tag parsing.
 on:
   push:
     branches: [main]
@@ -10,9 +14,9 @@ on:
 permissions:
   contents: write
 
-# Never run two releases at once (avoids version races on rapid pushes).
+# Shared with kb-sync so a sync push and a release never touch main at once.
 concurrency:
-  group: auto-release
+  group: main-release
   cancel-in-progress: false
 
 jobs:
@@ -27,21 +31,36 @@ jobs:
       - name: Compute next version
         id: ver
         run: |
-          # Only consider two-part tags from this scheme: vMAJOR.MINOR
-          latest=$(git tag -l 'v*' | grep -E '^v[0-9]+\.[0-9]+$' | sort -V | tail -1)
-          if [ -z "$latest" ]; then
-            major=1; minor=0
-          else
-            num=${latest#v}
-            major=${num%.*}
-            minor=$(( ${num#*.} + 1 ))
+          current=$(jq -r '.version' .claude-plugin/plugin.json)
+          IFS='.' read -r major minor patch <<< "$current"
+
+          # Last release tag (accepts old two-part vX.Y and new three-part vX.Y.Z).
+          last=$(git tag -l 'v*' | grep -E '^v[0-9]+\.[0-9]+(\.[0-9]+)?$' | sort -V | tail -1)
+
+          # Decide bump type from the diff since the last release.
+          bump="minor"
+          if [ -n "$last" ]; then
+            changed=$(git diff --name-only "$last"..HEAD)
+            # KB lives at skills/<skill>/knowledge-base/ — match it at any depth.
+            non_kb=$(echo "$changed" | grep -vE '(^|/)knowledge-base/' | grep -v '^$' || true)
+            if [ -n "$changed" ] && [ -z "$non_kb" ]; then
+              bump="patch"
+            fi
           fi
-          next="v${major}.${minor}"
-          semver="${major}.${minor}.0"
-          echo "prev=$latest"   >> "$GITHUB_OUTPUT"
+
+          if [ "$bump" = "patch" ]; then
+            patch=$(( patch + 1 ))
+          else
+            minor=$(( minor + 1 )); patch=0
+          fi
+
+          semver="${major}.${minor}.${patch}"
+          next="v${semver}"
+          echo "prev=$last"     >> "$GITHUB_OUTPUT"
+          echo "bump=$bump"     >> "$GITHUB_OUTPUT"
           echo "next=$next"     >> "$GITHUB_OUTPUT"
           echo "semver=$semver" >> "$GITHUB_OUTPUT"
-          echo "Next version: $next (semver $semver, prev: ${latest:-none})"
+          echo "Bump: $bump -> $next (from ${current}, prev tag: ${last:-none})"
 
       - name: Bump plugin version on main
         env:
@@ -77,12 +96,19 @@ jobs:
         run: |
           prev="${{ steps.ver.outputs.prev }}"
           next="${{ steps.ver.outputs.next }}"
+          bump="${{ steps.ver.outputs.bump }}"
           # Short changelog = commit subjects since the previous release.
           if [ -n "$prev" ]; then range="${prev}..HEAD"; else range="HEAD~10..HEAD"; fi
           changelog=$(git log "$range" --no-merges --pretty=format:'• %s' \
                        | grep -viE 'co-authored-by|\[skip ci\]|chore: release' | head -8)
           [ -z "$changelog" ] && changelog="• See release notes"
-          text=$(printf ':rocket: *BrioHR PM Skills %s released* by %s\n%s\n\n:sparkles: Auto-syncing to everyone’s Claude via the plugin — no download or upload needed.' \
+          # A patch release is a KB content refresh; label it so readers know.
+          if [ "$bump" = "patch" ]; then
+            headline=":books: *BrioHR PM Skills %s — knowledge base updated* by %s\n%s"
+          else
+            headline=":rocket: *BrioHR PM Skills %s released* by %s\n%s"
+          fi
+          text=$(printf "${headline}\n\n:sparkles: Auto-syncing to everyone’s Claude via the plugin — no download or upload needed." \
                   "$next" "${{ github.actor }}" "$changelog")
           payload=$(jq -n --arg t "$text" '{text:$t}')
           curl -sS -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"

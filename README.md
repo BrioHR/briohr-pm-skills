@@ -15,7 +15,7 @@ These are adapted from the open-source [Superpowers](https://github.com/obra/sup
 
 > **Connectors:**
 > - **Atlassian/Jira** — for ticket context and posting back. Required for `generate-jira-test-cases`, optional for `feature-brainstorming`.
-> - **GitHub** — grounds output in the private **[`BrioHR/knowledge-base`](https://github.com/BrioHR/knowledge-base)** repo (daily auto-scraped source of truth). **In Cowork**, sync the repo into your Project so the skills can read it; **in plain chat**, attach an article via **+ → Add from GitHub**. Without it, the skills still work, just without KB grounding.
+> - **Knowledge base** — no connector needed. The BrioHR Help Center is **bundled inside each skill** (`knowledge-base/`) as a daily-synced snapshot, so grounding works offline — no GitHub attachment and no Cowork Project sync.
 
 ## Install
 
@@ -83,15 +83,20 @@ You can run the chain two ways:
 
 **Releases are automatic.** Every push to `main` triggers a GitHub Action
 (`.github/workflows/release.yml`) that rebuilds the zips and publishes a new
-release, bumping the minor version: `v1.0 → v1.1 → v1.2 → …`. So the only
-maintenance step is:
+release. The version bump depends on what changed since the last release:
+
+- **Skill or tooling changes → minor bump** (`1.26.0 → 1.27.0`).
+- **A knowledge-base sync only → patch bump** (`1.27.0 → 1.27.1`), done
+  automatically by the KB sync (see below) — no human action.
+
+So the only maintenance step for a skill change is:
 
 ```bash
 git add -A && git commit -m "What changed" && git push
 ```
 
 Within a minute, a new release with fresh zips appears at
-[`/releases/latest`](../../releases/latest). PMs just re-download.
+[`/releases/latest`](../../releases/latest), and the plugin auto-syncs to the team.
 
 **To preview the zips locally before pushing** (the same ones the Action will build):
 
@@ -100,7 +105,21 @@ Within a minute, a new release with fresh zips appears at
 ```
 
 The build script auto-discovers every folder under `skills/`, so new skills are
-picked up automatically with no config.
+picked up automatically with no config. Each zip includes that skill's bundled
+`knowledge-base/`, so it's a few MB and self-contained.
+
+### Knowledge base (bundled & auto-synced)
+
+Each skill carries a vendored copy of the BrioHR Help Center under
+`skills/<skill>/knowledge-base/`, so grounding works offline with no connector.
+It's a read-only mirror of **[`BrioHR/knowledge-base`](https://github.com/BrioHR/knowledge-base)**
+(the scraped single source of truth) — **don't edit it by hand.**
+
+`.github/workflows/kb-sync.yml` runs daily: it pulls the latest Markdown from that
+repo into every skill's `knowledge-base/` and, if anything changed, pushes to
+`main` — which cuts a patch release, so PMs auto-update. It needs a repo secret
+**`KB_SYNC_TOKEN`** with read access to the private `BrioHR/knowledge-base` repo
+(the org GitHub App token, or a fine-grained PAT).
 
 ## Customizing
 

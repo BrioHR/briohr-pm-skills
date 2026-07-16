@@ -3,7 +3,9 @@
 # build-zips.sh — regenerate the ready-to-upload skill zips in dist/.
 #
 # Each skill folder under skills/ becomes a zip with SKILL.md at its root,
-# which is the structure Claude's Skills uploader expects.
+# which is the structure Claude's Skills uploader expects. Each skill folder
+# also carries its own vendored knowledge-base/, so the zip is self-contained
+# and the skill can ground its output offline.
 #
 # Usage:
 #   ./scripts/build-zips.sh
@@ -43,9 +45,9 @@ for skill_path in "$SKILLS_DIR"/*/; do
   zip_file="$REPO_ROOT/$DIST_DIR/$skill_name.zip"
   rm -f "$zip_file"
 
-  # Zip from inside the skill folder so SKILL.md lands at the zip root.
-  # Exclude dotfiles (e.g. .DS_Store).
-  ( cd "$skill_path" && zip -q -r "$zip_file" . -x '.*' )
+  # Zip from inside the skill folder so SKILL.md (and the skill's bundled
+  # knowledge-base/) land at the zip root. Exclude dotfiles (e.g. .DS_Store).
+  ( cd "$skill_path" && zip -q -r "$zip_file" . -x '.*' -x '*/.*' )
 
   echo "built: $DIST_DIR/$skill_name.zip"
   count=$((count + 1))

@@ -1,0 +1,81 @@
+name: KB sync
+
+# Pulls the latest built Markdown from BrioHR/knowledge-base into each skill's
+# bundled knowledge-base/ and pushes it straight to main. That push triggers
+# "Auto release", which sees a KB-only diff and cuts a PATCH release — so every
+# PM's plugin auto-updates.
+#
+# This job does NOT bump the version or build zips itself; release.yml owns that.
+on:
+  schedule:
+    - cron: '30 18 * * *' # 18:30 UTC — 30 min after the KB repo's own 18:00 daily scrape
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+# Push the vendored content to main.
+permissions:
+  contents: write
+
+# Never overlap with a release or another sync (both touch main).
+concurrency:
+  group: main-release
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v5
+
+      - name: Checkout knowledge-base source
+        uses: actions/checkout@v5
+        with:
+          repository: BrioHR/knowledge-base
+          # Cross-repo read of a private repo — needs a token with read access to
+          # BrioHR/knowledge-base (org GitHub App token or a fine-grained PAT).
+          token: ${{ secrets.KB_SYNC_TOKEN }}
+          path: .kb-src
+          fetch-depth: 1
+
+      - name: Vendor KB content into each skill's knowledge-base/
+        run: |
+          # Mirror the source content (articles + INDEX.md + sitemap.json + VERSION)
+          # into every skill that bundles the KB, excluding the scraper/CI machinery.
+          # --delete drops articles removed upstream; each skill's own
+          # knowledge-base/README.md is preserved via --exclude.
+          for dest in skills/*/knowledge-base/; do
+            [ -d "$dest" ] || continue
+            rsync -a --delete \
+              --exclude '.git' \
+              --exclude '.github' \
+              --exclude 'scripts' \
+              --exclude '__pycache__' \
+              --exclude 'requirements.txt' \
+              --exclude '.gitignore' \
+              --exclude 'scrape_progress.json' \
+              --exclude 'README.md' \
+              --exclude 'CHANGELOG.md' \
+              .kb-src/ "$dest"
+            echo "vendored into $dest"
+          done
+          rm -rf .kb-src
+
+      - name: Push to main if the KB changed
+        run: |
+          git add skills/*/knowledge-base
+          if git diff --cached --quiet; then
+            echo "No KB changes — nothing to sync."
+            exit 0
+          fi
+          # Change summary for the commit body. All skills get identical content,
+          # so count against just the first skill's subtree for per-article numbers.
+          ref=$(ls -d skills/*/knowledge-base/ | head -1)
+          added=$(git diff --cached --name-status -- "$ref" | grep -c '^A' || true)
+          modified=$(git diff --cached --name-status -- "$ref" | grep -c '^M' || true)
+          deleted=$(git diff --cached --name-status -- "$ref" | grep -c '^D' || true)
+          version=$(cat "${ref}VERSION")
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(kb): sync ${version} (+${added} ~${modified} -${deleted})"
+          git push origin HEAD:main
+          echo "Synced KB ${version} (+${added} ~${modified} -${deleted}) — release.yml will cut a patch."

@@ -337,10 +337,6 @@
           {
             "title": "How to Access Public Holiday Lists for All Offices in BrioHR",
             "url": "https://support.briohr.com/knowledge/view-public-holidays-for-all-offices-in-briohr"
-          },
-          {
-            "title": "Additional Public Holiday in Malaysia : 15th September 2025 (Malaysia Day)",
-            "url": "https://support.briohr.com/knowledge/additional-public-holiday-in-malaysia-1"
           }
         ]
       },
@@ -525,10 +521,6 @@
       {
         "subcategory": "Time Attendance",
         "articles": [
-          {
-            "title": "Assigning Pre-Approved Overtime as an Manager",
-            "url": "https://support.briohr.com/knowledge/assigning-pre-approved-overtime-as-an-manager"
-          },
           {
             "title": "How Managers Can Manually Assign and Replace Employee Shifts in BrioHR Rostering",
             "url": "https://support.briohr.com/knowledge/how-managers-can-assign-and-replace-shift-manually-in-direct-reports-rostering-in-briohr"
@@ -1472,14 +1464,6 @@
             "url": "https://support.briohr.com/knowledge/malaysia-payroll-update-tax-identification-number-tin-explained"
           },
           {
-            "title": "Malaysia Payroll Update: Final Submission Date for e-Data PCB/e-PCB/e-CP39",
-            "url": "https://support.briohr.com/knowledge/malaysia-payroll-update"
-          },
-          {
-            "title": "Malaysia Payroll Update: Program Latihan MADANI (PLM) and 15% Deduction of Unused HRD Levy Balance (2025)",
-            "url": "https://support.briohr.com/knowledge/malaysia-payroll-update-program-latihan-madani-and-15-deduction-of-unused-hrd-levy-balance-2025"
-          },
-          {
             "title": "How to Generate Payroll, PCB, EPF, SOCSO & EIS Bank File for AMBank (M) Berhad (AmAccess Corporate)",
             "url": "https://support.briohr.com/knowledge/how-to-generate-salary-statutory-txt-file-lhdn-epf-socso-eis-for-ambank-m-berhad-amaccess-corporate"
           },
@@ -1553,10 +1537,6 @@
             "url": "https://support.briohr.com/knowledge/who-should-be-included-in-the-ir8a-form"
           },
           {
-            "title": "CPF Text File Spec Update for Singapore Payroll",
-            "url": "https://support.briohr.com/knowledge/cpf-text-file-spec-update-for-singapore-payroll"
-          },
-          {
             "title": "CIMB Bank Singapore: How to Generate Payroll Bank File",
             "url": "https://support.briohr.com/knowledge/cimb-bank-singapore-how-to-generate-payroll-bank-file"
           },
@@ -1589,20 +1569,8 @@
             "url": "https://support.briohr.com/knowledge/how-to-enable-employer-contributions-singapore"
           },
           {
-            "title": "How to Set Recurring Pay Items (Singapore)",
-            "url": "https://support.briohr.com/knowledge/how-to-set-recurring-pay-items-singapore"
-          },
-          {
             "title": "How to Generate Payroll Documents for Inactive Employees (SG)",
             "url": "https://support.briohr.com/knowledge/how-to-generate-payroll-documents-for-inactive-employees-sg"
-          },
-          {
-            "title": "Payroll Singapore: CPF Ordinary Wage Ceiling Increase (2025)",
-            "url": "https://support.briohr.com/knowledge/payroll-in-singapore-cpf-ordinary-wage-ceiling-increase"
-          },
-          {
-            "title": "Payroll Singapore: Increase in CPF Contribution Rates for Employees (2025)",
-            "url": "https://support.briohr.com/knowledge/payroll-singapore-increase-in-cpf-contribution-rates-for-employees-2025"
           },
           {
             "title": "How to Run a New Cycle in Ongoing Payroll (Singapore/ SG)",
@@ -1638,16 +1606,8 @@
         "subcategory": "Payroll - Indonesia",
         "articles": [
           {
-            "title": "Indonesia Payroll Update: NIK to Serve as Tax Number (NPWP) Starting July 1, 2024",
-            "url": "https://support.briohr.com/knowledge/indonesia-payroll-update-nik-to-serve-as-tax-number-npwp-starting-july-1-2024"
-          },
-          {
             "title": "Indonesia Payroll Update: Mandatory Public Housing Savings Contribution (TAPERA) Details and Implications",
             "url": "https://support.briohr.com/knowledge/indonesia-payroll-update-mandatory-public-housing-savings-contribution-tapera-details-and-implications"
-          },
-          {
-            "title": "Indonesia Payroll Update: New Tax Administration System by DJP (Coretax)",
-            "url": "https://support.briohr.com/knowledge/indonesia-payroll-update"
           }
         ]
       }

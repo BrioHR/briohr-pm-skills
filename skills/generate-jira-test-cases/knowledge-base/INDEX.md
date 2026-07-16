@@ -1,7 +1,7 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-07-15
+> Last updated: 2026-07-16
 
 ---
 
@@ -9,27 +9,27 @@
 
 - [General](#general) (6 articles)
   - [User Settings & Login](#general-user-settings-and-login) (6)
-- [Admin](#admin) (78 articles)
+- [Admin](#admin) (77 articles)
   - [Company Settings](#admin-company-settings) (11)
   - [Schedules & Shifts Settings](#admin-schedules-and-shifts-settings) (11)
   - [Users Settings](#admin-users-settings) (7)
   - [User Groups Settings](#admin-user-groups-settings) (25)
   - [Personal Data Settings](#admin-personal-data-settings) (6)
-  - [Offices Settings](#admin-offices-settings) (9)
+  - [Offices Settings](#admin-offices-settings) (8)
   - [Departments Settings](#admin-departments-settings) (2)
   - [Cost Centers Settings](#admin-cost-centers-settings) (1)
   - [Job Titles Settings](#admin-job-titles-settings) (1)
   - [Currencies Settings](#admin-currencies-settings) (1)
   - [Personal Assistant Settings](#admin-personal-assistant-settings) (1)
   - [Payroll Centers Settings](#admin-payroll-centers-settings) (3)
-- [Manager](#manager) (35 articles)
+- [Manager](#manager) (34 articles)
   - [Team Leave](#manager-team-leave) (5)
   - [Timesheets](#manager-timesheets) (1)
   - [Team Performance](#manager-team-performance) (8)
   - [Onboarding](#manager-onboarding) (1)
   - [Expense Claims](#manager-expense-claims) (3)
   - [Training](#manager-training) (1)
-  - [Time Attendance](#manager-time-attendance) (16)
+  - [Time Attendance](#manager-time-attendance) (15)
 - [Employee](#employee) (53 articles)
   - [Account](#employee-account) (4)
   - [Profile](#employee-profile) (7)
@@ -48,12 +48,12 @@
 - [Time and Attendance Integration](#time-and-attendance-integration) (3 articles)
   - [SFTP](#time-and-attendance-integration-sftp) (1)
   - [Devices](#time-and-attendance-integration-devices) (2)
-- [Payroll](#payroll) (160 articles)
+- [Payroll](#payroll) (152 articles)
   - [Payroll Configuration](#payroll-payroll-configuration) (13)
   - [Payroll Management](#payroll-payroll-management) (40)
-  - [Payroll - Malaysia](#payroll-payroll-malaysia) (78)
-  - [Payroll - Singapore](#payroll-payroll-singapore) (26)
-  - [Payroll - Indonesia](#payroll-payroll-indonesia) (3)
+  - [Payroll - Malaysia](#payroll-payroll-malaysia) (76)
+  - [Payroll - Singapore](#payroll-payroll-singapore) (22)
+  - [Payroll - Indonesia](#payroll-payroll-indonesia) (1)
 - [Leave](#leave) (48 articles)
   - [Leave Configuration](#leave-leave-configuration) (32)
   - [Leave Management](#leave-leave-management) (16)
@@ -139,7 +139,7 @@
 
 ## Admin
 
-**78 articles** | [Browse category](admin/)
+**77 articles** | [Browse category](admin/)
 
 ### Admin - Company Settings
 
@@ -228,7 +228,7 @@
 
 ### Admin - Offices Settings
 
-**9 articles** | Directory: `admin/offices-settings/`
+**8 articles** | Directory: `admin/offices-settings/`
 
 - [Additional Public Holiday in Selangor : 25th October 2026 (Silver Jubilee Celebration of the Reign of DYMM Sultan Selangor)](admin/offices-settings/additional-public-holiday-in-selangor-25th-october-2026-silver-jubilee-celebrati.md)
 - [How to Assign an Office HR Manager in BrioHR](admin/offices-settings/how-to-assign-an-office-hr-manager-in-briohr.md)
@@ -238,7 +238,6 @@
 - [How to Disable a Public Holiday in BrioHR](admin/offices-settings/how-to-disable-a-public-holiday-in-briohr.md)
 - [How to Add, Edit, and Delete Offices in BrioHR](admin/offices-settings/how-to-add-edit-and-delete-offices-in-briohr.md)
 - [How to Access Public Holiday Lists for All Offices in BrioHR](admin/offices-settings/how-to-access-public-holiday-lists-for-all-offices-in-briohr.md)
-- [Additional Public Holiday in Malaysia : 15th September 2025 (Malaysia Day)](admin/offices-settings/additional-public-holiday-in-malaysia-15th-september-2025-malaysia-day.md)
 
 ### Admin - Departments Settings
 
@@ -283,7 +282,7 @@
 
 ## Manager
 
-**35 articles** | [Browse category](manager/)
+**34 articles** | [Browse category](manager/)
 
 ### Manager - Team Leave
 
@@ -336,9 +335,8 @@
 
 ### Manager - Time Attendance
 
-**16 articles** | Directory: `manager/time-attendance/`
+**15 articles** | Directory: `manager/time-attendance/`
 
-- [Assigning Pre-Approved Overtime as an Manager](manager/time-attendance/assigning-pre-approved-overtime-as-an-manager.md)
 - [How Managers Can Manually Assign and Replace Employee Shifts in BrioHR Rostering](manager/time-attendance/how-managers-can-manually-assign-and-replace-employee-shifts-in-briohr-rostering.md)
 - [How Managers Can Assign Shifts on Public Holiday in BrioHR Rostering](manager/time-attendance/how-managers-can-assign-shifts-on-public-holiday-in-briohr-rostering.md)
 - [How Managers Can Assign Shifts on Rest Day in BrioHR Rostering](manager/time-attendance/how-managers-can-assign-shifts-on-rest-day-in-briohr-rostering.md)
@@ -526,7 +524,7 @@
 
 ## Payroll
 
-**160 articles** | [Browse category](payroll/)
+**152 articles** | [Browse category](payroll/)
 
 ### Payroll - Payroll Configuration
 
@@ -593,7 +591,7 @@
 
 ### Payroll - Payroll - Malaysia
 
-**78 articles** | Directory: `payroll/payroll-malaysia/`
+**76 articles** | Directory: `payroll/payroll-malaysia/`
 
 - [Malaysia Payroll Centre: Supported Banks for Payroll, Statutory and Zakat Bank Files in BrioHR](payroll/payroll-malaysia/malaysia-payroll-centre-supported-banks-for-payroll-statutory-and-zakat-bank-fil.md)
 - [Changing PERKESO SKBBK Contribution Option](payroll/payroll-malaysia/changing-perkeso-skbbk-contribution-option.md)
@@ -660,8 +658,6 @@
 - [Payroll Malaysia: Key Tax Relief Updates for the Year 2026 (TP1 & TP3)](payroll/payroll-malaysia/payroll-malaysia-key-tax-relief-updates-for-the-year-2026-tp1-and-tp3.md)
 - [Prorated Salary Calculation: Understanding the Basics in BrioHR](payroll/payroll-malaysia/prorated-salary-calculation-understanding-the-basics-in-briohr.md)
 - [Malaysia Payroll Update: Tax Identification Number (TIN) Explained](payroll/payroll-malaysia/malaysia-payroll-update-tax-identification-number-tin-explained.md)
-- [Malaysia Payroll Update: Final Submission Date for e-Data PCB/e-PCB/e-CP39](payroll/payroll-malaysia/malaysia-payroll-update-final-submission-date-for-e-data-pcb-e-pcb-e-cp39.md)
-- [Malaysia Payroll Update: Program Latihan MADANI (PLM) and 15% Deduction of Unused HRD Levy Balance (2025)](payroll/payroll-malaysia/malaysia-payroll-update-program-latihan-madani-plm-and-15-deduction-of-unused-hr.md)
 - [How to Generate Payroll, PCB, EPF, SOCSO & EIS Bank File for AMBank (M) Berhad (AmAccess Corporate)](payroll/payroll-malaysia/how-to-generate-payroll-pcb-epf-socso-and-eis-bank-file-for-ambank-m-berhad-amac.md)
 - [How to Upload TXT File and Make Payment on e-PCB Plus System](payroll/payroll-malaysia/how-to-upload-txt-file-and-make-payment-on-e-pcb-plus-system.md)
 - [Understanding SOCSO Contributions: Coverage Options and Customization in BrioHR](payroll/payroll-malaysia/understanding-socso-contributions-coverage-options-and-customization-in-briohr.md)
@@ -676,7 +672,7 @@
 
 ### Payroll - Payroll - Singapore
 
-**26 articles** | Directory: `payroll/payroll-singapore/`
+**22 articles** | Directory: `payroll/payroll-singapore/`
 
 - [Payroll Singapore - Add Overtime for Day Off with Customizable Multiplier](payroll/payroll-singapore/payroll-singapore-add-overtime-for-day-off-with-customizable-multiplier.md)
 - [Singapore Payroll Centre: Supported Banks for Payroll Bank Files in BrioHR](payroll/payroll-singapore/singapore-payroll-centre-supported-banks-for-payroll-bank-files-in-briohr.md)
@@ -684,7 +680,6 @@
 - [CPF Contribution Changes from 1st January 2026](payroll/payroll-singapore/cpf-contribution-changes-from-1st-january-2026.md)
 - [Payroll Singapore: How to Release the IR8A Form](payroll/payroll-singapore/payroll-singapore-how-to-release-the-ir8a-form.md)
 - [Who Should Be Included in the IR8A Form?](payroll/payroll-singapore/who-should-be-included-in-the-ir8a-form.md)
-- [CPF Text File Spec Update for Singapore Payroll](payroll/payroll-singapore/cpf-text-file-spec-update-for-singapore-payroll.md)
 - [CIMB Bank Singapore: How to Generate Payroll Bank File](payroll/payroll-singapore/cimb-bank-singapore-how-to-generate-payroll-bank-file.md)
 - [CitiBank (SG): How to Generate Payroll Bank File](payroll/payroll-singapore/citibank-sg-how-to-generate-payroll-bank-file.md)
 - [Payroll Singapore: How to Set Up Company Payroll General Settings](payroll/payroll-singapore/payroll-singapore-how-to-set-up-company-payroll-general-settings.md)
@@ -693,10 +688,7 @@
 - [Payroll Singapore: How to Generate Bank File](payroll/payroll-singapore/payroll-singapore-how-to-generate-bank-file.md)
 - [Payroll Singapore: How to Download Draft Payroll Report](payroll/payroll-singapore/payroll-singapore-how-to-download-draft-payroll-report.md)
 - [How to Enable Employer Contributions (Singapore)](payroll/payroll-singapore/how-to-enable-employer-contributions-singapore.md)
-- [How to Set Recurring Pay Items (Singapore)](payroll/payroll-singapore/how-to-set-recurring-pay-items-singapore.md)
 - [How to Generate Payroll Documents for Inactive Employees (SG)](payroll/payroll-singapore/how-to-generate-payroll-documents-for-inactive-employees-sg.md)
-- [Payroll Singapore: CPF Ordinary Wage Ceiling Increase (2025)](payroll/payroll-singapore/payroll-singapore-cpf-ordinary-wage-ceiling-increase-2025.md)
-- [Payroll Singapore: Increase in CPF Contribution Rates for Employees (2025)](payroll/payroll-singapore/payroll-singapore-increase-in-cpf-contribution-rates-for-employees-2025.md)
 - [How to Run a New Cycle in Ongoing Payroll (Singapore/ SG)](payroll/payroll-singapore/how-to-run-a-new-cycle-in-ongoing-payroll-singapore-sg.md)
 - [How to Generate Employee Payroll Report (Singapore Payroll)](payroll/payroll-singapore/how-to-generate-employee-payroll-report-singapore-payroll.md)
 - [How to Bulk Download Payslips (Singapore/ SG)](payroll/payroll-singapore/how-to-bulk-download-payslips-singapore-sg.md)
@@ -707,11 +699,9 @@
 
 ### Payroll - Payroll - Indonesia
 
-**3 articles** | Directory: `payroll/payroll-indonesia/`
+**1 articles** | Directory: `payroll/payroll-indonesia/`
 
-- [Indonesia Payroll Update: NIK to Serve as Tax Number (NPWP) Starting July 1, 2024](payroll/payroll-indonesia/indonesia-payroll-update-nik-to-serve-as-tax-number-npwp-starting-july-1-2024.md)
 - [Indonesia Payroll Update: Mandatory Public Housing Savings Contribution (TAPERA) Details and Implications](payroll/payroll-indonesia/indonesia-payroll-update-mandatory-public-housing-savings-contribution-tapera-de.md)
-- [Indonesia Payroll Update: New Tax Administration System by DJP (Coretax)](payroll/payroll-indonesia/indonesia-payroll-update-new-tax-administration-system-by-djp-coretax.md)
 
 ---
 

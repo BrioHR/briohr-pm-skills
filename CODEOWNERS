@@ -1,0 +1,20 @@
+# Code ownership for BrioHR PM Skills
+#
+# Admins own the repo by default — changes to owned paths auto-request their
+# review on pull requests. HARD enforcement (admin-only) on .github/ and
+# scripts/ is handled by a repository ruleset, not this file.
+#
+# Open paths (skills/, README.md, SETUP-ADMIN.md) are intentionally left
+# unowned so any writer can change them without an admin gate.
+
+# Admins own everything by default
+*                 @amir-briohr @bassochette
+
+# Extra emphasis: CI workflows and scripts are admin-only (also ruleset-locked)
+/.github/         @amir-briohr @bassochette
+/scripts/         @amir-briohr @bassochette
+
+# Open — any writer can change these (no admin gate)
+/skills/
+/README.md
+/SETUP-ADMIN.md

@@ -7,6 +7,18 @@
         "subcategory": "User Settings & Login",
         "articles": [
           {
+            "title": "Understanding the Different Log In Methods in brioHR",
+            "url": "https://support.briohr.com/knowledge/understanding-the-different-log-in-methods-in-briohr"
+          },
+          {
+            "title": "Reset Your Password Seamlessly from your Mobile Device",
+            "url": "https://support.briohr.com/knowledge/reset-your-password-seamlessly-from-your-mobile-device"
+          },
+          {
+            "title": "brioHR Web Browser vs Mobile App: Feature Comparison Guide",
+            "url": "https://support.briohr.com/knowledge/briohr-web-browser-vs-mobile-app-feature-comparison-guide"
+          },
+          {
             "title": "Thai Language is Now Available in brioHR",
             "url": "https://support.briohr.com/knowledge/thai-language-available-in-briohr"
           },
@@ -593,7 +605,7 @@
         "subcategory": "Account",
         "articles": [
           {
-            "title": "How to Reset Your BrioHR Password and Fix Login Issues",
+            "title": "How to Reset Your brioHR Password and Fix Login Issues via Web Browser",
             "url": "https://support.briohr.com/knowledge/how-to-reset-password-and-fix-login-issue"
           },
           {
@@ -1512,6 +1524,10 @@
       {
         "subcategory": "Payroll - Singapore",
         "articles": [
+          {
+            "title": "Manage Self-Help Group (SHG) Contributions with Custom Values (Payroll Singapore)",
+            "url": "https://support.briohr.com/knowledge/manage-self-help-group-shg-contributions-with-custom-value-payroll-singapore"
+          },
           {
             "title": "Payroll Singapore - Add Overtime for Day Off with Customizable Multiplier",
             "url": "https://support.briohr.com/knowledge/payroll-singapore-add-overtime-for-day-off-with-customizable-multiplier"
@@ -2946,6 +2962,10 @@
       {
         "subcategory": "Product Updates - July 2026",
         "articles": [
+          {
+            "title": "brioHR Product Updates - July 2026, Week 3 | Custom SHG Contributions, a Better Password Reset Experience & New Touch N Go bank support for employees!",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-july-2026-week-3-custom-shg-contributions-better-password-reset-experience"
+          },
           {
             "title": "BrioHR Product Updates - July 2026, Week 2 |\u00a0 Bulk compensation imports, New Claim Balance Report, Change Subsidiaries on Mobile App",
             "url": "https://support.briohr.com/knowledge/briohr-product-updates-july-2026-week-2-bulk-compensation-imports-new-claim-balance-report-change-subsidiaries-on-mobile-app"

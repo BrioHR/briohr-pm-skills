@@ -1,14 +1,14 @@
 ---
-title: "How to Reset Your BrioHR Password and Fix Login Issues"
+title: "How to Reset Your brioHR Password and Fix Login Issues via Web Browser"
 category: "Employee"
 subcategory: "Account"
 source_url: "https://support.briohr.com/knowledge/how-to-reset-password-and-fix-login-issue"
-date: "July 2, 2026"
+date: "July 17, 2026"
 ---
 
-# How to Reset Your BrioHR Password and Fix Login Issues
+# How to Reset Your brioHR Password and Fix Login Issues via Web Browser
 
-*Having trouble logging into your BrioHR account? Learn the step-by-step process to reset your password, common login mistakes to avoid, and troubleshooting tips.*
+*Having trouble logging into your brioHR account? Learn the step-by-step process to reset your password, common login mistakes to avoid, and troubleshooting tips.*
 
 ### Introduction
 
@@ -42,7 +42,7 @@ If you’ve forgotten your password or are still unable to log in, follow these 
 Go to [BrioHR Login](https://app.briohr.com/signin?redirect=%2Fhome) and click on the** "Forgot Password".**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-02-2026-02-28-09-2648-AM.png?width=1577&height=708&name=image-png-Jul-02-2026-02-28-09-2648-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-02-2026-02-28-09-2648-AM.png?width=670&height=301&name=image-png-Jul-02-2026-02-28-09-2648-AM.png)
 
 
 #### Step 2 - Request a Password Reset
@@ -52,7 +52,7 @@ Enter your registered email address and click **"Request Password"**
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-02-2026-02-29-45-1113-AM.png?width=1615&height=896&name=image-png-Jul-02-2026-02-29-45-1113-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-02-2026-02-29-45-1113-AM.png?width=670&height=372&name=image-png-Jul-02-2026-02-29-45-1113-AM.png)
 **
 
 
@@ -92,7 +92,7 @@ Enter your new password. Make sure it meets these requirements:
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-02-2026-02-33-53-2174-AM.png?width=1620&height=895&name=image-png-Jul-02-2026-02-33-53-2174-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-02-2026-02-33-53-2174-AM.png?width=670&height=370&name=image-png-Jul-02-2026-02-33-53-2174-AM.png)
 **
 
 
@@ -102,7 +102,7 @@ Enter your new password. Make sure it meets these requirements:
 Click the **"Reset Password"** button to save your new password.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-02-2026-02-34-09-2443-AM.png?width=1620&height=895&name=image-png-Jul-02-2026-02-34-09-2443-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-02-2026-02-34-09-2443-AM.png?width=670&height=370&name=image-png-Jul-02-2026-02-34-09-2443-AM.png)
 
 
 #### You will see a success message shown once the password reset was completed. Click "Log in via Web" to login to the system.
@@ -117,7 +117,7 @@ Click the **"Reset Password"** button to save your new password.
 You can now log in to your BrioHR account with your new credentials.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-02-2026-02-36-03-4499-AM.png?width=1600&height=892&name=image-png-Jul-02-2026-02-36-03-4499-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-02-2026-02-36-03-4499-AM.png?width=670&height=374&name=image-png-Jul-02-2026-02-36-03-4499-AM.png)
 
 
 ###
@@ -144,6 +144,7 @@ In this case, please contact your **IT support team** and request them to unbloc
 
 - [How to Download and Log In to BrioHR Mobile App (iOS & Android Guide)](https://support.briohr.com/knowledge/download-and-login-to-briohr-mobile-app-ios-android-guide?hsLang=en)
 - [How to Edit Your Profile on BrioHR](https://support.briohr.com/knowledge/how-to-edit-your-profile-on-briohr?hsLang=en)
+- [Reset Your Password Seamlessly from your Mobile Device](/knowledge/reset-your-password-seamlessly-from-your-mobile-device?hsLang=en)
 
 
 **Ownership**

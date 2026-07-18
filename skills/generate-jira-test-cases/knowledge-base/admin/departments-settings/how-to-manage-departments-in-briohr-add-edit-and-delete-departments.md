@@ -3,20 +3,35 @@ title: "How to Manage Departments in BrioHR: Add, Edit, and Delete Departments"
 category: "Admin"
 subcategory: "Departments Settings"
 source_url: "https://support.briohr.com/knowledge/add-edit-delete-departments-briohr"
-date: "October 10, 2025"
+date: "July 17, 2026"
 ---
 
 # How to Manage Departments in BrioHR: Add, Edit, and Delete Departments
 
 *Managing departments efficiently in BrioHR helps keep your organizational structure clear and up to date. This guide will show you how to add, edit, and delete departments in BrioHR, ensuring proper departmental organization*
 
-### Introduction
+**Audience & Scope**
+
+
+Audience: HR Admin
+
+
+Module: Admin Settings
+
+
+Country: Global
+
+
+Prerequisites: Assigned as the Admin of the account
+
+
+
 
 
 Managing departments within your organization is key to maintaining a well-structured HR system. In BrioHR, Admins can easily **add, edit, or delete **departments to ensure accurate employee organization and reporting.
 
 
-If you need to learn how to update an employee's department directl from their profile, refer to this article:
+If you need to learn how to update an employee's department directly from their profile, refer to this article:
 
 [How to Update Employee Employment Details](https://support.briohr.com/knowledge/how-to-update-employee-employment-details?hsLang=en)
 
@@ -32,7 +47,7 @@ Organizing employees into the correct departments helps HR Teams:
 - Simplify organizational updated during restructuring.
 
 
----
+###
 
 
 ### Step-by-Step Guide: Managing Department List in BrioHR
@@ -51,21 +66,21 @@ Log in to your BrioHR account.
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-10-2025-06-51-01-0123-AM.png?width=2000&height=927&name=image-png-Oct-10-2025-06-51-01-0123-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-10-2025-06-51-01-0123-AM.png?width=670&height=311&name=image-png-Oct-10-2025-06-51-01-0123-AM.png)
 **
 
 
 3. A pop-up window will appear for you to add a new department name
 
 
-- (Optional) Set a **colour indicator **to help visually distinguish the department.
+- (Mandatory) Set a **colour indicator **to help visually distinguish the department.
 - (Optional) Assign a **Head of Department (HOD) **for the new department.
 
 
 4. Click **Save **to confirm.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-10-2025-06-51-44-6384-AM.png?width=1732&height=1045&name=image-png-Oct-10-2025-06-51-44-6384-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-10-2025-06-51-44-6384-AM.png?width=670&height=404&name=image-png-Oct-10-2025-06-51-44-6384-AM.png)
 
 
 **TIP:**
@@ -75,7 +90,7 @@ Assigning a Head of Department is useful for **the approval flows process** in t
 [How to Assign a Head of Department for the Training Module](https://support.briohr.com/knowledge/assign-head-of-department-training-module?hsLang=en)
 
 
----
+####
 
 
 #### B) Edit  a Department Details in BrioHR
@@ -90,7 +105,7 @@ Log in to your BrioHR account.
 2. Click the** pencil (edit) icon** next to it.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-10-2025-06-53-20-9691-AM.png?width=2000&height=785&name=image-png-Oct-10-2025-06-53-20-9691-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-10-2025-06-53-20-9691-AM.png?width=670&height=263&name=image-png-Oct-10-2025-06-53-20-9691-AM.png)
 
 
 3. Modify the department name, colour indicator, and Head of Department.
@@ -104,7 +119,7 @@ Log in to your BrioHR account.
 Any updates made will automatically reflect in employee profiles associated with that department.
 
 
----
+####
 
 
 #### C) Delete a Department in BrioHR
@@ -117,7 +132,7 @@ You cannot **delete a departmen**t if **employees are still assigned** to it.
 The system will display a warning message listing the assigned employee. Unassing those employees before proceeding.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-10-2025-06-46-43-6575-AM.png?width=2000&height=471&name=image-png-Oct-10-2025-06-46-43-6575-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-10-2025-06-46-43-6575-AM.png?width=670&height=158&name=image-png-Oct-10-2025-06-46-43-6575-AM.png)
 
 
 1. On the **Departments **page, find the relevant department (e.g., Management).
@@ -126,7 +141,7 @@ The system will display a warning message listing the assigned employee. Unassin
 2. Click the **bin (delete)** icon.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-10-2025-06-54-24-2883-AM.png?width=2000&height=791&name=image-png-Oct-10-2025-06-54-24-2883-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-10-2025-06-54-24-2883-AM.png?width=670&height=265&name=image-png-Oct-10-2025-06-54-24-2883-AM.png)
 
 
 3. A confirmation pop-up will appear.
@@ -135,7 +150,7 @@ The system will display a warning message listing the assigned employee. Unassin
 4. Click** Confirm** to proceed with deletion.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-10-2025-06-55-04-9903-AM.png?width=1613&height=879&name=image-png-Oct-10-2025-06-55-04-9903-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-10-2025-06-55-04-9903-AM.png?width=670&height=365&name=image-png-Oct-10-2025-06-55-04-9903-AM.png)
 
 
 **NOTE:**
@@ -143,7 +158,7 @@ The system will display a warning message listing the assigned employee. Unassin
 If the department is **not linked to any employee,** deletion will proceed without issue.
 
 
----
+###
 
 
 ### Common Issues When Managing Departments in BrioHR
@@ -157,7 +172,7 @@ If the department is **not linked to any employee,** deletion will proceed witho
   - If department edits don’t appear in employee profiles, refresh the system or check user permissions.
 
 
----
+###
 
 
 ### See Also
@@ -167,7 +182,7 @@ If the department is **not linked to any employee,** deletion will proceed witho
 - [How to Manage Offices in BrioHR: Add, Edit, or Delete Offices](https://support.briohr.com/knowledge/add-edit-delete-offices-briohr?hsLang=en)
 
 
----
+###
 
 
 ### Frequently Asked Questions (FAQs)
@@ -187,24 +202,6 @@ A: No, once a department is deleted, it cannot be restored. You will need to cre
 
 **Q4: Can departments be exported or imported in bulk?**
 A: Currently, department creation is manual, but employee data linked to departments can be managed via bulk upload.
-
-
-
-
-
-**Need Assistance?**
-
-
-*If you have any questions or require assistance, please reach out to our support team via live chat or email us at [support@briohr.com](mailto:support@briohr.com).*
-
-
-
-
-
-
-
-
-
 
 
 

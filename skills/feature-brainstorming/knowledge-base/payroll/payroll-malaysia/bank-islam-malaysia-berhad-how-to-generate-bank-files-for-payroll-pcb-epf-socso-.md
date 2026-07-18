@@ -3,7 +3,7 @@ title: "Bank Islam Malaysia Berhad: How to Generate Bank Files for Payroll, PCB,
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/bank-islam-malaysia-berhad-how-to-generate-bank-files-for-payroll-pcb-epf-socso-and-eis-payments"
-date: "July 12, 2026"
+date: "July 17, 2026"
 ---
 
 # Bank Islam Malaysia Berhad: How to Generate Bank Files for Payroll, PCB, EPF, SOCSO, and EIS Payments
@@ -14,10 +14,16 @@ date: "July 12, 2026"
 
 
 - In the **HR Lounge**, navigate to the **Payroll **section.
-- Click on **Settings **and scroll down to the **Bank Account** column. In the "**Bank Account**" field, select **Bank Islam Malaysia Berhad**.
+- Click on **Settings. **Under **General, **scroll down to the **Bank Account** section.
 
 
-[](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48326457243/original/W0B9p8yvvLi_Apq16U1uiN65AkKoALQmeg.png?1707384260)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-17-2026-06-11-05-4062-AM.png?width=670&height=357&name=image-png-Jul-17-2026-06-11-05-4062-AM.png)
+
+
+- In the "**Bank Account**" field, select **Bank Islam Malaysia Berhad**.
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-17-2026-06-13-02-7683-AM.png?width=1543&height=367&name=image-png-Jul-17-2026-06-13-02-7683-AM.png)
 
 
 - Enter the required information in the fields provided (refer to the sample screenshot below) and click **Save at the bottom of the Settings page** to complete the setup.

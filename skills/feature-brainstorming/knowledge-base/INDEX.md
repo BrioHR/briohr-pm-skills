@@ -1,14 +1,14 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-07-16
+> Last updated: 2026-07-18
 
 ---
 
 ## Table of Contents
 
-- [General](#general) (6 articles)
-  - [User Settings & Login](#general-user-settings-and-login) (6)
+- [General](#general) (9 articles)
+  - [User Settings & Login](#general-user-settings-and-login) (9)
 - [Admin](#admin) (77 articles)
   - [Company Settings](#admin-company-settings) (11)
   - [Schedules & Shifts Settings](#admin-schedules-and-shifts-settings) (11)
@@ -48,11 +48,11 @@
 - [Time and Attendance Integration](#time-and-attendance-integration) (3 articles)
   - [SFTP](#time-and-attendance-integration-sftp) (1)
   - [Devices](#time-and-attendance-integration-devices) (2)
-- [Payroll](#payroll) (152 articles)
+- [Payroll](#payroll) (153 articles)
   - [Payroll Configuration](#payroll-payroll-configuration) (13)
   - [Payroll Management](#payroll-payroll-management) (40)
   - [Payroll - Malaysia](#payroll-payroll-malaysia) (76)
-  - [Payroll - Singapore](#payroll-payroll-singapore) (22)
+  - [Payroll - Singapore](#payroll-payroll-singapore) (23)
   - [Payroll - Indonesia](#payroll-payroll-indonesia) (1)
 - [Leave](#leave) (48 articles)
   - [Leave Configuration](#leave-leave-configuration) (32)
@@ -102,8 +102,8 @@
   - [Expense Claims](#faqs-expense-claims) (1)
   - [Account](#faqs-account) (1)
   - [Profile](#faqs-profile) (1)
-- [Product Updates](#product-updates) (25 articles)
-  - [Product Updates - July 2026](#product-updates-product-updates-july-2026) (2)
+- [Product Updates](#product-updates) (26 articles)
+  - [Product Updates - July 2026](#product-updates-product-updates-july-2026) (3)
   - [Product Updates - June 2026](#product-updates-product-updates-june-2026) (3)
   - [Product Updates - May 2026](#product-updates-product-updates-may-2026) (4)
   - [Product Updates - April 2026](#product-updates-product-updates-april-2026) (5)
@@ -122,12 +122,15 @@
 
 ## General
 
-**6 articles** | [Browse category](general/)
+**9 articles** | [Browse category](general/)
 
 ### General - User Settings & Login
 
-**6 articles** | Directory: `general/user-settings-and-login/`
+**9 articles** | Directory: `general/user-settings-and-login/`
 
+- [Understanding the Different Log In Methods in brioHR](general/user-settings-and-login/understanding-the-different-log-in-methods-in-briohr.md)
+- [Reset Your Password Seamlessly from your Mobile Device](general/user-settings-and-login/reset-your-password-seamlessly-from-your-mobile-device.md)
+- [brioHR Web Browser vs Mobile App: Feature Comparison Guide](general/user-settings-and-login/briohr-web-browser-vs-mobile-app-feature-comparison-guide.md)
 - [Thai Language is Now Available in brioHR](general/user-settings-and-login/thai-language-is-now-available-in-briohr.md)
 - [BrioHR First-Time Login Guide: Activation Email & Password Setup](general/user-settings-and-login/briohr-first-time-login-guide-activation-email-and-password-setup.md)
 - [Enhanced MFA : Remember Trusted Devices for 30 Days](general/user-settings-and-login/enhanced-mfa-remember-trusted-devices-for-30-days.md)
@@ -363,7 +366,7 @@
 
 **4 articles** | Directory: `employee/account/`
 
-- [How to Reset Your BrioHR Password and Fix Login Issues](employee/account/how-to-reset-your-briohr-password-and-fix-login-issues.md)
+- [How to Reset Your brioHR Password and Fix Login Issues via Web Browser](employee/account/how-to-reset-your-briohr-password-and-fix-login-issues-via-web-browser.md)
 - [How to Change Your Password in BrioHR](employee/account/how-to-change-your-password-in-briohr.md)
 - [How to Download and Log in to BrioHR Mobile App (iOS & Android Guide)](employee/account/how-to-download-and-log-in-to-briohr-mobile-app-ios-and-android-guide.md)
 - [Years of Service Now Available in Employee Profile & Reports](employee/account/years-of-service-now-available-in-employee-profile-and-reports.md)
@@ -524,7 +527,7 @@
 
 ## Payroll
 
-**152 articles** | [Browse category](payroll/)
+**153 articles** | [Browse category](payroll/)
 
 ### Payroll - Payroll Configuration
 
@@ -672,8 +675,9 @@
 
 ### Payroll - Payroll - Singapore
 
-**22 articles** | Directory: `payroll/payroll-singapore/`
+**23 articles** | Directory: `payroll/payroll-singapore/`
 
+- [Manage Self-Help Group (SHG) Contributions with Custom Values (Payroll Singapore)](payroll/payroll-singapore/manage-self-help-group-shg-contributions-with-custom-values-payroll-singapore.md)
 - [Payroll Singapore - Add Overtime for Day Off with Customizable Multiplier](payroll/payroll-singapore/payroll-singapore-add-overtime-for-day-off-with-customizable-multiplier.md)
 - [Singapore Payroll Centre: Supported Banks for Payroll Bank Files in BrioHR](payroll/payroll-singapore/singapore-payroll-centre-supported-banks-for-payroll-bank-files-in-briohr.md)
 - [How to Perform IRAS AIS Submission in BrioHR](payroll/payroll-singapore/how-to-perform-iras-ais-submission-in-briohr.md)
@@ -1229,12 +1233,13 @@
 
 ## Product Updates
 
-**25 articles** | [Browse category](product-updates/)
+**26 articles** | [Browse category](product-updates/)
 
 ### Product Updates - Product Updates - July 2026
 
-**2 articles** | Directory: `product-updates/product-updates-july-2026/`
+**3 articles** | Directory: `product-updates/product-updates-july-2026/`
 
+- [brioHR Product Updates - July 2026, Week 3 | Custom SHG Contributions, a Better Password Reset Experience & New Touch N Go bank support for employees!](product-updates/product-updates-july-2026/briohr-product-updates-july-2026-week-3-custom-shg-contributions-a-better-passwo.md)
 - [BrioHR Product Updates - July 2026, Week 2 |  Bulk compensation imports, New Claim Balance Report, Change Subsidiaries on Mobile App](product-updates/product-updates-july-2026/briohr-product-updates-july-2026-week-2-bulk-compensation-imports-new-claim-bala.md)
 - [BrioHR Product Updates - July 2026, Week 1 |  Years of Service Tracking & Payroll YTD Summary Settings](product-updates/product-updates-july-2026/briohr-product-updates-july-2026-week-1-years-of-service-tracking-and-payroll-yt.md)
 

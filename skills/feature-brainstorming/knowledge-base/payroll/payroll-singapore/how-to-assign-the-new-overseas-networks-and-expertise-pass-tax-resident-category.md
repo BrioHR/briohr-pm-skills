@@ -1,9 +1,9 @@
 ---
 title: "How to Assign the New "Overseas Networks & Expertise Pass" Tax Resident Category in BrioHR"
 category: "Payroll"
-subcategory: "Payroll - Malaysia"
+subcategory: "Payroll - Singapore"
 source_url: "https://support.briohr.com/knowledge/how-to-assign-the-new-overseas-networks-expertise-pass-tax-resident-category-in-briohr"
-date: "July 12, 2026"
+date: "July 20, 2026"
 ---
 
 # How to Assign the New "Overseas Networks & Expertise Pass" Tax Resident Category in BrioHR

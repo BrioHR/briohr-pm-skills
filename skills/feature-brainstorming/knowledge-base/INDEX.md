@@ -1,7 +1,7 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-07-18
+> Last updated: 2026-07-21
 
 ---
 
@@ -48,14 +48,14 @@
 - [Time and Attendance Integration](#time-and-attendance-integration) (3 articles)
   - [SFTP](#time-and-attendance-integration-sftp) (1)
   - [Devices](#time-and-attendance-integration-devices) (2)
-- [Payroll](#payroll) (153 articles)
-  - [Payroll Configuration](#payroll-payroll-configuration) (13)
-  - [Payroll Management](#payroll-payroll-management) (40)
-  - [Payroll - Malaysia](#payroll-payroll-malaysia) (76)
-  - [Payroll - Singapore](#payroll-payroll-singapore) (23)
+- [Payroll](#payroll) (156 articles)
+  - [Payroll Configuration](#payroll-payroll-configuration) (14)
+  - [Payroll Management](#payroll-payroll-management) (42)
+  - [Payroll - Malaysia](#payroll-payroll-malaysia) (75)
+  - [Payroll - Singapore](#payroll-payroll-singapore) (24)
   - [Payroll - Indonesia](#payroll-payroll-indonesia) (1)
-- [Leave](#leave) (48 articles)
-  - [Leave Configuration](#leave-leave-configuration) (32)
+- [Leave](#leave) (49 articles)
+  - [Leave Configuration](#leave-leave-configuration) (33)
   - [Leave Management](#leave-leave-management) (16)
 - [Expense Claims](#expense-claims) (43 articles)
   - [Claims Configuration](#expense-claims-claims-configuration) (21)
@@ -63,9 +63,9 @@
 - [Onboarding](#onboarding) (16 articles)
   - [Onboarding Configuration](#onboarding-onboarding-configuration) (9)
   - [Onboarding Management](#onboarding-onboarding-management) (7)
-- [Performance](#performance) (37 articles)
+- [Performance](#performance) (38 articles)
   - [Performance Configuration](#performance-performance-configuration) (19)
-  - [Performance Management](#performance-performance-management) (18)
+  - [Performance Management](#performance-performance-management) (19)
 - [Pulse Survey](#pulse-survey) (5 articles)
   - [General](#pulse-survey-general) (5)
 - [Recruitment](#recruitment) (35 articles)
@@ -84,9 +84,9 @@
 - [HR Lounge](#hr-lounge) (6 articles)
   - [HR Lounge Dashboard](#hr-lounge-hr-lounge-dashboard) (4)
   - [Profile Change Request](#hr-lounge-profile-change-request) (2)
-- [People](#people) (17 articles)
+- [People](#people) (18 articles)
   - [Profile Creation](#people-profile-creation) (2)
-  - [Profile Management](#people-profile-management) (12)
+  - [Profile Management](#people-profile-management) (13)
   - [Document Management](#people-document-management) (1)
   - [Organization Chart](#people-organization-chart) (2)
 - [Reports](#reports) (24 articles)
@@ -128,9 +128,9 @@
 
 **9 articles** | Directory: `general/user-settings-and-login/`
 
+- [brioHR Web Browser vs Mobile App: Feature Comparison Guide](general/user-settings-and-login/briohr-web-browser-vs-mobile-app-feature-comparison-guide.md)
 - [Understanding the Different Log In Methods in brioHR](general/user-settings-and-login/understanding-the-different-log-in-methods-in-briohr.md)
 - [Reset Your Password Seamlessly from your Mobile Device](general/user-settings-and-login/reset-your-password-seamlessly-from-your-mobile-device.md)
-- [brioHR Web Browser vs Mobile App: Feature Comparison Guide](general/user-settings-and-login/briohr-web-browser-vs-mobile-app-feature-comparison-guide.md)
 - [Thai Language is Now Available in brioHR](general/user-settings-and-login/thai-language-is-now-available-in-briohr.md)
 - [BrioHR First-Time Login Guide: Activation Email & Password Setup](general/user-settings-and-login/briohr-first-time-login-guide-activation-email-and-password-setup.md)
 - [Enhanced MFA : Remember Trusted Devices for 30 Days](general/user-settings-and-login/enhanced-mfa-remember-trusted-devices-for-30-days.md)
@@ -527,12 +527,13 @@
 
 ## Payroll
 
-**153 articles** | [Browse category](payroll/)
+**156 articles** | [Browse category](payroll/)
 
 ### Payroll - Payroll Configuration
 
-**13 articles** | Directory: `payroll/payroll-configuration/`
+**14 articles** | Directory: `payroll/payroll-configuration/`
 
+- [Change Your Company Bank Account Details](payroll/payroll-configuration/change-your-company-bank-account-details.md)
 - [Enhanced Payslip Security with Password-Protected Payslips](payroll/payroll-configuration/enhanced-payslip-security-with-password-protected-payslips.md)
 - [How to Schedule Payslip Release in BrioHR (Payroll Admin Guide)](payroll/payroll-configuration/how-to-schedule-payslip-release-in-briohr-payroll-admin-guide.md)
 - [How to Create a Custom Pay Item in BrioHR](payroll/payroll-configuration/how-to-create-a-custom-pay-item-in-briohr.md)
@@ -549,8 +550,10 @@
 
 ### Payroll - Payroll Management
 
-**40 articles** | Directory: `payroll/payroll-management/`
+**42 articles** | Directory: `payroll/payroll-management/`
 
+- [Refresh a Payroll Cycle After Employee Profile Changes](payroll/payroll-management/refresh-a-payroll-cycle-after-employee-profile-changes.md)
+- [Set Up a Recurring Fixed Remuneration Over Several Months](payroll/payroll-management/set-up-a-recurring-fixed-remuneration-over-several-months.md)
 - [Arrears of Salary Calculation](payroll/payroll-management/arrears-of-salary-calculation.md)
 - [Delete Latest Payroll Cycle in Current Payroll Month](payroll/payroll-management/delete-latest-payroll-cycle-in-current-payroll-month.md)
 - [Find Cost Center Details in Payroll Reports](payroll/payroll-management/find-cost-center-details-in-payroll-reports.md)
@@ -564,7 +567,7 @@
 - [How to Process Payroll in the Correct Order with BrioHR](payroll/payroll-management/how-to-process-payroll-in-the-correct-order-with-briohr.md)
 - [What is an Ad-hoc Payroll Cycle? Definition and Use Case Example](payroll/payroll-management/what-is-an-ad-hoc-payroll-cycle-definition-and-use-case-example.md)
 - [Managing Approved Claims in the Payroll Module](payroll/payroll-management/managing-approved-claims-in-the-payroll-module.md)
-- [How to Manage Salary History in an Employee's Profile](payroll/payroll-management/how-to-manage-salary-history-in-an-employee-s-profile.md)
+- [How to Manage Salary History (Salary Increments & Revisions) in an Employee's Profile](payroll/payroll-management/how-to-manage-salary-history-salary-increments-and-revisions-in-an-employee-s-pr.md)
 - [How to Edit or Delete an Employee's Past Compensation](payroll/payroll-management/how-to-edit-or-delete-an-employee-s-past-compensation.md)
 - [How to Email Payslips to All Employees at Once](payroll/payroll-management/how-to-email-payslips-to-all-employees-at-once.md)
 - [How to Exclude Employees from Payroll](payroll/payroll-management/how-to-exclude-employees-from-payroll.md)
@@ -594,11 +597,11 @@
 
 ### Payroll - Payroll - Malaysia
 
-**76 articles** | Directory: `payroll/payroll-malaysia/`
+**75 articles** | Directory: `payroll/payroll-malaysia/`
 
 - [Malaysia Payroll Centre: Supported Banks for Payroll, Statutory and Zakat Bank Files in BrioHR](payroll/payroll-malaysia/malaysia-payroll-centre-supported-banks-for-payroll-statutory-and-zakat-bank-fil.md)
-- [Changing PERKESO SKBBK Contribution Option](payroll/payroll-malaysia/changing-perkeso-skbbk-contribution-option.md)
 - [New PERKESO SKBBK Contribution Requirement Effective 1 June 2026](payroll/payroll-malaysia/new-perkeso-skbbk-contribution-requirement-effective-1-june-2026.md)
+- [Changing PERKESO SKBBK Contribution Option](payroll/payroll-malaysia/changing-perkeso-skbbk-contribution-option.md)
 - [Find Default Overtime Payroll Items and Add to OT Multi-rates Table](payroll/payroll-malaysia/find-default-overtime-payroll-items-and-add-to-ot-multi-rates-table.md)
 - [Create an Overtime Custom Payroll Item and Add It to the Overtime Multi-rates Table](payroll/payroll-malaysia/create-an-overtime-custom-payroll-item-and-add-it-to-the-overtime-multi-rates-ta.md)
 - [Generating Payroll & Statutory Payment Files for United Overseas Bank (Malaysia) Berhad](payroll/payroll-malaysia/generating-payroll-and-statutory-payment-files-for-united-overseas-bank-malaysia.md)
@@ -636,7 +639,6 @@
 - [How to Enable Private Retirement Scheme (PRS) Contributions in Payroll Malaysia](payroll/payroll-malaysia/how-to-enable-private-retirement-scheme-prs-contributions-in-payroll-malaysia.md)
 - [How to Generate EPF Form A](payroll/payroll-malaysia/how-to-generate-epf-form-a.md)
 - [Types of EPF Category](payroll/payroll-malaysia/types-of-epf-category.md)
-- [How to Assign the New "Overseas Networks & Expertise Pass" Tax Resident Category in BrioHR](payroll/payroll-malaysia/how-to-assign-the-new-overseas-networks-and-expertise-pass-tax-resident-category.md)
 - [Understanding the 'Retirement Date & Employment Status' Fields in CP8D TXT and PDF Files](payroll/payroll-malaysia/understanding-the-retirement-date-and-employment-status-fields-in-cp8d-txt-and-p.md)
 - [What is the Payment Set Number in HSBC Bank Malaysia Berhad?](payroll/payroll-malaysia/what-is-the-payment-set-number-in-hsbc-bank-malaysia-berhad.md)
 - [How to Prepare for Tax Filing in Malaysia](payroll/payroll-malaysia/how-to-prepare-for-tax-filing-in-malaysia.md)
@@ -675,7 +677,7 @@
 
 ### Payroll - Payroll - Singapore
 
-**23 articles** | Directory: `payroll/payroll-singapore/`
+**24 articles** | Directory: `payroll/payroll-singapore/`
 
 - [Manage Self-Help Group (SHG) Contributions with Custom Values (Payroll Singapore)](payroll/payroll-singapore/manage-self-help-group-shg-contributions-with-custom-values-payroll-singapore.md)
 - [Payroll Singapore - Add Overtime for Day Off with Customizable Multiplier](payroll/payroll-singapore/payroll-singapore-add-overtime-for-day-off-with-customizable-multiplier.md)
@@ -700,6 +702,7 @@
 - [Central Provident Fund (CPF) Proration in brioHR](payroll/payroll-singapore/central-provident-fund-cpf-proration-in-briohr.md)
 - [Understanding Tax Categories for Foreign Employees in Singapore](payroll/payroll-singapore/understanding-tax-categories-for-foreign-employees-in-singapore.md)
 - [Payroll Singapore: Understanding the Skill Development Levy (SDL)](payroll/payroll-singapore/payroll-singapore-understanding-the-skill-development-levy-sdl.md)
+- [How to Assign the New "Overseas Networks & Expertise Pass" Tax Resident Category in BrioHR](payroll/payroll-singapore/how-to-assign-the-new-overseas-networks-and-expertise-pass-tax-resident-category.md)
 
 ### Payroll - Payroll - Indonesia
 
@@ -711,12 +714,13 @@
 
 ## Leave
 
-**48 articles** | [Browse category](leave/)
+**49 articles** | [Browse category](leave/)
 
 ### Leave - Leave Configuration
 
-**32 articles** | Directory: `leave/leave-configuration/`
+**33 articles** | Directory: `leave/leave-configuration/`
 
+- [Apply for Leave in the Next Calendar Year](leave/leave-configuration/apply-for-leave-in-the-next-calendar-year.md)
 - [How to Manage Leave Policies by Year in BrioHR](leave/leave-configuration/how-to-manage-leave-policies-by-year-in-briohr.md)
 - [How to Enable Carry Forward Leave in BrioHR Leave Policies](leave/leave-configuration/how-to-enable-carry-forward-leave-in-briohr-leave-policies.md)
 - [How to Manage Half-Day Leave for Employees](leave/leave-configuration/how-to-manage-half-day-leave-for-employees.md)
@@ -866,7 +870,7 @@
 
 ## Performance
 
-**37 articles** | [Browse category](performance/)
+**38 articles** | [Browse category](performance/)
 
 ### Performance - Performance Configuration
 
@@ -894,8 +898,9 @@
 
 ### Performance - Performance Management
 
-**18 articles** | Directory: `performance/performance-management/`
+**19 articles** | Directory: `performance/performance-management/`
 
+- [Import Performance Objectives in Bulk](performance/performance-management/import-performance-objectives-in-bulk.md)
 - [Understanding the BrioHR Performance Module](performance/performance-management/understanding-the-briohr-performance-module.md)
 - [Understanding the Performance Review Process in BrioHR](performance/performance-management/understanding-the-performance-review-process-in-briohr.md)
 - [How to Calculate Performance Overall Rating](performance/performance-management/how-to-calculate-performance-overall-rating.md)
@@ -1087,7 +1092,7 @@
 
 ## People
 
-**17 articles** | [Browse category](people/)
+**18 articles** | [Browse category](people/)
 
 ### People - Profile Creation
 
@@ -1098,8 +1103,9 @@
 
 ### People - Profile Management
 
-**12 articles** | Directory: `people/profile-management/`
+**13 articles** | Directory: `people/profile-management/`
 
+- [Rehire a Resigned Employee](people/profile-management/rehire-a-resigned-employee.md)
 - [Editing Past Job Dates and Managing Job History in BrioHR](people/profile-management/editing-past-job-dates-and-managing-job-history-in-briohr.md)
 - [How to Change or Remove an Employee's Employment End or Resign Date](people/profile-management/how-to-change-or-remove-an-employee-s-employment-end-or-resign-date.md)
 - [How to Update Employee Employment Details](people/profile-management/how-to-update-employee-employment-details.md)

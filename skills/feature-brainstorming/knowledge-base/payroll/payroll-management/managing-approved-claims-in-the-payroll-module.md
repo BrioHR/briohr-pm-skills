@@ -3,7 +3,7 @@ title: "Managing Approved Claims in the Payroll Module"
 category: "Payroll"
 subcategory: "Payroll Management"
 source_url: "https://support.briohr.com/knowledge/managing-approved-claims-in-the-payroll-module"
-date: "July 12, 2026"
+date: "July 20, 2026"
 ---
 
 # Managing Approved Claims in the Payroll Module
@@ -79,7 +79,7 @@ Click this icon to skip adding the approved claim item in the current payroll cy
 **C. Exclude**
 
 
-Click this icon to exclude the approved claim from payroll. If excluded, the approved claim item will be permanently removed from the payroll.
+Click this icon to exclude the approved claim from payroll. The excluded claim item no longer appears in payroll cycles, but this is reversible: to include it back into the payroll, do so from the Expense Claims module (see the NOTE below).
 
 
 **NOTE:**

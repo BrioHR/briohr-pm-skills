@@ -3,7 +3,7 @@ title: "How to Create, Edit and Manage Posts in BrioHR Feed"
 category: "Feed"
 subcategory: "General"
 source_url: "https://support.briohr.com/knowledge/how-to-create-edit-delete-pin-a-new-post-in-briohr-feed"
-date: "October 15, 2025"
+date: "July 20, 2026"
 ---
 
 # How to Create, Edit and Manage Posts in BrioHR Feed
@@ -199,6 +199,15 @@ No. The email notification goes only to your selected audience, not to the post 
 
 **5. Can I unpin a post later?**
 Yes, go to the pinned post, click the **three-dot icon**, and select **Unpin**.
+
+
+**6. Can employees acknowledge a post?**
+
+
+There is currently no read-acknowledgement or read-tracking feature; feedback on it is passed to the product team.
+
+
+
 
 
 

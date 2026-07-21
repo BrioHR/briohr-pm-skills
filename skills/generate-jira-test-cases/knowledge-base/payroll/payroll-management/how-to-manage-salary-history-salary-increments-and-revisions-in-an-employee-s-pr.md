@@ -1,14 +1,14 @@
 ---
-title: "How to Manage Salary History in an Employee's Profile"
+title: "How to Manage Salary History (Salary Increments & Revisions) in an Employee's Profile"
 category: "Payroll"
 subcategory: "Payroll Management"
 source_url: "https://support.briohr.com/knowledge/how-to-manage-salary-history-in-an-employees-profile"
-date: "July 12, 2026"
+date: "July 20, 2026"
 ---
 
-# How to Manage Salary History in an Employee's Profile
+# How to Manage Salary History (Salary Increments & Revisions) in an Employee's Profile
 
-*This article explains how to add, edit, or view an employee's salary history from the Compensation tab of their profile.*
+*This article explains how to add, edit, or view an employee's salary history from the Compensation tab of their profile — for example to record a salary increment or revision.*
 
 To add, edit, or view an employee's salary history, please follow these steps:
 
@@ -45,7 +45,7 @@ To add, edit, or view an employee's salary history, please follow these steps:
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-May-04-2026-07-10-48-9131-AM.png?width=670&height=302&name=image-png-May-04-2026-07-10-48-9131-AM.png)
 
 
-6.   To edit existing salary details, hover over the salary item and click the "**Edit**" icon. You can correct any mistakes or update the salary if the employee has received a raise. Newly added salaries can be set for a future date and will only take effect on the specified effective date.
+6.   To edit existing salary details, hover over the salary item and click the "**Edit**" icon. You can correct any mistakes or update the salary if the employee has received a raise or a salary increment. Newly added salaries can be set for a future date and will only take effect on the specified effective date.
 
 
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-May-04-2026-07-12-02-7528-AM.png?width=670&height=306&name=image-png-May-04-2026-07-12-02-7528-AM.png)
@@ -69,13 +69,13 @@ To add, edit, or view an employee's salary history, please follow these steps:
 **IMPORTANT:**
 
 
-BrioHR does NOT automatically calculate and add **backpay** when a salary increment is added with a past effective date.
+BrioHR can automatically calculate and add backpay when a salary increment is added with a past effective date, using the **Arrears of Salary** feature — see [Arrears of Salary Calculation](https://support.briohr.com/knowledge/arrears-of-salary-calculation?hsLang=en).
 
 
-Example scenario: increment effective 1 Jan, approved in March. BrioHR will NOT auto-generate the Jan–Feb arrears.
+**Example scenario**: increment effective 1 Jan, approved in March → the arrears feature simulates the January–February cycles and computes the backpay (including overtime and unpaid leave).
 
 
-**Manual workaround: Calculate the arrears amount yourself and add it to the current payroll cycle using the 'Arrears of Salary' pay item.**
+NOTE: **this feature is not yet available to all clients**. If it is not enabled on your account, calculate the arrears amount yourself and add it to the current payroll cycle using the 'Arrears of Salary' pay item, or contact support.
 
 
 

@@ -3,7 +3,7 @@ title: "How to Create Payroll Center (Malaysia)"
 category: "Admin"
 subcategory: "Payroll Centers Settings"
 source_url: "https://support.briohr.com/knowledge/how-to-create-payroll-center-malaysia"
-date: "May 11, 2026"
+date: "July 20, 2026"
 ---
 
 # How to Create Payroll Center (Malaysia)
@@ -19,7 +19,7 @@ Payroll Centers also help you keep payroll data organized and ensure only author
 **Note:** Only users with **Admin Settings access** can create or edit Payroll Centers.
 
 
-### Step-by-Step Guide to Create a Payroll Center (Singapore)
+### Step-by-Step Guide to Create a Payroll Center (Malaysia)
 
 
 1.   Login to BrioHR and click into **Settings > Payroll Centers**
@@ -37,7 +37,7 @@ Payroll Centers also help you keep payroll data organized and ensure only author
 4.   In the **Countries** field, select **Malaysia**.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-May-11-2026-06-03-36-6349-AM.png?width=1122&height=990&name=image-png-May-11-2026-06-03-36-6349-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-May-11-2026-06-03-36-6349-AM.png?width=670&height=591&name=image-png-May-11-2026-06-03-36-6349-AM.png)
 
 
 5.   Review the details and click **Submit** to create the Payroll Center.

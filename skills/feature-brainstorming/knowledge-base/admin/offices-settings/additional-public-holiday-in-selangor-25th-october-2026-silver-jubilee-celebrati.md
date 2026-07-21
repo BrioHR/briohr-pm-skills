@@ -2,8 +2,8 @@
 title: "Additional Public Holiday in Selangor : 25th October 2026 (Silver Jubilee Celebration of the Reign of DYMM Sultan Selangor)"
 category: "Admin"
 subcategory: "Offices Settings"
-source_url: "https://support.briohr.com/knowledge/additional-public-holiday-in-selangor-25th-october-2025-silver-jubilee-celebration-of-the-reign-of-dymm-sultan-selangor"
-date: "March 6, 2026"
+source_url: "https://support.briohr.com/knowledge/additional-public-holiday-in-selangor-25th-october-2026-silver-jubilee-celebration-of-the-reign-of-dymm-sultan-selangor"
+date: "July 21, 2026"
 ---
 
 # Additional Public Holiday in Selangor : 25th October 2026 (Silver Jubilee Celebration of the Reign of DYMM Sultan Selangor)

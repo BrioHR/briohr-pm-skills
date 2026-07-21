@@ -3,12 +3,12 @@ title: "Changing PERKESO SKBBK Contribution Option"
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
-date: "July 9, 2026"
+date: "July 20, 2026"
 ---
 
 # Changing PERKESO SKBBK Contribution Option
 
-*Effective July 2026, PERKESO has made the SKBBK contribution optional for local employees and mandatory only for foreign employees. This article guides you through making changes to SKBBK contribution settings for individual employees and in bulk.*
+*Effective July 2026, PERKESO has made the SKBBK contribution — also known as Lindung 24 — optional for local employees and mandatory only for foreign employees. This article guides you through making changes to SKBBK contribution settings for individual employees and in bulk.*
 
 **Audience & Scope**
 
@@ -116,15 +116,24 @@ For the non-SKBBK option, choose:
 
 - Please consult with PERKESO for any inquiries regarding refunds and configuration of payroll items for this specific purpose.
 - The **SKBBK contribution remains mandatory for Foreign Workers** (as of 9th July 2026)
+- If your company chooses to reimburse employees for the June deduction, you can use a **custom income pay item** in a later payroll cycle — we recommend confirming the approach with PERKESO first.
+
+See: [How to Edit a Completed Payroll Cycle](https://support.briohr.com/knowledge/how-to-edit-a-completed-payroll-cycle?hsLang=en) and [How to Create a Custom Pay Item in BrioHR](https://support.briohr.com/knowledge/how-to-create-a-custom-pay-item-in-briohr?hsLang=en).
 
 
 **Common Issues/FAQ**
 
 
-Q1: Will this affect my previous SOCSO contribution?
+Q1: **Will this affect my previous SOCSO contribution?**
 
 
 A1: No. If you have completed your payroll month (June 2026) and made the payout, your payroll records will remain unchanged.
+
+
+Q2: **Can I see the SKBBK amount separately in the payroll report?**
+
+
+A2: Not yet — the payroll report shows the total SOCSO amount and cannot isolate the SKBBK portion. An improvement is work in progress (no release date yet); we will communicate to clients once it is available.
 
 
 

@@ -3,7 +3,7 @@ title: "New PERKESO SKBBK Contribution Requirement Effective 1 June 2026"
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/new-perkeso-skbbk-contribution-requirement-effective-1-june-2026"
-date: "June 10, 2026"
+date: "July 20, 2026"
 ---
 
 # New PERKESO SKBBK Contribution Requirement Effective 1 June 2026
@@ -48,14 +48,17 @@ The initiative aims to extend social security protection for employees beyond em
 ### Effective Date
 
 
-Starting **1 June 2026**, all employers are required to:
+**⚠️ Update — July 2026: PERKESO has since made the SKBBK contribution (also known as Lindung 24) optional for local employees and mandatory only for foreign workers. The requirement described below reflects the original 1 June 2026 rule. For the current rules and how to change the contribution option, see [Changing PERKESO SKBBK Contribution Option](/knowledge/changing-perkeso-skbbk-contribution-option?hsLang=en).**
 
 
-- Deduct the SKBBK contribution from employee salaries
-- Submit the contribution to PERKESO on a monthly basis
+Starting 1 June 2026, employers were required to
 
 
+- Deduct the SKBBK contribution from employee salaries and;
+- Submit it to PERKESO monthly.
 
+
+**This requirement has since changed — see the July 2026 update note at the top of this article.**
 
 
 ### Updated SOCSO Category Labels
@@ -269,10 +272,10 @@ Keeping payroll configurations updated will help ensure compliance with the late
 ### Frequently Asked Questions
 
 
-**Q: When will the SKBBK contribution become mandatory? **
+** Q: Is the SKBBK contribution mandatory? **
 
 
-A: The SKBBK contribution will become mandatory starting from **1 June 2026**. Employers are required to deduct and submit the contribution to PERKESO monthly beginning with the June 2026 payroll cycle.
+A: It became mandatory for all employees on 1 June 2026, but **since July 2026 it is optional for local employees and mandatory only for foreign employees**. To opt a local employee out, see [Changing PERKESO SKBBK Contribution Option](https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option?hsLang=en).
 
 
 **Q: How can I check how much the contributions will be for different pay grades?**

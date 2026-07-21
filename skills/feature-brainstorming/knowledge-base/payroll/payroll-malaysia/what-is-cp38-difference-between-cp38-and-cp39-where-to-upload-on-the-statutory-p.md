@@ -3,7 +3,7 @@ title: "What is CP38, difference between CP38 & CP39, where to upload on the sta
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/what-is-cp38-difference-between-cp38-cp39-where-to-upload-on-the-statutory-portal-my"
-date: "November 28, 2024"
+date: "July 21, 2026"
 ---
 
 # What is CP38, difference between CP38 & CP39, where to upload on the statutory portal? (MY)
@@ -36,16 +36,16 @@ Things to note:
 While you run a payroll cycle in BrioHR, we have deduction pay item for CP38. If the CP38 pay item is included in the payroll, this amount will include in the LHDN PCB text file.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image%20(3)-png.png?width=688&height=314&name=image%20(3)-png.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image%20(3)-png.png?width=670&height=306&name=image%20(3)-png.png)
 
 
 ### Where to Upload CP38 on the Statutory Portal?
 
 
-Employers are required to upload CP38 and CP39 details on the **e-CP39 portal** (part of LHDN's online services):
+Employers are required to upload CP38 and CP39 details on the **e-PCB Plus** portal (LHDN). The former e-PCB, e-Data PCB and e-CP39 portals have been deactivated by LHDN.
 
 
-1. **Log in to e-PCB/e-Data PCB or MyTax portal.**
+1. **Log in to the MyTax / e-PCB Plus portal** — see [How to Upload TXT File and Make Payment on e-PCB Plus System](https://support.briohr.com/knowledge/e-pcb-plus-for-mtd-submissions-and-payments?hsLang=en).
 2. **Navigate to the CP39 or CP38 submission sections**:
 
   - CP39: Submit the standard MTD details for all employees.

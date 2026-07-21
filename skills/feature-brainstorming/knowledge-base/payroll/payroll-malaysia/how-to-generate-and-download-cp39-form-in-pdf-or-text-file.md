@@ -3,7 +3,7 @@ title: "How to Generate and Download CP39 Form in PDF or Text File"
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/how-to-generate-and-download-cp39-form-in-pdf-or-text-file"
-date: "July 12, 2026"
+date: "July 21, 2026"
 ---
 
 # How to Generate and Download CP39 Form in PDF or Text File
@@ -16,7 +16,7 @@ date: "July 12, 2026"
 **NOTE:**
 
 
-**This PDF file is for auditing or internal record purposes only and cannot be used for payment via the e-Data PCB portal.**
+**This PDF file is for auditing or internal record purposes only and cannot be used for payment via the e-PCB Plus portal. **
 
 
 - In the **HR Lounge**, click on **Payroll**.
@@ -69,7 +69,7 @@ date: "July 12, 2026"
 **NOTE:**
 
 
-**This text file can be used for payment by uploading it via the e-Data PCB portal.**
+This text file can be used for payment by uploading it via the **e-PCB Plus** portal (the former e-Data PCB / e-PCB / e-CP39 portals were deactivated by LHDN).
 
 
 - In the **HR Lounge**, click on **Payroll**.
@@ -90,7 +90,7 @@ date: "July 12, 2026"
 [](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48237513524/original/7cIHl4geT_ZhCXhwBTvrnj32YL7CGDuycA.png?1657275439)
 
 
-- After downloading the text file, proceed to upload it to the e-Data PCB portal for payment.
+- After downloading the text file, upload it to the e-PCB Plus portal for payment — step-by-step guide: [How to Upload TXT File and Make Payment on e-PCB Plus System](https://support.briohr.com/knowledge/e-pcb-plus-for-mtd-submissions-and-payments?hsLang=en).
 
 
 **NOTE:**

@@ -3,7 +3,7 @@ title: "How to Process Payroll in the Correct Order with BrioHR"
 category: "Payroll"
 subcategory: "Payroll Management"
 source_url: "https://support.briohr.com/knowledge/how-to-process-payroll-in-the-correct-order-with-briohr"
-date: "July 12, 2026"
+date: "July 21, 2026"
 ---
 
 # How to Process Payroll in the Correct Order with BrioHR
@@ -67,8 +67,8 @@ BrioHR's sequential payroll processing feature ensures accurate and compliant pa
 
 
 - Follow the reverse order when deleting payroll months: end-of-month, ad-hoc, and then mid-month.
-- To delete payroll months, clients must contact BrioHR Support for further assistance.
-- Email: [support@briohr.com](mailto:support@briohr.com)
+- You can delete the latest payroll cycle yourself — see [Delete Latest Payroll Cycle in Current Payroll Month](https://support.briohr.com/knowledge/delete-latest-payroll-cycle-in-current-payroll-month?hsLang=en).
+- To delete payroll months beyond the latest cycle, contact BrioHR Support ([support@briohr.com](mailto:support@briohr.com)).
 
 
 

@@ -3,7 +3,7 @@ title: "Requesting Overtime Approval (Post OT) as an Employee"
 category: "Employee"
 subcategory: "Time Attendance"
 source_url: "https://support.briohr.com/knowledge/requesting-overtime-approval-post-ot-as-an-employee"
-date: "July 9, 2026"
+date: "July 20, 2026"
 ---
 
 # Requesting Overtime Approval (Post OT) as an Employee
@@ -64,7 +64,7 @@ Pre-requisites: Access to Time Attendance module in MyHR
 NOTE:
 
 
-1. Your admin must **enable Post OT submission for your policy** in order for this feature to work. If you do see the 'Submit OT' button for your, check with your admin that the feature has been enabled for your policy.
+1. Your admin must enable Post OT submission for your policy in order for this feature to work. If you do **not** see the 'Submit OT' button, check with your admin that the feature has been enabled for your policy.
 2. This feature only works for employees with daily overtime calculation. If your company calculates OT on a monthly accumulated basis, this feature will not be available to you.
 3. **Work First, Request Later:** You can only request OT for hours you have **already worked**. No future dates are allowed. If there is no actual OT recorded on a past date, a request cannot be submitted.
 4. **Know Your Limit:** You can request your exact actual OT hours or less—but **never more** than what you actually worked.

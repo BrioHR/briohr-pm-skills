@@ -3,7 +3,7 @@ title: "How to Set an Employee’s Employment End or Resign Date"
 category: "People"
 subcategory: "Profile Management"
 source_url: "https://support.briohr.com/knowledge/how-to-set-an-employees-resign-date"
-date: "December 4, 2024"
+date: "July 20, 2026"
 ---
 
 # How to Set an Employee’s Employment End or Resign Date
@@ -26,6 +26,12 @@ date: "December 4, 2024"
 
 
 4. A pop-up window will appear. Enter the end date in the "**End Employment Date**" field.
+
+
+**NOTE: **
+
+
+**The employment end date is the employee's official last working day (e.g. if the last day of work is 30 June, enter 30 June — not 1 July).**
 
 
 5. Click "**Save**" to confirm the changes.

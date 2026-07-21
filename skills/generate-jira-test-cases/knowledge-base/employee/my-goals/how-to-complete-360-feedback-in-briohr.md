@@ -3,7 +3,7 @@ title: "How to Complete 360 Feedback in BrioHR"
 category: "Employee"
 subcategory: "My Goals"
 source_url: "https://support.briohr.com/knowledge/how-to-provide-360-feedback"
-date: "October 2, 2025"
+date: "July 21, 2026"
 ---
 
 # How to Complete 360 Feedback in BrioHR
@@ -54,7 +54,7 @@ Log in to your BrioHR account using your registered credentials.
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-02-2025-02-59-25-1223-AM.png?width=2000&height=657&name=image-png-Oct-02-2025-02-59-25-1223-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-02-2025-02-59-25-1223-AM.png?width=670&height=220&name=image-png-Oct-02-2025-02-59-25-1223-AM.png)
 **
 
 
@@ -64,7 +64,7 @@ Log in to your BrioHR account using your registered credentials.
 3. Click the task to open it
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-02-2025-03-00-10-1191-AM.png?width=2000&height=651&name=image-png-Oct-02-2025-03-00-10-1191-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-02-2025-03-00-10-1191-AM.png?width=670&height=218&name=image-png-Oct-02-2025-03-00-10-1191-AM.png)
 
 
 #### Step 3 - Complete the 360 Feedback Task
@@ -86,7 +86,7 @@ Log in to your BrioHR account using your registered credentials.
 - **Submit **- if you are ready to finalize your feedback
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-02-2025-03-01-53-4181-AM.png?width=2000&height=935&name=image-png-Oct-02-2025-03-01-53-4181-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Oct-02-2025-03-01-53-4181-AM.png?width=670&height=313&name=image-png-Oct-02-2025-03-01-53-4181-AM.png)
 
 
 ---
@@ -111,22 +111,22 @@ Once you submit your feedback, you will:
 ### Frequently Asked Questions (FAQs)
 
 
-**Q1: Can I edit my feedback after submitting it?**
+**1. Can I edit my feedback after submitting it?**
 
 
-A: No, once submitted, feedback cannot be edited. Make sure to review your answers before submitting.
+Not directly — you cannot edit it yourself once submitted. If a revision is needed, ask the employee's manager to reopen or send back your feedback — see [How Managers Can Reopen or Send Back 360 Feedback for Revisions](https://support.briohr.com/knowledge/how-managers-can-reopen-or-send-back-360-feedback-for-revisions?hsLang=en). Do still review your answers before submitting.
 
 
-**Q2: What happens if I save my feedback as draft?**
+**2. What happens if I save my feedback as draft?**
 
 
-A: Your progress will be saved, and you can return later to complete and submit it.
+Your progress will be saved, and you can return later to complete and submit it.
 
 
-**Q3: Will my colleagues know if anyone has given them 360 Feedback?**
+**3. Will my colleagues know if anyone has given them 360 Feedback?**
 
 
-A: No, your colleagues won't know. Only their managers and HR can view the submitting 360 Feedback.
+No, your colleagues won't know. Only their managers and HR can view the submitting 360 Feedback.
 
 
 **Need Assistance?**

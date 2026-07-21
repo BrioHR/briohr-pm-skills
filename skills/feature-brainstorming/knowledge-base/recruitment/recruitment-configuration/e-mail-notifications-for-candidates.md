@@ -3,7 +3,7 @@ title: "E-mail Notifications for Candidates"
 category: "Recruitment"
 subcategory: "Recruitment Configuration"
 source_url: "https://support.briohr.com/knowledge/e-mail-notifications-for-candidates"
-date: "July 12, 2026"
+date: "July 20, 2026"
 ---
 
 # E-mail Notifications for Candidates
@@ -11,13 +11,8 @@ date: "July 12, 2026"
 *This article explains which email notifications candidates receive, such as rejection notices, and which are never sent.*
 
 - **NO** notifications will be sent to candidates if they are **added to the system manually**.
-- Candidates **WILL **receive a rejection notification via e-mail if their **interview application is unsuccessful**.
-
-
-Aside from the rejection notification, **NO** other notifications are sent to candidates.
-
-
-
+- Candidates will receive a rejection notification via e-mail if their application is unsuccessful, **provided the "Reject Candidate" notification is enabled** in your recruitment settings — see [How to Enable Reject Candidate & Candidate Application Notifications](https://support.briohr.com/knowledge/how-to-enable-reject-candidate-candidate-application-notifications?hsLang=en). If the toggle is off, no rejection email is sent.
+- Aside from the rejection notification (when enabled), no other notifications are sent to candidates.
 
 
 

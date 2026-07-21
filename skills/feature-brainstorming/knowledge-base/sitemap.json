@@ -7,16 +7,16 @@
         "subcategory": "User Settings & Login",
         "articles": [
           {
+            "title": "brioHR Web Browser vs Mobile App: Feature Comparison Guide",
+            "url": "https://support.briohr.com/knowledge/briohr-web-browser-vs-mobile-app-feature-comparison-guide"
+          },
+          {
             "title": "Understanding the Different Log In Methods in brioHR",
             "url": "https://support.briohr.com/knowledge/understanding-the-different-log-in-methods-in-briohr"
           },
           {
             "title": "Reset Your Password Seamlessly from your Mobile Device",
             "url": "https://support.briohr.com/knowledge/reset-your-password-seamlessly-from-your-mobile-device"
-          },
-          {
-            "title": "brioHR Web Browser vs Mobile App: Feature Comparison Guide",
-            "url": "https://support.briohr.com/knowledge/briohr-web-browser-vs-mobile-app-feature-comparison-guide"
           },
           {
             "title": "Thai Language is Now Available in brioHR",
@@ -320,7 +320,7 @@
         "articles": [
           {
             "title": "Additional Public Holiday in Selangor : 25th October 2026 (Silver Jubilee Celebration of the Reign of DYMM Sultan Selangor)",
-            "url": "https://support.briohr.com/knowledge/additional-public-holiday-in-selangor-25th-october-2025-silver-jubilee-celebration-of-the-reign-of-dymm-sultan-selangor"
+            "url": "https://support.briohr.com/knowledge/additional-public-holiday-in-selangor-25th-october-2026-silver-jubilee-celebration-of-the-reign-of-dymm-sultan-selangor"
           },
           {
             "title": "How to Assign an Office HR Manager in BrioHR",
@@ -994,6 +994,10 @@
         "subcategory": "Payroll Configuration",
         "articles": [
           {
+            "title": "Change Your Company Bank Account Details",
+            "url": "https://support.briohr.com/knowledge/change-your-company-bank-account-details"
+          },
+          {
             "title": "Enhanced Payslip Security with Password-Protected Payslips",
             "url": "https://support.briohr.com/knowledge/enhance-payslip-security-with-password-protected-payslips"
           },
@@ -1051,6 +1055,14 @@
         "subcategory": "Payroll Management",
         "articles": [
           {
+            "title": "Refresh a Payroll Cycle After Employee Profile Changes",
+            "url": "https://support.briohr.com/knowledge/refresh-a-payroll-cycle-after-employee-profile-changes"
+          },
+          {
+            "title": "Set Up a Recurring Fixed Remuneration Over Several Months",
+            "url": "https://support.briohr.com/knowledge/set-up-a-recurring-fixed-remuneration-over-several-months"
+          },
+          {
             "title": "Arrears of Salary Calculation",
             "url": "https://support.briohr.com/knowledge/arrears-of-salary-calculation"
           },
@@ -1103,7 +1115,7 @@
             "url": "https://support.briohr.com/knowledge/managing-approved-claims-in-the-payroll-module"
           },
           {
-            "title": "How to Manage Salary History in an Employee's Profile",
+            "title": "How to Manage Salary History (Salary Increments & Revisions) in an Employee's Profile",
             "url": "https://support.briohr.com/knowledge/how-to-manage-salary-history-in-an-employees-profile"
           },
           {
@@ -1220,12 +1232,12 @@
             "url": "https://support.briohr.com/knowledge/malaysia-payroll-centre-supported-banks-for-payroll-statutory-and-zakat-bank-files-in-briohr"
           },
           {
-            "title": "Changing PERKESO SKBBK Contribution Option",
-            "url": "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
-          },
-          {
             "title": "New PERKESO SKBBK Contribution Requirement Effective 1 June 2026",
             "url": "https://support.briohr.com/knowledge/new-perkeso-skbbk-contribution-requirement-effective-1-june-2026"
+          },
+          {
+            "title": "Changing PERKESO SKBBK Contribution Option",
+            "url": "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
           },
           {
             "title": "Find Default Overtime Payroll Items and Add to OT Multi-rates Table",
@@ -1374,10 +1386,6 @@
           {
             "title": "Types of EPF Category",
             "url": "https://support.briohr.com/knowledge/types-of-epf-category"
-          },
-          {
-            "title": "How to Assign the New \"Overseas Networks & Expertise Pass\" Tax Resident Category in BrioHR",
-            "url": "https://support.briohr.com/knowledge/how-to-assign-the-new-overseas-networks-expertise-pass-tax-resident-category-in-briohr"
           },
           {
             "title": "Understanding the 'Retirement Date & Employment Status' Fields in CP8D TXT and PDF Files",
@@ -1615,6 +1623,10 @@
           {
             "title": "Payroll Singapore: Understanding the Skill Development Levy (SDL)",
             "url": "https://support.briohr.com/knowledge/payroll-singapore-understanding-the-skill-development-levy"
+          },
+          {
+            "title": "How to Assign the New \"Overseas Networks & Expertise Pass\" Tax Resident Category in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-assign-the-new-overseas-networks-expertise-pass-tax-resident-category-in-briohr"
           }
         ]
       },
@@ -1636,6 +1648,10 @@
       {
         "subcategory": "Leave Configuration",
         "articles": [
+          {
+            "title": "Apply for Leave in the Next Calendar Year",
+            "url": "https://support.briohr.com/knowledge/apply-for-leave-in-the-next-calendar-year"
+          },
           {
             "title": "How to Manage Leave Policies by Year in BrioHR",
             "url": "https://support.briohr.com/knowledge/how-to-manage-leave-policies-by-year-in-briohr"
@@ -2194,6 +2210,10 @@
         "subcategory": "Performance Management",
         "articles": [
           {
+            "title": "Import Performance Objectives in Bulk",
+            "url": "https://support.briohr.com/knowledge/import-performance-objectives-in-bulk"
+          },
+          {
             "title": "Understanding the BrioHR Performance Module",
             "url": "https://support.briohr.com/knowledge/understanding-the-briohr-performance-module"
           },
@@ -2670,6 +2690,10 @@
       {
         "subcategory": "Profile Management",
         "articles": [
+          {
+            "title": "Rehire a Resigned Employee",
+            "url": "https://support.briohr.com/knowledge/rehire-a-resigned-employee"
+          },
           {
             "title": "Editing Past Job Dates and Managing Job History in BrioHR",
             "url": "https://support.briohr.com/knowledge/editing-dates-for-past-jobs"

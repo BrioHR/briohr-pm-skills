@@ -3,12 +3,12 @@ title: "How to Process Salaries for Terminated Employees in a Separate Payroll C
 category: "Payroll"
 subcategory: "Payroll Management"
 source_url: "https://support.briohr.com/knowledge/how-to-process-salaries-for-terminated-employees-in-a-separate-payroll-cycle"
-date: "July 12, 2026"
+date: "July 20, 2026"
 ---
 
 # How to Process Salaries for Terminated Employees in a Separate Payroll Cycle
 
-*This article explains how to run a separate payroll cycle for terminated employees within the current payroll month.*
+*This article explains how to run a separate termination or resignation payroll cycle to process a departing employee's final salary within the current payroll month.*
 
 In this short video, you'll learn the complete steps for running a separate payroll cycle for terminated employees within the current payroll month.
 

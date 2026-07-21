@@ -3,7 +3,7 @@ title: "How to Configure Half-Day Leave Handling for Shift-Based Employees in Br
 category: "Admin"
 subcategory: "Schedules & Shifts Settings"
 source_url: "https://support.briohr.com/knowledge/how-to-configure-half-day-leave-handling-for-shift-based-employees-in-briohr"
-date: "May 4, 2026"
+date: "July 21, 2026"
 ---
 
 # How to Configure Half-Day Leave Handling for Shift-Based Employees in BrioHR
@@ -287,7 +287,7 @@ Yes, you can configure separate half-day leave handling preferences for each shi
 
 
 **2. What happens if no Half-Day Leave Handling setting is configured?**
-The system will remove the shift automatically when half-day leave is applied.
+The default — **Option 2: Split Shift Equally** — applies: the shift is split into two halves and the employee can clock in during the half they are not on leave (see the Note above).
 
 
 **3. Can I change the configuration after the shift has been created?**

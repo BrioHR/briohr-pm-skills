@@ -3,7 +3,7 @@ title: "How to Create and Manage Claim Policies"
 category: "Expense Claims"
 subcategory: "Claims Configuration"
 source_url: "https://support.briohr.com/knowledge/how-to-create-and-manage-claim-policies"
-date: "February 25, 2026"
+date: "July 20, 2026"
 ---
 
 # How to Create and Manage Claim Policies
@@ -226,6 +226,26 @@ The third section is **Approval Workflow**, where you can select the approval wo
 
 
 [Embedded content](https://www.loom.com/embed/db75590709ac4e1fa8dd9fa29bc335c6?sid=9b79adac-8920-4d5b-8a16-3c144edfb56c)
+
+
+
+
+
+---
+
+
+### Frequently Asked Questions (FAQs)
+
+
+**Can I reset the yearly claim limit?**
+Claim limits follow the **calendar year** and cannot be manually reset.
+
+
+**Workaround for special cases — a custom limit per employee:**
+1. Go to **HR Lounge > Expense Claims > Claim Policies** and open the employee's policy.
+2. In **Claim Types & Limits**, add a **custom limit by employee** for the specific claim type.
+3. Set the custom limit for the employee for **"limit per year"**.
+4. Once the new year starts, **remember to remove the customization** so the previous year's custom limit no longer applies.
 
 
 

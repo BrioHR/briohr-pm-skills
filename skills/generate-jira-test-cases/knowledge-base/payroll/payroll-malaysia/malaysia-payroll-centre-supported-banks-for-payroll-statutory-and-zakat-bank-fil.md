@@ -3,7 +3,7 @@ title: "Malaysia Payroll Centre: Supported Banks for Payroll, Statutory and Zaka
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/malaysia-payroll-centre-supported-banks-for-payroll-statutory-and-zakat-bank-files-in-briohr"
-date: "July 17, 2026"
+date: "July 21, 2026"
 ---
 
 # Malaysia Payroll Centre: Supported Banks for Payroll, Statutory and Zakat Bank Files in BrioHR
@@ -19,7 +19,7 @@ Audience: HR Admin & Payroll Manager
 Module: Payroll
 
 
-Country: Singapore
+Country:  Malaysia
 
 
 Pre-requisites: Access to HR Lounge > Payroll > Module & Module Settings
@@ -126,13 +126,14 @@ Some chosen banks may require a '**Batch ID**' to be filled in and this informat
 **NOTE:**
 
 
-At the time of publication, brioHR only supports 4 banks with file formats that support Touch n' Go as a method of disbursement for employee pay:
+At the time of publication, brioHR only supports 5 banks with file formats that support Touch n' Go as a method of disbursement for employee pay:
 
 
 1. Malayan Bank Berhad (Maybank)
 2. CIMB Bank Berhad - **Version 1.1 (CSV)**
 3. CIMB Islamic Bank Berhad - **Version 1.1 (CSV)**
 4. AmBank (M) Berhad - **AmAccess Biz (Excel)**
+5. Bank Islam Malaysia Berhad
 
 
 Please contact our support team via email or Live Chat if you would like to inquire about your bank's file format to support Touch n' Go disbursement.

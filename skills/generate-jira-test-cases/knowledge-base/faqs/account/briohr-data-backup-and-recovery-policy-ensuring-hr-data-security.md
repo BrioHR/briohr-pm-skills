@@ -3,7 +3,7 @@ title: "BrioHR Data Backup and Recovery Policy: Ensuring HR Data Security"
 category: "FAQs"
 subcategory: "Account"
 source_url: "https://support.briohr.com/knowledge/briohr-data-backup-and-recovery-policy-ensuring-hr-data-security"
-date: "August 22, 2025"
+date: "July 23, 2026"
 ---
 
 # BrioHR Data Backup and Recovery Policy: Ensuring HR Data Security
@@ -19,10 +19,10 @@ BrioHR is a secure **cloud-based HR software** that runs on **Amazon Web Service
 #### How often is data backed up?
 
 
-BrioHR performs **daily backups, four times per day, **of all data in **MongoDB format** to ensure **comprehensive data protection**. BrioHR also employs a two-tiered backup strategy to ensure maximum data protection and recovery flexibility:
+BrioHR performs **daily backups** of **all data** in MongoDB format to ensure comprehensive data protection. BrioHR also employs a two-tiered backup strategy to ensure maximum data protection and recovery flexibility:
 
 
-- **Continuous Cloud Backups**: We perform continuous backups with WAL **archiving** every minute. This enables **Point-in-Time Recovery (PITR)**, allowing for granular data restoration to any specific moment in time.
+- **Continuous Cloud Backups**: Backup snapshots and MongoDB oplog data are retained to support Point-in-Time Recovery (PITR). This allows BrioHR to restore the database to a selected point within the configured recovery window.
 - **Scheduled Snapshots**: We take full database snapshots on a defined schedule for comprehensive data restoration. This includes:
 
   - **Daily backups**, retained for 30 days.
@@ -35,10 +35,10 @@ BrioHR performs **daily backups, four times per day, **of all data in **MongoD
 BrioHR operates on **MongoDB**, a flexible and scalable database designed to handle high-volume HR data efficiently.
 
 
-#### How many sets of backups does BrioHR have?
+#### How are BrioHR backups made redundant?
 
 
-BrioHR maintains **one set of backup stored across multiple AWS Availability Zones (AZs)** to ensure redundancy and resilience.
+BrioHR maintains **continuous backups** and **scheduled database snapshots**. Backup data is stored **redundantly** across **multiple AWS Availability Zones** in Singapore, reducing the risk of data loss caused by the failure of a single Availability Zone.
 
 
 ---
@@ -84,7 +84,7 @@ Data restoration is performed **only when necessary**, such as in the event of a
 #### Does BrioHR perform restoration tests?
 
 
-Yes, BrioHR conducts **restoration tests** every 6 months.
+Yes, BrioHR conducts restoration tests every **6 months**. Clients may also request an additional restoration test on top of these bi-yearly tests.
 
 
 ---
@@ -95,9 +95,9 @@ Yes, BrioHR conducts **restoration tests** every 6 months.
 
 - **Daily backups** in MongoDB format
 - **Hosted on AWS Singapore data centers**
-- **Redundant backups across three availability zones**
+- **Backup data stored redundantly across multiple AWS Availability Zones (Singapore)**
 - **RPO: 30 minutes | RTO: 1 day**
-- **Restoration tests possible** upon request
+- **Restoration tests every 6 months (additional tests available on request)**
 
 
 

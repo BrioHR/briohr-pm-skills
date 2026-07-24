@@ -3,14 +3,14 @@ title: "How to Manage and Approve Team Member Leave Requests"
 category: "Manager"
 subcategory: "Team Leave"
 source_url: "https://support.briohr.com/knowledge/how-to-manage-and-approve-team-member-leave-requests"
-date: "July 21, 2026"
+date: "July 24, 2026"
 ---
 
 # How to Manage and Approve Team Member Leave Requests
 
-*Learn how managers can approve, reject, modify, or cancel leave requests in BrioHR. Step-by-step guide to managing team leave via Team Page or Pending Actions.*
+*Learn how managers can approve, reject, modify, or cancel leave requests in brioHR. Step-by-step guide to managing team leave via Team Page or Pending Actions.*
 
-As a manager, you play a crucial role in managing your team’s **leave requests**. In BrioHR, you can **approve, reject, cancel (future-dated leave only), or send back leave requests** submitted by your direct reports.
+As a manager, you play a crucial role in managing your team’s **leave requests**. In brioHR, you can **approve, reject, cancel (future-dated leave only), or send back leave requests** submitted by your direct reports.
 
 
 This guide explains the two available methods to manage leave requests:
@@ -36,14 +36,25 @@ This guide explains the two available methods to manage leave requests:
 2.   On the **Team Leave dashboard**
 
 
+- Search for employee, select the employment status and also the Year
 - Go to the '**Pending**' category to view any leave requests awaiting approval. Select a leave request to open a sidebar with further options.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-08-2025-03-50-39-2514-AM.png?width=670&height=319&name=image-png-Sep-08-2025-03-50-39-2514-AM.png)
-[](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48209715899/original/ozEhxlMt5WlcPosQvPREMNhMl_wubofCLg.png?1648720489)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-09-17-06-1435-AM.png?width=670&height=296&name=image-png-Jul-24-2026-09-17-06-1435-AM.png)
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-08-2025-04-13-17-5024-AM.png?width=464&height=732&name=image-png-Sep-08-2025-04-13-17-5024-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-08-2025-04-13-17-5024-AM.png?width=368&height=581&name=image-png-Sep-08-2025-04-13-17-5024-AM.png)
+
+
+**NOTE: **
+
+
+Utilize the Filter options available such as the Employment status and Year available within the Team Leave dashboard.
+
+**Only Active employees are included by default** in the Team List. Include the Inactive status to include inactive employees within the list.
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-09-22-31-0949-AM.png?width=1096&height=402&name=image-png-Jul-24-2026-09-22-31-0949-AM.png)
 
 
 3.   The sidebar displays the actions you perform on the pending leave request:
@@ -111,13 +122,4 @@ The **Pending Actions Panel** provides a quick way to manage leave requests.
 - Ensures **smooth team scheduling** and workload balance.
 - Provides managers with **flexibility to modify or cancel requests** when necessary.
 - Improves **communication with employees** by sending back requests with clarification.
-
-
-
-
-
-**Need Assistance?**
-
-
-*If you have any questions or require assistance, please reach out to our support team via live chat or email us at [support@briohr.com](mailto:support@briohr.com).*
 

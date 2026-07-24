@@ -3,7 +3,7 @@ title: "Manage Self-Help Group (SHG) Contributions with Custom Values (Payroll S
 category: "Payroll"
 subcategory: "Payroll - Singapore"
 source_url: "https://support.briohr.com/knowledge/manage-self-help-group-shg-contributions-with-custom-value-payroll-singapore"
-date: "July 17, 2026"
+date: "July 24, 2026"
 ---
 
 # Manage Self-Help Group (SHG) Contributions with Custom Values (Payroll Singapore)
@@ -94,22 +94,13 @@ The **Statutory Contributions** section within the Employee Profile now allows H
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-17-2026-03-16-22-5311-AM.png?width=670&height=441&name=image-png-Jul-17-2026-03-16-22-5311-AM.png)
 7. Select the payroll cycle to have this contribution captured in
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-17-2026-03-17-21-8512-AM.png?width=625&height=420&name=image-png-Jul-17-2026-03-17-21-8512-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-09-04-37-5361-AM.png?width=965&height=798&name=image-png-Jul-24-2026-09-04-37-5361-AM.png)
 8. Click **Save** to apply the changes
 
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-17-2026-03-18-12-1050-AM.png?width=670&height=446&name=image-png-Jul-17-2026-03-18-12-1050-AM.png)
 
 
 
-
-
-**TIP**:
-
-
-The Payroll Cycle is automatically captured as the Default assigned to the employee however, if you wish to change the payroll cycle that this contribution should be captured in, you will **first need to untick the current cycle**, then choose the relevant payroll cycle.
-
-
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-17-2026-03-23-06-2547-AM.png?width=947&height=633&name=image-png-Jul-17-2026-03-23-06-2547-AM.png)
 
 
  **NOTE**:

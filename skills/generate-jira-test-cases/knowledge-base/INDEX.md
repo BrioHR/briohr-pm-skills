@@ -1,7 +1,7 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-07-23
+> Last updated: 2026-07-24
 
 ---
 
@@ -77,12 +77,12 @@
 - [Training](#training) (15 articles)
   - [Training Configuration](#training-training-configuration) (10)
   - [Training Management](#training-training-management) (5)
-- [Document Management](#document-management) (3 articles)
-  - [General](#document-management-general) (3)
+- [Document Management](#document-management) (4 articles)
+  - [General](#document-management-general) (4)
 - [Feed](#feed) (2 articles)
   - [General](#feed-general) (2)
-- [HR Lounge](#hr-lounge) (6 articles)
-  - [HR Lounge Dashboard](#hr-lounge-hr-lounge-dashboard) (4)
+- [HR Lounge](#hr-lounge) (7 articles)
+  - [HR Lounge Dashboard](#hr-lounge-hr-lounge-dashboard) (5)
   - [Profile Change Request](#hr-lounge-profile-change-request) (2)
 - [People](#people) (18 articles)
   - [Profile Creation](#people-profile-creation) (2)
@@ -1043,12 +1043,13 @@
 
 ## Document Management
 
-**3 articles** | [Browse category](document-management/)
+**4 articles** | [Browse category](document-management/)
 
 ### Document Management - General
 
-**3 articles** | Directory: `document-management/general/`
+**4 articles** | Directory: `document-management/general/`
 
+- [How to Use the Document Workflow feature in Document Management](document-management/general/how-to-use-the-document-workflow-feature-in-document-management.md)
 - [Document Management Configuration for User Permissions](document-management/general/document-management-configuration-for-user-permissions.md)
 - [Setting up the Document Management module as the HR Admin](document-management/general/setting-up-the-document-management-module-as-the-hr-admin.md)
 - [Frequently Asked Questions for Document Management](document-management/general/frequently-asked-questions-for-document-management.md)
@@ -1070,12 +1071,13 @@
 
 ## HR Lounge
 
-**6 articles** | [Browse category](hr-lounge/)
+**7 articles** | [Browse category](hr-lounge/)
 
 ### HR Lounge - HR Lounge Dashboard
 
-**4 articles** | Directory: `hr-lounge/hr-lounge-dashboard/`
+**5 articles** | Directory: `hr-lounge/hr-lounge-dashboard/`
 
+- [Import Employee Expense Claims in Bulk](hr-lounge/hr-lounge-dashboard/import-employee-expense-claims-in-bulk.md)
 - [How to Restore a Resigned Employee's Account Status](hr-lounge/hr-lounge-dashboard/how-to-restore-a-resigned-employee-s-account-status.md)
 - [Import Employee Fixed Remunerations and Deductions in Bulk for Payroll](hr-lounge/hr-lounge-dashboard/import-employee-fixed-remunerations-and-deductions-in-bulk-for-payroll.md)
 - [How to Bulk Import Salary by Bulk](hr-lounge/hr-lounge-dashboard/how-to-bulk-import-salary-by-bulk.md)

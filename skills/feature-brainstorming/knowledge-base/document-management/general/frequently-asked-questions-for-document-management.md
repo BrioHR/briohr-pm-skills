@@ -3,7 +3,7 @@ title: "Frequently Asked Questions for Document Management"
 category: "Document Management"
 subcategory: "General"
 source_url: "https://support.briohr.com/knowledge/frequently-asked-questions-for-document-management"
-date: "May 29, 2026"
+date: "July 24, 2026"
 ---
 
 # Frequently Asked Questions for Document Management
@@ -73,6 +73,43 @@ A: Yes. Once the document generation is completed, you will be able to **downloa
 A: Generated documents will be saved under the **Employee Profile → Document tab**.
 
 
+**Q: Do employees need additional permissions to sign documents?**
+
+
+A: Yes. Employees who are required to sign documents must have the **Document Management** permission enabled under **MyHR**. Managers and Heads of Department must also have the **Document Management** permission enabled under **Team Dashboard**.
+
+
+**Q: Do signatures need to be completed in a specific order?**
+
+
+A: No. All assigned signers can review and sign the document simultaneously. There is no sequential approval order, allowing the signing process to be completed more efficiently.
+
+
+**Q: What happens if I enable the Document Workflow but forget to add a signature field?**
+
+
+A: The template editor will display a warning indicating that a required signature field is missing. The warning will only disappear once a signature field has been added for every role included in the workflow.
+
+
+**Q: When is a document marked as completed?**
+
+
+A: A document is automatically marked as **Completed** once all required signers have submitted their signatures.
+
+
+**Q: Where do users sign their assigned documents?**
+
+
+A: The signing location depends on the user's role:
+
+
+- **Employees** sign documents through **MyHR → Document Management**.
+- **Managers**, **Heads of Department**, and **Specific Employees** sign documents through **Team Dashboard → Document Management**.
+
+
+
+
+
 
 
 
@@ -89,6 +126,9 @@ A: Generated documents will be saved under the **Employee Profile → Document t
 
 
 4. [Employee Personal Files in BrioHR: How to Upload, Manage and Access Documents](/knowledge/employee-personal-files-in-briohr-how-to-upload-manage-and-access-documents?hsLang=en)
+
+
+5. [How to Use the Document Workflow feature in Document Management](/knowledge/how-to-use-the-document-approval-workflow-in-document-management?hsLang=en)
 
 
 

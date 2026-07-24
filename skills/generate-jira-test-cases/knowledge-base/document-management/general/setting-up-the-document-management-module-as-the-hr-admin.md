@@ -3,7 +3,7 @@ title: "Setting up the Document Management module as the HR Admin"
 category: "Document Management"
 subcategory: "General"
 source_url: "https://support.briohr.com/knowledge/setting-up-the-document-management-module-as-the-hr-admin"
-date: "May 29, 2026"
+date: "July 24, 2026"
 ---
 
 # Setting up the Document Management module as the HR Admin
@@ -49,10 +49,7 @@ You may refer [to this article](/knowledge/document-management-configuration-for
 ---
 
 
-#### 1) Video Guide on Setting Up the Document Management module
-
-
-
+#### Video Guide on Setting Up the Document Management module
 
 
 [Embedded content](https://www.loom.com/embed/c37c7781ef49422ab7cee57f24dfc3d5)
@@ -61,7 +58,19 @@ You may refer [to this article](/knowledge/document-management-configuration-for
 
 
 
-#### 2) Step-by-Step Instructions on Document Management module
+#### Video Guide to Enable the Document Workflow feature
+
+
+[Embedded content](https://www.loom.com/embed/db00d046e7a9494e8c2d1dc3dc538ca8)
+
+
+** *Refer to this [article](/knowledge/how-to-use-the-document-approval-workflow-in-document-management?hsLang=en) for the step by step guide on this feature!  * **
+
+
+
+
+
+#### Step-by-Step Instructions on Document Management module
 
 
 1. Log into brioHR and hover over **HR Lounge** then click into the **Document Management** module
@@ -106,10 +115,15 @@ b. **Description**
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-12-07-26-8727-AM.png?width=670&height=232&name=image-png-Feb-23-2026-12-07-26-8727-AM.png)
 
 
-7. Fill in the required information such as the **Template Name**, select the **Template type** and also provide the **description**, then click **Continue to editor**
+7. Fill in the required information such as the **Template Name**, **Template type**, **description**, then choose to **enable the Document Workflow** if required, then click **Continue to editor**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-12-09-12-6408-AM.png?width=474&height=391&name=image-png-Feb-23-2026-12-09-12-6408-AM.png)
+**
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-38-28-9018-AM.png?width=670&height=331&name=image-png-Jul-24-2026-08-38-28-9018-AM.png)
+**
+
+
+Read more about the **Document Workflow** feature **[here](/knowledge/how-to-use-the-document-approval-workflow-in-document-management?hsLang=en)**.
 
 
 8. Here you will be able to configure the **Layout** of your template as well as the **Fields** required
@@ -214,13 +228,13 @@ The Manual Fields can be filled in by bulk for the employees selected by clickin
 19. You can then **view details** of the document, **download** a copy of the document as well as **delete** the document if required. Once all information is accurate, click **Generate Document**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-01-37-51-7424-AM.png?width=670&height=372&name=image-png-Feb-23-2026-01-37-51-7424-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-42-09-6207-AM.png?width=1657&height=865&name=image-png-Jul-24-2026-08-42-09-6207-AM.png)
 
 
-In the event that employees information has been updated, you will be able to click on the Refresh employee data button here to capture the latest information.
+In the event that employees information has been updated, you will be able to click on the **Refresh employee data** button here to capture the latest information.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-01-40-06-8924-AM.png?width=670&height=277&name=image-png-Feb-23-2026-01-40-06-8924-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-41-19-0038-AM.png?width=670&height=236&name=image-png-Jul-24-2026-08-41-19-0038-AM.png)
 
 
 20. Click on the **Generate now** button to generate the documents accordingly. These documents will be saved at the Employee Profile > Document tab.
@@ -236,6 +250,9 @@ In the event that employees information has been updated, you will be able to cl
 
 
 22. Once the documents have been successfully generated, it will show with the completed status. You will be able to download a copy of the document as well as delete the document if no longer required.
+
+
+If the **Document Workflow** feature is enabled, the status of the documents will be '**Pending**'. Once **all the signatures have been obtained**, then the document will show the '**Completed**' status.
 
 
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-01-45-09-5984-AM.png?width=670&height=340&name=image-png-Feb-23-2026-01-45-09-5984-AM.png)
@@ -283,6 +300,9 @@ Sample email is shared in the screenshot below:
 
 
 4. [Employee Personal Files in BrioHR: How to Upload, Manage and Access Documents](/knowledge/employee-personal-files-in-briohr-how-to-upload-manage-and-access-documents?hsLang=en)
+
+
+5. [How to Use the Document Workflow feature in Document Management](/knowledge/how-to-use-the-document-approval-workflow-in-document-management?hsLang=en)
 
 
 

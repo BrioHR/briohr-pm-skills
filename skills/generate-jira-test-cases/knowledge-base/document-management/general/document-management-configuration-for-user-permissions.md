@@ -3,7 +3,7 @@ title: "Document Management Configuration for User Permissions"
 category: "Document Management"
 subcategory: "General"
 source_url: "https://support.briohr.com/knowledge/document-management-configuration-for-user-permissions"
-date: "May 29, 2026"
+date: "July 24, 2026"
 ---
 
 # Document Management Configuration for User Permissions
@@ -70,10 +70,13 @@ Pre-requisites: Admin access to User group settings
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-22-2026-11-33-58-2850-PM.png?width=670&height=272&name=image-png-Feb-22-2026-11-33-58-2850-PM.png)
 
 
-2. Within the **Profile Sensitive Data** column, click into the **Documents** tab
+2. Click into the **Profile Sensitive Data** column, then into the **Documents** tab
 
 
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-22-2026-11-35-47-6500-PM.png?width=670&height=438&name=image-png-Feb-22-2026-11-35-47-6500-PM.png)
+
+
+
 
 
 3. Ensure the necessary permission has been granted accordingly
@@ -83,7 +86,13 @@ Pre-requisites: Admin access to User group settings
 The Permission to 'View your scope' allows Managers to view the information if their direct reports in the system. This permission is also applicable to Office HR Managers assigned, which allows them to view the information of employees assigned to their offices.
 
 
-4. Click **Save**
+4. Next, within **Manager Modules Permission**, ensure the **Document Management** module has been enabled
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-07-51-59-9972-AM.png?width=670&height=658&name=image-png-Jul-24-2026-07-51-59-9972-AM.png)
+
+
+5. Click **Save**
 
 
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-22-2026-11-38-15-6668-PM.png?width=670&height=636&name=image-png-Feb-22-2026-11-38-15-6668-PM.png)
@@ -98,7 +107,7 @@ The Permission to 'View your scope' allows Managers to view the information if t
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-22-2026-11-39-50-9960-PM.png?width=670&height=208&name=image-png-Feb-22-2026-11-39-50-9960-PM.png)
 
 
-2. Within the **Profile Sensitive Data** column, click into the **Documents** tab
+2. Click into the **Profile Sensitive Data** column, click into the **Documents** tab
 
 
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-22-2026-11-41-25-0302-PM.png?width=670&height=294&name=image-png-Feb-22-2026-11-41-25-0302-PM.png)
@@ -107,7 +116,16 @@ The Permission to 'View your scope' allows Managers to view the information if t
 3. Ensure the necessary permission has been granted accordingly
 
 
-4. Click **Save**
+4. Next, within **Employee Modules Permission**, ensure the **Document Management** module has been enabled
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-07-53-25-4538-AM.png?width=670&height=661&name=image-png-Jul-24-2026-07-53-25-4538-AM.png)
+
+
+5. Click **Save**
+
+
+
 
 
 
@@ -125,6 +143,9 @@ The Permission to 'View your scope' allows Managers to view the information if t
 
 
 4. [Employee Personal Files in BrioHR: How to Upload, Manage and Access Documents](/knowledge/employee-personal-files-in-briohr-how-to-upload-manage-and-access-documents?hsLang=en)
+
+
+5. [How to Use the Document Approval Workflow in Document Management](/knowledge/how-to-use-the-document-approval-workflow-in-document-management?hsLang=en)
 
 
 

@@ -2596,6 +2596,10 @@
         "subcategory": "General",
         "articles": [
           {
+            "title": "How to Use the Document Workflow feature in Document Management",
+            "url": "https://support.briohr.com/knowledge/how-to-use-the-document-approval-workflow-in-document-management"
+          },
+          {
             "title": "Document Management Configuration for User Permissions",
             "url": "https://support.briohr.com/knowledge/document-management-configuration-for-user-permissions"
           },
@@ -2637,6 +2641,10 @@
       {
         "subcategory": "HR Lounge Dashboard",
         "articles": [
+          {
+            "title": "Import Employee Expense Claims in Bulk",
+            "url": "https://support.briohr.com/knowledge/import-employee-expense-claims-in-bulk"
+          },
           {
             "title": "How to Restore a Resigned Employee's Account Status",
             "url": "https://support.briohr.com/knowledge/how-to-restore-a-resigned-employees-account-status"

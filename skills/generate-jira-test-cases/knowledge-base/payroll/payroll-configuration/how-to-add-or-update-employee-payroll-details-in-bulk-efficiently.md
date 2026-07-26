@@ -3,7 +3,7 @@ title: "How to Add or Update Employee Payroll Details in Bulk Efficiently"
 category: "Payroll"
 subcategory: "Payroll Configuration"
 source_url: "https://support.briohr.com/knowledge/how-to-add-employee-payroll-data-in-bulk"
-date: "July 12, 2026"
+date: "July 26, 2026"
 ---
 
 # How to Add or Update Employee Payroll Details in Bulk Efficiently
@@ -50,25 +50,36 @@ Follow these steps to perform bulk updates for payroll details:
 1. Go to** HR Lounge** > click on the **Payroll** module
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-29-2024-08-46-25-0316-AM.png?width=688&height=374&name=image-png-Nov-29-2024-08-46-25-0316-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-26-2026-11-12-15-6698-AM.png?width=1460&height=847&name=image-png-Jul-26-2026-11-12-15-6698-AM.png)
+
+
+
 
 
 2. Once you are on the Payroll Dashboard, confirm that you have selected the appropriate payroll center for your updates
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-29-2024-08-51-06-6336-AM.png?width=688&height=303&name=image-png-Nov-29-2024-08-51-06-6336-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-26-2026-11-13-17-3450-AM.png?width=1225&height=652&name=image-png-Jul-26-2026-11-13-17-3450-AM.png)
 
 
 3. Scroll down till you see **Payroll employees list**, click **Bulk Download/Upload.**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-29-2024-08-53-16-8792-AM.png?width=688&height=474&name=image-png-Nov-29-2024-08-53-16-8792-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-29-2024-08-53-16-8792-AM.png?width=670&height=462&name=image-png-Nov-29-2024-08-53-16-8792-AM.png)
 
 
 4. Click [***Download .xlsx***] to download the Excel template for editing purpose
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-29-2024-08-54-22-1568-AM.png?width=649&height=703&name=image-png-Nov-29-2024-08-54-22-1568-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-26-2026-11-14-36-3854-AM.png?width=553&height=404&name=image-png-Jul-26-2026-11-14-36-3854-AM.png)
+
+
+**NOTE:**
+
+By default, the Excel template downloaded will contain all currently ACTIVE employees. If you would like **to include INACTIVE employees in the Excel, tick the 'Include inactive employees' box** before you click Download .xlsx.
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-26-2026-11-23-27-6814-AM.png?width=994&height=409&name=image-png-Jul-26-2026-11-23-27-6814-AM.png)
 
 
 5. Open the downloaded Excel template and update or modify the employee payroll information to ensure it reflects the most current data.
@@ -84,7 +95,7 @@ Follow these steps to perform bulk updates for payroll details:
 6. Once your updates are complete, reupload the updated Excel file by clicking **Choose File**, then select the file and click **Upload Excel File.**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-29-2024-09-16-26-4926-AM.png?width=651&height=699&name=image-png-Nov-29-2024-09-16-26-4926-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-26-2026-11-16-38-7296-AM.png?width=553&height=406&name=image-png-Jul-26-2026-11-16-38-7296-AM.png)
 
 
 

@@ -3,7 +3,7 @@ title: "How to Set Up a Performance Cycle in BrioHR"
 category: "Performance"
 subcategory: "Performance Configuration"
 source_url: "https://support.briohr.com/knowledge/how-to-set-up-a-performance-cycle-in-briohr"
-date: "November 11, 2025"
+date: "July 27, 2026"
 ---
 
 # How to Set Up a Performance Cycle in BrioHR
@@ -245,6 +245,7 @@ BrioHR allows only one performance cycle at a time. If there is a currently acti
 - [How to Enable the Performance Module for Managers/Appraisers](https://support.briohr.com/knowledge/enable-manager-view-team-performance?hsLang=en)
 - [Understanding the Performance Review Process in BrioHR](https://support.briohr.com/knowledge/understanding-the-performance-review-process-in-briohr?hsLang=en)
 - [Understanding the BrioHR Performance Module](https://support.briohr.com/knowledge/understanding-the-briohr-performance-module?hsLang=en)
+- [How to Configure Appraisal Ratings & Labels](https://support.briohr.com/knowledge/how-to-configure-appraisal-ratings-and-labels?hsLang=en)
 
 
 ---
@@ -262,7 +263,7 @@ Employees gain access to their personal performance dashboards, and appraisers c
 
 
 **3. Can I modify the cycle once it has started?**
-Some configurations (like objectives and competencies) can be adjusted, but major changes such as appraisal questions and disabling 360 Feedback feature may be locked.
+Some configurations (like objectives and competencies) can be adjusted, but major changes such as appraisal questions and disabling the 360 Feedback feature may be locked. The **appraisal rating scale** can still be changed mid-cycle: click the **3-dot button** on the cycle > **View cycle details** > edit **Cycle Detail** > change the **'Appraisal Ratings Configuration'** — see [How to Configure Appraisal Ratings & Labels](https://support.briohr.com/knowledge/how-to-configure-appraisal-ratings-and-labels?hsLang=en).
 
 
 **4. Are 1-on-1 sessions and 360 Feedback mandatory?**

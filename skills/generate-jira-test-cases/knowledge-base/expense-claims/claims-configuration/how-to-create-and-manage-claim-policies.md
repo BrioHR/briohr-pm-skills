@@ -3,7 +3,7 @@ title: "How to Create and Manage Claim Policies"
 category: "Expense Claims"
 subcategory: "Claims Configuration"
 source_url: "https://support.briohr.com/knowledge/how-to-create-and-manage-claim-policies"
-date: "July 20, 2026"
+date: "July 27, 2026"
 ---
 
 # How to Create and Manage Claim Policies
@@ -95,7 +95,8 @@ The second section covers **Claim Types & Claim Limits**. This allows you to lin
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-12-2026-03-18-49-8993-PM.png?width=411&height=391&name=image-png-Feb-12-2026-03-18-49-8993-PM.png)
 
 
-**Whenever you create a new claim type, ensure it is added to the relevant claim policy. Otherwise, it will not appear in the claim drop-down menu for employees submitting claims.**
+ Whenever you create a new claim type, ensure it is added to the relevant claim policy — **HR Lounge > Expense Claims > Claim Policies** > open the employee's policy > **Claim Types & Claim Limits** > **Choose Claim Type** > tick the type > **Save**. Until then, the claim type does not appear when submitting: it will not show in the claim drop-down menu for employees.
+
 
 **For troubleshooting missing claim types, refer to [[this article](https://support.briohr.com/knowledge/how-to-fix-missing-claim-types-in-the-claim-drop-down-menu?hsLang=en)]**
 
@@ -237,18 +238,29 @@ The third section is **Approval Workflow**, where you can select the approval wo
 ### Frequently Asked Questions (FAQs)
 
 
-**Can I reset the yearly claim limit?**
-Claim limits follow the **calendar year** and cannot be manually reset.
+**Q: Can I reset the yearly claim limit?**
+**A: **Claim limits follow the **calendar year** and cannot be manually reset.
 
 
-**Workaround for special cases — a custom limit per employee:**
+**Q: Workaround for special cases — a custom limit per employee:**
+
+
 1. Go to **HR Lounge > Expense Claims > Claim Policies** and open the employee's policy.
 2. In **Claim Types & Limits**, add a **custom limit by employee** for the specific claim type.
 3. Set the custom limit for the employee for **"limit per year"**.
 4. Once the new year starts, **remember to remove the customization** so the previous year's custom limit no longer applies.
 
 
+**Q: An employee cannot submit a claim at all — why?**
 
+
+**A:** Check the policy's **Eligibility** tab: if the employee doesn't match the criteria (e.g. an office restriction), the policy doesn't apply to them. A warning icon on a claim policy means one or more assigned employees are not eligible under its criteria.
+
+
+**Q: How can I verify a claim's submission date beyond the claim history?**
+
+
+**A:** Go to **Analytics > Report Builder** and create an expense claim report — the submission date is a report field.
 
 
 

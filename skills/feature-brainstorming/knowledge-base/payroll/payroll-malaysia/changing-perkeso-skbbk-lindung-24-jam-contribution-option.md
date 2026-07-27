@@ -1,14 +1,17 @@
 ---
-title: "Changing PERKESO SKBBK Contribution Option"
+title: "Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option"
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
-date: "July 20, 2026"
+date: "July 27, 2026"
 ---
 
-# Changing PERKESO SKBBK Contribution Option
+# Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option
 
-*Effective July 2026, PERKESO has made the SKBBK contribution — also known as Lindung 24 — optional for local employees and mandatory only for foreign employees. This article guides you through making changes to SKBBK contribution settings for individual employees and in bulk.*
+*How to change an employee's PERKESO SKBBK — Lindung 24 Jam / Lindungan 24 (SOCSO Lindung24) — contribution option (opt in / opt out), individually or in bulk, and pick the right SOCSO category before running payroll. This article guides you through making changes to SKBBK contribution settings for individual employees and in bulk.*
+
+**Effective July 2026, PERKESO has made the SKBBK contribution — also known as Lindung 24 Jam or Lindungan 24 — optional for local employees and mandatory only for foreign employees. This article guides you through making changes to SKBBK (SOCSO Lindung24) contribution settings for individual employees and in bulk — for example when staff opt out of the scheme (*"staff tidak bersetuju skim Lindung 24 jam"*) and payroll must be updated before the next run. **
+
 
 **Audience & Scope**
 
@@ -111,6 +114,20 @@ For the non-SKBBK option, choose:
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-09-2026-02-52-53-0267-AM.png?width=670&height=316&name=image-png-Jul-09-2026-02-52-53-0267-AM.png)
 
 
+
+
+
+**Which SOCSO category applies — with vs without SKBBK", as a real table, not an image):**
+
+
+| Employee Group | Age & Joining Eligibility | SOCSO Scheme Category | WITHOUT SKBBK (Standard SOCSO / Opted-Out) | WITH SKBBK (Lindung 24 Jam — Phase 1) | Mandatory vs. Voluntary (Opt-Out Rules) |
+| --- | --- | --- | --- | --- | --- |
+| Malaysian Employees | Under 60 (joined SOCSO before age 55) | Category 1 (Employment Injury + Invalidity) | Employer: 1.75% · Employee: 0.5% | Employer: 1.75% · Employee: 1.25% (0.5% Invalidity + 0.75% SKBBK) | Default (Voluntary Opt-Out): auto-enrolled by default; employee can opt out via Perakuan Pelepasan Liabiliti. |
+| Malaysian Employees | 60 and above (OR first joined SOCSO at 55+) | Category 2 (Employment Injury Only) | Employer: 1.25% · Employee: 0% | Employer: 1.25% · Employee: 0.75% (0% Invalidity + 0.75% SKBBK) | Default (Voluntary Opt-Out): auto-enrolled by default; employee can opt out via Perakuan Pelepasan Liabiliti. |
+| Foreign Employees | Under 60 (joined SOCSO before age 55) | Category 1 (Employment Injury + Invalidity) | N/A (SKBBK is mandatory) | Employer: 1.75% · Employee: 1.25% (0.5% Invalidity + 0.75% SKBBK) | Mandatory: compulsory under Act 4 for foreign workers; no opt-out allowed. |
+| Foreign Employees | 60 and above (OR first joined SOCSO at 55+) | Category 2 (Employment Injury Only) | N/A (SKBBK is mandatory) | Employer: 1.25% · Employee: 0.75% (0% Invalidity + 0.75% SKBBK) | Mandatory: compulsory under Act 4 for foreign workers; no opt-out allowed. |
+
+
 **NOTE:**
 
 
@@ -119,6 +136,9 @@ For the non-SKBBK option, choose:
 - If your company chooses to reimburse employees for the June deduction, you can use a **custom income pay item** in a later payroll cycle — we recommend confirming the approach with PERKESO first.
 
 See: [How to Edit a Completed Payroll Cycle](https://support.briohr.com/knowledge/how-to-edit-a-completed-payroll-cycle?hsLang=en) and [How to Create a Custom Pay Item in BrioHR](https://support.briohr.com/knowledge/how-to-create-a-custom-pay-item-in-briohr?hsLang=en).
+
+
+
 
 
 **Common Issues/FAQ**

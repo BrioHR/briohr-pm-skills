@@ -185,6 +185,10 @@
         "subcategory": "User Groups Settings",
         "articles": [
           {
+            "title": "Scope HR and Admin Access by Office and Team Level",
+            "url": "https://support.briohr.com/knowledge/scope-hr-and-admin-access-by-office-and-team-level"
+          },
+          {
             "title": "Switch Between Subsidiary Accounts on the Mobile App",
             "url": "https://support.briohr.com/knowledge/switch-between-subsidiary-accounts-on-the-mobile-app"
           },
@@ -911,6 +915,14 @@
         "subcategory": "Time Attendance Management",
         "articles": [
           {
+            "title": "Choose Between the Time Log Report and the Timesheet Report",
+            "url": "https://support.briohr.com/knowledge/choose-between-the-time-log-report-and-the-timesheet-report"
+          },
+          {
+            "title": "Update Rosters and Timesheets After a Work Schedule Change",
+            "url": "https://support.briohr.com/knowledge/update-rosters-and-timesheets-after-a-work-schedule-change"
+          },
+          {
             "title": "Employee Pre-Approval Overtime on BrioHR Mobile App",
             "url": "https://support.briohr.com/knowledge/employee-overtime-pre-approval-on-mobile-app"
           },
@@ -1079,7 +1091,7 @@
             "url": "https://support.briohr.com/knowledge/how-to-update-overtime-files-in-payroll-using-timetec-integration"
           },
           {
-            "title": "How to Process Salaries for Terminated Employees in a Separate Payroll Cycle",
+            "title": "How to Process Salaries for Terminated or Resigned Employees in a Separate Payroll Cycle",
             "url": "https://support.briohr.com/knowledge/how-to-process-salaries-for-terminated-employees-in-a-separate-payroll-cycle"
           },
           {
@@ -1228,16 +1240,16 @@
         "subcategory": "Payroll - Malaysia",
         "articles": [
           {
+            "title": "Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option",
+            "url": "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
+          },
+          {
             "title": "Malaysia Payroll Centre: Supported Banks for Payroll, Statutory and Zakat Bank Files in BrioHR",
             "url": "https://support.briohr.com/knowledge/malaysia-payroll-centre-supported-banks-for-payroll-statutory-and-zakat-bank-files-in-briohr"
           },
           {
             "title": "New PERKESO SKBBK Contribution Requirement Effective 1 June 2026",
             "url": "https://support.briohr.com/knowledge/new-perkeso-skbbk-contribution-requirement-effective-1-june-2026"
-          },
-          {
-            "title": "Changing PERKESO SKBBK Contribution Option",
-            "url": "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
           },
           {
             "title": "Find Default Overtime Payroll Items and Add to OT Multi-rates Table",
@@ -1648,6 +1660,14 @@
       {
         "subcategory": "Leave Configuration",
         "articles": [
+          {
+            "title": "Backdate, Modify, or Reopen an Approved Leave",
+            "url": "https://support.briohr.com/knowledge/backdate-modify-or-reopen-an-approved-leave"
+          },
+          {
+            "title": "Let Shift Employees Apply Leave on Weekends and Public Holidays",
+            "url": "https://support.briohr.com/knowledge/let-shift-employees-apply-leave-on-weekends-and-public-holidays"
+          },
           {
             "title": "Apply for Leave in the Next Calendar Year",
             "url": "https://support.briohr.com/knowledge/apply-for-leave-in-the-next-calendar-year"
@@ -2153,7 +2173,7 @@
             "url": "https://support.briohr.com/knowledge/performance-module-determining-the-appraisals-key-milestones-in-briohr"
           },
           {
-            "title": "How to Configure Appraisal Ratings & Labels",
+            "title": "How to Configure Appraisal Ratings & Labels (Change the Rating Scale)",
             "url": "https://support.briohr.com/knowledge/how-to-configure-appraisal-ratings-and-labels"
           },
           {
@@ -2596,12 +2616,12 @@
         "subcategory": "General",
         "articles": [
           {
-            "title": "How to Use the Document Workflow feature in Document Management",
-            "url": "https://support.briohr.com/knowledge/how-to-use-the-document-approval-workflow-in-document-management"
-          },
-          {
             "title": "Document Management Configuration for User Permissions",
             "url": "https://support.briohr.com/knowledge/document-management-configuration-for-user-permissions"
+          },
+          {
+            "title": "How to Use the Document Workflow feature in Document Management",
+            "url": "https://support.briohr.com/knowledge/how-to-use-the-document-approval-workflow-in-document-management"
           },
           {
             "title": "Setting up the Document Management module as the HR Admin",
@@ -2699,6 +2719,14 @@
         "subcategory": "Profile Management",
         "articles": [
           {
+            "title": "Change an Employee's Reporting Manager (Single or in Bulk)",
+            "url": "https://support.briohr.com/knowledge/change-an-employees-reporting-manager-single-or-in-bulk"
+          },
+          {
+            "title": "Add Termination Reason When Entering End Employment Date",
+            "url": "https://support.briohr.com/knowledge/add-termination-reason-when-entering-end-employment-date"
+          },
+          {
             "title": "Rehire a Resigned Employee",
             "url": "https://support.briohr.com/knowledge/rehire-a-resigned-employee"
           },
@@ -2783,6 +2811,14 @@
       {
         "subcategory": "General Reports",
         "articles": [
+          {
+            "title": "Know the Report and Export Limits (and the Workarounds)",
+            "url": "https://support.briohr.com/knowledge/know-the-report-and-export-limits-and-the-workarounds"
+          },
+          {
+            "title": "Export Employee Data in Bulk (Profile, Bank Details, TIN, Past Employees)",
+            "url": "https://support.briohr.com/knowledge/export-employee-data-in-bulk-profile-bank-details-tin-past-employees"
+          },
           {
             "title": "Understanding Employee Turnover Statistics: How to Measure and Improve Workforce Stability",
             "url": "https://support.briohr.com/knowledge/understanding-employee-turnover-statistics-how-to-measure-and-improve-workforce-stability"
@@ -2994,6 +3030,10 @@
       {
         "subcategory": "Product Updates - July 2026",
         "articles": [
+          {
+            "title": "brioHR Product Updates - July 2026, Week 4 | Multi-Signatures, Bulk Claim Imports, Termination Reason, & More",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-july-2026-week-4-multi-signatures-bulk-claim-imports-termination-reason-more"
+          },
           {
             "title": "brioHR Product Updates - July 2026, Week 3 | Custom SHG Contributions, a Better Password Reset Experience & New Touch N Go bank support for employees!",
             "url": "https://support.briohr.com/knowledge/briohr-product-updates-july-2026-week-3-custom-shg-contributions-better-password-reset-experience"

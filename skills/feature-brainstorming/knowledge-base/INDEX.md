@@ -1,7 +1,7 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-07-26
+> Last updated: 2026-07-27
 
 ---
 
@@ -9,11 +9,11 @@
 
 - [General](#general) (9 articles)
   - [User Settings & Login](#general-user-settings-and-login) (9)
-- [Admin](#admin) (77 articles)
+- [Admin](#admin) (78 articles)
   - [Company Settings](#admin-company-settings) (11)
   - [Schedules & Shifts Settings](#admin-schedules-and-shifts-settings) (11)
   - [Users Settings](#admin-users-settings) (7)
-  - [User Groups Settings](#admin-user-groups-settings) (25)
+  - [User Groups Settings](#admin-user-groups-settings) (26)
   - [Personal Data Settings](#admin-personal-data-settings) (6)
   - [Offices Settings](#admin-offices-settings) (8)
   - [Departments Settings](#admin-departments-settings) (2)
@@ -42,9 +42,9 @@
   - [My Training](#employee-my-training) (2)
   - [Onboarding](#employee-onboarding) (1)
   - [Time Attendance](#employee-time-attendance) (9)
-- [Time Attendance](#time-attendance) (18 articles)
+- [Time Attendance](#time-attendance) (20 articles)
   - [Time Attendance Configuration](#time-attendance-time-attendance-configuration) (7)
-  - [Time Attendance Management](#time-attendance-time-attendance-management) (11)
+  - [Time Attendance Management](#time-attendance-time-attendance-management) (13)
 - [Time and Attendance Integration](#time-and-attendance-integration) (3 articles)
   - [SFTP](#time-and-attendance-integration-sftp) (1)
   - [Devices](#time-and-attendance-integration-devices) (2)
@@ -54,8 +54,8 @@
   - [Payroll - Malaysia](#payroll-payroll-malaysia) (75)
   - [Payroll - Singapore](#payroll-payroll-singapore) (24)
   - [Payroll - Indonesia](#payroll-payroll-indonesia) (1)
-- [Leave](#leave) (49 articles)
-  - [Leave Configuration](#leave-leave-configuration) (33)
+- [Leave](#leave) (51 articles)
+  - [Leave Configuration](#leave-leave-configuration) (35)
   - [Leave Management](#leave-leave-management) (16)
 - [Expense Claims](#expense-claims) (43 articles)
   - [Claims Configuration](#expense-claims-claims-configuration) (21)
@@ -84,13 +84,13 @@
 - [HR Lounge](#hr-lounge) (7 articles)
   - [HR Lounge Dashboard](#hr-lounge-hr-lounge-dashboard) (5)
   - [Profile Change Request](#hr-lounge-profile-change-request) (2)
-- [People](#people) (18 articles)
+- [People](#people) (20 articles)
   - [Profile Creation](#people-profile-creation) (2)
-  - [Profile Management](#people-profile-management) (13)
+  - [Profile Management](#people-profile-management) (15)
   - [Document Management](#people-document-management) (1)
   - [Organization Chart](#people-organization-chart) (2)
-- [Reports](#reports) (24 articles)
-  - [General Reports](#reports-general-reports) (3)
+- [Reports](#reports) (26 articles)
+  - [General Reports](#reports-general-reports) (5)
   - [Payroll Reports](#reports-payroll-reports) (8)
   - [Leave Reports](#reports-leave-reports) (3)
   - [Expense Claim Reports](#reports-expense-claim-reports) (4)
@@ -102,8 +102,8 @@
   - [Expense Claims](#faqs-expense-claims) (1)
   - [Account](#faqs-account) (1)
   - [Profile](#faqs-profile) (1)
-- [Product Updates](#product-updates) (26 articles)
-  - [Product Updates - July 2026](#product-updates-product-updates-july-2026) (3)
+- [Product Updates](#product-updates) (27 articles)
+  - [Product Updates - July 2026](#product-updates-product-updates-july-2026) (4)
   - [Product Updates - June 2026](#product-updates-product-updates-june-2026) (3)
   - [Product Updates - May 2026](#product-updates-product-updates-may-2026) (4)
   - [Product Updates - April 2026](#product-updates-product-updates-april-2026) (5)
@@ -142,7 +142,7 @@
 
 ## Admin
 
-**77 articles** | [Browse category](admin/)
+**78 articles** | [Browse category](admin/)
 
 ### Admin - Company Settings
 
@@ -190,8 +190,9 @@
 
 ### Admin - User Groups Settings
 
-**25 articles** | Directory: `admin/user-groups-settings/`
+**26 articles** | Directory: `admin/user-groups-settings/`
 
+- [Scope HR and Admin Access by Office and Team Level](admin/user-groups-settings/scope-hr-and-admin-access-by-office-and-team-level.md)
 - [Switch Between Subsidiary Accounts on the Mobile App](admin/user-groups-settings/switch-between-subsidiary-accounts-on-the-mobile-app.md)
 - [How to Create a User Group](admin/user-groups-settings/how-to-create-a-user-group.md)
 - [How to Assign Employees to User Groups](admin/user-groups-settings/how-to-assign-employees-to-user-groups.md)
@@ -474,7 +475,7 @@
 
 ## Time Attendance
 
-**18 articles** | [Browse category](time-attendance/)
+**20 articles** | [Browse category](time-attendance/)
 
 ### Time Attendance - Time Attendance Configuration
 
@@ -490,8 +491,10 @@
 
 ### Time Attendance - Time Attendance Management
 
-**11 articles** | Directory: `time-attendance/time-attendance-management/`
+**13 articles** | Directory: `time-attendance/time-attendance-management/`
 
+- [Choose Between the Time Log Report and the Timesheet Report](time-attendance/time-attendance-management/choose-between-the-time-log-report-and-the-timesheet-report.md)
+- [Update Rosters and Timesheets After a Work Schedule Change](time-attendance/time-attendance-management/update-rosters-and-timesheets-after-a-work-schedule-change.md)
 - [Employee Pre-Approval Overtime on BrioHR Mobile App](time-attendance/time-attendance-management/employee-pre-approval-overtime-on-briohr-mobile-app.md)
 - [How HR/Admin Manage Rostering of All Employees](time-attendance/time-attendance-management/how-hr-admin-manage-rostering-of-all-employees.md)
 - [How to Assign Shifts on Public Holidays in BrioHR Time Attendance Rostering](time-attendance/time-attendance-management/how-to-assign-shifts-on-public-holidays-in-briohr-time-attendance-rostering.md)
@@ -558,7 +561,7 @@
 - [Delete Latest Payroll Cycle in Current Payroll Month](payroll/payroll-management/delete-latest-payroll-cycle-in-current-payroll-month.md)
 - [Find Cost Center Details in Payroll Reports](payroll/payroll-management/find-cost-center-details-in-payroll-reports.md)
 - [How to Update Overtime Files in Payroll Using TimeTec Integration](payroll/payroll-management/how-to-update-overtime-files-in-payroll-using-timetec-integration.md)
-- [How to Process Salaries for Terminated Employees in a Separate Payroll Cycle](payroll/payroll-management/how-to-process-salaries-for-terminated-employees-in-a-separate-payroll-cycle.md)
+- [How to Process Salaries for Terminated or Resigned Employees in a Separate Payroll Cycle](payroll/payroll-management/how-to-process-salaries-for-terminated-or-resigned-employees-in-a-separate-payro.md)
 - [How to Import Overtime Data into BrioHR from StaffAny](payroll/payroll-management/how-to-import-overtime-data-into-briohr-from-staffany.md)
 - [How to Bulk Import Pay Items in Payroll](payroll/payroll-management/how-to-bulk-import-pay-items-in-payroll.md)
 - [How to Add and Import Unpaid Leave to Payroll](payroll/payroll-management/how-to-add-and-import-unpaid-leave-to-payroll.md)
@@ -599,9 +602,9 @@
 
 **75 articles** | Directory: `payroll/payroll-malaysia/`
 
+- [Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option](payroll/payroll-malaysia/changing-perkeso-skbbk-lindung-24-jam-contribution-option.md)
 - [Malaysia Payroll Centre: Supported Banks for Payroll, Statutory and Zakat Bank Files in BrioHR](payroll/payroll-malaysia/malaysia-payroll-centre-supported-banks-for-payroll-statutory-and-zakat-bank-fil.md)
 - [New PERKESO SKBBK Contribution Requirement Effective 1 June 2026](payroll/payroll-malaysia/new-perkeso-skbbk-contribution-requirement-effective-1-june-2026.md)
-- [Changing PERKESO SKBBK Contribution Option](payroll/payroll-malaysia/changing-perkeso-skbbk-contribution-option.md)
 - [Find Default Overtime Payroll Items and Add to OT Multi-rates Table](payroll/payroll-malaysia/find-default-overtime-payroll-items-and-add-to-ot-multi-rates-table.md)
 - [Create an Overtime Custom Payroll Item and Add It to the Overtime Multi-rates Table](payroll/payroll-malaysia/create-an-overtime-custom-payroll-item-and-add-it-to-the-overtime-multi-rates-ta.md)
 - [Generating Payroll & Statutory Payment Files for United Overseas Bank (Malaysia) Berhad](payroll/payroll-malaysia/generating-payroll-and-statutory-payment-files-for-united-overseas-bank-malaysia.md)
@@ -714,12 +717,14 @@
 
 ## Leave
 
-**49 articles** | [Browse category](leave/)
+**51 articles** | [Browse category](leave/)
 
 ### Leave - Leave Configuration
 
-**33 articles** | Directory: `leave/leave-configuration/`
+**35 articles** | Directory: `leave/leave-configuration/`
 
+- [Backdate, Modify, or Reopen an Approved Leave](leave/leave-configuration/backdate-modify-or-reopen-an-approved-leave.md)
+- [Let Shift Employees Apply Leave on Weekends and Public Holidays](leave/leave-configuration/let-shift-employees-apply-leave-on-weekends-and-public-holidays.md)
 - [Apply for Leave in the Next Calendar Year](leave/leave-configuration/apply-for-leave-in-the-next-calendar-year.md)
 - [How to Manage Leave Policies by Year in BrioHR](leave/leave-configuration/how-to-manage-leave-policies-by-year-in-briohr.md)
 - [How to Enable Carry Forward Leave in BrioHR Leave Policies](leave/leave-configuration/how-to-enable-carry-forward-leave-in-briohr-leave-policies.md)
@@ -882,7 +887,7 @@
 - [How to Add Company and Department Objectives](performance/performance-configuration/how-to-add-company-and-department-objectives.md)
 - [How to Set Up and Manage Employees for a Performance Cycle in BrioHR](performance/performance-configuration/how-to-set-up-and-manage-employees-for-a-performance-cycle-in-briohr.md)
 - [Performance Module: Determining the Appraisal's Key Milestones in BrioHR](performance/performance-configuration/performance-module-determining-the-appraisal-s-key-milestones-in-briohr.md)
-- [How to Configure Appraisal Ratings & Labels](performance/performance-configuration/how-to-configure-appraisal-ratings-and-labels.md)
+- [How to Configure Appraisal Ratings & Labels (Change the Rating Scale)](performance/performance-configuration/how-to-configure-appraisal-ratings-and-labels-change-the-rating-scale.md)
 - [Performance Module: Select Your Add-Ons: 1-on-1 and 360 Feedback](performance/performance-configuration/performance-module-select-your-add-ons-1-on-1-and-360-feedback.md)
 - [How to Create a Training List for a Performance Cycle in BrioHR](performance/performance-configuration/how-to-create-a-training-list-for-a-performance-cycle-in-briohr.md)
 - [Performance Objectives: Cascading Goals Feature for Improved Alignment](performance/performance-configuration/performance-objectives-cascading-goals-feature-for-improved-alignment.md)
@@ -1049,8 +1054,8 @@
 
 **4 articles** | Directory: `document-management/general/`
 
-- [How to Use the Document Workflow feature in Document Management](document-management/general/how-to-use-the-document-workflow-feature-in-document-management.md)
 - [Document Management Configuration for User Permissions](document-management/general/document-management-configuration-for-user-permissions.md)
+- [How to Use the Document Workflow feature in Document Management](document-management/general/how-to-use-the-document-workflow-feature-in-document-management.md)
 - [Setting up the Document Management module as the HR Admin](document-management/general/setting-up-the-document-management-module-as-the-hr-admin.md)
 - [Frequently Asked Questions for Document Management](document-management/general/frequently-asked-questions-for-document-management.md)
 
@@ -1094,7 +1099,7 @@
 
 ## People
 
-**18 articles** | [Browse category](people/)
+**20 articles** | [Browse category](people/)
 
 ### People - Profile Creation
 
@@ -1105,8 +1110,10 @@
 
 ### People - Profile Management
 
-**13 articles** | Directory: `people/profile-management/`
+**15 articles** | Directory: `people/profile-management/`
 
+- [Change an Employee's Reporting Manager (Single or in Bulk)](people/profile-management/change-an-employee-s-reporting-manager-single-or-in-bulk.md)
+- [Add Termination Reason When Entering End Employment Date](people/profile-management/add-termination-reason-when-entering-end-employment-date.md)
 - [Rehire a Resigned Employee](people/profile-management/rehire-a-resigned-employee.md)
 - [Editing Past Job Dates and Managing Job History in BrioHR](people/profile-management/editing-past-job-dates-and-managing-job-history-in-briohr.md)
 - [How to Change or Remove an Employee's Employment End or Resign Date](people/profile-management/how-to-change-or-remove-an-employee-s-employment-end-or-resign-date.md)
@@ -1138,12 +1145,14 @@
 
 ## Reports
 
-**24 articles** | [Browse category](reports/)
+**26 articles** | [Browse category](reports/)
 
 ### Reports - General Reports
 
-**3 articles** | Directory: `reports/general-reports/`
+**5 articles** | Directory: `reports/general-reports/`
 
+- [Know the Report and Export Limits (and the Workarounds)](reports/general-reports/know-the-report-and-export-limits-and-the-workarounds.md)
+- [Export Employee Data in Bulk (Profile, Bank Details, TIN, Past Employees)](reports/general-reports/export-employee-data-in-bulk-profile-bank-details-tin-past-employees.md)
 - [Understanding Employee Turnover Statistics: How to Measure and Improve Workforce Stability](reports/general-reports/understanding-employee-turnover-statistics-how-to-measure-and-improve-workforce-.md)
 - [Enhanced HR Statistics: New Filters, Graphs, and Insights](reports/general-reports/enhanced-hr-statistics-new-filters-graphs-and-insights.md)
 - [How to Create and Customize Employee Information Report?](reports/general-reports/how-to-create-and-customize-employee-information-report.md)
@@ -1241,12 +1250,13 @@
 
 ## Product Updates
 
-**26 articles** | [Browse category](product-updates/)
+**27 articles** | [Browse category](product-updates/)
 
 ### Product Updates - Product Updates - July 2026
 
-**3 articles** | Directory: `product-updates/product-updates-july-2026/`
+**4 articles** | Directory: `product-updates/product-updates-july-2026/`
 
+- [brioHR Product Updates - July 2026, Week 4 | Multi-Signatures, Bulk Claim Imports, Termination Reason, & More](product-updates/product-updates-july-2026/briohr-product-updates-july-2026-week-4-multi-signatures-bulk-claim-imports-term.md)
 - [brioHR Product Updates - July 2026, Week 3 | Custom SHG Contributions, a Better Password Reset Experience & New Touch N Go bank support for employees!](product-updates/product-updates-july-2026/briohr-product-updates-july-2026-week-3-custom-shg-contributions-a-better-passwo.md)
 - [BrioHR Product Updates - July 2026, Week 2 |  Bulk compensation imports, New Claim Balance Report, Change Subsidiaries on Mobile App](product-updates/product-updates-july-2026/briohr-product-updates-july-2026-week-2-bulk-compensation-imports-new-claim-bala.md)
 - [BrioHR Product Updates - July 2026, Week 1 |  Years of Service Tracking & Payroll YTD Summary Settings](product-updates/product-updates-july-2026/briohr-product-updates-july-2026-week-1-years-of-service-tracking-and-payroll-yt.md)

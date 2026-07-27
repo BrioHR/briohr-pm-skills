@@ -3,18 +3,12 @@ title: "Create Schedules with Day Off"
 category: "Admin"
 subcategory: "Schedules & Shifts Settings"
 source_url: "https://support.briohr.com/knowledge/create-schedules-with-day-off"
-date: "July 1, 2026"
+date: "July 27, 2026"
 ---
 
 # Create Schedules with Day Off
 
 *This article explains how to add Day Off as part of your schedule and how it affects Time Attendance Rosters, Leave Management, and Overtime Calculation for Payroll*
-
-#### brioHR now allows you to add in both Day Off and Rest Day as part of your schedule. The 'Day Off' can later be part of rosters for employees assigned schedules with a Day Off. If employees work on their Day Off, they can be paid an overtime rate for a Day Off/Off Day (processed from Time Attendance Timesheet to Payroll). A Day Off in the schedule also impacts the employee's leave calendar. Employees will not be able to take leave on their Day Off.
-
-
----
-
 
 **Audience & Scope**
 
@@ -34,10 +28,19 @@ Pre-requisites: Access to Admin Settings (User group permissions)
 
 
 
-**Step-by-Step Instructions**
+brioHR now allows you to add in both **Day Off** and **Rest Day** as part of your schedule. The '**Day Off**' can later be part of rosters for employees assigned schedules with a Day Off.  If employees work on their Day Off, they can be paid an overtime rate for a Day Off/Off Day (processed from Time Attendance Timesheet to Payroll).
 
 
-Add Day Off to Schedules
+A Day Off in the schedule also impacts the employee's leave calendar. Employees will not be able to take leave on their Day Off.
+
+
+
+
+
+#### Step-by-Step Instructions to set up Day Off in Schedules
+
+
+##### Add Day Off to Schedules
 
 
 1. Go to **Admin Settings > Schedules & Shift > Work Schedules**
@@ -55,13 +58,20 @@ Add Day Off to Schedules
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-01-2026-07-47-07-8807-AM.png?width=670&height=498&name=image-png-Jul-01-2026-07-47-07-8807-AM.png)
 
 
-4. Click **Save** once done.
+4. Click **Save** once done. Then, **Confirm save**. Remember, schedule changes may affect rosters without clock in/out data. Locked rosters will not be affected.
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-01-15-06-0902-PM.png?width=432&height=210&name=image-png-Jul-27-2026-01-15-06-0902-PM.png)
+
+
+**Note:**
+
+
+Any **Day Off** added to employee schedules will also be reflected in the BrioHR Mobile App, ensuring schedule information remains consistent across both web and mobile platforms.
 
 
 
 
 
-Assigning schedule to employees
+##### Assigning schedule to employees
 
 
 1. To assign an employee to a different schedule, go to **Admin Settings > Schedules & Shifts** and click **Assign schedule**
@@ -86,7 +96,7 @@ Assigning schedule to employees
 
 
 
-Impact of Day off to Time Attendance, Payroll, and Leave
+##### Impact of Day off to Time Attendance, Payroll, and Leave
 
 
 1. Go to **HR Lounge > Time Attendance > Rostering** and check Day off is reflected correctly based on the schedule assigned
@@ -125,7 +135,7 @@ Impact of Day off to Time Attendance, Payroll, and Leave
 
 
 
-**Common Issues/FAQ**
+##### Common Issues/FAQ
 
 
 Q: How do I change the multiplier for my Overtime (Off Day)?
@@ -137,7 +147,7 @@ A: Currently, the default **Overtime (Off Day)** is set to have a **1.5 multipl
 
 
 
-**Related Articles**
+##### Related Articles
 
 
 [How to Assign a Custom Work Schedule for Employees](/knowledge/how-to-assign-work-schedule-by-employee?hsLang=en)

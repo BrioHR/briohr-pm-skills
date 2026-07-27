@@ -3,7 +3,7 @@ title: "How to Deactivate or Remove a Resigned Employee's Account in BrioHR"
 category: "People"
 subcategory: "Profile Management"
 source_url: "https://support.briohr.com/knowledge/how-to-deactivate-or-remove-a-resigned-employees-account-in-briohr"
-date: "July 15, 2026"
+date: "July 27, 2026"
 ---
 
 # How to Deactivate or Remove a Resigned Employee's Account in BrioHR
@@ -33,21 +33,26 @@ Follow these steps to '**End Employment**':
 - Click on the employee's name to navigate to their **profile**.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-15-2026-02-26-57-3997-AM.png?width=2320&height=1033&name=image-png-Jul-15-2026-02-26-57-3997-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-15-2026-02-26-57-3997-AM.png?width=670&height=298&name=image-png-Jul-15-2026-02-26-57-3997-AM.png)
 
 
 - On the resigned employee's **profile**, click the **ellipsis ('...')** icon next to the Edit button.
 - Select '**End Employment**' from the dropdown menu.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-15-2026-02-28-17-1280-AM.png?width=1699&height=616&name=image-png-Jul-15-2026-02-28-17-1280-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-15-2026-02-28-17-1280-AM.png?width=670&height=243&name=image-png-Jul-15-2026-02-28-17-1280-AM.png)
 
 
 - Input the **Employment End Date** to revoke the resigned employee's user access.
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-03-49-57-5971-AM.png?width=530&height=481&name=image-png-Jul-27-2026-03-49-57-5971-AM.png)
+- Enter the employment end **reason** and **comment** (both optional).
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-03-50-38-4272-AM.png?width=529&height=422&name=image-png-Jul-27-2026-03-50-38-4272-AM.png)
 - Click **Save **to complete the action or **Cancel **to abort.
 
 
-[](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48163466585/original/HnXhquM5fWyeaFZ5FK9WVRmYv7hKx3OJzg.png?1637829928)
+
 
 
 **NOTE:**

@@ -3,7 +3,7 @@ title: "Rehire a Resigned Employee"
 category: "People"
 subcategory: "Profile Management"
 source_url: "https://support.briohr.com/knowledge/rehire-a-resigned-employee"
-date: "July 20, 2026"
+date: "July 28, 2026"
 ---
 
 # Rehire a Resigned Employee
@@ -23,7 +23,9 @@ date: "July 20, 2026"
 **Step-by-Step Instructions**
 
 1. **Create a new employee profile** for the new employment period — this keeps the two employment records separate.
-2. Do **not** reactivate the old profile.
+2. **Alternative**: you can also **restore (reactivate) the old profile** instead of creating a new one — both methods are valid.
+-** Create a new profile** keeps the two employment periods as separate records (recommended when you need the history intact).
+- **Restore the old profile** keeps everything in one profile, but note: a profile holds only **one join date and one employment end date** — restoring and updating the dates for the new employment **erases the previous ones**. Record the previous employment dates elsewhere before restoring.
 3. Key in the new profile fresh — data cannot be merged or transferred from the inactive profile.
 4. If the new profile is rejected because the email is already in use, go to **Admin Settings** > **Users** and change the email address on the old profile to another address, then create the new profile again.
 

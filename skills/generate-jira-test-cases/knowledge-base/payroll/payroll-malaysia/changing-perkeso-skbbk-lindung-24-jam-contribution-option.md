@@ -3,7 +3,7 @@ title: "Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option"
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
-date: "July 27, 2026"
+date: "July 28, 2026"
 ---
 
 # Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option
@@ -117,7 +117,7 @@ For the non-SKBBK option, choose:
 
 
 
-**Which SOCSO category applies — with vs without SKBBK", as a real table, not an image):**
+**Which SOCSO category applies — with vs without SKBBK:**
 
 
 | Employee Group | Age & Joining Eligibility | SOCSO Scheme Category | WITHOUT SKBBK (Standard SOCSO / Opted-Out) | WITH SKBBK (Lindung 24 Jam — Phase 1) | Mandatory vs. Voluntary (Opt-Out Rules) |
@@ -126,6 +126,12 @@ For the non-SKBBK option, choose:
 | Malaysian Employees | 60 and above (OR first joined SOCSO at 55+) | Category 2 (Employment Injury Only) | Employer: 1.25% · Employee: 0% | Employer: 1.25% · Employee: 0.75% (0% Invalidity + 0.75% SKBBK) | Default (Voluntary Opt-Out): auto-enrolled by default; employee can opt out via Perakuan Pelepasan Liabiliti. |
 | Foreign Employees | Under 60 (joined SOCSO before age 55) | Category 1 (Employment Injury + Invalidity) | N/A (SKBBK is mandatory) | Employer: 1.75% · Employee: 1.25% (0.5% Invalidity + 0.75% SKBBK) | Mandatory: compulsory under Act 4 for foreign workers; no opt-out allowed. |
 | Foreign Employees | 60 and above (OR first joined SOCSO at 55+) | Category 2 (Employment Injury Only) | N/A (SKBBK is mandatory) | Employer: 1.25% · Employee: 0.75% (0% Invalidity + 0.75% SKBBK) | Mandatory: compulsory under Act 4 for foreign workers; no opt-out allowed. |
+
+
+**What does the "Non related" option mean? **
+
+
+Select Non related when the employee is not required to contribute to either SOCSO or SKBBK (no SOCSO scheme applies to them). If the employee contributes to SOCSO, use the Category 1/2 options above instead.
 
 
 **NOTE:**
@@ -138,22 +144,23 @@ For the non-SKBBK option, choose:
 See: [How to Edit a Completed Payroll Cycle](https://support.briohr.com/knowledge/how-to-edit-a-completed-payroll-cycle?hsLang=en) and [How to Create a Custom Pay Item in BrioHR](https://support.briohr.com/knowledge/how-to-create-a-custom-pay-item-in-briohr?hsLang=en).
 
 
-
-
-
 **Common Issues/FAQ**
 
 
-Q1: **Will this affect my previous SOCSO contribution?**
+**Q: Will this affect my previous SOCSO contribution?**
 
 
-A1: No. If you have completed your payroll month (June 2026) and made the payout, your payroll records will remain unchanged.
+A: No. If you have completed your payroll month (June 2026) and made the payout, your payroll records will remain unchanged.
 
 
-Q2: **Can I see the SKBBK amount separately in the payroll report?**
+**Q: Can I see the SKBBK amount separately in the payroll report? **
 
 
-A2: Not yet — the payroll report shows the total SOCSO amount and cannot isolate the SKBBK portion. An improvement is work in progress (no release date yet); we will communicate to clients once it is available.
+A: Not yet — the payroll report shows the total SOCSO amount and cannot isolate the SKBBK portion. An improvement is work in progress (no release date yet); we will communicate to clients once it is available.
+
+
+**Q: Can I update the SKBBK option for many employees at once?
+**A: Yes — use Option 2 above: go to HR Lounge > Payroll > Payroll Employee List > Bulk Download/Upload, download the Excel, update the SOCSO column for the affected employees (pick the correct Category 1/2 — see the mapping table above), then upload the file again. The changes reflect in each Employee Profile > Payroll > Statutory Contributions > SOCSO.
 
 
 

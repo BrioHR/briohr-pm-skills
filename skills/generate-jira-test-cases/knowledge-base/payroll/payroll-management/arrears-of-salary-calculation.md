@@ -3,12 +3,12 @@ title: "Arrears of Salary Calculation"
 category: "Payroll"
 subcategory: "Payroll Management"
 source_url: "https://support.briohr.com/knowledge/arrears-of-salary-calculation"
-date: "July 7, 2026"
+date: "July 28, 2026"
 ---
 
 # Arrears of Salary Calculation
 
-*This article explains how brioHR helps calculate 'arrears of salary' or 'retro pay' when the effective date of a salary change is backdated, usually due to salary increment decisions being made later on in the year, but with salary changes effective earlier in the year.*
+*This article explains how brioHR helps calculate 'arrears of salary' or 'retro pay' when the effective date of a salary change is backdated. Note: this feature is not yet available on all BrioHR accounts.*
 
 ** ****Audience & Scope**
 
@@ -23,6 +23,12 @@ Country: Global
 
 
 Pre-requisites: User group permission for Employee Profile and Payroll Module
+
+
+---
+
+
+⚠️ **AVAILABILITY**: The Arrears of Salary feature is being rolled out progressively and is not yet available on all BrioHR accounts. If it is not enabled on your account, calculate the arrears amount yourself and add it to the current payroll cycle using the 'Arrears of Salary' pay item, or contact support to check availability for your account.
 
 
 ---

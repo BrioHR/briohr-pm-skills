@@ -3,14 +3,14 @@ title: "Increased Wage Ceiling Limit for SOCSO & EIS Monthly Contributions"
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/increased-wage-ceiling-for-socso-eis-contributions"
-date: "July 12, 2026"
+date: "July 28, 2026"
 ---
 
 # Increased Wage Ceiling Limit for SOCSO & EIS Monthly Contributions
 
-*This article explains the increased wage ceiling limit for SOCSO and EIS monthly contributions under Act 4 and Act 800.*
+*This article explains the increased wage ceiling limit for SOCSO and EIS monthly contributions under Act 4 and Act 800, effective 1 October 2024. For the July 2026 SKBBK (Lindung 24 Jam) changes, see the update note in the article.*
 
-**IMPORTANT: Please read this article before processing your October 2024 payroll!**
+UPDATE (July 2026): The wage-ceiling increase described below took effect on 1 October 2024. SOCSO contributions have since changed further with the SKBBK (Lindung 24 Jam) scheme — optional for local employees, mandatory only for foreign employees. For the current contribution categories, rates and how to change an employee's option, see [Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option](/knowledge/changing-perkeso-skbbk-contribution-option?hsLang=en).
 
 
 #### Update on Contribution Amount for Act 4 and Act 800 in line with the Wage Ceiling Limit Increase

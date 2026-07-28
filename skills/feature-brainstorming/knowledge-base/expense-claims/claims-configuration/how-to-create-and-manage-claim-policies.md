@@ -3,7 +3,7 @@ title: "How to Create and Manage Claim Policies"
 category: "Expense Claims"
 subcategory: "Claims Configuration"
 source_url: "https://support.briohr.com/knowledge/how-to-create-and-manage-claim-policies"
-date: "July 27, 2026"
+date: "July 28, 2026"
 ---
 
 # How to Create and Manage Claim Policies
@@ -261,6 +261,10 @@ The third section is **Approval Workflow**, where you can select the approval wo
 
 
 **A:** Go to **Analytics > Report Builder** and create an expense claim report — the submission date is a report field.
+
+
+**Q: Can claims be disconnected from payroll?**
+**A**: Claims do not flow to payroll automatically. A claim only reaches payroll when an HR/Admin uses the '**Send to Payroll**' action on the claim report. If you do not use 'Send to Payroll', the claim stays in the Expense Claims module and is not included in any payroll run.
 
 
 

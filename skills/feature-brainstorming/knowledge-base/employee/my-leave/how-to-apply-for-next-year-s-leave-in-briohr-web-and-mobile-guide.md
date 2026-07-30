@@ -3,67 +3,87 @@ title: "How to Apply for Next Year's Leave in BrioHR (Web & Mobile Guide)"
 category: "Employee"
 subcategory: "My Leave"
 source_url: "https://support.briohr.com/knowledge/how-to-apply-for-next-year-leave-in-advance"
-date: "November 3, 2025"
+date: "July 30, 2026"
 ---
 
 # How to Apply for Next Year's Leave in BrioHR (Web & Mobile Guide)
 
 *Learn how to apply for next year’s leave in BrioHR using both web and mobile. Step-by-step guide with screenshots, important notes, and leave policy reminders.*
 
-### Introduction
+**Audience & Scope**
 
 
-Applying for next year’s leave in advance is possible once BrioHR has opened the leave calendar for the upcoming year. Typically, BrioHR will notify all clients when next year’s leave becomes available.
+Audience: All users
 
 
-This article provides a **step-by-step guide** on how to apply for next year’s leave using both the **web browser** and **mobile app**.
+Module: Leave
 
 
----
+Country: Global
 
 
-### Step-by-Step Guide: Apply for Leave via Web Browser
+Prerequisites: User group settings: Permission to access leave in the following year enabled.
 
 
-#### Step 1 - Log In to BrioHR Account
+###
 
 
-1. Log in to your BrioHR account using your registered credentials.
+Applying for next year’s leave in advance is possible once the permission has been enabled for users within their user permissions.
 
 
-#### Step 2 - Access the Apply Leave Section
+**NOTE:**
 
 
-1. On the **Home** page > Click **Apply Leave**
+If you are an Admin looking to enable this permission within the system, click [here](/knowledge/enable-employees-leave-applications-for-next-year-web-mobile-app?hsLang=en) to read more.
 
 
-*Alternatively, you can also navigate through:*
-**My HR → Leave → Apply Leave**
+###
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-03-2025-01-07-50-7721-AM.png?width=670&height=300&name=image-png-Nov-03-2025-01-07-50-7721-AM.png)
+#### Step-by-Step Guide: Apply for Leave via Web Browser
 
 
-2. A pop-up window to apply leave will appear for you to fill in the leave details'
+1. Log in to your brioHR account using your registered credentials.
 
 
-#### Step 3 - Fill in Leave Application Details
+2. Click into **MyHR > Leave** module
 
 
-- **Year: **Select the next year from the drop-down menu (e.g., 2026).
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-02-28-22-3807-AM.png?width=670&height=279&name=image-png-Jul-30-2026-02-28-22-3807-AM.png)
+
+
+3. Click **Apply Leave** and a pop-up window to apply leave will appear for you to fill in the leave details:
+
+
+- **Year: **Select the next year from the drop-down menu (e.g., 2027).
 - **Types:** Choose the appropriate leave type.
 - **Date: **Select the date range for your leave
 - **Justification: **Enter the reason for your leave* (optional unless made mandatory by your HR Admin).*
 - **Attachment: **Upload any supporting documents if required.
 
 
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-02-30-45-6092-AM.png?width=467&height=307&name=image-png-Jul-30-2026-02-30-45-6092-AM.png)
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-02-32-43-1403-AM.png?width=452&height=375&name=image-png-Jul-30-2026-02-32-43-1403-AM.png)
+
+
+
+
+
 4. Click **Apply** once all fields are completed.
 
 
-**NOTE: HALF-DAY LEAVE APPLICATIONS**
+5. A notification will appear in the top right corner, confirming your leave application was successful.
 
 
-To apply for a **half-day leave**, select either the **Morning Only** or **Afternoon Only** checkbox next to the date field. The system will automatically calculate the correct number of leave days based on your selection.
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-02-33-35-4016-AM.png?width=288&height=129&name=image-png-Jul-30-2026-02-33-35-4016-AM.png)
+
+
+6. The applied leave will be recorded at** 'Leave Requests Status & History' **of the following year's** **dashboard.
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-02-34-50-6154-AM.png?width=670&height=354&name=image-png-Jul-30-2026-02-34-50-6154-AM.png)
 
 
 **IMPORTANT: ANNUAL CARRY FORWARD LEAVE
@@ -76,40 +96,25 @@ If you select **‘Annual Carry Forward’** leave to apply it for next year, th
 This means your available leave for the current year will decrease and may affect your ability to take additional leave before year-end.
 
 
-**
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-03-2025-01-08-18-2870-AM.png?width=670&height=323&name=image-png-Nov-03-2025-01-08-18-2870-AM.png)
-**
+**IMPORTANT: **
 
 
-**
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-03-2025-01-08-35-6560-AM.png?width=670&height=317&name=image-png-Nov-03-2025-01-08-35-6560-AM.png)
-**
+When you apply leave for next year, there is a banner to indicate that the Public Holidays has not been set up at the moment.
 
 
-**
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-03-2025-01-08-43-2687-AM.png?width=670&height=333&name=image-png-Nov-03-2025-01-08-43-2687-AM.png)
-**
+**Public Holidays for the following year is usually added in Quarter 4 of the current year. **
 
 
-5.** Completion: **A notification will appear in the top right corner, confirming your leave application was successful.
-
-
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-03-2025-01-09-34-4315-AM.png?width=417&height=161&name=image-png-Nov-03-2025-01-09-34-4315-AM.png)
-
-
-6. The applied leave will be recorded at** 'Leave Requests Status & History' **of the following year's** **dashboard.
-
-
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-03-2025-01-09-49-2399-AM.png?width=670&height=266&name=image-png-Nov-03-2025-01-09-49-2399-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-02-36-45-7704-AM.png?width=670&height=282&name=image-png-Jul-30-2026-02-36-45-7704-AM.png)
 
 
 
 
 
-### Step-by-Step Guide: Apply for Leave via Mobile App
+#### Step-by-Step Guide: Apply for Leave via Mobile App
 
 
-#### Step 1 - Log In to BrioHR Account
+##### Step 1 - Log In to BrioHR Account
 
 
 1. Log in to your BrioHR account using your registered credentials.
@@ -120,7 +125,7 @@ This means your available leave for the current year will decrease and may affec
 **If you haven’t downloaded the mobile app yet, search for **“BrioHR”** in the **Apple App Store**, **Google Play Store**, or **Huawei AppGallery**.
 
 
-#### Step 2 - Access the Apply Leave Section
+##### Step 2 - Access the Apply Leave Section
 
 
 1. On the **Home** page > Tap **Leave.**
@@ -164,20 +169,28 @@ This means your available leave for the current year will decrease and may affec
 
 
 
----
+###
 
 
-### See Also
+#### Related Articles
 
 
-- [How to Request Credit leave in BrioHR (Browser Guide)](https://support.briohr.com/knowledge/how-to-request-credit-leave-in-briohr-browser-guide?hsLang=en)
-- [How to Check Leave Application Status in BrioHR](https://support.briohr.com/knowledge/how-to-check-leave-application-status?hsLang=en)
+**[How to Enable Next Year's Employee Leave Applications (Web & Mobile App)](/knowledge/enable-employees-leave-applications-for-next-year-web-mobile-app?hsLang=en) **
 
 
----
+**[How to Request Credit leave in BrioHR (Browser Guide)](https://support.briohr.com/knowledge/how-to-request-credit-leave-in-briohr-browser-guide?hsLang=en)**
 
 
-### Frequently Asked Questions (FAQs)
+**[How to Check Leave Application Status in BrioHR](https://support.briohr.com/knowledge/how-to-check-leave-application-status?hsLang=en)**
+
+
+
+
+
+###
+
+
+#### Frequently Asked Questions (FAQs)
 
 
 **1. When will next year’s leave be opened in BrioHR?**
@@ -199,8 +212,8 @@ Yes, BrioHR’s mobile app allows you to apply for both current and next year’
 
 
 
-**Need Assistance?**
+**Ownership**
 
 
-*If you have any questions or require assistance, please reach out to our support team via live chat or email us at [support@briohr.com](mailto:support@briohr.com).*
+By: Arveena
 

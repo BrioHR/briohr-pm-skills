@@ -3,7 +3,7 @@ title: "Manage Self-Help Group (SHG) Contributions with Custom Values (Payroll S
 category: "Payroll"
 subcategory: "Payroll - Singapore"
 source_url: "https://support.briohr.com/knowledge/manage-self-help-group-shg-contributions-with-custom-value-payroll-singapore"
-date: "July 24, 2026"
+date: "July 30, 2026"
 ---
 
 # Manage Self-Help Group (SHG) Contributions with Custom Values (Payroll Singapore)
@@ -94,7 +94,7 @@ The **Statutory Contributions** section within the Employee Profile now allows H
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-17-2026-03-16-22-5311-AM.png?width=670&height=441&name=image-png-Jul-17-2026-03-16-22-5311-AM.png)
 7. Select the payroll cycle to have this contribution captured in
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-09-04-37-5361-AM.png?width=965&height=798&name=image-png-Jul-24-2026-09-04-37-5361-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-09-04-37-5361-AM.png?width=670&height=554&name=image-png-Jul-24-2026-09-04-37-5361-AM.png)
 8. Click **Save** to apply the changes
 
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-17-2026-03-18-12-1050-AM.png?width=670&height=446&name=image-png-Jul-17-2026-03-18-12-1050-AM.png)
@@ -115,6 +115,33 @@ When **Custom value** is selected:
   - Be **0.01 or greater**.
   - Support up to **2 decimal places**.
 - The entered value will **completely replace** the system-calculated SHG contribution during payroll processing.
+
+
+
+
+
+#### Steps to configure SHG Custom Values in Bulk for employees
+
+
+1. Go to **HR Lounge > Payroll**.
+2. From the **Dashboard**, scroll down to the **Payroll Employee List** section.
+3. Click **Bulk Download/Upload**.
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-02-09-36-5540-PM.png?width=1732&height=662&name=image-png-Jul-30-2026-02-09-36-5540-PM.png)
+4. Download the payroll employee template.
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-02-09-58-8891-PM.png?width=400&height=447&name=image-png-Jul-30-2026-02-09-58-8891-PM.png)
+5. Update the **SHG Contribution Type** and **Custom SHG Value** (if applicable) for the required employees.
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-02-12-31-8799-PM.png?width=1731&height=264&name=image-png-Jul-30-2026-02-12-31-8799-PM.png)
+6. Save the completed template.
+7. Upload the updated template back into the system.
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-02-13-16-9671-PM.png?width=413&height=466&name=image-png-Jul-30-2026-02-13-16-9671-PM.png)
+8. Once the upload is successful, the employees' SHG settings will be updated and automatically applied in payroll calculations.
+
+
+
 
 
 #### How This Affects Payroll

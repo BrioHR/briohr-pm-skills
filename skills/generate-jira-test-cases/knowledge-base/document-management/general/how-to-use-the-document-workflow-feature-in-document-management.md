@@ -3,7 +3,7 @@ title: "How to Use the Document Workflow feature in Document Management"
 category: "Document Management"
 subcategory: "General"
 source_url: "https://support.briohr.com/knowledge/how-to-use-the-document-approval-workflow-in-document-management"
-date: "July 24, 2026"
+date: "July 30, 2026"
 ---
 
 # How to Use the Document Workflow feature in Document Management
@@ -121,7 +121,7 @@ Multiple roles can be included within the same document.
 3. When creating the template, enable the **Document Workflow** toggle.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-09-57-2103-AM.png?width=1856&height=468&name=image-png-Jul-24-2026-08-09-57-2103-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-09-57-2103-AM.png?width=670&height=169&name=image-png-Jul-24-2026-08-09-57-2103-AM.png)
 
 
 ##### Step 2: Configure Required Signers
@@ -139,7 +139,7 @@ You can require signatures from:
 - Specific Employee(s)
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-10-43-6352-AM.png?width=1542&height=697&name=image-png-Jul-24-2026-08-10-43-6352-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-10-43-6352-AM.png?width=670&height=303&name=image-png-Jul-24-2026-08-10-43-6352-AM.png)
 
 
 ##### Step 3: Design the Document
@@ -163,7 +163,7 @@ For every role included in the workflow, a corresponding **Signature Field** mus
 If a required role does not have a Signature Field, the editor will display a warning until it is added.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-14-03-5203-AM.png?width=987&height=702&name=image-png-Jul-24-2026-08-14-03-5203-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-14-03-5203-AM.png?width=670&height=477&name=image-png-Jul-24-2026-08-14-03-5203-AM.png)
 
 
 **Note:** Signed Date fields are optional but recommended if you need to record when the document was signed.
@@ -197,7 +197,7 @@ You can also choose whether the label appears:
 This makes completed documents easier to read and identify.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-15-17-6956-AM.png?width=1485&height=518&name=image-png-Jul-24-2026-08-15-17-6956-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-15-17-6956-AM.png?width=670&height=234&name=image-png-Jul-24-2026-08-15-17-6956-AM.png)
 
 
 ##### Step 5 : Generating Documents
@@ -208,7 +208,7 @@ This makes completed documents easier to read and identify.
 
 1. Activate the template.
 2. Generate the document as usual.
-3. Select the destination folder.
+3. Select the recipient folder.
 4. Select the employee(s).
 5. Review the assigned workflow.
 
@@ -227,7 +227,7 @@ If required information is missing (for example, an employee has no assigned man
 After updating employee information, simply click **Refresh Employee Data** to retrieve the latest details.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-16-13-8397-AM.png?width=1456&height=507&name=image-png-Jul-24-2026-08-16-13-8397-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-16-13-8397-AM.png?width=670&height=233&name=image-png-Jul-24-2026-08-16-13-8397-AM.png)
 
 
 ##### Step 6 : Signature Process
@@ -332,7 +332,7 @@ HR can also:
 Once every required signer has submitted their signature, the document is automatically marked as **Completed**.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-21-14-7000-AM.png?width=1462&height=665&name=image-png-Jul-24-2026-08-21-14-7000-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-21-14-7000-AM.png?width=670&height=305&name=image-png-Jul-24-2026-08-21-14-7000-AM.png)
 
 
 

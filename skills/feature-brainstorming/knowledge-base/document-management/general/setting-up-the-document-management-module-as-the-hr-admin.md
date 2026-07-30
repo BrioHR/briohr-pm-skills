@@ -3,7 +3,7 @@ title: "Setting up the Document Management module as the HR Admin"
 category: "Document Management"
 subcategory: "General"
 source_url: "https://support.briohr.com/knowledge/setting-up-the-document-management-module-as-the-hr-admin"
-date: "July 24, 2026"
+date: "July 30, 2026"
 ---
 
 # Setting up the Document Management module as the HR Admin
@@ -198,10 +198,22 @@ Once you include the Signature, you will be able to upload a copy of the signatu
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-12-44-43-3463-AM.png?width=670&height=377&name=image-png-Feb-23-2026-12-44-43-3463-AM.png)
 
 
-16. Select the **folder** in which the document will be stored in and then click **Save & Continue**
+16. Select the **Recipient** **folder** in which the document will be stored in and then click **Save & Continue**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-12-48-03-4737-AM.png?width=670&height=377&name=image-png-Feb-23-2026-12-48-03-4737-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-01-54-17-1667-PM.png?width=1635&height=885&name=image-png-Jul-30-2026-01-54-17-1667-PM.png)
+
+
+**TIP ON VISIBILITY COLUMN**:
+
+
+If your document requires a recipient's signature, make sure the selected recipient folder has **Employee** visibility enabled.
+
+
+If Employee visibility is disabled, you won't be able to save the document. Instead, you'll receive a warning prompting you to either enable **Employee** visibility for the folder in **Company Settings** or choose a different recipient folder.
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-01-59-29-9193-PM.png?width=305&height=198&name=image-png-Jul-30-2026-01-59-29-9193-PM.png)
 
 
 17. Select the **employees** which require this document to be generated for and then click **Save & Continue**
@@ -228,7 +240,7 @@ The Manual Fields can be filled in by bulk for the employees selected by clickin
 19. You can then **view details** of the document, **download** a copy of the document as well as **delete** the document if required. Once all information is accurate, click **Generate Document**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-42-09-6207-AM.png?width=1657&height=865&name=image-png-Jul-24-2026-08-42-09-6207-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-24-2026-08-42-09-6207-AM.png?width=670&height=350&name=image-png-Jul-24-2026-08-42-09-6207-AM.png)
 
 
 In the event that employees information has been updated, you will be able to click on the **Refresh employee data** button here to capture the latest information.

@@ -3,12 +3,12 @@ title: "How to Download an Expense Claims Report"
 category: "Reports"
 subcategory: "Expense Claim Reports"
 source_url: "https://support.briohr.com/knowledge/how-to-download-an-expense-claims-report"
-date: "July 12, 2026"
+date: "July 30, 2026"
 ---
 
 # How to Download an Expense Claims Report
 
-*This article explains how to download an Expense Claims Report, including the Per Day Allowance date fields and Claim Type filter.*
+*This article explains how to download an Expense Claims Report from Analytics > Report Builder, including the Per Day Allowance date fields, Claim Type and Expense Category filters.*
 
 #### Latest Update:
 
@@ -49,12 +49,13 @@ date: "July 12, 2026"
 ---
 
 
-In this tutorial, we'll demonstrate how to generate an expense claim report from the Reports module.
+In this tutorial, we'll demonstrate how to generate an expense claim report from the Report Builder.
 
 
-1. Go to **HR Lounge.**
-2. Click the **Reports **button at the top right corner of the 'Employee List' table.
-3. Search for **Expense Claims** and click **Create**.
+1. Go to **Analytics**.
+2. Click** Report Builder**.
+3. Search for **Expense Claims **and click **Create**.
+4. (Optional) Use **Fields & Filters > Expense Category** if you want to add more granularity to the report.
 
 
 **NOTE:**

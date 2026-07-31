@@ -1,14 +1,14 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-07-30
+> Last updated: 2026-07-31
 
 ---
 
 ## Table of Contents
 
-- [General](#general) (9 articles)
-  - [User Settings & Login](#general-user-settings-and-login) (9)
+- [General](#general) (10 articles)
+  - [User Settings & Login](#general-user-settings-and-login) (10)
 - [Admin](#admin) (78 articles)
   - [Company Settings](#admin-company-settings) (11)
   - [Schedules & Shifts Settings](#admin-schedules-and-shifts-settings) (11)
@@ -102,8 +102,8 @@
   - [Expense Claims](#faqs-expense-claims) (1)
   - [Account](#faqs-account) (1)
   - [Profile](#faqs-profile) (1)
-- [Product Updates](#product-updates) (27 articles)
-  - [Product Updates - July 2026](#product-updates-product-updates-july-2026) (4)
+- [Product Updates](#product-updates) (28 articles)
+  - [Product Updates - July 2026](#product-updates-product-updates-july-2026) (5)
   - [Product Updates - June 2026](#product-updates-product-updates-june-2026) (3)
   - [Product Updates - May 2026](#product-updates-product-updates-may-2026) (4)
   - [Product Updates - April 2026](#product-updates-product-updates-april-2026) (5)
@@ -122,12 +122,13 @@
 
 ## General
 
-**9 articles** | [Browse category](general/)
+**10 articles** | [Browse category](general/)
 
 ### General - User Settings & Login
 
-**9 articles** | Directory: `general/user-settings-and-login/`
+**10 articles** | Directory: `general/user-settings-and-login/`
 
+- [Login with Biometric Authentication on the brioHR Mobile App](general/user-settings-and-login/login-with-biometric-authentication-on-the-briohr-mobile-app.md)
 - [brioHR Web Browser vs Mobile App: Feature Comparison Guide](general/user-settings-and-login/briohr-web-browser-vs-mobile-app-feature-comparison-guide.md)
 - [Understanding the Different Log In Methods in brioHR](general/user-settings-and-login/understanding-the-different-log-in-methods-in-briohr.md)
 - [Reset Your Password Seamlessly from your Mobile Device](general/user-settings-and-login/reset-your-password-seamlessly-from-your-mobile-device.md)
@@ -555,9 +556,9 @@
 
 **42 articles** | Directory: `payroll/payroll-management/`
 
+- [Arrears of Salary Calculation](payroll/payroll-management/arrears-of-salary-calculation.md)
 - [Refresh a Payroll Cycle After Employee Profile Changes](payroll/payroll-management/refresh-a-payroll-cycle-after-employee-profile-changes.md)
 - [Set Up a Recurring Fixed Remuneration Over Several Months](payroll/payroll-management/set-up-a-recurring-fixed-remuneration-over-several-months.md)
-- [Arrears of Salary Calculation](payroll/payroll-management/arrears-of-salary-calculation.md)
 - [Delete Latest Payroll Cycle in Current Payroll Month](payroll/payroll-management/delete-latest-payroll-cycle-in-current-payroll-month.md)
 - [Find Cost Center Details in Payroll Reports](payroll/payroll-management/find-cost-center-details-in-payroll-reports.md)
 - [How to Update Overtime Files in Payroll Using TimeTec Integration](payroll/payroll-management/how-to-update-overtime-files-in-payroll-using-timetec-integration.md)
@@ -1250,12 +1251,13 @@
 
 ## Product Updates
 
-**27 articles** | [Browse category](product-updates/)
+**28 articles** | [Browse category](product-updates/)
 
 ### Product Updates - Product Updates - July 2026
 
-**4 articles** | Directory: `product-updates/product-updates-july-2026/`
+**5 articles** | Directory: `product-updates/product-updates-july-2026/`
 
+- [brioHR Product Updates - July 2026, Week 5 | Arrears of Salary, Bulk SHG Updates, Apply 2027 Leave, Document Management Update](product-updates/product-updates-july-2026/briohr-product-updates-july-2026-week-5-arrears-of-salary-bulk-shg-updates-apply.md)
 - [brioHR Product Updates - July 2026, Week 4 | Multi-Signatures, Bulk Claim Imports, Termination Reason, & More](product-updates/product-updates-july-2026/briohr-product-updates-july-2026-week-4-multi-signatures-bulk-claim-imports-term.md)
 - [brioHR Product Updates - July 2026, Week 3 | Custom SHG Contributions, a Better Password Reset Experience & New Touch N Go bank support for employees!](product-updates/product-updates-july-2026/briohr-product-updates-july-2026-week-3-custom-shg-contributions-a-better-passwo.md)
 - [BrioHR Product Updates - July 2026, Week 2 |  Bulk compensation imports, New Claim Balance Report, Change Subsidiaries on Mobile App](product-updates/product-updates-july-2026/briohr-product-updates-july-2026-week-2-bulk-compensation-imports-new-claim-bala.md)

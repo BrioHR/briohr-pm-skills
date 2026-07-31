@@ -3,7 +3,7 @@ title: "Arrears of Salary Calculation"
 category: "Payroll"
 subcategory: "Payroll Management"
 source_url: "https://support.briohr.com/knowledge/arrears-of-salary-calculation"
-date: "July 28, 2026"
+date: "July 31, 2026"
 ---
 
 # Arrears of Salary Calculation
@@ -23,12 +23,6 @@ Country: Global
 
 
 Pre-requisites: User group permission for Employee Profile and Payroll Module
-
-
----
-
-
-⚠️ **AVAILABILITY**: The Arrears of Salary feature is being rolled out progressively and is not yet available on all BrioHR accounts. If it is not enabled on your account, calculate the arrears amount yourself and add it to the current payroll cycle using the 'Arrears of Salary' pay item, or contact support to check availability for your account.
 
 
 ---

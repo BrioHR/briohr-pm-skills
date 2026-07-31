@@ -7,6 +7,10 @@
         "subcategory": "User Settings & Login",
         "articles": [
           {
+            "title": "Login with Biometric Authentication on the brioHR Mobile App",
+            "url": "https://support.briohr.com/knowledge/login-with-biometric-authentication-on-the-briohr-mobile-app"
+          },
+          {
             "title": "brioHR Web Browser vs Mobile App: Feature Comparison Guide",
             "url": "https://support.briohr.com/knowledge/briohr-web-browser-vs-mobile-app-feature-comparison-guide"
           },
@@ -1067,16 +1071,16 @@
         "subcategory": "Payroll Management",
         "articles": [
           {
+            "title": "Arrears of Salary Calculation",
+            "url": "https://support.briohr.com/knowledge/arrears-of-salary-calculation"
+          },
+          {
             "title": "Refresh a Payroll Cycle After Employee Profile Changes",
             "url": "https://support.briohr.com/knowledge/refresh-a-payroll-cycle-after-employee-profile-changes"
           },
           {
             "title": "Set Up a Recurring Fixed Remuneration Over Several Months",
             "url": "https://support.briohr.com/knowledge/set-up-a-recurring-fixed-remuneration-over-several-months"
-          },
-          {
-            "title": "Arrears of Salary Calculation",
-            "url": "https://support.briohr.com/knowledge/arrears-of-salary-calculation"
           },
           {
             "title": "Delete Latest Payroll Cycle in Current Payroll Month",
@@ -3030,6 +3034,10 @@
       {
         "subcategory": "Product Updates - July 2026",
         "articles": [
+          {
+            "title": "brioHR Product Updates - July 2026, Week 5 | Arrears of Salary, Bulk SHG Updates, Apply 2027 Leave, Document Management Update",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-july-2026-week-5-arrears-of-salary-bulk-shg-update-apply-2027-leave-document-management-update"
+          },
           {
             "title": "brioHR Product Updates - July 2026, Week 4 | Multi-Signatures, Bulk Claim Imports, Termination Reason, & More",
             "url": "https://support.briohr.com/knowledge/briohr-product-updates-july-2026-week-4-multi-signatures-bulk-claim-imports-termination-reason-more"

@@ -3,7 +3,7 @@ title: "Setting up the Document Management module as the HR Admin"
 category: "Document Management"
 subcategory: "General"
 source_url: "https://support.briohr.com/knowledge/setting-up-the-document-management-module-as-the-hr-admin"
-date: "July 30, 2026"
+date: "August 3, 2026"
 ---
 
 # Setting up the Document Management module as the HR Admin
@@ -82,13 +82,21 @@ You may refer [to this article](/knowledge/document-management-configuration-for
 2. Click into the **Templates tab** and then into the **Template types**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-12-00-58-4343-AM.png?width=670&height=219&name=image-png-Feb-23-2026-12-00-58-4343-AM.png)
+**
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-03-2026-01-16-16-8866-AM.png?width=670&height=262&name=image-png-Aug-03-2026-01-16-16-8866-AM.png)
+**
+
+
+
 
 
 3. Click on the **+Create template type** button
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-12-02-46-3748-AM.png?width=670&height=240&name=image-png-Feb-23-2026-12-02-46-3748-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-03-2026-01-17-53-6129-AM.png?width=670&height=262&name=image-png-Aug-03-2026-01-17-53-6129-AM.png)
+
+
+
 
 
 4. Fill in the details below and then click on **Create**
@@ -106,13 +114,13 @@ b. **Description**
 5. The template type has now been created and can be edited or removed if required.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-12-05-31-2666-AM.png?width=670&height=240&name=image-png-Feb-23-2026-12-05-31-2666-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-03-2026-01-18-26-5458-AM.png?width=670&height=262&name=image-png-Aug-03-2026-01-18-26-5458-AM.png)
 
 
 6. Next, click into the **Template List** and then click on **+ Create Template**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-12-07-26-8727-AM.png?width=670&height=232&name=image-png-Feb-23-2026-12-07-26-8727-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-03-2026-01-19-35-0415-AM.png?width=670&height=323&name=image-png-Aug-03-2026-01-19-35-0415-AM.png)
 
 
 7. Fill in the required information such as the **Template Name**, **Template type**, **description**, then choose to **enable the Document Workflow** if required, then click **Continue to editor**
@@ -129,21 +137,22 @@ Read more about the **Document Workflow** feature **[here](/knowledge/how-to-use
 8. Here you will be able to configure the **Layout** of your template as well as the **Fields** required
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-12-15-25-5143-AM.png?width=670&height=404&name=image-png-Feb-23-2026-12-15-25-5143-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-03-2026-01-46-53-1558-AM.png?width=1457&height=857&name=image-png-Aug-03-2026-01-46-53-1558-AM.png)
 
 
 9. At the **Layout** tab, choose the style of the document, header and footer settings to be captured
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-12-18-07-6986-AM.png?width=670&height=484&name=image-png-Feb-23-2026-12-18-07-6986-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-03-2026-01-49-26-0302-AM.png?width=1261&height=857&name=image-png-Aug-03-2026-01-49-26-0302-AM.png)
+
+
+
 
 
 10. Next, click into the **Fields**, and draft out the content using the **Manual** and **Dynamic** Fields.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-May-07-2026-04-02-25-6266-PM.png?width=670&height=359&name=image-png-May-07-2026-04-02-25-6266-PM.png)
-
-
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-03-2026-01-50-38-4891-AM.png?width=1262&height=855&name=image-png-Aug-03-2026-01-50-38-4891-AM.png)
 
 
 
@@ -168,13 +177,18 @@ Once you include the Signature, you will be able to upload a copy of the signatu
 11. Once the template is prepared, click on **Save**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-12-36-58-6751-AM.png?width=670&height=340&name=image-png-Feb-23-2026-12-36-58-6751-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-03-2026-01-51-22-2347-AM.png?width=1800&height=958&name=image-png-Aug-03-2026-01-51-22-2347-AM.png)
 
 
 12. By default the template will be in the **Draft** stage, therefore click on the three dot icon to **Activate template **
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Feb-23-2026-12-37-55-6624-AM.png?width=670&height=188&name=image-png-Feb-23-2026-12-37-55-6624-AM.png)
+**
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-03-2026-01-23-17-5008-AM.png?width=670&height=254&name=image-png-Aug-03-2026-01-23-17-5008-AM.png)
+**
+
+
+
 
 
 13. A pop up notification will appear, click on **Activate Template** here
@@ -201,7 +215,7 @@ Once you include the Signature, you will be able to upload a copy of the signatu
 16. Select the **Recipient** **folder** in which the document will be stored in and then click **Save & Continue**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-01-54-17-1667-PM.png?width=1635&height=885&name=image-png-Jul-30-2026-01-54-17-1667-PM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-30-2026-01-54-17-1667-PM.png?width=670&height=363&name=image-png-Jul-30-2026-01-54-17-1667-PM.png)
 
 
 **TIP ON VISIBILITY COLUMN**:

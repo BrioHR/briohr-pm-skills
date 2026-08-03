@@ -2153,12 +2153,12 @@
         "subcategory": "Performance Configuration",
         "articles": [
           {
-            "title": "How to Create an Ad-Hoc Performance Appraisal Cycle in BrioHR",
-            "url": "https://support.briohr.com/knowledge/how-to-create-an-ad-hoc-performance-appraisal-cycle-in-briohr"
-          },
-          {
             "title": "How to Set Up a Performance Cycle in BrioHR",
             "url": "https://support.briohr.com/knowledge/how-to-set-up-a-performance-cycle-in-briohr"
+          },
+          {
+            "title": "How to Create an Ad-Hoc Performance Appraisal Cycle in BrioHR",
+            "url": "https://support.briohr.com/knowledge/how-to-create-an-ad-hoc-performance-appraisal-cycle-in-briohr"
           },
           {
             "title": "How to Set Up Competency Framework in BrioHR Performance Cycle",
@@ -2620,12 +2620,12 @@
         "subcategory": "General",
         "articles": [
           {
-            "title": "Document Management Configuration for User Permissions",
-            "url": "https://support.briohr.com/knowledge/document-management-configuration-for-user-permissions"
-          },
-          {
             "title": "How to Use the Document Workflow feature in Document Management",
             "url": "https://support.briohr.com/knowledge/how-to-use-the-document-approval-workflow-in-document-management"
+          },
+          {
+            "title": "Document Management Configuration for User Permissions",
+            "url": "https://support.briohr.com/knowledge/document-management-configuration-for-user-permissions"
           },
           {
             "title": "Setting up the Document Management module as the HR Admin",
@@ -2723,16 +2723,16 @@
         "subcategory": "Profile Management",
         "articles": [
           {
+            "title": "Rehire a Resigned Employee",
+            "url": "https://support.briohr.com/knowledge/rehire-a-resigned-employee"
+          },
+          {
             "title": "Change an Employee's Reporting Manager (Single or in Bulk)",
             "url": "https://support.briohr.com/knowledge/change-an-employees-reporting-manager-single-or-in-bulk"
           },
           {
             "title": "Add Termination Reason When Entering End Employment Date",
             "url": "https://support.briohr.com/knowledge/add-termination-reason-when-entering-end-employment-date"
-          },
-          {
-            "title": "Rehire a Resigned Employee",
-            "url": "https://support.briohr.com/knowledge/rehire-a-resigned-employee"
           },
           {
             "title": "Editing Past Job Dates and Managing Job History in BrioHR",

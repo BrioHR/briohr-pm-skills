@@ -1,7 +1,7 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-07-31
+> Last updated: 2026-08-03
 
 ---
 
@@ -882,8 +882,8 @@
 
 **19 articles** | Directory: `performance/performance-configuration/`
 
-- [How to Create an Ad-Hoc Performance Appraisal Cycle in BrioHR](performance/performance-configuration/how-to-create-an-ad-hoc-performance-appraisal-cycle-in-briohr.md)
 - [How to Set Up a Performance Cycle in BrioHR](performance/performance-configuration/how-to-set-up-a-performance-cycle-in-briohr.md)
+- [How to Create an Ad-Hoc Performance Appraisal Cycle in BrioHR](performance/performance-configuration/how-to-create-an-ad-hoc-performance-appraisal-cycle-in-briohr.md)
 - [How to Set Up Competency Framework in BrioHR Performance Cycle](performance/performance-configuration/how-to-set-up-competency-framework-in-briohr-performance-cycle.md)
 - [How to Add Company and Department Objectives](performance/performance-configuration/how-to-add-company-and-department-objectives.md)
 - [How to Set Up and Manage Employees for a Performance Cycle in BrioHR](performance/performance-configuration/how-to-set-up-and-manage-employees-for-a-performance-cycle-in-briohr.md)
@@ -1055,8 +1055,8 @@
 
 **4 articles** | Directory: `document-management/general/`
 
-- [Document Management Configuration for User Permissions](document-management/general/document-management-configuration-for-user-permissions.md)
 - [How to Use the Document Workflow feature in Document Management](document-management/general/how-to-use-the-document-workflow-feature-in-document-management.md)
+- [Document Management Configuration for User Permissions](document-management/general/document-management-configuration-for-user-permissions.md)
 - [Setting up the Document Management module as the HR Admin](document-management/general/setting-up-the-document-management-module-as-the-hr-admin.md)
 - [Frequently Asked Questions for Document Management](document-management/general/frequently-asked-questions-for-document-management.md)
 
@@ -1113,9 +1113,9 @@
 
 **15 articles** | Directory: `people/profile-management/`
 
+- [Rehire a Resigned Employee](people/profile-management/rehire-a-resigned-employee.md)
 - [Change an Employee's Reporting Manager (Single or in Bulk)](people/profile-management/change-an-employee-s-reporting-manager-single-or-in-bulk.md)
 - [Add Termination Reason When Entering End Employment Date](people/profile-management/add-termination-reason-when-entering-end-employment-date.md)
-- [Rehire a Resigned Employee](people/profile-management/rehire-a-resigned-employee.md)
 - [Editing Past Job Dates and Managing Job History in BrioHR](people/profile-management/editing-past-job-dates-and-managing-job-history-in-briohr.md)
 - [How to Change or Remove an Employee's Employment End or Resign Date](people/profile-management/how-to-change-or-remove-an-employee-s-employment-end-or-resign-date.md)
 - [How to Update Employee Employment Details](people/profile-management/how-to-update-employee-employment-details.md)

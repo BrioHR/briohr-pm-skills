@@ -3,7 +3,7 @@ title: "Export Employee Data in Bulk (Profile, Bank Details, TIN, Past Employees
 category: "Reports"
 subcategory: "General Reports"
 source_url: "https://support.briohr.com/knowledge/export-employee-data-in-bulk-profile-bank-details-tin-past-employees"
-date: "July 27, 2026"
+date: "August 7, 2026"
 ---
 
 # Export Employee Data in Bulk (Profile, Bank Details, TIN, Past Employees)
@@ -46,7 +46,20 @@ date: "July 27, 2026"
 - Filtering by department and office is also available in both the Employee Information Report and the Company Payroll Report.
 
 
+
+
+
+**NOTE**:
+
+
+Employee documents and stored files from the Document tab at the employee profile cannot be bulk exported at the moment.
+
+
+
+
+
 [](#common-issues--faq)**Common Issues / FAQ**
+
 
 - Q: Can I export only selected employees?
 **A:** Reports can be narrowed with Fields & Filters by attributes (department, office, employment status…), but not by individual employee name. For a hand-picked list of employees, download the full file and filter or hide the others in Excel (a few clicks with Excel's filter).

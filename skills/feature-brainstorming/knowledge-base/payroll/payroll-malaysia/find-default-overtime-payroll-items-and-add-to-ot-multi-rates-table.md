@@ -3,7 +3,7 @@ title: "Find Default Overtime Payroll Items and Add to OT Multi-rates Table"
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/find-default-overtime-payroll-items-and-add-to-ot-multi-rates-table"
-date: "May 27, 2026"
+date: "August 7, 2026"
 ---
 
 # Find Default Overtime Payroll Items and Add to OT Multi-rates Table
@@ -57,6 +57,26 @@ Currently, the system **default** Overtime payroll items available are:
 - **Off day** (hourly rate X 1.5)
 - **Normal day**, **rest day**, **public holiday** rate (according to the Employment Act)
 - **Custom amount**
+
+
+
+
+
+**IMPORTANT**:
+
+
+Difference between Overtime Rest Day vs Off Day calculation:
+
+
+- **R****est ****d****ay ****rate:**
+
+  - less than half day worked → 0.5 × ORP
+  - more than half day worked → 1.0 × ORP
+  - Exceeding normal work hours → 2 × HRP per hour
+- **Off d****ay ****rate:** 1.5 × HRP per hour
+
+
+
 
 
 **NOTE:**

@@ -3,7 +3,7 @@ title: "How to Request Credit Leave in BrioHR (Browser Guide)"
 category: "Employee"
 subcategory: "My Leave"
 source_url: "https://support.briohr.com/knowledge/how-to-request-credit-leave-in-briohr-browser-guide"
-date: "August 19, 2025"
+date: "August 7, 2026"
 ---
 
 # How to Request Credit Leave in BrioHR (Browser Guide)
@@ -28,7 +28,10 @@ When requesting credit leave, you must specify a **Reference Date**. This date i
 **IMPORTANT:**
 
 
-Approved credit days can only be used **on or after** the reference date. For instance, if the reference date is 31 August 2025, the leave credit cannot be applied before this date.
+By default, approved credit days can only be used **on or after** the reference date. For instance, if the reference date is 31 August 2025, the leave credit cannot be applied before this date.
+
+
+However, if the permission to utilize credits on the same day as the reference date has been enabled, you will be able to do so. For example, Birthday Leave Credit - Credit requested using the reference date 31st August 2025. Once the credit is approved, the credit can be utilized on the same date - 31st August 2025.
 
 
 ---
@@ -59,7 +62,7 @@ There are two ways to access the **Request Credit Leave **page:
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-19-2025-09-17-32-4524-AM.png?width=688&height=213&name=image-png-Aug-19-2025-09-17-32-4524-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-19-2025-09-17-32-4524-AM.png?width=670&height=207&name=image-png-Aug-19-2025-09-17-32-4524-AM.png)
 **
 
 
@@ -72,7 +75,7 @@ There are two ways to access the **Request Credit Leave **page:
 2. Click the **Request Leave Credit **button.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-19-2025-09-17-39-0748-AM.png?width=688&height=201&name=image-png-Aug-19-2025-09-17-39-0748-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-19-2025-09-17-39-0748-AM.png?width=670&height=196&name=image-png-Aug-19-2025-09-17-39-0748-AM.png)
 
 
 ---
@@ -144,11 +147,22 @@ Go to your **Leave Dashboard** and locate the table **My Leave Credit**. You wil
 
 - Total Credited
 - Carried Forward (from last year)
-- Available Balance
+- Available Balance (approved credits)
 - Expired Credit
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-19-2025-09-47-35-7624-AM.png?width=2000&height=525&name=image-png-Aug-19-2025-09-47-35-7624-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-19-2025-09-47-35-7624-AM.png?width=670&height=176&name=image-png-Aug-19-2025-09-47-35-7624-AM.png)
+
+
+####
+
+
+**NOTE**:
+
+The expiry date of the credit is based on the reference date selected during Credit Request submission.
+
+
+####
 
 
 #### View Detailed Credit Leave Records
@@ -158,7 +172,7 @@ Go to your **Leave Dashboard** and locate the table **My Leave Credit**. You wil
 2. Click **See Details** to view request history, including credit amount and expiry period.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-19-2025-09-46-13-0256-AM.png?width=2000&height=569&name=image-png-Aug-19-2025-09-46-13-0256-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-19-2025-09-46-13-0256-AM.png?width=670&height=191&name=image-png-Aug-19-2025-09-46-13-0256-AM.png)
 
 
 ---
@@ -191,11 +205,8 @@ A: You can check the **Leave Requests Status & History **section in your Leave D
 A: Expired credits cannot be used. Make sure to monitor expiry dates in the **My Leave Credit** section.
 
 
+**Q5: What do i do? My credits are not appearing in my leave dashboard.**
 
 
-
-**Need Assistance?**
-
-
-*If you have any questions or require assistance, please reach out to our support team via live chat or email us at [support@briohr.com](mailto:support@briohr.com).*
+A: Be sure to check that the credits have not yet expired or already utilised. Only active and available credits can be utilized for leave submission.
 

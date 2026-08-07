@@ -3,7 +3,7 @@ title: "How to Manage BrioHR Multicycle Payroll: Guide + Video"
 category: "Payroll"
 subcategory: "Payroll Management"
 source_url: "https://support.briohr.com/knowledge/how-to-manage-briohr-multicycle-payroll-guide-video"
-date: "July 12, 2026"
+date: "August 7, 2026"
 ---
 
 # How to Manage BrioHR Multicycle Payroll: Guide + Video
@@ -60,7 +60,12 @@ Our step-by-step guide is the perfect resource to help you get started with Mult
 **Once all payroll cycles for the month have been run and completed, you will need to click on Complete Payroll Month. This needs to be done as the statutory text files will be released on the system when the payroll month status changes from Ongoing to Completed.**
 
 
+**Employee not appearing in the payroll cycle run? Check if:**
 
+
+1. **Payroll center assigned?** The employee must be assigned to the payroll center you are running.
+2. **Join date vs payroll month.** Payroll runs **in sequence from January**. If the employee joined later in the year, earlier months will show no employees — run and complete the empty months first, then continue month by month (the real cause in the reviewed case).
+3. **Subsidiary payroll exclusion.** Users connected from a Main Account into a subsidiary can be excluded from Payroll processing there.
 
 
 [Embedded content](https://www.loom.com/embed/1ca0aa37b751407fa115a19502d2cfeb?sid=a0eac478-efe9-4ee9-8e95-b3266e683461)

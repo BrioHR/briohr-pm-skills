@@ -9,9 +9,9 @@
 
 - [General](#general) (10 articles)
   - [User Settings & Login](#general-user-settings-and-login) (10)
-- [Admin](#admin) (78 articles)
+- [Admin](#admin) (79 articles)
   - [Company Settings](#admin-company-settings) (11)
-  - [Schedules & Shifts Settings](#admin-schedules-and-shifts-settings) (11)
+  - [Schedules & Shifts Settings](#admin-schedules-and-shifts-settings) (12)
   - [Users Settings](#admin-users-settings) (7)
   - [User Groups Settings](#admin-user-groups-settings) (26)
   - [Personal Data Settings](#admin-personal-data-settings) (6)
@@ -68,8 +68,8 @@
   - [Performance Management](#performance-performance-management) (19)
 - [Pulse Survey](#pulse-survey) (5 articles)
   - [General](#pulse-survey-general) (5)
-- [Recruitment](#recruitment) (35 articles)
-  - [Recruitment Configuration](#recruitment-recruitment-configuration) (12)
+- [Recruitment](#recruitment) (36 articles)
+  - [Recruitment Configuration](#recruitment-recruitment-configuration) (13)
   - [Recruitment Management](#recruitment-recruitment-management) (23)
 - [Timesheets](#timesheets) (5 articles)
   - [Timesheets Configuration](#timesheets-timesheets-configuration) (4)
@@ -143,7 +143,7 @@
 
 ## Admin
 
-**78 articles** | [Browse category](admin/)
+**79 articles** | [Browse category](admin/)
 
 ### Admin - Company Settings
 
@@ -163,8 +163,9 @@
 
 ### Admin - Schedules & Shifts Settings
 
-**11 articles** | Directory: `admin/schedules-and-shifts-settings/`
+**12 articles** | Directory: `admin/schedules-and-shifts-settings/`
 
+- [Customize Work Hours by Day for Work Schedules](admin/schedules-and-shifts-settings/customize-work-hours-by-day-for-work-schedules.md)
 - [Create Schedules with Day Off](admin/schedules-and-shifts-settings/create-schedules-with-day-off.md)
 - [How to Create a Work Schedule with Flexible Hours](admin/schedules-and-shifts-settings/how-to-create-a-work-schedule-with-flexible-hours.md)
 - [How to Configure Half-Day Leave Handling for Shift-Based Employees in BrioHR](admin/schedules-and-shifts-settings/how-to-configure-half-day-leave-handling-for-shift-based-employees-in-briohr.md)
@@ -947,12 +948,13 @@
 
 ## Recruitment
 
-**35 articles** | [Browse category](recruitment/)
+**36 articles** | [Browse category](recruitment/)
 
 ### Recruitment - Recruitment Configuration
 
-**12 articles** | Directory: `recruitment/recruitment-configuration/`
+**13 articles** | Directory: `recruitment/recruitment-configuration/`
 
+- [Allow Rejected Candidates to Apply for Other Open Jobs](recruitment/recruitment-configuration/allow-rejected-candidates-to-apply-for-other-open-jobs.md)
 - [How to Enable Recruitment Module Access & Reports for HR Admin & Manager](recruitment/recruitment-configuration/how-to-enable-recruitment-module-access-and-reports-for-hr-admin-and-manager.md)
 - [How to Enable Reject Candidate & Candidate Application Notifications](recruitment/recruitment-configuration/how-to-enable-reject-candidate-and-candidate-application-notifications.md)
 - [Orion AI Job Description Setup: How to Enable, Configure, and Utilize AI](recruitment/recruitment-configuration/orion-ai-job-description-setup-how-to-enable-configure-and-utilize-ai.md)

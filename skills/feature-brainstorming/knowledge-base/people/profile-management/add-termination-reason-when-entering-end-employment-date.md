@@ -3,7 +3,7 @@ title: "Add Termination Reason When Entering End Employment Date"
 category: "People"
 subcategory: "Profile Management"
 source_url: "https://support.briohr.com/knowledge/add-termination-reason-when-entering-end-employment-date"
-date: "July 27, 2026"
+date: "August 7, 2026"
 ---
 
 # Add Termination Reason When Entering End Employment Date
@@ -71,6 +71,9 @@ Prerequisites: User group settings: -
 The 'Reason' dropdown is split between 2 categories, **VOLUNTARY** and **INVOLUNTARY** reasons. Please scroll to the bottom of the list to view all available reasons. The category can be used/included in reports that contain Employment Details.
 
 
+The options in the resignation ‘Reason’ dropdown are fixed and cannot be customized.
+
+
 8. Enter in any **Comment** (optional).
 
 
@@ -96,7 +99,7 @@ The 'Reason' dropdown is split between 2 categories, **VOLUNTARY** and **INVOLUN
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-03-24-37-9412-AM.png?width=1891&height=669&name=image-png-Jul-27-2026-03-24-37-9412-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-03-24-37-9412-AM.png?width=670&height=237&name=image-png-Jul-27-2026-03-24-37-9412-AM.png)
 **
 
 
@@ -104,14 +107,14 @@ The 'Reason' dropdown is split between 2 categories, **VOLUNTARY** and **INVOLUN
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-03-25-22-5253-AM.png?width=1900&height=829&name=image-png-Jul-27-2026-03-25-22-5253-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-03-25-22-5253-AM.png?width=670&height=292&name=image-png-Jul-27-2026-03-25-22-5253-AM.png)
 **
 
 
 5. Scroll down to find the '**Termination Category**', '**Termination Reason**', and '**Termination Comment**'. You may choose to include or exclude the fields and add filters depending on your reporting needs.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-03-27-07-5307-AM.png?width=1896&height=751&name=image-png-Jul-27-2026-03-27-07-5307-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-03-27-07-5307-AM.png?width=670&height=265&name=image-png-Jul-27-2026-03-27-07-5307-AM.png)
 
 
 **TIP:**
@@ -123,13 +126,13 @@ The termination category, termination reason, and termination comment fields and
 6. Click **Apply Changes **to apply your chosen fields and filters to the report.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-03-28-11-5201-AM.png?width=1891&height=700&name=image-png-Jul-27-2026-03-28-11-5201-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-03-28-11-5201-AM.png?width=670&height=248&name=image-png-Jul-27-2026-03-28-11-5201-AM.png)
 
 
 7. Click '**Save as**' and name your report if you would like to use the same format in the future.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-03-28-44-5745-AM.png?width=1888&height=666&name=image-png-Jul-27-2026-03-28-44-5745-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-27-2026-03-28-44-5745-AM.png?width=670&height=236&name=image-png-Jul-27-2026-03-28-44-5745-AM.png)
 
 
 

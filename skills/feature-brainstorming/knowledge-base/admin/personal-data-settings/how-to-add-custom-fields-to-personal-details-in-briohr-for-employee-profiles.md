@@ -3,7 +3,7 @@ title: "How to Add Custom Fields to Personal Details in BrioHR for Employee Prof
 category: "Admin"
 subcategory: "Personal Data Settings"
 source_url: "https://support.briohr.com/knowledge/how-to-add-custom-fields-to-personal-details-in-briohr-for-employee-profiles"
-date: "July 12, 2026"
+date: "August 7, 2026"
 ---
 
 # How to Add Custom Fields to Personal Details in BrioHR for Employee Profiles
@@ -25,7 +25,7 @@ You can create as many custom fields as you need under Personal Details. In this
 - Click on the **+Add button**.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-23-2024-01-02-27-3314-PM.png?width=2000&height=931&name=image-png-Sep-23-2024-01-02-27-3314-PM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-23-2024-01-02-27-3314-PM.png?width=670&height=312&name=image-png-Sep-23-2024-01-02-27-3314-PM.png)
 
 
 - A pop-up **Add Personal Detail** Template will appear.
@@ -38,14 +38,14 @@ You can create as many custom fields as you need under Personal Details. In this
   - Select (a drop-down menu): if you choose this type, input the options for your drop-down menu
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-23-2024-01-05-14-1343-PM.png?width=2000&height=923&name=image-png-Sep-23-2024-01-05-14-1343-PM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-23-2024-01-05-14-1343-PM.png?width=670&height=309&name=image-png-Sep-23-2024-01-05-14-1343-PM.png)
 
 
 - If you have multiple offices, select which office this new item is relevant for.
 - Click **Save **once done.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-23-2024-01-06-46-3820-PM.png?width=2000&height=915&name=image-png-Sep-23-2024-01-06-46-3820-PM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-23-2024-01-06-46-3820-PM.png?width=670&height=307&name=image-png-Sep-23-2024-01-06-46-3820-PM.png)
 
 
 ####
@@ -53,7 +53,10 @@ You can create as many custom fields as you need under Personal Details. In this
 
 **Note:**
 
-**The custom field only appears at employee's profile assigned under the Office selected. **
+**The custom field only appears at employee's profile assigned under the Offices selected. **
+
+
+**HR Admins can utilize this feature to create fields of information required, for example, creating a custom field called - 'Notes'. This way, HR Admins can utilize this field to leave a note at the employee profile.**
 
 
 ---
@@ -65,7 +68,7 @@ You can create as many custom fields as you need under Personal Details. In this
 You have now added a new field item to Personal Details. This field will be available in the Employee Details template downloaded from the HR Lounge and will appear on the Employee’s **My Profile page**.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-23-2024-01-07-42-2690-PM.png?width=2000&height=919&name=image-png-Sep-23-2024-01-07-42-2690-PM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-23-2024-01-07-42-2690-PM.png?width=670&height=308&name=image-png-Sep-23-2024-01-07-42-2690-PM.png)
 
 
 To edit the newly created item on the Employees' **My Profile page**, click on the **pencil icon**.
@@ -77,23 +80,17 @@ To edit the newly created item on the Employees' **My Profile page**, click on t
 **That employees may need the appropriate permissions to edit their profile pages. If not, only HR/Admin can edit on their behalf.**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-23-2024-01-09-06-5815-PM.png?width=2000&height=925&name=image-png-Sep-23-2024-01-09-06-5815-PM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-23-2024-01-09-06-5815-PM.png?width=670&height=310&name=image-png-Sep-23-2024-01-09-06-5815-PM.png)
 
 
 When you click on the pencil icon to edit, the options for the previously created Date field type will look like this:
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-23-2024-01-09-50-2267-PM.png?width=2000&height=919&name=image-png-Sep-23-2024-01-09-50-2267-PM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-23-2024-01-09-50-2267-PM.png?width=670&height=308&name=image-png-Sep-23-2024-01-09-50-2267-PM.png)
 
 
 
 
 
 
-
-
-**Need Assistance?**
-
-
-*If you have any questions or require assistance, please reach out to our support team via live chat or email us at [support@briohr.com](mailto:support@briohr.com).*
 

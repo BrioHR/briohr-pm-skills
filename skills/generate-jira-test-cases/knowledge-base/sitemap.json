@@ -107,6 +107,10 @@
         "subcategory": "Schedules & Shifts Settings",
         "articles": [
           {
+            "title": "Customize Work Hours by Day for Work Schedules",
+            "url": "https://support.briohr.com/knowledge/customize-work-hours-by-day-for-work-schedules"
+          },
+          {
             "title": "Create Schedules with Day Off",
             "url": "https://support.briohr.com/knowledge/create-schedules-with-day-off"
           },
@@ -2355,6 +2359,10 @@
       {
         "subcategory": "Recruitment Configuration",
         "articles": [
+          {
+            "title": "Allow Rejected Candidates to Apply for Other Open Jobs",
+            "url": "https://support.briohr.com/knowledge/allow-rejected-candidates-to-apply-for-other-open-jobs"
+          },
           {
             "title": "How to Enable Recruitment Module Access & Reports for HR Admin & Manager",
             "url": "https://support.briohr.com/knowledge/how-to-enable-recruitment-module-access-reports-for-hr-admin-manager"

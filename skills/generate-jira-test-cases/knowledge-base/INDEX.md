@@ -1,7 +1,7 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-08-03
+> Last updated: 2026-08-07
 
 ---
 
@@ -48,8 +48,8 @@
 - [Time and Attendance Integration](#time-and-attendance-integration) (3 articles)
   - [SFTP](#time-and-attendance-integration-sftp) (1)
   - [Devices](#time-and-attendance-integration-devices) (2)
-- [Payroll](#payroll) (156 articles)
-  - [Payroll Configuration](#payroll-payroll-configuration) (14)
+- [Payroll](#payroll) (157 articles)
+  - [Payroll Configuration](#payroll-payroll-configuration) (15)
   - [Payroll Management](#payroll-payroll-management) (42)
   - [Payroll - Malaysia](#payroll-payroll-malaysia) (75)
   - [Payroll - Singapore](#payroll-payroll-singapore) (24)
@@ -506,7 +506,7 @@
 - [How to Download Time Log, Timesheet, and Roster Reports in BrioHR Time & Attendance](time-attendance/time-attendance-management/how-to-download-time-log-timesheet-and-roster-reports-in-briohr-time-and-attenda.md)
 - [How to Approve Employee Overtime in BrioHR Time Attendance Module](time-attendance/time-attendance-management/how-to-approve-employee-overtime-in-briohr-time-attendance-module.md)
 - [How HR Admin Approves Employees' Attendance Timesheets in BrioHR](time-attendance/time-attendance-management/how-hr-admin-approves-employees-attendance-timesheets-in-briohr.md)
-- [How HR Admin Can Send Approved Employees' Attendance Timesheets to Payroll in BrioHR](time-attendance/time-attendance-management/how-hr-admin-can-send-approved-employees-attendance-timesheets-to-payroll-in-bri.md)
+- [How HR Admin Can Send Approved Employees' Attendance Timesheets to Payroll in brioHR](time-attendance/time-attendance-management/how-hr-admin-can-send-approved-employees-attendance-timesheets-to-payroll-in-bri.md)
 
 ---
 
@@ -531,12 +531,13 @@
 
 ## Payroll
 
-**156 articles** | [Browse category](payroll/)
+**157 articles** | [Browse category](payroll/)
 
 ### Payroll - Payroll Configuration
 
-**14 articles** | Directory: `payroll/payroll-configuration/`
+**15 articles** | Directory: `payroll/payroll-configuration/`
 
+- [Create Reimbursement Pay Item for a Payroll Center](payroll/payroll-configuration/create-reimbursement-pay-item-for-a-payroll-center.md)
 - [Change Your Company Bank Account Details](payroll/payroll-configuration/change-your-company-bank-account-details.md)
 - [Enhanced Payslip Security with Password-Protected Payslips](payroll/payroll-configuration/enhanced-payslip-security-with-password-protected-payslips.md)
 - [How to Schedule Payslip Release in BrioHR (Payroll Admin Guide)](payroll/payroll-configuration/how-to-schedule-payslip-release-in-briohr-payroll-admin-guide.md)

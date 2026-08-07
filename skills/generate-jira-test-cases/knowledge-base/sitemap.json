@@ -967,7 +967,7 @@
             "url": "https://support.briohr.com/knowledge/hr-approve-employees-timesheets-time-attendance"
           },
           {
-            "title": "How HR Admin Can Send Approved Employees' Attendance Timesheets to Payroll in BrioHR",
+            "title": "How HR Admin Can Send Approved Employees' Attendance Timesheets to Payroll in brioHR",
             "url": "https://support.briohr.com/knowledge/how-to-send-approved-employees-timesheets-to-payroll-in-briohr"
           }
         ]
@@ -1009,6 +1009,10 @@
       {
         "subcategory": "Payroll Configuration",
         "articles": [
+          {
+            "title": "Create Reimbursement Pay Item for a Payroll Center",
+            "url": "https://support.briohr.com/knowledge/create-reimbursement-pay-item-for-a-payroll-center"
+          },
           {
             "title": "Change Your Company Bank Account Details",
             "url": "https://support.briohr.com/knowledge/change-your-company-bank-account-details"

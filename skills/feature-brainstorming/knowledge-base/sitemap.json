@@ -1252,20 +1252,20 @@
         "subcategory": "Payroll - Malaysia",
         "articles": [
           {
+            "title": "PERKESO SKBBK Contribution Effective 1 June 2026",
+            "url": "https://support.briohr.com/knowledge/new-perkeso-skbbk-contribution-requirement-effective-1-june-2026"
+          },
+          {
+            "title": "Find Default Overtime Payroll Items and Add to OT Multi-rates Table",
+            "url": "https://support.briohr.com/knowledge/find-default-overtime-payroll-items-and-add-to-ot-multi-rates-table"
+          },
+          {
             "title": "Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option",
             "url": "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
           },
           {
             "title": "Malaysia Payroll Centre: Supported Banks for Payroll, Statutory and Zakat Bank Files in BrioHR",
             "url": "https://support.briohr.com/knowledge/malaysia-payroll-centre-supported-banks-for-payroll-statutory-and-zakat-bank-files-in-briohr"
-          },
-          {
-            "title": "New PERKESO SKBBK Contribution Requirement Effective 1 June 2026",
-            "url": "https://support.briohr.com/knowledge/new-perkeso-skbbk-contribution-requirement-effective-1-june-2026"
-          },
-          {
-            "title": "Find Default Overtime Payroll Items and Add to OT Multi-rates Table",
-            "url": "https://support.briohr.com/knowledge/find-default-overtime-payroll-items-and-add-to-ot-multi-rates-table"
           },
           {
             "title": "Create an Overtime Custom Payroll Item and Add It to the Overtime Multi-rates Table",
@@ -2735,16 +2735,16 @@
         "subcategory": "Profile Management",
         "articles": [
           {
+            "title": "Add Termination Reason When Entering End Employment Date",
+            "url": "https://support.briohr.com/knowledge/add-termination-reason-when-entering-end-employment-date"
+          },
+          {
             "title": "Rehire a Resigned Employee",
             "url": "https://support.briohr.com/knowledge/rehire-a-resigned-employee"
           },
           {
             "title": "Change an Employee's Reporting Manager (Single or in Bulk)",
             "url": "https://support.briohr.com/knowledge/change-an-employees-reporting-manager-single-or-in-bulk"
-          },
-          {
-            "title": "Add Termination Reason When Entering End Employment Date",
-            "url": "https://support.briohr.com/knowledge/add-termination-reason-when-entering-end-employment-date"
           },
           {
             "title": "Editing Past Job Dates and Managing Job History in BrioHR",
@@ -2828,12 +2828,12 @@
         "subcategory": "General Reports",
         "articles": [
           {
-            "title": "Know the Report and Export Limits (and the Workarounds)",
-            "url": "https://support.briohr.com/knowledge/know-the-report-and-export-limits-and-the-workarounds"
-          },
-          {
             "title": "Export Employee Data in Bulk (Profile, Bank Details, TIN, Past Employees)",
             "url": "https://support.briohr.com/knowledge/export-employee-data-in-bulk-profile-bank-details-tin-past-employees"
+          },
+          {
+            "title": "Know the Report and Export Limits (and the Workarounds)",
+            "url": "https://support.briohr.com/knowledge/know-the-report-and-export-limits-and-the-workarounds"
           },
           {
             "title": "Understanding Employee Turnover Statistics: How to Measure and Improve Workforce Stability",
@@ -3192,6 +3192,15 @@
           {
             "title": "BrioHR Product Updates 2025 | New Features and Enhancements",
             "url": "https://support.briohr.com/knowledge/product-updates-for-2025"
+          }
+        ]
+      },
+      {
+        "subcategory": "Product Updates - August 2026",
+        "articles": [
+          {
+            "title": "brioHR Product Updates - August 2026, Week 1 | Mobile App Push Notifications, Claims to Payroll API, Auto EPF category & More",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-august-2026-week-1-mobile-app-push-notifications-claims-to-payroll-api-auto-epf-category-and-more"
           }
         ]
       }

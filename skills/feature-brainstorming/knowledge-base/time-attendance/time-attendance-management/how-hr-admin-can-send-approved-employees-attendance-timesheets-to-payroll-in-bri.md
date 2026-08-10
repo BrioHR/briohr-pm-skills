@@ -3,7 +3,7 @@ title: "How HR Admin Can Send Approved Employees' Attendance Timesheets to Payro
 category: "Time Attendance"
 subcategory: "Time Attendance Management"
 source_url: "https://support.briohr.com/knowledge/how-to-send-approved-employees-timesheets-to-payroll-in-briohr"
-date: "August 6, 2026"
+date: "August 10, 2026"
 ---
 
 # How HR Admin Can Send Approved Employees' Attendance Timesheets to Payroll in brioHR
@@ -64,7 +64,7 @@ Managers or HR must ensure that **approved timesheets** are **sent to payroll
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-07-37-22-5816-AM.png?width=1326&height=706&name=image-png-Aug-06-2026-07-37-22-5816-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-07-37-22-5816-AM.png?width=670&height=357&name=image-png-Aug-06-2026-07-37-22-5816-AM.png)
 **
 
 
@@ -84,7 +84,7 @@ Managers or HR must ensure that **approved timesheets** are **sent to payroll
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-07-45-03-0068-AM.png?width=1710&height=476&name=image-png-Aug-06-2026-07-45-03-0068-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-07-45-03-0068-AM.png?width=670&height=187&name=image-png-Aug-06-2026-07-45-03-0068-AM.png)
 **
 
 
@@ -120,7 +120,7 @@ Managers or HR must ensure that **approved timesheets** are **sent to payroll
 4. Click **Send to Payroll**.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-07-49-18-0103-AM.png?width=1712&height=474&name=image-png-Aug-06-2026-07-49-18-0103-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-07-49-18-0103-AM.png?width=670&height=186&name=image-png-Aug-06-2026-07-49-18-0103-AM.png)
 
 
 5. A confirmation pop-up message appears to confirm sending the specific period (*e.g., 7 Jul - 13 Jul 2025 *) to payroll.
@@ -151,25 +151,25 @@ The timesheet sent to payroll will be processed during the **payroll cycle** i
 1. The employee Timesheet will appear with the status ' **Sent to Payroll**'
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-07-53-18-5578-AM.png?width=1800&height=472&name=image-png-Aug-06-2026-07-53-18-5578-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-07-53-18-5578-AM.png?width=670&height=176&name=image-png-Aug-06-2026-07-53-18-5578-AM.png)
 
 
 2. Click into **HR Lounge > Payroll** module, then into the selected **Payroll Center **
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-08-00-25-6376-AM.png?width=1408&height=827&name=image-png-Aug-06-2026-08-00-25-6376-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-08-00-25-6376-AM.png?width=670&height=394&name=image-png-Aug-06-2026-08-00-25-6376-AM.png)
 
 
 3. Click **Run Payroll**, then select the payroll cycle to be run (in this example, July 2026)
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-08-01-19-9428-AM.png?width=1410&height=766&name=image-png-Aug-06-2026-08-01-19-9428-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-08-01-19-9428-AM.png?width=670&height=364&name=image-png-Aug-06-2026-08-01-19-9428-AM.png)
 
 
 4. Within the first stage of payroll, Adjust Payroll : Click into **Timesheets**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-08-02-57-5957-AM.png?width=1792&height=771&name=image-png-Aug-06-2026-08-02-57-5957-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-08-02-57-5957-AM.png?width=670&height=288&name=image-png-Aug-06-2026-08-02-57-5957-AM.png)
 
 
 5. All items relevant for the employee will be captured within this dropdown; Overtime payitems and Shift Premiums/Deductions too.
@@ -178,19 +178,55 @@ The timesheet sent to payroll will be processed during the **payroll cycle** i
 Select the Timesheet, then click **Add to Payroll** for timesheet to be processed in current month payroll cycle.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-08-07-57-3248-AM.png?width=1895&height=785&name=image-png-Aug-06-2026-08-07-57-3248-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-10-2026-03-38-13-3597-AM.png?width=1707&height=795&name=image-png-Aug-10-2026-03-38-13-3597-AM.png)
+
+
+
 
 
 6. Once Added to Payroll, the cycle action will indicate Timesheet has been added to payroll. Close the pop-up and return back to payroll page
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-08-09-13-4599-AM.png?width=1902&height=770&name=image-png-Aug-06-2026-08-09-13-4599-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-08-09-13-4599-AM.png?width=670&height=271&name=image-png-Aug-06-2026-08-09-13-4599-AM.png)
 
 
 7. In this example, the Overtime payitem is automatically captured within the payroll
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-08-11-25-6644-AM.png?width=1786&height=777&name=image-png-Aug-06-2026-08-11-25-6644-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-10-2026-03-39-41-2122-AM.png?width=1522&height=600&name=image-png-Aug-10-2026-03-39-41-2122-AM.png)
+
+
+**Previous months Timesheet data can be sent over to Payroll to be processed.**
+
+
+1) Add the previous months timesheet data to payroll
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-10-2026-02-50-52-3651-AM.png?width=670&height=249&name=image-png-Aug-10-2026-02-50-52-3651-AM.png)
+
+
+2) Previous months data will appear in payroll as screenshot below:
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-10-2026-02-52-12-9432-AM.png?width=670&height=37&name=image-png-Aug-10-2026-02-52-12-9432-AM.png)
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-10-2026-02-51-41-4875-AM.png?width=670&height=157&name=image-png-Aug-10-2026-02-51-41-4875-AM.png)
+
+
+*Here is the view of all previous months timesheet data included into payroll*
+
+
+[Embedded content](https://www.loom.com/embed/1279141350634438be0b408921d4ca30)
+
+
+
+
+
+***Green** icon: Current Month timesheet data
+***Blue** icon: Previous Month timesheet data
+***Red** icon: Month before that data (Timesheet month included)
+***Purple** icon: Month before that data (Timesheet month included)
 
 
 8. The Payroll Processor can proceed with the payroll as per usual and complete the cycle once all information is confirmed and accurate.
@@ -199,10 +235,48 @@ Select the Timesheet, then click **Add to Payroll** for timesheet to be proces
 9. As soon as the Payroll Cycle is completed, the status of the employee's Timesheet will be updated to '**Paid**'.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-08-17-15-9037-AM.png?width=1800&height=480&name=image-png-Aug-06-2026-08-17-15-9037-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-06-2026-08-17-15-9037-AM.png?width=670&height=179&name=image-png-Aug-06-2026-08-17-15-9037-AM.png)
+
+
+**Previous months Unpaid Leave data can be added into Payroll. **
+
+
+1) Add the Unpaid Leaves payitem into payroll
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-10-2026-03-16-07-9734-AM.png?width=1327&height=578&name=image-png-Aug-10-2026-03-16-07-9734-AM.png)
+
+
+2) Add the days
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-10-2026-03-17-28-5938-AM.png?width=843&height=47&name=image-png-Aug-10-2026-03-17-28-5938-AM.png)
+
+
+3) Click on the dropdown and select if the Unpaid Leave is from a previous month, the amount will be automatically calculated
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-10-2026-03-20-16-5326-AM.png?width=987&height=260&name=image-png-Aug-10-2026-03-20-16-5326-AM.png)
+
+
+ *Here is the view of all unpaid leave options that can be included into payroll*
+
+
+[Embedded content](https://www.loom.com/embed/1972a09e6304459a86fdf45b6af8cf6a)
 
 
 
+
+
+***Green** icon: Current Month unpaid leave
+***Blue** icon: Previous Month unpaid leave
+***Red** icon: Month before that unpaid leave
+
+
+The formula is automatically captured for current and previous month selection made.
+
+
+####
 
 
 #### Frequently Asked Questions (FAQ)

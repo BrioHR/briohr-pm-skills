@@ -1,7 +1,7 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-08-07
+> Last updated: 2026-08-10
 
 ---
 
@@ -102,7 +102,7 @@
   - [Expense Claims](#faqs-expense-claims) (1)
   - [Account](#faqs-account) (1)
   - [Profile](#faqs-profile) (1)
-- [Product Updates](#product-updates) (28 articles)
+- [Product Updates](#product-updates) (29 articles)
   - [Product Updates - July 2026](#product-updates-product-updates-july-2026) (5)
   - [Product Updates - June 2026](#product-updates-product-updates-june-2026) (3)
   - [Product Updates - May 2026](#product-updates-product-updates-may-2026) (4)
@@ -111,6 +111,7 @@
   - [Product Updates - February 2026](#product-updates-product-updates-february-2026) (3)
   - [Product Updates - January 2026](#product-updates-product-updates-january-2026) (3)
   - [Product Updates - 2025](#product-updates-product-updates-2025) (1)
+  - [Product Updates - August 2026](#product-updates-product-updates-august-2026) (1)
 - [API Integrations](#api-integrations) (1 articles)
   - [API](#api-integrations-api) (1)
 - [Billing & Subscription](#billing-and-subscription) (3 articles)
@@ -605,10 +606,10 @@
 
 **75 articles** | Directory: `payroll/payroll-malaysia/`
 
+- [PERKESO SKBBK Contribution Effective 1 June 2026](payroll/payroll-malaysia/perkeso-skbbk-contribution-effective-1-june-2026.md)
+- [Find Default Overtime Payroll Items and Add to OT Multi-rates Table](payroll/payroll-malaysia/find-default-overtime-payroll-items-and-add-to-ot-multi-rates-table.md)
 - [Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option](payroll/payroll-malaysia/changing-perkeso-skbbk-lindung-24-jam-contribution-option.md)
 - [Malaysia Payroll Centre: Supported Banks for Payroll, Statutory and Zakat Bank Files in BrioHR](payroll/payroll-malaysia/malaysia-payroll-centre-supported-banks-for-payroll-statutory-and-zakat-bank-fil.md)
-- [New PERKESO SKBBK Contribution Requirement Effective 1 June 2026](payroll/payroll-malaysia/new-perkeso-skbbk-contribution-requirement-effective-1-june-2026.md)
-- [Find Default Overtime Payroll Items and Add to OT Multi-rates Table](payroll/payroll-malaysia/find-default-overtime-payroll-items-and-add-to-ot-multi-rates-table.md)
 - [Create an Overtime Custom Payroll Item and Add It to the Overtime Multi-rates Table](payroll/payroll-malaysia/create-an-overtime-custom-payroll-item-and-add-it-to-the-overtime-multi-rates-ta.md)
 - [Generating Payroll & Statutory Payment Files for United Overseas Bank (Malaysia) Berhad](payroll/payroll-malaysia/generating-payroll-and-statutory-payment-files-for-united-overseas-bank-malaysia.md)
 - [Payroll Malaysia: How to Configure Statutory Contributions for Custom Pay Items](payroll/payroll-malaysia/payroll-malaysia-how-to-configure-statutory-contributions-for-custom-pay-items.md)
@@ -1116,9 +1117,9 @@
 
 **15 articles** | Directory: `people/profile-management/`
 
+- [Add Termination Reason When Entering End Employment Date](people/profile-management/add-termination-reason-when-entering-end-employment-date.md)
 - [Rehire a Resigned Employee](people/profile-management/rehire-a-resigned-employee.md)
 - [Change an Employee's Reporting Manager (Single or in Bulk)](people/profile-management/change-an-employee-s-reporting-manager-single-or-in-bulk.md)
-- [Add Termination Reason When Entering End Employment Date](people/profile-management/add-termination-reason-when-entering-end-employment-date.md)
 - [Editing Past Job Dates and Managing Job History in BrioHR](people/profile-management/editing-past-job-dates-and-managing-job-history-in-briohr.md)
 - [How to Change or Remove an Employee's Employment End or Resign Date](people/profile-management/how-to-change-or-remove-an-employee-s-employment-end-or-resign-date.md)
 - [How to Update Employee Employment Details](people/profile-management/how-to-update-employee-employment-details.md)
@@ -1155,8 +1156,8 @@
 
 **5 articles** | Directory: `reports/general-reports/`
 
-- [Know the Report and Export Limits (and the Workarounds)](reports/general-reports/know-the-report-and-export-limits-and-the-workarounds.md)
 - [Export Employee Data in Bulk (Profile, Bank Details, TIN, Past Employees)](reports/general-reports/export-employee-data-in-bulk-profile-bank-details-tin-past-employees.md)
+- [Know the Report and Export Limits (and the Workarounds)](reports/general-reports/know-the-report-and-export-limits-and-the-workarounds.md)
 - [Understanding Employee Turnover Statistics: How to Measure and Improve Workforce Stability](reports/general-reports/understanding-employee-turnover-statistics-how-to-measure-and-improve-workforce-.md)
 - [Enhanced HR Statistics: New Filters, Graphs, and Insights](reports/general-reports/enhanced-hr-statistics-new-filters-graphs-and-insights.md)
 - [How to Create and Customize Employee Information Report?](reports/general-reports/how-to-create-and-customize-employee-information-report.md)
@@ -1254,7 +1255,7 @@
 
 ## Product Updates
 
-**28 articles** | [Browse category](product-updates/)
+**29 articles** | [Browse category](product-updates/)
 
 ### Product Updates - Product Updates - July 2026
 
@@ -1323,6 +1324,12 @@
 **1 articles** | Directory: `product-updates/product-updates-2025/`
 
 - [BrioHR Product Updates 2025 | New Features and Enhancements](product-updates/product-updates-2025/briohr-product-updates-2025-new-features-and-enhancements.md)
+
+### Product Updates - Product Updates - August 2026
+
+**1 articles** | Directory: `product-updates/product-updates-august-2026/`
+
+- [brioHR Product Updates - August 2026, Week 1 | Mobile App Push Notifications, Claims to Payroll API, Auto EPF category & More](product-updates/product-updates-august-2026/briohr-product-updates-august-2026-week-1-mobile-app-push-notifications-claims-t.md)
 
 ---
 

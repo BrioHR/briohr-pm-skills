@@ -1,14 +1,14 @@
 ---
-title: "New PERKESO SKBBK Contribution Requirement Effective 1 June 2026"
+title: "PERKESO SKBBK Contribution Effective 1 June 2026"
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/new-perkeso-skbbk-contribution-requirement-effective-1-june-2026"
-date: "July 20, 2026"
+date: "August 10, 2026"
 ---
 
-# New PERKESO SKBBK Contribution Requirement Effective 1 June 2026
+# PERKESO SKBBK Contribution Effective 1 June 2026
 
-*Learn about the new PERKESO SKBBK contribution requirement effective 1 June 2026, including employee accident coverage, employer obligations, and payroll submission updates.*
+*Learn about the new PERKESO SKBBK contribution effective 1 June 2026, including employee accident coverage, employer obligations, and payroll submission updates.*
 
 #### Audience & Scope
 
@@ -129,16 +129,6 @@ Here is an example of the **current rates** for a monthly salary of RM30 to a ca
 Please note that these changes only affect the **SOCSO organization** and do not impact **EIS contributions**.
 
 
-### May 2026 Payroll Handling
-
-
-As this enhancement will be released in **May 2026**, ahead of the official enforcement date:
-
-
-- The SKBBK contribution amount for the **May 2026 payroll cycle** will appear as **RM0.00**
-- Actual SKBBK calculations and deductions will only be automatically applied beginning with the **June 2026 payroll cycle**
-
-
 **IMPORTANT:**
 
 
@@ -188,8 +178,14 @@ Additionally, the **payroll reports** will be **updated to include the SKBBK amo
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-May-21-2026-07-38-34-1201-AM.png?width=670&height=362&name=image-png-May-21-2026-07-38-34-1201-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-10-2026-01-50-20-3926-AM.png?width=1586&height=782&name=image-png-Aug-10-2026-01-50-20-3926-AM.png)
 **
+
+
+**NOTE**:
+
+
+The SKBBK contribution is captured in a separate column than the SOCSO contribution within these reports.
 
 
 The updated amounts will also be reflected in:
@@ -200,14 +196,11 @@ The updated amounts will also be reflected in:
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-May-21-2026-07-40-50-8301-AM.png?width=670&height=247&name=image-png-May-21-2026-07-40-50-8301-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-10-2026-01-59-37-6611-AM.png?width=1826&height=739&name=image-png-Aug-10-2026-01-59-37-6611-AM.png)
 **
 
 
-**IMPORTANT: **
 
-
-**No new columns** will be added to Report Builder, as the **adjusted amounts will automatically be reflected** within the current fields.
 
 
 

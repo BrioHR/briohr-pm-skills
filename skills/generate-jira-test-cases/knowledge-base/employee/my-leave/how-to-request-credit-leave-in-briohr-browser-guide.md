@@ -3,7 +3,7 @@ title: "How to Request Credit Leave in BrioHR (Browser Guide)"
 category: "Employee"
 subcategory: "My Leave"
 source_url: "https://support.briohr.com/knowledge/how-to-request-credit-leave-in-briohr-browser-guide"
-date: "August 7, 2026"
+date: "August 11, 2026"
 ---
 
 # How to Request Credit Leave in BrioHR (Browser Guide)
@@ -158,8 +158,10 @@ Go to your **Leave Dashboard** and locate the table **My Leave Credit**. You wil
 
 
 **NOTE**:
+The expiry date of the credit is based on the reference date selected during Credit Request submission, combined with the validity period set in the leave policy. The expiry date cannot be edited directly: to change an approved credit's expiry, cancel (or ask HR to reopen) the existing credit request and submit a new one with the correct Reference Date — the system generates the new expiry from it.
 
-The expiry date of the credit is based on the reference date selected during Credit Request submission.
+
+For HR/Admin: the policy-level validity is configured in **HR Lounge > Leave > Leave Types & Policies > Replacement Leave >** [policy] **> General Configuration > CREDIT > Set expiry for the credit**.
 
 
 ####
@@ -209,4 +211,10 @@ A: Expired credits cannot be used. Make sure to monitor expiry dates in the **My
 
 
 A: Be sure to check that the credits have not yet expired or already utilised. Only active and available credits can be utilized for leave submission.
+
+
+**Q6: My Annual Leave is finished — can Emergency Leave be deducted from my Replacement Leave instead?**
+
+
+A: No — Emergency Leave is linked to Annual Leave, so deductions only apply against the Annual Leave balance. Alternatives, depending on your company's policy: HR can enable a **Tolerance Amount** on the policy (the AL balance goes negative up to the tolerance), or submit a **Replacement Leave** application instead.
 

@@ -3,7 +3,7 @@ title: "Types of EPF Category"
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/types-of-epf-category"
-date: "August 7, 2026"
+date: "August 11, 2026"
 ---
 
 # Types of EPF Category
@@ -78,40 +78,40 @@ Change for individual employee
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-14-10-5668-AM.png?width=1884&height=889&name=image-png-Aug-07-2026-07-14-10-5668-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-14-10-5668-AM.png?width=670&height=316&name=image-png-Aug-07-2026-07-14-10-5668-AM.png)
 **
 
 
 2. Choose the employee
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-14-35-4477-AM.png?width=1900&height=886&name=image-png-Aug-07-2026-07-14-35-4477-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-14-35-4477-AM.png?width=670&height=312&name=image-png-Aug-07-2026-07-14-35-4477-AM.png)
 
 
 3. Click the **Payroll** tab
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-15-04-2804-AM.png?width=1599&height=1075&name=image-png-Aug-07-2026-07-15-04-2804-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-15-04-2804-AM.png?width=670&height=450&name=image-png-Aug-07-2026-07-15-04-2804-AM.png)
 
 
 4. Scroll down to the **Statutory Contributions** section and click **Edit**
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-16-09-1673-AM.png?width=1555&height=1120&name=image-png-Aug-07-2026-07-16-09-1673-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-16-09-1673-AM.png?width=670&height=483&name=image-png-Aug-07-2026-07-16-09-1673-AM.png)
 **
 
 
 5. Choose the option from the dropdown
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-17-08-3863-AM.png?width=1234&height=564&name=image-png-Aug-07-2026-07-17-08-3863-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-17-08-3863-AM.png?width=670&height=306&name=image-png-Aug-07-2026-07-17-08-3863-AM.png)
 
 
 7. Click **Save**
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-17-37-5398-AM.png?width=1207&height=547&name=image-png-Aug-07-2026-07-17-37-5398-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-17-37-5398-AM.png?width=670&height=304&name=image-png-Aug-07-2026-07-17-37-5398-AM.png)
 
 
 
@@ -124,7 +124,7 @@ Change in bulk for multiple employees
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-18-26-3180-AM.png?width=1815&height=1021&name=image-png-Aug-07-2026-07-18-26-3180-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-18-26-3180-AM.png?width=670&height=377&name=image-png-Aug-07-2026-07-18-26-3180-AM.png)
 **
 
 
@@ -141,7 +141,7 @@ Change in bulk for multiple employees
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-20-11-1440-AM.png?width=2455&height=835&name=image-png-Aug-07-2026-07-20-11-1440-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-20-11-1440-AM.png?width=670&height=228&name=image-png-Aug-07-2026-07-20-11-1440-AM.png)
 **
 
 
@@ -161,6 +161,18 @@ Change in bulk for multiple employees
 
 
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-07-2026-07-06-23-4416-AM.png?width=493&height=493&name=image-png-Aug-07-2026-07-06-23-4416-AM.png)
+
+
+**TIP:**
+
+
+If '**Automatic**' was chosen for the employee's EPF category, you can see which category the employee is under when processing payroll. Hover over the 'i' icon next to the employee name.
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-11-2026-01-38-21-9513-AM.png?width=670&height=394&name=image-png-Aug-11-2026-01-38-21-9513-AM.png)
+
+
+
 
 
 Learn more:

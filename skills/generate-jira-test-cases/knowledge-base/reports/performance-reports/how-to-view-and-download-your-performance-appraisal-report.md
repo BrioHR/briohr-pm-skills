@@ -3,7 +3,7 @@ title: "How to View and Download Your Performance Appraisal Report"
 category: "Reports"
 subcategory: "Performance Reports"
 source_url: "https://support.briohr.com/knowledge/how-to-view-and-download-your-performance-appraisal-report"
-date: "July 12, 2026"
+date: "August 11, 2026"
 ---
 
 # How to View and Download Your Performance Appraisal Report
@@ -82,7 +82,13 @@ To view and download the report, the Admin user must first enable access under "
 [](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48246780085/original/WtoNk8_bQkegNEGNAn2kabp2AL2Q9oh2mg.png?1661232761)
 
 
+**Common Issues / FAQ**
 
+
+**Q: Can I print or download an individual employee's appraisal form?**
+
+
+The Performance Appraisal report covers all employees in the selected cycle(s). For a single employee's form, export the report to Excel and manually extract that employee's rows — there is no per-employee form export at the moment.
 
 
 

@@ -3,7 +3,7 @@ title: "How to Manage BrioHR Multicycle Payroll: Guide + Video"
 category: "Payroll"
 subcategory: "Payroll Management"
 source_url: "https://support.briohr.com/knowledge/how-to-manage-briohr-multicycle-payroll-guide-video"
-date: "August 7, 2026"
+date: "August 11, 2026"
 ---
 
 # How to Manage BrioHR Multicycle Payroll: Guide + Video
@@ -64,7 +64,7 @@ Our step-by-step guide is the perfect resource to help you get started with Mult
 
 
 1. **Payroll center assigned?** The employee must be assigned to the payroll center you are running.
-2. **Join date vs payroll month.** Payroll runs **in sequence from January**. If the employee joined later in the year, earlier months will show no employees — run and complete the empty months first, then continue month by month (the real cause in the reviewed case).
+2. **Join date vs payroll month.** Payroll runs **in sequence from January**. If the employee joined later in the year, earlier months will show no employees — run and complete the empty months first, then continue month by month.
 3. **Subsidiary payroll exclusion.** Users connected from a Main Account into a subsidiary can be excluded from Payroll processing there.
 
 

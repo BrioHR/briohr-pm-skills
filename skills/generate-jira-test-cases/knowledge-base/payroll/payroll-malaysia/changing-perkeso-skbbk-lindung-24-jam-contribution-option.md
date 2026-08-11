@@ -3,7 +3,7 @@ title: "Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option"
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
-date: "July 28, 2026"
+date: "August 11, 2026"
 ---
 
 # Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option
@@ -156,7 +156,7 @@ A: No. If you have completed your payroll month (June 2026) and made the payout,
 **Q: Can I see the SKBBK amount separately in the payroll report? **
 
 
-A: Not yet — the payroll report shows the total SOCSO amount and cannot isolate the SKBBK portion. An improvement is work in progress (no release date yet); we will communicate to clients once it is available.
+A: Not yet in the report — the payroll report shows the total SOCSO amount and cannot isolate the SKBBK portion (an improvement is work in progress; we will communicate to clients once it is available). During payroll processing, however, you can **hover over the exclamation-mark tooltip next to the SOCSO amount** to see the SOCSO vs SKBBK breakdown for each employee. Official reference: [PERKESO — Skim Kemalangan Bukan Bencana Kerja (Lindung 24 Jam)](https://www.perkeso.gov.my/en/skim-kemalangan-bukan-bencana-kerja-lindung-24-jam.html)
 
 
 **Q: Can I update the SKBBK option for many employees at once?

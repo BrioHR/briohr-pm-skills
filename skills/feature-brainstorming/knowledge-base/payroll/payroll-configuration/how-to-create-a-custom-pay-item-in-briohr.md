@@ -3,7 +3,7 @@ title: "How to Create a Custom Pay Item in BrioHR"
 category: "Payroll"
 subcategory: "Payroll Configuration"
 source_url: "https://support.briohr.com/knowledge/how-to-create-a-custom-pay-item-in-briohr"
-date: "July 12, 2026"
+date: "August 11, 2026"
 ---
 
 # How to Create a Custom Pay Item in BrioHR
@@ -53,7 +53,7 @@ Therefore, creating a custom pay item is your only option to address this situat
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-29-2025-03-52-14-3122-AM.png?width=688&height=340&name=image-png-Jul-29-2025-03-52-14-3122-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-29-2025-03-52-14-3122-AM.png?width=670&height=331&name=image-png-Jul-29-2025-03-52-14-3122-AM.png)
 **
 
 
@@ -66,7 +66,7 @@ Therefore, creating a custom pay item is your only option to address this situat
 [](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48289056404/original/uHEZfHhGj1Tc509XxBXCdVmdaJ6szEa9Og.png?1679643520)
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-29-2025-03-53-46-7113-AM.png?width=688&height=443&name=image-png-Jul-29-2025-03-53-46-7113-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-29-2025-03-53-46-7113-AM.png?width=670&height=431&name=image-png-Jul-29-2025-03-53-46-7113-AM.png)
 
 
 ### Sample of Custom Item format for Singapore Payroll
@@ -84,7 +84,7 @@ Therefore, creating a custom pay item is your only option to address this situat
 This new **“Unit Type”** feature allows HR to configure pay items based on different unit types.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-11-2025-01-00-00-7653-AM.png?width=1376&height=871&name=image-png-Jul-11-2025-01-00-00-7653-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-11-2025-01-00-00-7653-AM.png?width=670&height=424&name=image-png-Jul-11-2025-01-00-00-7653-AM.png)
 
 
 **1. Fixed Unit:** Enter a fixed amount manually
@@ -164,10 +164,19 @@ Customized pay items will appear at the top of the table.
 
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-29-2025-07-05-19-9093-AM.png?width=688&height=314&name=image-png-Jul-29-2025-07-05-19-9093-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-29-2025-07-05-19-9093-AM.png?width=670&height=306&name=image-png-Jul-29-2025-07-05-19-9093-AM.png)
 
 
 
+
+
+**Common Issues / FAQ**
+
+
+**Q: My staff has a BIK (benefit in kind) — how do I include it in the PCB deduction?**
+
+
+When creating the custom pay item, use the **BIK** and **PCB** select options in the Create Custom Item pop-up — the contribution is captured through the pay item's own configuration. Review the item's statutory options (PCB, EPF, SOCSO, EIS, HRDF) before running payroll: the deduction treatment always follows the item's settings.
 
 
 **Need Assistance?**

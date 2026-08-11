@@ -7,6 +7,10 @@
         "subcategory": "User Settings & Login",
         "articles": [
           {
+            "title": "Login and Activation Troubleshooting: the Common Causes and Fixes",
+            "url": "https://support.briohr.com/knowledge/login-and-activation-troubleshooting-the-common-causes-and-fixes"
+          },
+          {
             "title": "Login with Biometric Authentication on the brioHR Mobile App",
             "url": "https://support.briohr.com/knowledge/login-with-biometric-authentication-on-the-briohr-mobile-app"
           },
@@ -923,6 +927,10 @@
         "subcategory": "Time Attendance Management",
         "articles": [
           {
+            "title": "Clock-In Issues and After-Shift Returns: a Troubleshooting Checklist",
+            "url": "https://support.briohr.com/knowledge/clock-in-issues-and-after-shift-returns-a-troubleshooting-checklist"
+          },
+          {
             "title": "Choose Between the Time Log Report and the Timesheet Report",
             "url": "https://support.briohr.com/knowledge/choose-between-the-time-log-report-and-the-timesheet-report"
           },
@@ -1252,16 +1260,16 @@
         "subcategory": "Payroll - Malaysia",
         "articles": [
           {
+            "title": "Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option",
+            "url": "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
+          },
+          {
             "title": "PERKESO SKBBK Contribution Effective 1 June 2026",
             "url": "https://support.briohr.com/knowledge/new-perkeso-skbbk-contribution-requirement-effective-1-june-2026"
           },
           {
             "title": "Find Default Overtime Payroll Items and Add to OT Multi-rates Table",
             "url": "https://support.briohr.com/knowledge/find-default-overtime-payroll-items-and-add-to-ot-multi-rates-table"
-          },
-          {
-            "title": "Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option",
-            "url": "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
           },
           {
             "title": "Malaysia Payroll Centre: Supported Banks for Payroll, Statutory and Zakat Bank Files in BrioHR",
@@ -1500,7 +1508,7 @@
             "url": "https://support.briohr.com/knowledge/payroll-malaysia-key-tax-relief-updates-for-the-year-2026"
           },
           {
-            "title": "Prorated Salary Calculation: Understanding the Basics in BrioHR",
+            "title": "Prorated Salary Calculation: Understanding the Basics in brioHR",
             "url": "https://support.briohr.com/knowledge/prorated-salary-calculation-understanding-the-basics-in-briohr"
           },
           {
@@ -1672,6 +1680,10 @@
       {
         "subcategory": "Leave Configuration",
         "articles": [
+          {
+            "title": "Configure Leave Policies: Entitlement Accrual, Monthly Caps, Backdating and Cancellations",
+            "url": "https://support.briohr.com/knowledge/configure-leave-policies-entitlement-accrual-monthly-caps-backdating-and-cancellations"
+          },
           {
             "title": "Backdate, Modify, or Reopen an Approved Leave",
             "url": "https://support.briohr.com/knowledge/backdate-modify-or-reopen-an-approved-leave"
@@ -2726,7 +2738,7 @@
             "url": "https://support.briohr.com/knowledge/how-to-register-or-add-a-new-employee-in-briohr"
           },
           {
-            "title": "How to Bulk Register Multiple New Employees in BrioHR",
+            "title": "How to Bulk Register Multiple New Employees in brioHR",
             "url": "https://support.briohr.com/knowledge/how-to-bulk-register-multiple-new-employees-in-briohr"
           }
         ]

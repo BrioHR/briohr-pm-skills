@@ -3,7 +3,7 @@ title: "How to Add Custom Fields to Personal Details in BrioHR for Employee Prof
 category: "Admin"
 subcategory: "Personal Data Settings"
 source_url: "https://support.briohr.com/knowledge/how-to-add-custom-fields-to-personal-details-in-briohr-for-employee-profiles"
-date: "August 7, 2026"
+date: "August 11, 2026"
 ---
 
 # How to Add Custom Fields to Personal Details in BrioHR for Employee Profiles
@@ -56,7 +56,7 @@ You can create as many custom fields as you need under Personal Details. In this
 **The custom field only appears at employee's profile assigned under the Offices selected. **
 
 
-**HR Admins can utilize this feature to create fields of information required, for example, creating a custom field called - 'Notes'. This way, HR Admins can utilize this field to leave a note at the employee profile.**
+**HR Admins can utilize this feature to create fields of information required, for example, creating a custom field called - 'Notes'. This way, HR Admins can utilize this field to leave a note at the employee profile. For example: there is no dedicated status to mark an employee as under quarantine — as a workaround, record it in such a Notes custom field for reference. **
 
 
 ---

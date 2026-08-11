@@ -3,7 +3,7 @@ title: "How to Change an Employee’s Performance Appraiser in BrioHR Performanc
 category: "Performance"
 subcategory: "Performance Configuration"
 source_url: "https://support.briohr.com/knowledge/how-to-change-employees-performance-appraiser"
-date: "November 17, 2025"
+date: "August 11, 2026"
 ---
 
 # How to Change an Employee’s Performance Appraiser in BrioHR Performance Cycle
@@ -41,7 +41,7 @@ Navigate to** HR Lounge** > **Performance Management.**
 
 
 **
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-17-2025-07-25-57-9733-AM.png?width=2004&height=915&name=image-png-Nov-17-2025-07-25-57-9733-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-17-2025-07-25-57-9733-AM.png?width=670&height=306&name=image-png-Nov-17-2025-07-25-57-9733-AM.png)
 **
 
 
@@ -54,13 +54,13 @@ Navigate to** HR Lounge** > **Performance Management.**
 2.  Locate the **Appraiser **column in the employee list.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-17-2025-07-26-44-9746-AM.png?width=2000&height=948&name=image-png-Nov-17-2025-07-26-44-9746-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-17-2025-07-26-44-9746-AM.png?width=670&height=318&name=image-png-Nov-17-2025-07-26-44-9746-AM.png)
 
 
 3. Search for the employees whose appraiser you want to update.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-17-2025-07-28-05-8007-AM.png?width=2000&height=765&name=image-png-Nov-17-2025-07-28-05-8007-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-17-2025-07-28-05-8007-AM.png?width=670&height=256&name=image-png-Nov-17-2025-07-28-05-8007-AM.png)
 
 
 4. Choose one of the following options:
@@ -92,7 +92,7 @@ After selecting the new appraiser(s), click **Save.**
 You will now see the appraiser updated from the previous appraiser to the new one.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-17-2025-07-28-53-4482-AM.png?width=1962&height=1125&name=image-png-Nov-17-2025-07-28-53-4482-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Nov-17-2025-07-28-53-4482-AM.png?width=670&height=384&name=image-png-Nov-17-2025-07-28-53-4482-AM.png)
 
 
 **IMPORTANT:**
@@ -119,7 +119,7 @@ Ensure that all necessary notes are back up or saved elsewhere before making cha
 
 
 **1. Can I change the appraiser after the appraisal has already started?
-**Yes, you can change the appraiser at any time during the performance cycle.
+**Yes, you can change the appraiser at any time during the performance cycle — this also applies to ad-hoc appraisal cycles. However, appraisers can no longer be edited once the appraisal form has been submitted. If an appraisal was already submitted, HR must first reopen it — see [How HR Can Reopen an Employee's Submitted Appraisal for Edits](https://support.briohr.com/knowledge/how-to-reopen-employees-submitted-self-appraisal-form?hsLang=en).
 
 
 **2. Will the new appraiser see the previous appraiser’s comments?

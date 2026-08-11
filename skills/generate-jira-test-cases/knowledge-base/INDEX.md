@@ -1,14 +1,14 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-08-10
+> Last updated: 2026-08-11
 
 ---
 
 ## Table of Contents
 
-- [General](#general) (10 articles)
-  - [User Settings & Login](#general-user-settings-and-login) (10)
+- [General](#general) (11 articles)
+  - [User Settings & Login](#general-user-settings-and-login) (11)
 - [Admin](#admin) (79 articles)
   - [Company Settings](#admin-company-settings) (11)
   - [Schedules & Shifts Settings](#admin-schedules-and-shifts-settings) (12)
@@ -42,9 +42,9 @@
   - [My Training](#employee-my-training) (2)
   - [Onboarding](#employee-onboarding) (1)
   - [Time Attendance](#employee-time-attendance) (9)
-- [Time Attendance](#time-attendance) (20 articles)
+- [Time Attendance](#time-attendance) (21 articles)
   - [Time Attendance Configuration](#time-attendance-time-attendance-configuration) (7)
-  - [Time Attendance Management](#time-attendance-time-attendance-management) (13)
+  - [Time Attendance Management](#time-attendance-time-attendance-management) (14)
 - [Time and Attendance Integration](#time-and-attendance-integration) (3 articles)
   - [SFTP](#time-and-attendance-integration-sftp) (1)
   - [Devices](#time-and-attendance-integration-devices) (2)
@@ -54,8 +54,8 @@
   - [Payroll - Malaysia](#payroll-payroll-malaysia) (75)
   - [Payroll - Singapore](#payroll-payroll-singapore) (24)
   - [Payroll - Indonesia](#payroll-payroll-indonesia) (1)
-- [Leave](#leave) (51 articles)
-  - [Leave Configuration](#leave-leave-configuration) (35)
+- [Leave](#leave) (52 articles)
+  - [Leave Configuration](#leave-leave-configuration) (36)
   - [Leave Management](#leave-leave-management) (16)
 - [Expense Claims](#expense-claims) (43 articles)
   - [Claims Configuration](#expense-claims-claims-configuration) (21)
@@ -123,12 +123,13 @@
 
 ## General
 
-**10 articles** | [Browse category](general/)
+**11 articles** | [Browse category](general/)
 
 ### General - User Settings & Login
 
-**10 articles** | Directory: `general/user-settings-and-login/`
+**11 articles** | Directory: `general/user-settings-and-login/`
 
+- [Login and Activation Troubleshooting: the Common Causes and Fixes](general/user-settings-and-login/login-and-activation-troubleshooting-the-common-causes-and-fixes.md)
 - [Login with Biometric Authentication on the brioHR Mobile App](general/user-settings-and-login/login-with-biometric-authentication-on-the-briohr-mobile-app.md)
 - [brioHR Web Browser vs Mobile App: Feature Comparison Guide](general/user-settings-and-login/briohr-web-browser-vs-mobile-app-feature-comparison-guide.md)
 - [Understanding the Different Log In Methods in brioHR](general/user-settings-and-login/understanding-the-different-log-in-methods-in-briohr.md)
@@ -478,7 +479,7 @@
 
 ## Time Attendance
 
-**20 articles** | [Browse category](time-attendance/)
+**21 articles** | [Browse category](time-attendance/)
 
 ### Time Attendance - Time Attendance Configuration
 
@@ -494,8 +495,9 @@
 
 ### Time Attendance - Time Attendance Management
 
-**13 articles** | Directory: `time-attendance/time-attendance-management/`
+**14 articles** | Directory: `time-attendance/time-attendance-management/`
 
+- [Clock-In Issues and After-Shift Returns: a Troubleshooting Checklist](time-attendance/time-attendance-management/clock-in-issues-and-after-shift-returns-a-troubleshooting-checklist.md)
 - [Choose Between the Time Log Report and the Timesheet Report](time-attendance/time-attendance-management/choose-between-the-time-log-report-and-the-timesheet-report.md)
 - [Update Rosters and Timesheets After a Work Schedule Change](time-attendance/time-attendance-management/update-rosters-and-timesheets-after-a-work-schedule-change.md)
 - [Employee Pre-Approval Overtime on BrioHR Mobile App](time-attendance/time-attendance-management/employee-pre-approval-overtime-on-briohr-mobile-app.md)
@@ -606,9 +608,9 @@
 
 **75 articles** | Directory: `payroll/payroll-malaysia/`
 
+- [Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option](payroll/payroll-malaysia/changing-perkeso-skbbk-lindung-24-jam-contribution-option.md)
 - [PERKESO SKBBK Contribution Effective 1 June 2026](payroll/payroll-malaysia/perkeso-skbbk-contribution-effective-1-june-2026.md)
 - [Find Default Overtime Payroll Items and Add to OT Multi-rates Table](payroll/payroll-malaysia/find-default-overtime-payroll-items-and-add-to-ot-multi-rates-table.md)
-- [Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option](payroll/payroll-malaysia/changing-perkeso-skbbk-lindung-24-jam-contribution-option.md)
 - [Malaysia Payroll Centre: Supported Banks for Payroll, Statutory and Zakat Bank Files in BrioHR](payroll/payroll-malaysia/malaysia-payroll-centre-supported-banks-for-payroll-statutory-and-zakat-bank-fil.md)
 - [Create an Overtime Custom Payroll Item and Add It to the Overtime Multi-rates Table](payroll/payroll-malaysia/create-an-overtime-custom-payroll-item-and-add-it-to-the-overtime-multi-rates-ta.md)
 - [Generating Payroll & Statutory Payment Files for United Overseas Bank (Malaysia) Berhad](payroll/payroll-malaysia/generating-payroll-and-statutory-payment-files-for-united-overseas-bank-malaysia.md)
@@ -668,7 +670,7 @@
 - [New Bank Account Options: GX Bank Berhad, Merchantrade, and Touch n Go Added for Employees](payroll/payroll-malaysia/new-bank-account-options-gx-bank-berhad-merchantrade-and-touch-n-go-added-for-em.md)
 - [How to calculate EPF contribution using KWSP Calculator](payroll/payroll-malaysia/how-to-calculate-epf-contribution-using-kwsp-calculator.md)
 - [Payroll Malaysia: Key Tax Relief Updates for the Year 2026 (TP1 & TP3)](payroll/payroll-malaysia/payroll-malaysia-key-tax-relief-updates-for-the-year-2026-tp1-and-tp3.md)
-- [Prorated Salary Calculation: Understanding the Basics in BrioHR](payroll/payroll-malaysia/prorated-salary-calculation-understanding-the-basics-in-briohr.md)
+- [Prorated Salary Calculation: Understanding the Basics in brioHR](payroll/payroll-malaysia/prorated-salary-calculation-understanding-the-basics-in-briohr.md)
 - [Malaysia Payroll Update: Tax Identification Number (TIN) Explained](payroll/payroll-malaysia/malaysia-payroll-update-tax-identification-number-tin-explained.md)
 - [How to Generate Payroll, PCB, EPF, SOCSO & EIS Bank File for AMBank (M) Berhad (AmAccess Corporate)](payroll/payroll-malaysia/how-to-generate-payroll-pcb-epf-socso-and-eis-bank-file-for-ambank-m-berhad-amac.md)
 - [How to Upload TXT File and Make Payment on e-PCB Plus System](payroll/payroll-malaysia/how-to-upload-txt-file-and-make-payment-on-e-pcb-plus-system.md)
@@ -721,12 +723,13 @@
 
 ## Leave
 
-**51 articles** | [Browse category](leave/)
+**52 articles** | [Browse category](leave/)
 
 ### Leave - Leave Configuration
 
-**35 articles** | Directory: `leave/leave-configuration/`
+**36 articles** | Directory: `leave/leave-configuration/`
 
+- [Configure Leave Policies: Entitlement Accrual, Monthly Caps, Backdating and Cancellations](leave/leave-configuration/configure-leave-policies-entitlement-accrual-monthly-caps-backdating-and-cancell.md)
 - [Backdate, Modify, or Reopen an Approved Leave](leave/leave-configuration/backdate-modify-or-reopen-an-approved-leave.md)
 - [Let Shift Employees Apply Leave on Weekends and Public Holidays](leave/leave-configuration/let-shift-employees-apply-leave-on-weekends-and-public-holidays.md)
 - [Apply for Leave in the Next Calendar Year](leave/leave-configuration/apply-for-leave-in-the-next-calendar-year.md)
@@ -1111,7 +1114,7 @@
 **2 articles** | Directory: `people/profile-creation/`
 
 - [How to Register or Add a New Employee in BrioHR (Create New Profile)](people/profile-creation/how-to-register-or-add-a-new-employee-in-briohr-create-new-profile.md)
-- [How to Bulk Register Multiple New Employees in BrioHR](people/profile-creation/how-to-bulk-register-multiple-new-employees-in-briohr.md)
+- [How to Bulk Register Multiple New Employees in brioHR](people/profile-creation/how-to-bulk-register-multiple-new-employees-in-briohr.md)
 
 ### People - Profile Management
 

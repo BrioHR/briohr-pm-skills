@@ -3,7 +3,7 @@ title: "How to Assign Shifts on Rest Day in BrioHR Time Attendance Rostering"
 category: "Time Attendance"
 subcategory: "Time Attendance Management"
 source_url: "https://support.briohr.com/knowledge/how-to-assign-shifts-on-rest-days-in-briohr-time-attendance-rostering"
-date: "September 18, 2025"
+date: "August 12, 2026"
 ---
 
 # How to Assign Shifts on Rest Day in BrioHR Time Attendance Rostering
@@ -30,6 +30,21 @@ Assigning a shift on a rest day:
 
 
 If **no shift** is assigned on a rest day, the employees are** unable** to clock in.
+
+
+**NOTE:**
+
+
+brioHR also has a **Day Off** option, other than Rest Day. All the steps you learn from this article can also be applied to Day Off.
+
+
+If employees work on their Day Off, they can be paid an overtime rate for a Day Off/Off Day (processed from Time Attendance Timesheet to Payroll).
+
+
+A Day Off in the schedule also impacts the employee's leave calendar. Employees will not be able to take leave on their Day Off.
+
+
+**LEARN MORE: [Create Schedules with Day Off](/knowledge/create-schedules-with-day-off?hsLang=en)**
 
 
 ---
@@ -128,7 +143,7 @@ A shift on a rest day will have a **blue label** at the top-right corner of t
 If an employee clocks in and out on a rest day, the system will calculate overtime hours using the correct **rest day overtime rate**.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-18-2025-09-36-13-2981-AM.png?width=2000&height=669&name=image-png-Sep-18-2025-09-36-13-2981-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Sep-18-2025-09-36-13-2981-AM.png?width=670&height=224&name=image-png-Sep-18-2025-09-36-13-2981-AM.png)
 
 
 ---

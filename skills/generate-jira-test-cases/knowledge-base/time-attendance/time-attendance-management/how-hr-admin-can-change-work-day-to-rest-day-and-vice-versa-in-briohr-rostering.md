@@ -3,7 +3,7 @@ title: "How HR Admin Can Change Work Day to Rest Day (and Vice Versa) in BrioHR 
 category: "Time Attendance"
 subcategory: "Time Attendance Management"
 source_url: "https://support.briohr.com/knowledge/hr-admin-change-work-day-to-rest-day-and-vice-versa-in-briohr-rostering"
-date: "October 14, 2025"
+date: "August 12, 2026"
 ---
 
 # How HR Admin Can Change Work Day to Rest Day (and Vice Versa) in BrioHR Rostering
@@ -29,6 +29,21 @@ If you would like to **assign a shift on rest days (for Overtime Rest Day calcu
 
 - [How to Assign Shifts on Rest Day in BrioHR Time Attendance Rostering](https://support.briohr.com/knowledge/how-to-assign-shifts-on-rest-days-in-briohr-time-attendance-rostering?hsLang=en)
 - [How Managers Can Assign Shifts on Rest Day in BrioHR Time Attendance Rostering](https://support.briohr.com/knowledge/managers-assign-shifts-on-rest-day-in-rostering?hsLang=en)
+
+
+**NOTE:**
+
+
+brioHR also has a **Day Off** option, other than Rest Day. All the steps you learn from this article can also be applied to Day Off.
+
+
+If employees work on their Day Off, they can be paid an overtime rate for a Day Off/Off Day (processed from Time Attendance Timesheet to Payroll).
+
+
+A Day Off in the schedule also impacts the employee's leave calendar. Employees will not be able to take leave on their Day Off.
+
+
+**LEARN MORE: [Create Schedules with Day Off](/knowledge/create-schedules-with-day-off?hsLang=en)**
 
 
 ---

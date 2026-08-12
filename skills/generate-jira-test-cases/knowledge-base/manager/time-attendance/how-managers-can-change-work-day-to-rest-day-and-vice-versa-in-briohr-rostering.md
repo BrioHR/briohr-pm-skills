@@ -3,7 +3,7 @@ title: "How Managers Can Change Work Day to Rest Day (and Vice Versa) in BrioHR 
 category: "Manager"
 subcategory: "Time Attendance"
 source_url: "https://support.briohr.com/knowledge/managers-change-employees-work-day-to-rest-day-vice-versa-briohr-rostering"
-date: "September 18, 2025"
+date: "August 12, 2026"
 ---
 
 # How Managers Can Change Work Day to Rest Day (and Vice Versa) in BrioHR Rostering
@@ -24,6 +24,18 @@ For example:
 
 
 The same concept applies if you want to change a **rest day to a work day**, which will be treated as a **normal working day** (without overtime rest day calculation)
+
+
+**NOTE:**
+
+
+brioHR also has a **Day Off** option, other than Rest Day. All the steps you learn from this article can also be applied to Day Off.
+
+
+If employees work on their Day Off, they can be paid an overtime rate for a Day Off/Off Day (processed from Time Attendance Timesheet to Payroll).
+
+
+A Day Off in the schedule also impacts the employee's leave calendar. Employees will not be able to take leave on their Day Off.[](/knowledge/create-schedules-with-day-off?hsLang=en)
 
 
 ---

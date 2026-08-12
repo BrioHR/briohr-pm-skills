@@ -3,7 +3,7 @@ title: "How Managers Can Assign Shifts on Rest Day in BrioHR Rostering"
 category: "Manager"
 subcategory: "Time Attendance"
 source_url: "https://support.briohr.com/knowledge/managers-assign-shifts-on-rest-day-in-rostering"
-date: "October 22, 2025"
+date: "August 12, 2026"
 ---
 
 # How Managers Can Assign Shifts on Rest Day in BrioHR Rostering
@@ -24,6 +24,18 @@ Managers can modify their team members' weekly and monthly rostering whenever ne
 
 
 If **no shift** is assigned on a rest day, the employees are** unable** to clock in.
+
+
+**NOTE:**
+
+
+brioHR also has a **Day Off** option, other than Rest Day. All the steps you learn from this article can also be applied to Day Off.
+
+
+If employees work on their Day Off, they can be paid an overtime rate for a Day Off/Off Day (processed from Time Attendance Timesheet to Payroll).
+
+
+A Day Off in the schedule also impacts the employee's leave calendar. Employees will not be able to take leave on their Day Off.
 
 
 ---

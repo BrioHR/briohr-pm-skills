@@ -3,7 +3,7 @@ title: "BrioHR Time And Attendance Device Integration Guide (TC10 Model)"
 category: "Time and Attendance Integration"
 subcategory: "Devices"
 source_url: "https://support.briohr.com/knowledge/tc10-briohr-time-and-attendance-device-integration-first-time-user-guide"
-date: "May 8, 2026"
+date: "August 13, 2026"
 ---
 
 # BrioHR Time And Attendance Device Integration Guide (TC10 Model)
@@ -130,6 +130,12 @@ Employees simply verify their attendance using fingerprint or facial recognition
 
 **Example:**
 An employee taps the device upon arrival and again before leaving, while the system automatically captures the corresponding Clock In and Clock Out records.
+
+
+**Note:** If you'd also like employee break time tracked automatically (in addition to first/last punch), let brioHR know when confirming Solution 2. This add-on requires employees to be on a **Shift schedule** with a **break start period set up** for their shifts, and requires **Hybrid Attendance to be off** for your company.
+
+
+See: [How to Link Timetec Device in BrioHR Time and Attendance Module](https://support.briohr.com/knowledge/link-timetec-device-in-briohr-time-attendance?hsLang=en) for full details.
 
 
 **Please ensure that the preferred solution is shared with our BrioHR team when the Integration is performed. **

@@ -3,7 +3,7 @@ title: "How to Manage BrioHR Multicycle Payroll: Guide + Video"
 category: "Payroll"
 subcategory: "Payroll Management"
 source_url: "https://support.briohr.com/knowledge/how-to-manage-briohr-multicycle-payroll-guide-video"
-date: "August 11, 2026"
+date: "August 14, 2026"
 ---
 
 # How to Manage BrioHR Multicycle Payroll: Guide + Video
@@ -38,10 +38,13 @@ Our step-by-step guide is the perfect resource to help you get started with Mult
 **When creating new cycles, all information with a red asterisk (*) is mandatory to be filled in.**
 
 
+**IMPORTANT:**
+
+
+**Only one payroll cycle can be run at a time. The ongoing payroll cycle has to be completed before the next payroll cycle can be run. **
+
+
 **C) Salary Allocation & Default Items:** You can set the salary percentage allocation here or add default payroll items, which will appear on every employee's payslip (even if the amount is 0). You can also view the list of default payroll items and create or edit custom pay items here.
-
-
-
 
 
 [Embedded content](https://www.loom.com/embed/2f152a5ea1b34927968f9f06a0c14dee?sid=b378903c-38d1-4417-b276-db5b27729b0a)
@@ -86,9 +89,6 @@ If adjustments need to be made to the payroll, you have the option to reopen the
 Click into the **completed payroll month > Select the cycle to be reopened > Click Re-open**
 
 
-
-
-
 [Embedded content](https://www.loom.com/embed/ea520defde494446957b0c9b29ac3ced?sid=56eee81e-ba7c-4403-aaef-8c41cdcfa691)
 
 
@@ -98,9 +98,6 @@ Click into the **completed payroll month > Select the cycle to be reopened > Cli
 For a more detailed explanation of the Multicycle Payroll, refer to the video below:
 
 
-
-
-
 [Embedded content](https://www.loom.com/embed/ea520defde494446957b0c9b29ac3ced?sid=c4be48c7-4257-49d9-9de6-35ffc04d97b1)
 
 
@@ -108,10 +105,4 @@ For a more detailed explanation of the Multicycle Payroll, refer to the video be
 
 
 
-
-
-**Need Assistance?**
-
-
-*If you have any questions or require assistance, please reach out to our support team via live chat or email us at [support@briohr.com](mailto:support@briohr.com).*
 

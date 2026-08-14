@@ -3,7 +3,7 @@ title: "How to Clock Out and Clock In for Breaks in BrioHR (Browser Guide)"
 category: "Employee"
 subcategory: "Time Attendance"
 source_url: "https://support.briohr.com/knowledge/clock-out-and-clock-in-for-breaks-browser-guide"
-date: "August 21, 2025"
+date: "August 14, 2026"
 ---
 
 # How to Clock Out and Clock In for Breaks in BrioHR (Browser Guide)
@@ -44,7 +44,7 @@ When employees **resume work after a break**, they must clock back in. This allo
 - This section will show duration since your first clocked-in.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-20-2025-08-51-38-6739-AM.png?width=688&height=223&name=image-png-Aug-20-2025-08-51-38-6739-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-20-2025-08-51-38-6739-AM.png?width=670&height=217&name=image-png-Aug-20-2025-08-51-38-6739-AM.png)
 
 
 ---
@@ -56,7 +56,7 @@ When employees **resume work after a break**, they must clock back in. This allo
 1. Before going for your break, click the **Clock-Out** button.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-21-2025-09-25-25-8123-AM.png?width=2000&height=649&name=image-png-Aug-21-2025-09-25-25-8123-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-21-2025-09-25-25-8123-AM.png?width=670&height=217&name=image-png-Aug-21-2025-09-25-25-8123-AM.png)
 
 
 2.** **A** “Confirm Clock Out” **sidebar will appear, displaying the following details:
@@ -82,10 +82,16 @@ Clicking it will generate your daily attendance timesheet and make your workday 
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-20-2025-08-56-04-1128-AM.png?width=405&height=526&name=image-png-Aug-20-2025-08-56-04-1128-AM.png)
 
 
+ **NOTE:**
+
+
+**Break Start Period:** If your shift has a **break start period** configured (a time window when you can start your break), the **Take break **button will **only be clickable while you're within that window**. Outside of it, you'll only be able to click the **Final Clock Out** button.
+
+
 You are now clocked out for break. The system will start the break clock out duration.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-20-2025-08-57-03-6446-AM.png?width=688&height=217&name=image-png-Aug-20-2025-08-57-03-6446-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-20-2025-08-57-03-6446-AM.png?width=670&height=211&name=image-png-Aug-20-2025-08-57-03-6446-AM.png)
 
 
 ---
@@ -103,7 +109,7 @@ You are now clocked out for break. The system will start the break clock out dur
 2. Click the **Resume Clock-In** button.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-21-2025-09-27-11-0500-AM.png?width=2000&height=590&name=image-png-Aug-21-2025-09-27-11-0500-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-21-2025-09-27-11-0500-AM.png?width=670&height=198&name=image-png-Aug-21-2025-09-27-11-0500-AM.png)
 
 
 ---
@@ -124,7 +130,7 @@ You are now clocked out for break. The system will start the break clock out dur
 The system will **stop tracking your break** and** resume counting your working hours.** This information will be updated in your attendance timesheet.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-21-2025-09-28-42-7983-AM.png?width=2000&height=631&name=image-png-Aug-21-2025-09-28-42-7983-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-21-2025-09-28-42-7983-AM.png?width=670&height=211&name=image-png-Aug-21-2025-09-28-42-7983-AM.png)
 
 
 ---
@@ -140,10 +146,14 @@ The system will **stop tracking your break** and** resume counting your working 
 
 
 **Q2: What happens if I forget to clock out before a break?**
+
+
 **A: **If you do not clock out before a break, the system will not record your break time correctly. Your HR Admin or Manager may need to adjust your timesheet manually.
 
 
 **Q3: Can I accidentally end my workday by clicking the wrong button?**
+
+
 **A: **Yes. If you click **Final Clock Out** instead of **Take Break**, the system will mark your workday as completed.
 
 
@@ -154,7 +164,15 @@ Make sure you only click **Take Break** when pausing for a break.
 
 
 **Q4: Is break duration automatically deducted from my timesheet?**
-Yes. Once you clock out and clock back in, the break duration is automatically calculated and deducted from your total working hours.
+
+
+**A: **Yes. Once you clock out and clock back in, the break duration is automatically calculated and deducted from your total working hours.
+
+
+**Q5: Why can't I click the Take break button?**
+
+
+**A:** If the button is dimmed, your shift may have a defined break start period, and you're currently outside that time window. Check your shift details or ask your Manager/HR for the allowed break start period details.
 
 
 

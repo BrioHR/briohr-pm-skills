@@ -3,7 +3,7 @@ title: "How to Create New Work Shifts for Efficient Employee Scheduling"
 category: "Admin"
 subcategory: "Schedules & Shifts Settings"
 source_url: "https://support.briohr.com/knowledge/how-to-create-new-work-shifts"
-date: "July 23, 2026"
+date: "August 13, 2026"
 ---
 
 # How to Create New Work Shifts for Efficient Employee Scheduling
@@ -46,6 +46,9 @@ Log in to your BrioHR account,
 
 
 5. A pop-up window to create a new shift will appear:
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-13-2026-02-26-10-3156-AM.png?width=670&height=531&name=image-png-Aug-13-2026-02-26-10-3156-AM.png)
 
 
 - **Name** your new shift. This field is compulsory.
@@ -100,9 +103,20 @@ Log in to your BrioHR account,
     - Clock in: 9 am, Clock out: 6 pm,
     - Total break time: 45 minutes
     - Actual work hours: 8 hours (not 8 hours 15 minutes, as 15 minutes unused break time is not counted)
+  - **Define break period** *(optional)*: Set a specific time window during which employees may start their break (clock out for break).
+
+    - When **enabled**, set a **Period starts** and **Period ends** time. Employees can begin their break any time within this window, but total break time used is still capped by the Break duration. Employees cannot start a break earlier than the Period start time, but can return later than the Period end.
+    - Scenario examples:
+
+      - Shift 9:00 AM–6:00 PM, Break duration 1 hour, Break period 12:00 PM–2:00 PM
+
+        - Employee clocks out for break at 12:30 PM and clocks back in at 1:25 PM → 55 min break taken = no lateness.
+        - Employee clocks out for break at 1:30 PM and clocks back in at 3:00 PM → 1 hr 30 min break taken vs. 1 hr allowed = 30 minutes lateness.
+    - **Take Break button visibility:** The **Take Break** button is clickable while the employee is within the break period window — outside it, only **Final Clock Out** is clickable. If no break start period is set, both buttons remain available at any time.
+    - If **left unset (default)**, employees can take their break at any time during the shift.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Apr-24-2026-05-17-42-4446-AM.png?width=670&height=485&name=image-png-Apr-24-2026-05-17-42-4446-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-13-2026-02-24-30-3936-AM.png?width=670&height=527&name=image-png-Aug-13-2026-02-24-30-3936-AM.png)
 
 
 **NOTE: **
@@ -158,7 +172,4 @@ A: Please ensure all the mandatory fields have been filled in.
 
 
 A: Yes, the shift timing can be edited. However, if shifts/schedules have been previously assigned, the manager may need to reset the roster to see the shift changes reflected in the employee's schedule.
-
-
-
 

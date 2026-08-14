@@ -164,6 +164,10 @@
         "subcategory": "Users Settings",
         "articles": [
           {
+            "title": "Accessing the Employee Activity Report",
+            "url": "https://support.briohr.com/knowledge/accessing-employee-activity-report"
+          },
+          {
             "title": "How to Edit an Employee's Email Address in BrioHR: A Guide for HR and Admin",
             "url": "https://support.briohr.com/knowledge/how-to-edit-an-employees-email-address-in-briohr-a-guide-for-hr-and-admin"
           },
@@ -560,10 +564,6 @@
           {
             "title": "How Managers Can Assign Shifts on Rest Day in BrioHR Rostering",
             "url": "https://support.briohr.com/knowledge/managers-assign-shifts-on-rest-day-in-rostering"
-          },
-          {
-            "title": "How Manager Manage Rostering for Team Members",
-            "url": "https://support.briohr.com/knowledge/how-manager-manage-rostering-for-team-members"
           },
           {
             "title": "How to Perform Manual Daily Attendance Entry for Direct Reports in BrioHR",
@@ -1086,6 +1086,10 @@
       {
         "subcategory": "Payroll Management",
         "articles": [
+          {
+            "title": "Employee Payroll Report: Tax Reliefs Breakdown (TP1)",
+            "url": "https://support.briohr.com/knowledge/employee-payroll-report-tax-reliefs-breakdown-tp1"
+          },
           {
             "title": "Arrears of Salary Calculation",
             "url": "https://support.briohr.com/knowledge/arrears-of-salary-calculation"
@@ -3056,6 +3060,19 @@
     "slug": "product-updates",
     "subcategories": [
       {
+        "subcategory": "Product Updates - August 2026",
+        "articles": [
+          {
+            "title": "brioHR Product Updates - August 2026, Week 2 | New Break Period Settings, TimeTec Integration & Enhanced Reports",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-august-2026-week-2-new-break-period-settings-timetec-integration-enhanced-reports"
+          },
+          {
+            "title": "brioHR Product Updates - August 2026, Week 1 | Mobile App Push Notifications, Claims to Payroll API, Auto EPF category & More",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-august-2026-week-1-mobile-app-push-notifications-claims-to-payroll-api-auto-epf-category-and-more"
+          }
+        ]
+      },
+      {
         "subcategory": "Product Updates - July 2026",
         "articles": [
           {
@@ -3206,15 +3223,6 @@
             "url": "https://support.briohr.com/knowledge/product-updates-for-2025"
           }
         ]
-      },
-      {
-        "subcategory": "Product Updates - August 2026",
-        "articles": [
-          {
-            "title": "brioHR Product Updates - August 2026, Week 1 | Mobile App Push Notifications, Claims to Payroll API, Auto EPF category & More",
-            "url": "https://support.briohr.com/knowledge/briohr-product-updates-august-2026-week-1-mobile-app-push-notifications-claims-to-payroll-api-auto-epf-category-and-more"
-          }
-        ]
       }
     ]
   },
@@ -3241,7 +3249,7 @@
         "subcategory": "General",
         "articles": [
           {
-            "title": "Understanding Your BrioHR Billing",
+            "title": "Understanding Your brioHR Billing",
             "url": "https://support.briohr.com/knowledge/understanding-your-briohr-billing"
           },
           {

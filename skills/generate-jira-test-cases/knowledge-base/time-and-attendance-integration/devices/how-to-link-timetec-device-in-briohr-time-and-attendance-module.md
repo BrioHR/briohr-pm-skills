@@ -3,7 +3,7 @@ title: "How to Link Timetec Device in BrioHR Time and Attendance Module"
 category: "Time and Attendance Integration"
 subcategory: "Devices"
 source_url: "https://support.briohr.com/knowledge/link-timetec-device-in-briohr-time-attendance"
-date: "May 8, 2026"
+date: "August 13, 2026"
 ---
 
 # How to Link Timetec Device in BrioHR Time and Attendance Module
@@ -93,7 +93,8 @@ Log in to BrioHR account with your registered credentials.
 
 **CAUTION:**
 
-When device integration is enabled,** the Facial Recognition** and **Geolocation** features in the policy will be automatically **disabled.**
+
+- When device integration is enabled,** the Facial Recognition** and **Geolocation** features in the policy will be automatically **disabled.**
 
 
 **NOTE**:
@@ -127,6 +128,26 @@ Employees simply verify their attendance using fingerprint or facial recognition
 
 **Example:**
 An employee taps the device upon arrival and again before leaving, while the system automatically captures the corresponding Clock In and Clock Out records.
+
+
+**Optional Add-on for Solution 2: Track Break Time**
+
+
+For clients on **Solution 2 (First & Last Log)**, BrioHR can additionally enable break-time tracking. When active, the system also identifies each employee's break-out and break-in punches within their configured break period — no extra action needed from employees at the device.
+
+
+**Requirements and limitations:**
+
+
+- - Only available for employees on **Shift mode** with a **break period configured** in their schedule. Employees on Flexi mode, or Shift mode without a break period, will continue to have only first-in/last-out captured.
+  - Requires **Hybrid Attendance to be switched off** for the company. This is a temporary restriction — while break tracking is enabled, Hybrid Attendance cannot also be turned on for that company.
+  - If an employee has an **odd number of punches** within their break window on a given day, the extra punch is flagged **"Incomplete"** rather than guessed — this will need HR Admin review on the timesheet.
+
+
+**How to enable it:** Let your brioHR team know you'd like break tracking in addition to your Solution 2 setup when confirming your integration preference (see next section).
+
+
+**Caution**: if **break tracking is enabled**, **Hybrid Attendance is disabled/blocked** for the company.
 
 
 **Please ensure that the preferred solution is shared with our BrioHR team when the Integration is performed. **
@@ -217,20 +238,43 @@ For detailed instructions on enrolling and recording employees' biometric valida
 ### Frequently Asked Questions (FAQs)
 
 
-**1. Which Timetec device models are supported by BrioHR?
-**Currently, BrioHR supports the **Timetec TC10** model for device integration.
+**1. Which Timetec device models are supported by BrioHR?**
 
 
-**2. Can I enable both device integration and facial recognition (BrioHR mobile app) at the same time?
-**No. Once device integration is enabled, facial recognition and geolocation options (for mobile app time attendance) will be disabled as they are not compatible.
+Currently, BrioHR supports the **Timetec TC10** model for device integration.
 
 
-**3. What should I do if my device serial number cannot be linked?
-**Ensure that the serial number of the TC10 Model is correctly entered. If the issue persists, contact **BrioHR Support**.
+**2. Can I enable both device integration and facial recognition (BrioHR mobile app) at the same time?**
 
 
-**6. Can I link multiple devices to the same BrioHR account?
-**Yes, you can link multiple TC10 devices. Each device must be added individually in the **Device Integration Log**.
+No. Once device integration is enabled, facial recognition and geolocation options (for mobile app time attendance) will be disabled as they are not compatible.
+
+
+**3. What should I do if my device serial number cannot be linked?**
+
+
+Ensure that the serial number of the TC10 Model is correctly entered. If the issue persists, contact **BrioHR Support**.
+
+
+**6. Can I link multiple devices to the same BrioHR account?**
+
+
+Yes, you can link multiple TC10 devices. Each device must be added individually in the **Device Integration Log**.
+
+
+**7. Can I track employees' break time with Timetec device integration?**
+
+
+Yes, for clients on Solution 2 (First & Last Log), and only if employees are on shift schedules with a break period defined in their shifts.
+
+
+**8. Can I use Hybrid Attendance together with break tracking?**
+
+
+Not currently.
+
+
+
 
 
 **Need Assistance?**

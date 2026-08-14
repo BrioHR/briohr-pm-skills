@@ -3,7 +3,7 @@ title: "How to Easily Clock In & Out for Breaks Using the BrioHR Mobile App"
 category: "Employee"
 subcategory: "Time Attendance"
 source_url: "https://support.briohr.com/knowledge/clock-out-clock-in-for-break-time-using-the-briohr-mobile-app"
-date: "February 5, 2025"
+date: "August 14, 2026"
 ---
 
 # How to Easily Clock In & Out for Breaks Using the BrioHR Mobile App
@@ -38,6 +38,18 @@ Login to your BrioHR mobile app
 ###
 
 
+
+
+
+**NOTE:**
+
+
+**Break Start Period:** If your shift has a defined break start period, you'll see a break period indicator in the Time Attendance widget showing your allowed break window. The **Take break** button for break only works within that window — outside it, only Final Clock Out is available.
+
+
+You can start your break within that window. But remember, you have to clock back in before your break duration finishes. If you exceed your break duration, it will count towards 'lateness' recorded in your timesheet.
+
+
 ---
 
 
@@ -64,22 +76,31 @@ Login to your BrioHR mobile app
 ---
 
 
-#### What if I Forgot to Clock Out and Clock In for My Break?
+#### FAQ
 
 
-If you forget to clock out and clock in for your break, the system will not calculate the break duration in your daily timesheet. This may result in additional hours being counted as **overtime**.
+#### Q: What if I Forgot to Clock Out and Clock In for My Break?
+
+
+#### A: If you forget to clock out and clock in for your break, the system will not calculate the break duration in your daily timesheet. This may result in additional hours being counted as overtime.
 
 
 In such cases, please contact your Manager or HR for assistance. They can manually adjust your break time in the system.
 
 
-#### Can HR/Manager Adjust My Break Time Manually in BrioHR?
+#### Q: Can HR/Manager Adjust My Break Time Manually in BrioHR?
 
 
-Yes, your HR and Manager has access permission to manually key in the break time duration to ensure accurate working hours recorded in your daily timesheet.
+#### A: Yes, your HR and Manager has access permission to manually key in the break time duration to ensure accurate working hours recorded in your daily timesheet.
 
 
-** **
+#### Q: What does the break start period indicator mean?
+
+
+#### A: If your admin has set a break start period for your shift, you'll see the allowed break start time window displayed in your schedule and CICO widget. You can only clock out for break within this window.
+
+
+
 
 
 **Need Assistance?**

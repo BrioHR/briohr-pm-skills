@@ -1,7 +1,7 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-08-12
+> Last updated: 2026-08-14
 
 ---
 
@@ -9,10 +9,10 @@
 
 - [General](#general) (11 articles)
   - [User Settings & Login](#general-user-settings-and-login) (11)
-- [Admin](#admin) (79 articles)
+- [Admin](#admin) (80 articles)
   - [Company Settings](#admin-company-settings) (11)
   - [Schedules & Shifts Settings](#admin-schedules-and-shifts-settings) (12)
-  - [Users Settings](#admin-users-settings) (7)
+  - [Users Settings](#admin-users-settings) (8)
   - [User Groups Settings](#admin-user-groups-settings) (26)
   - [Personal Data Settings](#admin-personal-data-settings) (6)
   - [Offices Settings](#admin-offices-settings) (8)
@@ -22,14 +22,14 @@
   - [Currencies Settings](#admin-currencies-settings) (1)
   - [Personal Assistant Settings](#admin-personal-assistant-settings) (1)
   - [Payroll Centers Settings](#admin-payroll-centers-settings) (3)
-- [Manager](#manager) (34 articles)
+- [Manager](#manager) (33 articles)
   - [Team Leave](#manager-team-leave) (5)
   - [Timesheets](#manager-timesheets) (1)
   - [Team Performance](#manager-team-performance) (8)
   - [Onboarding](#manager-onboarding) (1)
   - [Expense Claims](#manager-expense-claims) (3)
   - [Training](#manager-training) (1)
-  - [Time Attendance](#manager-time-attendance) (15)
+  - [Time Attendance](#manager-time-attendance) (14)
 - [Employee](#employee) (53 articles)
   - [Account](#employee-account) (4)
   - [Profile](#employee-profile) (7)
@@ -48,9 +48,9 @@
 - [Time and Attendance Integration](#time-and-attendance-integration) (3 articles)
   - [SFTP](#time-and-attendance-integration-sftp) (1)
   - [Devices](#time-and-attendance-integration-devices) (2)
-- [Payroll](#payroll) (157 articles)
+- [Payroll](#payroll) (158 articles)
   - [Payroll Configuration](#payroll-payroll-configuration) (15)
-  - [Payroll Management](#payroll-payroll-management) (42)
+  - [Payroll Management](#payroll-payroll-management) (43)
   - [Payroll - Malaysia](#payroll-payroll-malaysia) (75)
   - [Payroll - Singapore](#payroll-payroll-singapore) (24)
   - [Payroll - Indonesia](#payroll-payroll-indonesia) (1)
@@ -102,7 +102,8 @@
   - [Expense Claims](#faqs-expense-claims) (1)
   - [Account](#faqs-account) (1)
   - [Profile](#faqs-profile) (1)
-- [Product Updates](#product-updates) (29 articles)
+- [Product Updates](#product-updates) (30 articles)
+  - [Product Updates - August 2026](#product-updates-product-updates-august-2026) (2)
   - [Product Updates - July 2026](#product-updates-product-updates-july-2026) (5)
   - [Product Updates - June 2026](#product-updates-product-updates-june-2026) (3)
   - [Product Updates - May 2026](#product-updates-product-updates-may-2026) (4)
@@ -111,7 +112,6 @@
   - [Product Updates - February 2026](#product-updates-product-updates-february-2026) (3)
   - [Product Updates - January 2026](#product-updates-product-updates-january-2026) (3)
   - [Product Updates - 2025](#product-updates-product-updates-2025) (1)
-  - [Product Updates - August 2026](#product-updates-product-updates-august-2026) (1)
 - [API Integrations](#api-integrations) (1 articles)
   - [API](#api-integrations-api) (1)
 - [Billing & Subscription](#billing-and-subscription) (3 articles)
@@ -145,7 +145,7 @@
 
 ## Admin
 
-**79 articles** | [Browse category](admin/)
+**80 articles** | [Browse category](admin/)
 
 ### Admin - Company Settings
 
@@ -182,8 +182,9 @@
 
 ### Admin - Users Settings
 
-**7 articles** | Directory: `admin/users-settings/`
+**8 articles** | Directory: `admin/users-settings/`
 
+- [Accessing the Employee Activity Report](admin/users-settings/accessing-the-employee-activity-report.md)
 - [How to Edit an Employee's Email Address in BrioHR: A Guide for HR and Admin](admin/users-settings/how-to-edit-an-employee-s-email-address-in-briohr-a-guide-for-hr-and-admin.md)
 - [How to Reset an Employee's Password in BrioHR](admin/users-settings/how-to-reset-an-employee-s-password-in-briohr.md)
 - [How to Send or Re-Send Activation Email to Employees: A Guide for HR/Admin](admin/users-settings/how-to-send-or-re-send-activation-email-to-employees-a-guide-for-hr-admin.md)
@@ -290,7 +291,7 @@
 
 ## Manager
 
-**34 articles** | [Browse category](manager/)
+**33 articles** | [Browse category](manager/)
 
 ### Manager - Team Leave
 
@@ -343,12 +344,11 @@
 
 ### Manager - Time Attendance
 
-**15 articles** | Directory: `manager/time-attendance/`
+**14 articles** | Directory: `manager/time-attendance/`
 
 - [How Managers Can Manually Assign and Replace Employee Shifts in BrioHR Rostering](manager/time-attendance/how-managers-can-manually-assign-and-replace-employee-shifts-in-briohr-rostering.md)
 - [How Managers Can Assign Shifts on Public Holiday in BrioHR Rostering](manager/time-attendance/how-managers-can-assign-shifts-on-public-holiday-in-briohr-rostering.md)
 - [How Managers Can Assign Shifts on Rest Day in BrioHR Rostering](manager/time-attendance/how-managers-can-assign-shifts-on-rest-day-in-briohr-rostering.md)
-- [How Manager Manage Rostering for Team Members](manager/time-attendance/how-manager-manage-rostering-for-team-members.md)
 - [How to Perform Manual Daily Attendance Entry for Direct Reports in BrioHR](manager/time-attendance/how-to-perform-manual-daily-attendance-entry-for-direct-reports-in-briohr.md)
 - [How Managers Can Mark a Direct Report as Absent in BrioHR](manager/time-attendance/how-managers-can-mark-a-direct-report-as-absent-in-briohr.md)
 - [How Managers Approve Direct Report's Overtime in BrioHR (Browser Guide)](manager/time-attendance/how-managers-approve-direct-report-s-overtime-in-briohr-browser-guide.md)
@@ -535,7 +535,7 @@
 
 ## Payroll
 
-**157 articles** | [Browse category](payroll/)
+**158 articles** | [Browse category](payroll/)
 
 ### Payroll - Payroll Configuration
 
@@ -559,8 +559,9 @@
 
 ### Payroll - Payroll Management
 
-**42 articles** | Directory: `payroll/payroll-management/`
+**43 articles** | Directory: `payroll/payroll-management/`
 
+- [Employee Payroll Report: Tax Reliefs Breakdown (TP1)](payroll/payroll-management/employee-payroll-report-tax-reliefs-breakdown-tp1.md)
 - [Arrears of Salary Calculation](payroll/payroll-management/arrears-of-salary-calculation.md)
 - [Refresh a Payroll Cycle After Employee Profile Changes](payroll/payroll-management/refresh-a-payroll-cycle-after-employee-profile-changes.md)
 - [Set Up a Recurring Fixed Remuneration Over Several Months](payroll/payroll-management/set-up-a-recurring-fixed-remuneration-over-several-months.md)
@@ -1258,7 +1259,14 @@
 
 ## Product Updates
 
-**29 articles** | [Browse category](product-updates/)
+**30 articles** | [Browse category](product-updates/)
+
+### Product Updates - Product Updates - August 2026
+
+**2 articles** | Directory: `product-updates/product-updates-august-2026/`
+
+- [brioHR Product Updates - August 2026, Week 2 | New Break Period Settings, TimeTec Integration & Enhanced Reports](product-updates/product-updates-august-2026/briohr-product-updates-august-2026-week-2-new-break-period-settings-timetec-inte.md)
+- [brioHR Product Updates - August 2026, Week 1 | Mobile App Push Notifications, Claims to Payroll API, Auto EPF category & More](product-updates/product-updates-august-2026/briohr-product-updates-august-2026-week-1-mobile-app-push-notifications-claims-t.md)
 
 ### Product Updates - Product Updates - July 2026
 
@@ -1328,12 +1336,6 @@
 
 - [BrioHR Product Updates 2025 | New Features and Enhancements](product-updates/product-updates-2025/briohr-product-updates-2025-new-features-and-enhancements.md)
 
-### Product Updates - Product Updates - August 2026
-
-**1 articles** | Directory: `product-updates/product-updates-august-2026/`
-
-- [brioHR Product Updates - August 2026, Week 1 | Mobile App Push Notifications, Claims to Payroll API, Auto EPF category & More](product-updates/product-updates-august-2026/briohr-product-updates-august-2026-week-1-mobile-app-push-notifications-claims-t.md)
-
 ---
 
 ## API Integrations
@@ -1356,7 +1358,7 @@
 
 **3 articles** | Directory: `billing-subscription/general/`
 
-- [Understanding Your BrioHR Billing](billing-subscription/general/understanding-your-briohr-billing.md)
+- [Understanding Your brioHR Billing](billing-subscription/general/understanding-your-briohr-billing.md)
 - [Request a Statement of Account (SOA) from BrioHR](billing-subscription/general/request-a-statement-of-account-soa-from-briohr.md)
 - [How to Add or Change Your Invoice Recipient Email Address](billing-subscription/general/how-to-add-or-change-your-invoice-recipient-email-address.md)
 

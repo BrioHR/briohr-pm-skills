@@ -3,7 +3,7 @@ title: "Enabling Hybrid Attendance as a HR Admin"
 category: "Time Attendance"
 subcategory: "Time Attendance Configuration"
 source_url: "https://support.briohr.com/knowledge/enable-hybrid-attendance-as-a-hr-admin"
-date: "May 8, 2026"
+date: "August 13, 2026"
 ---
 
 # Enabling Hybrid Attendance as a HR Admin
@@ -95,14 +95,20 @@ With Hybrid Attendance enabled:
 **IMPORTANT:**
 
 
-The option to '**Allow Hybrid Attendance**' is available for all Integration methods such as API integration, SFTP integration and Device Integration.
+The option to '**Allow Hybrid Attendance**' is available for all Integration methods such as API integration, SFTP integration, and Device Integration.
 
 
 As for the Device Integration (TimeTec device - TC10), please note that there are 2 solutions that can be chosen from as below:
 
-Solution 1 : **Default** = Employees will be required to select an action type on the device before Clocking In or Clocking Out.
+Solution 1: **Default** = Employees will be required to select an action type on the device before Clocking In or Clocking Out.
 
-Solution 2 : **First_Last** = Employees will just need to tap in on the device to Clock In or Clock Out without selecting and action type from the device.
+Solution 2: **First_Last** = Employees will just need to tap in on the device to Clock In or Clock Out without selecting an action type from the device.
+
+
+**Exception:** If a company's Device Integration is set to **Solution 2 (First & Last Log)** with **Track break time** enabled, **Hybrid Attendance cannot be turned on** for that company. To enable Hybrid Attendance, break tracking must first be turned off (or the company must not have it enabled).
+
+
+See: [How to Link Timetec Device in BrioHR Time and Attendance Module](https://support.briohr.com/knowledge/link-timetec-device-in-briohr-time-attendance?hsLang=en) for details on break tracking.
 
 
 #### Key Benefits

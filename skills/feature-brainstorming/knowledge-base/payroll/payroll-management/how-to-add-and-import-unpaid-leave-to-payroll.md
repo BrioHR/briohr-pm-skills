@@ -3,7 +3,7 @@ title: "How to Add and Import Unpaid Leave to Payroll"
 category: "Payroll"
 subcategory: "Payroll Management"
 source_url: "https://support.briohr.com/knowledge/how-to-add-and-import-unpaid-leave-to-payroll"
-date: "March 5, 2026"
+date: "August 18, 2026"
 ---
 
 # How to Add and Import Unpaid Leave to Payroll
@@ -37,6 +37,9 @@ For a detailed guide on the second method, please watch the accompanying video.
 
 **NOTE:**
 **For Payroll Malaysia: if you would like to know how the daily rate for unpaid leave is calculated, you can refer to [this guide](https://support.briohr.com/knowledge/how-to-calculate-unpaid-leave?hsLang=en).**
+
+
+**For Payroll Singapore: Unpaid leave is calculated following the guidelines from MoM. Learn more about it [here](https://www.mom.gov.sg/faq/salary/how-to-compute-the-salary-of-an-employee-who-is-on-no-pay-leave-for-the-month). You can also refer to our [salary proration](/knowledge/salary-proration-for-singapore-payroll?hsLang=en) article for more details on the calculation.**
 
 
 [Embedded content](https://www.loom.com/embed/eea3ab736af54b5d869127c8ae0f663c?sid=b588d919-a029-4fe1-ae7f-959584b3b67b)

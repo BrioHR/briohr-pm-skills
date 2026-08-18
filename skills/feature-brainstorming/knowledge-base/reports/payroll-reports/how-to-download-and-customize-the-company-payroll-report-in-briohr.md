@@ -3,7 +3,7 @@ title: "How to Download and Customize the Company Payroll Report in BrioHR"
 category: "Reports"
 subcategory: "Payroll Reports"
 source_url: "https://support.briohr.com/knowledge/how-to-download-and-customize-the-company-payroll-report-in-briohr"
-date: "July 12, 2026"
+date: "August 18, 2026"
 ---
 
 # How to Download and Customize the Company Payroll Report in BrioHR
@@ -19,19 +19,12 @@ date: "July 12, 2026"
 To download the Company Payroll Report, follow these steps:
 
 
-1.   Log in to your BrioHR account and navigate to **HR Lounge > Reports**.
+1.   Log in to your BrioHR account and navigate to **Analytics > Report Builder.**
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-18-2026-06-25-15-3995-AM.png?width=1627&height=847&name=image-png-Aug-18-2026-06-25-15-3995-AM.png)
 
 
-[](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48334974021/original/hHhbJO_oos7u7YESbGNWjGbHXPLPgiqGmQ.png?1714109260)
-
-
-2.   You will be directed to the **Report Builder** tab.
-
-
-In the **Company Payroll Report** section, click on the **Create **button to proceed to the report page.
-
-
-[](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48334974040/original/32Mfa1GbpO9OAAXSWgL3-VfC93Y_n6Malg.png?1714109295)
+2.   Find the **Company Payroll Report** and click **Create**.
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-18-2026-06-26-53-8608-AM.png?width=1894&height=865&name=image-png-Aug-18-2026-06-26-53-8608-AM.png)
 
 
 3.   On the report page, you can:
@@ -49,15 +42,16 @@ In the **Company Payroll Report** section, click on the **Create **button to pro
 **By default, the report orders employees according to their Employee ID.**
 
 
-[](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48334974108/original/D51qUWI9SUGi6VlelV0F2MFscjpdu8w0Gg.png?1714109407)[](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48334974197/original/6uHfCdWr5xDqWCaHNsTCy36cS1xN-67CYg.png?1714109488)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-18-2026-06-28-22-8017-AM.png?width=2257&height=1015&name=image-png-Aug-18-2026-06-28-22-8017-AM.png)
+
+
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-18-2026-06-29-24-5812-AM.png?width=385&height=656&name=image-png-Aug-18-2026-06-29-24-5812-AM.png)
 
 
 - Click on the **Export Report** button to choose your preferred format and download the Company Payroll Report.
 
 
-[](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48334974289/original/egFMUdoJ3SA85eppHuTd65Zx_fq_sghY6A.png?1714109597)
-
-
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-18-2026-06-32-13-9341-AM.png?width=2281&height=832&name=image-png-Aug-18-2026-06-32-13-9341-AM.png)
 
 
 

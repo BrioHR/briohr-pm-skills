@@ -3,7 +3,7 @@ title: "How to Create a Custom Pay Item in BrioHR"
 category: "Payroll"
 subcategory: "Payroll Configuration"
 source_url: "https://support.briohr.com/knowledge/how-to-create-a-custom-pay-item-in-briohr"
-date: "August 11, 2026"
+date: "August 18, 2026"
 ---
 
 # How to Create a Custom Pay Item in BrioHR
@@ -46,10 +46,78 @@ Therefore, creating a custom pay item is your only option to address this situat
 4.   A pop-up (**Create Custom Item**) will appear. Fill in all the relevant fields and click **Submit **to save your changes.
 
 
-**NOTE:**
+- **Item name**: This name will be used in payroll reports and employee payslips.
+- **Item type**: Choose Addition (will be paid out) or Deduction (will be deducted from pay)
+- **Category**:
+
+  - Addition
+
+    - Allowance
+    - Remuneration
+    - Other perquisites
+    - Benefit-in-Kind
+    - Reimbursement (used to reimburse claims items to employees)
+  - Deduction
+
+    - Deductions
+    - Cash Advance Settlements (used to deduct unutilized cash advances, related to expense claims module, to employees)
+- **Addition/Deduction type**: -
+
+  - Malaysian payroll
+
+    - Addition (remuneration type can affect statutory calculations)
+
+      - Fixed remuneration
+      - Additional remuneration
+      - Not a remuneration
+    - Deduction
+
+      - Deduct after Gross Pay
+      - Deduct after Net Pay
+  - Singapore payroll
 
 
-**Ensure you select the correct options when creating a custom payslip item. Choosing the wrong option may affect payroll calculations.**
+    - Addition (wage type can affect statutory calculations)
+
+      - Ordinary wage
+      - Additional wage
+      - Not part of wage
+    - Deduction
+
+      - Deduct after Gross Pay
+      - Deduct after Net Pay
+
+
+- **Organizations**: Selecting an organization includes the item in its statutory contribution calculations.
+
+  - Malaysian payroll
+
+    - PCB (*Potongan Cukai Bulanan) - *Monthly tax deduction
+    - EPF (*KWSP, Kumpulan Wang Simpanan Pekerja*) - Employee Pension Fund
+    - SOCSO (*PERKESO*) - Social Security Organization
+    - EIS (Employment Insurance System)
+    - HRDF (The Human Resources Development Fund)
+  - Singapore payroll
+
+    - CPF (Central Provident Fund)
+    - CDAC (Self Help Group Fund-Chinese Development Assistance Council)
+    - ECF (Self Help Group Fund-Eurasian Community Fund)
+    - MBMF (Self Help Group Fund-Mosque Building and Mendaki Fund)
+    - SINDA (Self Help Group Fund-Singapore Indian Development Association)
+    - SDL (Skills Development Levy) - usually paid together with CPF
+    - FWL (Foreign Worker Levy)
+- **EA/IR8A for field**
+
+  - Choose where this pay item will be mapped (added to) in the EA/IR8A form. Choose the 'Not applicable' option if it does not need to be included in EA/IR8A reporting.
+
+
+**IMPORTANT:**
+
+
+- **Ensure you select the correct options when creating a custom payslip item. Choosing the wrong option may affect payroll calculations.**
+- **The Admin/Payroll Manager of your company is responsible for deciding which statutory contributions apply based on the nature of the payment. **
+- **It is not the responsibility of brioHR to check the settings applied for your company payroll.**
+- **For pay items with unclear statutory treatment, always confirm with the relevant statutory body or a payroll consultant. brioHR cannot provide statutory advice.**
 
 
 **
@@ -87,7 +155,7 @@ This new **“Unit Type”** feature allows HR to configure pay items based on d
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-11-2025-01-00-00-7653-AM.png?width=670&height=424&name=image-png-Jul-11-2025-01-00-00-7653-AM.png)
 
 
-**1. Fixed Unit:** Enter a fixed amount manually
+**1. Fixed Amount:** Enter a fixed amount manually (e.g., RM 200, $200)
 
 
 **2. Hours: **Ideal for hour-based pay items. Two options are available:**

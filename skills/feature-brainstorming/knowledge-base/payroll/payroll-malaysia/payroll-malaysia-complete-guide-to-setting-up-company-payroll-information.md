@@ -3,12 +3,12 @@ title: "Payroll Malaysia: Complete Guide to Setting Up Company Payroll Informati
 category: "Payroll"
 subcategory: "Payroll - Malaysia"
 source_url: "https://support.briohr.com/knowledge/how-to-set-up-company-payroll-general-settings-in-malaysia"
-date: "July 2, 2026"
+date: "August 19, 2026"
 ---
 
 # Payroll Malaysia: Complete Guide to Setting Up Company Payroll Information
 
-*Learn how to properly set up your company’s payroll general settings in BrioHR, including registration details, bank information, salary proration, statutory setup, payslip settings, and more. Includes step-by-step instructions and FAQs.*
+*Learn how to properly set up your company’s payroll general settings in brioHR, including registration details, bank information, salary proration, statutory setup, payslip settings, and more. Includes step-by-step instructions and FAQs.*
 
 **Audience & Scope**
 
@@ -28,7 +28,7 @@ Pre-requisites: User group settings - Access to HR Lounge > Payroll > Module Set
 ### Introduction
 
 
-Setting up your company payroll information is one of the most important steps when creating a new payroll center in BrioHR. This stepup includes essential details such as:
+Setting up your company payroll information is one of the most important steps when creating a new payroll center in brioHR. This step up includes essential details such as:
 
 
 - Company registration and statutory information
@@ -257,17 +257,19 @@ Then, select the relevant pay item *(Travel/Petrol Allowance)* in this field.
 This section controls how information appears on employee payslips.
 
 
-**
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-02-2026-01-56-20-2363-PM.png?width=1007&height=612&name=image-png-Jul-02-2026-01-56-20-2363-PM.png)
-**
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-19-2026-01-18-50-7058-AM.png?width=952&height=616&name=image-png-Aug-19-2026-01-18-50-7058-AM.png)
+
+
+
 
 
 1. **Hide benefits in kind (BIK)**
 2. **Auto Release Payslip**
-3. **Payslip Leave Summary**
-4. **Payslip YTD Summary**
-5. **Payslip Disclaimer**
-6. **Pasword Protect Payslip**
+3. **Payslip Annual Leave Summary**
+4. **Payslip Medical Leave Summary**
+5. **Payslip YTD Summary**
+6. **Payslip Disclaimer**
+7. **Pasword Protect Payslip**
 
 
 ####
@@ -294,31 +296,47 @@ Enable this if you want BIK items to be hidden from the payslip. However, they w
 **Learn More:** [How to Schedule Payslip Release in BrioHR (Payroll Admin Guide)](/knowledge/how-to-schedule-payslip-release-in-briohr-payroll-admin-guide?hsLang=en)
 
 
-#### 5.3. Payslip Leave Summary
+#### 5.3. Payslip Annual Leave Summary
 
 
-Enable this if you want to display the Leave Summary section in the employee's payslips.
+Enable this if you want to display the Annual Leave Summary section in the employee's payslips.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-May-04-2026-01-50-38-1196-AM.png?width=670&height=122&name=image-png-May-04-2026-01-50-38-1196-AM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-19-2026-01-26-14-4768-AM.png?width=1264&height=334&name=image-png-Aug-19-2026-01-26-14-4768-AM.png)
+
+
+
+
+
+#### 5.4. Payslip Medical Leave Summary
+
+
+#### Enable this if you want to display the Medical Leave Summary section in the employee's payslips.
+
+
+**
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-19-2026-01-25-48-3143-AM.png?width=1264&height=334&name=image-png-Aug-19-2026-01-25-48-3143-AM.png)
+**
 
 
 **Note: **
 
 
-**This setting will not be visible for companies that are not subscribed to the BrioHR Leave module.**
+**These Leave Summary settings will not be visible for companies that are not subscribed to the BrioHR Leave module.
+
+If the employee is not assigned to an Annual Leave or Medical Leave policy, this section will not appear in the employee's payslip even if the setting has been enabled. **
 
 
-#### 5.4. Payslip YTD Summary
+#### 5.5. Payslip YTD Summary
 
 
 Enable this if you want to display the employee's YTD Summary section in the employee's payslips.
 
 
-![image](https://support.briohr.com/hs-fs/hubfs/image-png-Jul-02-2026-01-58-28-3505-PM.png?width=1405&height=217&name=image-png-Jul-02-2026-01-58-28-3505-PM.png)
+![image](https://support.briohr.com/hs-fs/hubfs/image-png-Aug-19-2026-01-48-17-8776-AM.png?width=1273&height=335&name=image-png-Aug-19-2026-01-48-17-8776-AM.png)
 
 
-#### 5.5. Payslip Disclaimer
+#### 5.6. Payslip Disclaimer
 
 
 Enable this if you want to show a disclaimer message at the bottom of the employee's generated payslips. This message can be customized. However, there is a 200-character limit for the message.
@@ -327,7 +345,7 @@ Enable this if you want to show a disclaimer message at the bottom of the employ
 ![image](https://support.briohr.com/hs-fs/hubfs/image-png-Mar-27-2026-07-32-04-5257-AM.png?width=670&height=128&name=image-png-Mar-27-2026-07-32-04-5257-AM.png)
 
 
-#### 5.6. Password Protect Payslip
+#### 5.7. Password Protect Payslip
 
 
 Enable this if you want your employees to enter in a password when they access their payslip sent via email.
@@ -376,5 +394,5 @@ Once all fields are completed, click **Save **to apply the changes.
 **Ownership**
 
 
-Last updated by: Aqilah
+Last updated by: Arveena
 

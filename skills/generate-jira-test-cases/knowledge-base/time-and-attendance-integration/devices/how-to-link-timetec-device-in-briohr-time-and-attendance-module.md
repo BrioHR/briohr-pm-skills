@@ -3,7 +3,7 @@ title: "How to Link Timetec Device in BrioHR Time and Attendance Module"
 category: "Time and Attendance Integration"
 subcategory: "Devices"
 source_url: "https://support.briohr.com/knowledge/link-timetec-device-in-briohr-time-attendance"
-date: "August 13, 2026"
+date: "August 19, 2026"
 ---
 
 # How to Link Timetec Device in BrioHR Time and Attendance Module
@@ -133,7 +133,7 @@ An employee taps the device upon arrival and again before leaving, while the sys
 **Optional Add-on for Solution 2: Track Break Time**
 
 
-For clients on **Solution 2 (First & Last Log)**, BrioHR can additionally enable break-time tracking. When active, the system also identifies each employee's break-out and break-in punches within their configured break period — no extra action needed from employees at the device.
+For clients on **Solution 2 (First & Last Log)**, BrioHR can additionally enable break-time tracking. When active, the system also identifies each employee's break-out and break-in clocking within their configured break period — no extra action needed from employees at the device.
 
 
 **Requirements and limitations:**
@@ -141,7 +141,7 @@ For clients on **Solution 2 (First & Last Log)**, BrioHR can additionally enable
 
 - - Only available for employees on **Shift mode** with a **break period configured** in their schedule. Employees on Flexi mode, or Shift mode without a break period, will continue to have only first-in/last-out captured.
   - Requires **Hybrid Attendance to be switched off** for the company. This is a temporary restriction — while break tracking is enabled, Hybrid Attendance cannot also be turned on for that company.
-  - If an employee has an **odd number of punches** within their break window on a given day, the extra punch is flagged **"Incomplete"** rather than guessed — this will need HR Admin review on the timesheet.
+  - If an employee has an **odd number of clockings** within their break window on a given day, the extra clocking is flagged **"Incomplete"** rather than guessed — this will need HR Admin review on the timesheet.
 
 
 **How to enable it:** Let your brioHR team know you'd like break tracking in addition to your Solution 2 setup when confirming your integration preference (see next section).

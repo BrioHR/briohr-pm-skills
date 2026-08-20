@@ -1,7 +1,7 @@
 {
   "name": "briohr-pm-skills",
   "description": "BrioHR PM skills: feature brainstorming, ticket writing, and Jira QA test-case generation. Tailored for BrioHR HR-software product work.",
-  "version": "1.28.18",
+  "version": "1.28.19",
   "author": {
     "name": "BrioHR Product Team"
   },

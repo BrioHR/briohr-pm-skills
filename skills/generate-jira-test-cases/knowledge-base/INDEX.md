@@ -1,7 +1,7 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-08-19
+> Last updated: 2026-08-20
 
 ---
 
@@ -48,10 +48,10 @@
 - [Time and Attendance Integration](#time-and-attendance-integration) (3 articles)
   - [SFTP](#time-and-attendance-integration-sftp) (1)
   - [Devices](#time-and-attendance-integration-devices) (2)
-- [Payroll](#payroll) (158 articles)
+- [Payroll](#payroll) (160 articles)
   - [Payroll Configuration](#payroll-payroll-configuration) (15)
-  - [Payroll Management](#payroll-payroll-management) (43)
-  - [Payroll - Malaysia](#payroll-payroll-malaysia) (75)
+  - [Payroll Management](#payroll-payroll-management) (44)
+  - [Payroll - Malaysia](#payroll-payroll-malaysia) (76)
   - [Payroll - Singapore](#payroll-payroll-singapore) (24)
   - [Payroll - Indonesia](#payroll-payroll-indonesia) (1)
 - [Leave](#leave) (52 articles)
@@ -84,9 +84,9 @@
 - [HR Lounge](#hr-lounge) (7 articles)
   - [HR Lounge Dashboard](#hr-lounge-hr-lounge-dashboard) (5)
   - [Profile Change Request](#hr-lounge-profile-change-request) (2)
-- [People](#people) (20 articles)
+- [People](#people) (23 articles)
   - [Profile Creation](#people-profile-creation) (2)
-  - [Profile Management](#people-profile-management) (15)
+  - [Profile Management](#people-profile-management) (18)
   - [Document Management](#people-document-management) (1)
   - [Organization Chart](#people-organization-chart) (2)
 - [Reports](#reports) (26 articles)
@@ -535,7 +535,7 @@
 
 ## Payroll
 
-**158 articles** | [Browse category](payroll/)
+**160 articles** | [Browse category](payroll/)
 
 ### Payroll - Payroll Configuration
 
@@ -559,8 +559,9 @@
 
 ### Payroll - Payroll Management
 
-**43 articles** | Directory: `payroll/payroll-management/`
+**44 articles** | Directory: `payroll/payroll-management/`
 
+- [Offboarding Payroll and Leave: Final Pay, Tax Clearance Holds, Encashment and Cycle Order](payroll/payroll-management/offboarding-payroll-and-leave-final-pay-tax-clearance-holds-encashment-and-cycle.md)
 - [Employee Payroll Report: Tax Reliefs Breakdown (TP1)](payroll/payroll-management/employee-payroll-report-tax-reliefs-breakdown-tp1.md)
 - [Arrears of Salary Calculation](payroll/payroll-management/arrears-of-salary-calculation.md)
 - [Refresh a Payroll Cycle After Employee Profile Changes](payroll/payroll-management/refresh-a-payroll-cycle-after-employee-profile-changes.md)
@@ -607,8 +608,9 @@
 
 ### Payroll - Payroll - Malaysia
 
-**75 articles** | Directory: `payroll/payroll-malaysia/`
+**76 articles** | Directory: `payroll/payroll-malaysia/`
 
+- [CP38 Deductions: How to Set Up an LHDN Instalment Instruction in BrioHR](payroll/payroll-malaysia/cp38-deductions-how-to-set-up-an-lhdn-instalment-instruction-in-briohr.md)
 - [Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option](payroll/payroll-malaysia/changing-perkeso-skbbk-lindung-24-jam-contribution-option.md)
 - [PERKESO SKBBK Contribution Effective 1 June 2026](payroll/payroll-malaysia/perkeso-skbbk-contribution-effective-1-june-2026.md)
 - [Find Default Overtime Payroll Items and Add to OT Multi-rates Table](payroll/payroll-malaysia/find-default-overtime-payroll-items-and-add-to-ot-multi-rates-table.md)
@@ -656,8 +658,8 @@
 - [How to Generate Bank Files for PCB, EPF, SOCSO & EIS Payments with Affin Islamic Bank Berhad](payroll/payroll-malaysia/how-to-generate-bank-files-for-pcb-epf-socso-and-eis-payments-with-affin-islamic.md)
 - [Affin Bank Berhad: Generating Bank Files for Payment of PCB, EPF, SOCSO & EIS](payroll/payroll-malaysia/affin-bank-berhad-generating-bank-files-for-payment-of-pcb-epf-socso-and-eis.md)
 - [How to Generate Payroll, PCB, EPF, SOCSO, EIS & Zakat Payment Files for CIMB Islamic Bank Berhad](payroll/payroll-malaysia/how-to-generate-payroll-pcb-epf-socso-eis-and-zakat-payment-files-for-cimb-islam.md)
-- [How to Set Up and Download Bank Files Using CIMB Bank Berhad Platform](payroll/payroll-malaysia/how-to-set-up-and-download-bank-files-using-cimb-bank-berhad-platform.md)
 - [Payroll Malaysia: Complete Guide to Setting Up Company Payroll Information](payroll/payroll-malaysia/payroll-malaysia-complete-guide-to-setting-up-company-payroll-information.md)
+- [How to Set Up and Download Bank Files Using CIMB Bank Berhad Platform](payroll/payroll-malaysia/how-to-set-up-and-download-bank-files-using-cimb-bank-berhad-platform.md)
 - [Employee Payroll: How to Access Tax Information, Payslips, PCB II, EA, CP22A, CP22, and CP21 Forms](payroll/payroll-malaysia/employee-payroll-how-to-access-tax-information-payslips-pcb-ii-ea-cp22a-cp22-and.md)
 - [How to Generate Payroll, PCB, EPF, SOCSO, EIS & Zakat Bank File for AMBank (M) Berhad (AmAccess Biz)](payroll/payroll-malaysia/how-to-generate-payroll-pcb-epf-socso-eis-and-zakat-bank-file-for-ambank-m-berha.md)
 - [How to Generate AMBank (M) Berhad Payroll Bank File in E-AmPayDay (Excel) Format](payroll/payroll-malaysia/how-to-generate-ambank-m-berhad-payroll-bank-file-in-e-ampayday-excel-format.md)
@@ -1108,7 +1110,7 @@
 
 ## People
 
-**20 articles** | [Browse category](people/)
+**23 articles** | [Browse category](people/)
 
 ### People - Profile Creation
 
@@ -1119,8 +1121,11 @@
 
 ### People - Profile Management
 
-**15 articles** | Directory: `people/profile-management/`
+**18 articles** | Directory: `people/profile-management/`
 
+- [Employee Profile Fields: What You Can Edit, What Is Fixed, and the Supported Workarounds](people/profile-management/employee-profile-fields-what-you-can-edit-what-is-fixed-and-the-supported-workar.md)
+- [Created an Employee Profile by Mistake? Deactivate It Instead of Deleting (and Reuse It Later)](people/profile-management/created-an-employee-profile-by-mistake-deactivate-it-instead-of-deleting-and-reu.md)
+- [Rehiring, Restoring or Transferring an Employee: Which Option and What Happens to Their Data](people/profile-management/rehiring-restoring-or-transferring-an-employee-which-option-and-what-happens-to-.md)
 - [Add Termination Reason When Entering End Employment Date](people/profile-management/add-termination-reason-when-entering-end-employment-date.md)
 - [Rehire a Resigned Employee](people/profile-management/rehire-a-resigned-employee.md)
 - [Change an Employee's Reporting Manager (Single or in Bulk)](people/profile-management/change-an-employee-s-reporting-manager-single-or-in-bulk.md)

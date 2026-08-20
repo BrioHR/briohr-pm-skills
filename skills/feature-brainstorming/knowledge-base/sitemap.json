@@ -1087,6 +1087,10 @@
         "subcategory": "Payroll Management",
         "articles": [
           {
+            "title": "Offboarding Payroll and Leave: Final Pay, Tax Clearance Holds, Encashment and Cycle Order",
+            "url": "https://support.briohr.com/knowledge/offboarding-payroll-and-leave-final-pay-tax-clearance-holds-encashment-and-cycle-order"
+          },
+          {
             "title": "Employee Payroll Report: Tax Reliefs Breakdown (TP1)",
             "url": "https://support.briohr.com/knowledge/employee-payroll-report-tax-reliefs-breakdown-tp1"
           },
@@ -1263,6 +1267,10 @@
       {
         "subcategory": "Payroll - Malaysia",
         "articles": [
+          {
+            "title": "CP38 Deductions: How to Set Up an LHDN Instalment Instruction in BrioHR",
+            "url": "https://support.briohr.com/knowledge/cp38-deductions-how-to-set-up-an-lhdn-instalment-instruction-in-briohr"
+          },
           {
             "title": "Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option",
             "url": "https://support.briohr.com/knowledge/changing-perkeso-skbbk-contribution-option"
@@ -1452,12 +1460,12 @@
             "url": "https://support.briohr.com/knowledge/how-to-generate-payroll-pcb-epf-socso-eis-zakat-payment-files-for-cimb-islamic-bank-berhad"
           },
           {
-            "title": "How to Set Up and Download Bank Files Using CIMB Bank Berhad Platform",
-            "url": "https://support.briohr.com/knowledge/how-to-set-up-and-download-bank-files-using-hong-leong-bank-berhads-connectfirst-platform"
-          },
-          {
             "title": "Payroll Malaysia: Complete Guide to Setting Up Company Payroll Information",
             "url": "https://support.briohr.com/knowledge/how-to-set-up-company-payroll-general-settings-in-malaysia"
+          },
+          {
+            "title": "How to Set Up and Download Bank Files Using CIMB Bank Berhad Platform",
+            "url": "https://support.briohr.com/knowledge/how-to-set-up-and-download-bank-files-using-hong-leong-bank-berhads-connectfirst-platform"
           },
           {
             "title": "Employee Payroll: How to Access Tax Information, Payslips, PCB II, EA, CP22A, CP22, and CP21 Forms",
@@ -2750,6 +2758,18 @@
       {
         "subcategory": "Profile Management",
         "articles": [
+          {
+            "title": "Employee Profile Fields: What You Can Edit, What Is Fixed, and the Supported Workarounds",
+            "url": "https://support.briohr.com/knowledge/employee-profile-fields-what-you-can-edit-what-is-fixed-and-the-supported-workarounds"
+          },
+          {
+            "title": "Created an Employee Profile by Mistake? Deactivate It Instead of Deleting (and Reuse It Later)",
+            "url": "https://support.briohr.com/knowledge/created-an-employee-profile-by-mistake-deactivate-it-instead-of-deleting-and-reuse-it-later"
+          },
+          {
+            "title": "Rehiring, Restoring or Transferring an Employee: Which Option and What Happens to Their Data",
+            "url": "https://support.briohr.com/knowledge/rehiring-restoring-or-transferring-an-employee-which-option-and-what-happens-to-their-data"
+          },
           {
             "title": "Add Termination Reason When Entering End Employment Date",
             "url": "https://support.briohr.com/knowledge/add-termination-reason-when-entering-end-employment-date"

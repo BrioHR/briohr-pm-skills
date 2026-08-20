@@ -3,7 +3,7 @@ title: "Delete Latest Payroll Cycle in Current Payroll Month"
 category: "Payroll"
 subcategory: "Payroll Management"
 source_url: "https://support.briohr.com/knowledge/delete-latest-payroll-cycle-in-current-payroll-month"
-date: "June 12, 2026"
+date: "August 20, 2026"
 ---
 
 # Delete Latest Payroll Cycle in Current Payroll Month
@@ -182,25 +182,28 @@ There are 3 screens where you can delete the latest payroll cycle:
 **Common Issues/FAQ**
 
 
-**Q1: I ran two payroll cycles and want to delete the first cycle I created. How do I do this?**
+**Q: I ran two payroll cycles and want to delete the first cycle I created. How do I do this?**
 
 
 A1: The cycle has to be deleted in the sequence it was created. To delete your first cycle, your second cycle has to be deleted first.
 
 
-**Q2: Can I delete a payroll cycle after I have completed a payroll month?**
+**Q: Can I delete a payroll cycle after I have completed a payroll month?**
 
 
 A2: Yes, you can still delete the latest payroll cycle once your current payroll month is completed. Once you delete the payroll cycle, the payroll month will change to 'Ongoing' status. You will have to complete the payroll month again.
 
 
-**Q3: I need to reopen the latest payroll cycle from my previous payroll month. How do I do this?**
+**Q: I need to reopen the latest payroll cycle from my previous payroll month. How do I do this?**
 
 
 A3: If you have already run cycles in your new payroll month, all the cycles in your current month have to be deleted first. This will change your 'current' payroll month to the last month. You can delete the latest cycle in your previous month once this is done.
 
 
+**Q: Can I delete an ONGOING payroll cycle (not yet completed)?**
 
+
+Yes — the same self-serve deletion applies to the latest cycle whether ongoing or completed, once the permission is enabled. Support no longer deletes cycles on your behalf.
 
 
 **Related Articles**

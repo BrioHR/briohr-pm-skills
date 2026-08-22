@@ -3,7 +3,7 @@ title: "How HR Admin Can Perform Manual Attendance Entry for Employees in BrioHR
 category: "Time Attendance"
 subcategory: "Time Attendance Management"
 source_url: "https://support.briohr.com/knowledge/manual-daily-attendance-entry-for-employees-as-hr-admin"
-date: "October 27, 2025"
+date: "August 21, 2026"
 ---
 
 # How HR Admin Can Perform Manual Attendance Entry for Employees in BrioHR
@@ -109,6 +109,50 @@ Login to your BrioHR account using a web browser.
 ---
 
 
+### Editing Clock-Out for Overnight (Cross-Day) Shifts
+
+
+Employees on overnight shifts (for example, Clock-In at 11:00 PM on Day 1, Clock-Out at 6:00 AM on Day 2) sometimes forget to clock out. When you corrects this via manual entry, brioHR lets you know the clock-out on Day 2 is for the previous day shift. So, if you set a Clock-Out time earlier than Clock-In, the system automatically infers the Clock-Out falls on the next calendar day.
+
+
+**How it works for Shift-based employees:**
+
+
+- You can enter **any Clock-Out time on a day after the shift start**,  regardless of the company's configured Split Shift Time.
+- Clock-Out must still be **later than** Clock-In; setting Clock-Out equal to or earlier than Clock-In will trigger a validation error and the entry won't save.
+
+
+**Workday attribution banner**
+
+
+When the **Last Out** time you enter is past midnight and/or past the configured Split Shift Time, a banner appears on the Last Out field to clarify how the entry will be attributed:
+
+
+| Condition | Banner message |
+| --- | --- |
+| Past midnight only | "Last Out is after midnight, but this entry still counts as the previous workday." |
+| Past midnight and past Split Shift Time | "Last Out is after the configured Split Shift Time, but this entry still counts as the previous workday." |
+
+
+This banner is available wherever you edit entries: **Timesheet Detail**, **Daily Attendance**, and the b**rioHR mobile app**.
+
+
+**Example**
+
+
+| Field | Value |
+| --- | --- |
+| Clock-In | 11:00 PM, Day 1 |
+| Clock-Out | 6:00 AM, Day 2 (D+1) |
+| Shift duration | 7 hours |
+
+
+Once saved, the shift duration calculates correctly (7 hours, not negative or same-day), and OT/shift premiums or deductions recalculate based on the corrected duration.
+
+
+---
+
+
 ### Frequently Asked Questions (FAQ)
 
 
@@ -125,6 +169,9 @@ Yes, reporting managers can edit their team's daily attendance if they have acce
 
 **NOTE:**
 **Once the employee's timesheet has been approved, neither HR nor managers are allowed to modify the employee's attendance records.**
+
+
+
 
 
 **Need Assistance?**

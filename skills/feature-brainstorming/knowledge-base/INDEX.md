@@ -1,7 +1,7 @@
 # BrioHR Knowledge Base - Documentation Index
 
 > Auto-extracted from [BrioHR Help Center](https://support.briohr.com/knowledge)
-> Last updated: 2026-08-20
+> Last updated: 2026-08-22
 
 ---
 
@@ -48,10 +48,10 @@
 - [Time and Attendance Integration](#time-and-attendance-integration) (3 articles)
   - [SFTP](#time-and-attendance-integration-sftp) (1)
   - [Devices](#time-and-attendance-integration-devices) (2)
-- [Payroll](#payroll) (160 articles)
+- [Payroll](#payroll) (161 articles)
   - [Payroll Configuration](#payroll-payroll-configuration) (15)
   - [Payroll Management](#payroll-payroll-management) (44)
-  - [Payroll - Malaysia](#payroll-payroll-malaysia) (76)
+  - [Payroll - Malaysia](#payroll-payroll-malaysia) (77)
   - [Payroll - Singapore](#payroll-payroll-singapore) (24)
   - [Payroll - Indonesia](#payroll-payroll-indonesia) (1)
 - [Leave](#leave) (52 articles)
@@ -102,8 +102,8 @@
   - [Expense Claims](#faqs-expense-claims) (1)
   - [Account](#faqs-account) (1)
   - [Profile](#faqs-profile) (1)
-- [Product Updates](#product-updates) (30 articles)
-  - [Product Updates - August 2026](#product-updates-product-updates-august-2026) (2)
+- [Product Updates](#product-updates) (31 articles)
+  - [Product Updates - August 2026](#product-updates-product-updates-august-2026) (3)
   - [Product Updates - July 2026](#product-updates-product-updates-july-2026) (5)
   - [Product Updates - June 2026](#product-updates-product-updates-june-2026) (3)
   - [Product Updates - May 2026](#product-updates-product-updates-may-2026) (4)
@@ -535,7 +535,7 @@
 
 ## Payroll
 
-**160 articles** | [Browse category](payroll/)
+**161 articles** | [Browse category](payroll/)
 
 ### Payroll - Payroll Configuration
 
@@ -561,12 +561,12 @@
 
 **44 articles** | Directory: `payroll/payroll-management/`
 
+- [Delete Latest Payroll Cycle in Current Payroll Month](payroll/payroll-management/delete-latest-payroll-cycle-in-current-payroll-month.md)
 - [Offboarding Payroll and Leave: Final Pay, Tax Clearance Holds, Encashment and Cycle Order](payroll/payroll-management/offboarding-payroll-and-leave-final-pay-tax-clearance-holds-encashment-and-cycle.md)
 - [Employee Payroll Report: Tax Reliefs Breakdown (TP1)](payroll/payroll-management/employee-payroll-report-tax-reliefs-breakdown-tp1.md)
 - [Arrears of Salary Calculation](payroll/payroll-management/arrears-of-salary-calculation.md)
 - [Refresh a Payroll Cycle After Employee Profile Changes](payroll/payroll-management/refresh-a-payroll-cycle-after-employee-profile-changes.md)
 - [Set Up a Recurring Fixed Remuneration Over Several Months](payroll/payroll-management/set-up-a-recurring-fixed-remuneration-over-several-months.md)
-- [Delete Latest Payroll Cycle in Current Payroll Month](payroll/payroll-management/delete-latest-payroll-cycle-in-current-payroll-month.md)
 - [Find Cost Center Details in Payroll Reports](payroll/payroll-management/find-cost-center-details-in-payroll-reports.md)
 - [How to Update Overtime Files in Payroll Using TimeTec Integration](payroll/payroll-management/how-to-update-overtime-files-in-payroll-using-timetec-integration.md)
 - [How to Process Salaries for Terminated or Resigned Employees in a Separate Payroll Cycle](payroll/payroll-management/how-to-process-salaries-for-terminated-or-resigned-employees-in-a-separate-payro.md)
@@ -608,7 +608,7 @@
 
 ### Payroll - Payroll - Malaysia
 
-**76 articles** | Directory: `payroll/payroll-malaysia/`
+**77 articles** | Directory: `payroll/payroll-malaysia/`
 
 - [CP38 Deductions: How to Set Up an LHDN Instalment Instruction in BrioHR](payroll/payroll-malaysia/cp38-deductions-how-to-set-up-an-lhdn-instalment-instruction-in-briohr.md)
 - [Changing PERKESO SKBBK (Lindung 24 Jam) Contribution Option](payroll/payroll-malaysia/changing-perkeso-skbbk-lindung-24-jam-contribution-option.md)
@@ -650,6 +650,7 @@
 - [Access and Manage Employee Malaysia Payroll Documents as HR Admin](payroll/payroll-malaysia/access-and-manage-employee-malaysia-payroll-documents-as-hr-admin.md)
 - [How to Enable Private Retirement Scheme (PRS) Contributions in Payroll Malaysia](payroll/payroll-malaysia/how-to-enable-private-retirement-scheme-prs-contributions-in-payroll-malaysia.md)
 - [How to Generate EPF Form A](payroll/payroll-malaysia/how-to-generate-epf-form-a.md)
+- [Types of EIS Options](payroll/payroll-malaysia/types-of-eis-options.md)
 - [Types of EPF Category](payroll/payroll-malaysia/types-of-epf-category.md)
 - [Understanding the 'Retirement Date & Employment Status' Fields in CP8D TXT and PDF Files](payroll/payroll-malaysia/understanding-the-retirement-date-and-employment-status-fields-in-cp8d-txt-and-p.md)
 - [What is the Payment Set Number in HSBC Bank Malaysia Berhad?](payroll/payroll-malaysia/what-is-the-payment-set-number-in-hsbc-bank-malaysia-berhad.md)
@@ -1264,12 +1265,13 @@
 
 ## Product Updates
 
-**30 articles** | [Browse category](product-updates/)
+**31 articles** | [Browse category](product-updates/)
 
 ### Product Updates - Product Updates - August 2026
 
-**2 articles** | Directory: `product-updates/product-updates-august-2026/`
+**3 articles** | Directory: `product-updates/product-updates-august-2026/`
 
+- [brioHR Product Updates - August 2026, Week 3 | Medical Leave Visibility in Payslips, Automated EIS contribution and Enhanced Time Attendance tracking](product-updates/product-updates-august-2026/briohr-product-updates-august-2026-week-3-medical-leave-visibility-in-payslips-a.md)
 - [brioHR Product Updates - August 2026, Week 2 | New Break Period Settings, TimeTec Integration & Enhanced Reports](product-updates/product-updates-august-2026/briohr-product-updates-august-2026-week-2-new-break-period-settings-timetec-inte.md)
 - [brioHR Product Updates - August 2026, Week 1 | Mobile App Push Notifications, Claims to Payroll API, Auto EPF category & More](product-updates/product-updates-august-2026/briohr-product-updates-august-2026-week-1-mobile-app-push-notifications-claims-t.md)
 

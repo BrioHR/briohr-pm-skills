@@ -1087,6 +1087,10 @@
         "subcategory": "Payroll Management",
         "articles": [
           {
+            "title": "Delete Latest Payroll Cycle in Current Payroll Month",
+            "url": "https://support.briohr.com/knowledge/delete-latest-payroll-cycle-in-current-payroll-month"
+          },
+          {
             "title": "Offboarding Payroll and Leave: Final Pay, Tax Clearance Holds, Encashment and Cycle Order",
             "url": "https://support.briohr.com/knowledge/offboarding-payroll-and-leave-final-pay-tax-clearance-holds-encashment-and-cycle-order"
           },
@@ -1105,10 +1109,6 @@
           {
             "title": "Set Up a Recurring Fixed Remuneration Over Several Months",
             "url": "https://support.briohr.com/knowledge/set-up-a-recurring-fixed-remuneration-over-several-months"
-          },
-          {
-            "title": "Delete Latest Payroll Cycle in Current Payroll Month",
-            "url": "https://support.briohr.com/knowledge/delete-latest-payroll-cycle-in-current-payroll-month"
           },
           {
             "title": "Find Cost Center Details in Payroll Reports",
@@ -1426,6 +1426,10 @@
           {
             "title": "How to Generate EPF Form A",
             "url": "https://support.briohr.com/knowledge/how-to-generate-epf-form-a"
+          },
+          {
+            "title": "Types of EIS Options",
+            "url": "https://support.briohr.com/knowledge/types-of-eis-options"
           },
           {
             "title": "Types of EPF Category",
@@ -3082,6 +3086,10 @@
       {
         "subcategory": "Product Updates - August 2026",
         "articles": [
+          {
+            "title": "brioHR Product Updates - August 2026, Week 3 |\u00a0Medical Leave Visibility in Payslips, Automated EIS contribution and Enhanced Time Attendance tracking",
+            "url": "https://support.briohr.com/knowledge/briohr-product-updates-august-2026-week-3-medical-leave-visibility-in-payslip-automatice-eis-contribution-time-attendance-tracking"
+          },
           {
             "title": "brioHR Product Updates - August 2026, Week 2 | New Break Period Settings, TimeTec Integration & Enhanced Reports",
             "url": "https://support.briohr.com/knowledge/briohr-product-updates-august-2026-week-2-new-break-period-settings-timetec-integration-enhanced-reports"
